@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BrickBase — Standalone LEGO Verzameling</title>
+  <meta name="theme-color" content="#FFFFFF" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="BrickBase" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./pwa-192x192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+  <style>
+    :root {
+      --bg: #F7F7F5;
+      --surface: #FFFFFF;
+      --tray: #F1F1EE;
+      --border: #E4E4E0;
+      --ink: #141619;
+      --muted: #5A606B;
+      --red: #D11013;
+      --red-dark: #B40D10;
+      --green: #15803D;
+      --green-bg: #F0FDF4;
+      --amber: #B45309;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.45;
+    }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-variant-numeric: tabular-nums; }
+    .app { display: flex; min-height: 100vh; }
+    .sidebar {
+      width: 270px;
+      flex-shrink: 0;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+    }
+    .brand {
+      height: 60px;
+      padding: 0 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+    }
+    .nav-list { flex: 1; overflow-y: auto; padding: 12px; }
+    .nav-btn {
+      width: 100%;
+      border: 0;
+      background: transparent;
+      text-align: left;
+      padding: 9px 11px;
+      border-radius: 8px;
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+    .nav-btn:hover { background: var(--bg); color: var(--ink); }
+    .nav-btn.active { background: var(--tray); color: var(--ink); font-weight: 600; }
+    .set-item {
+      width: 100%;
+      border: 0;
+      background: transparent;
+      text-align: left;
+      padding: 9px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-bottom: 4px;
+    }
+    .set-item:hover { background: var(--bg); }
+    .set-item.active { background: var(--tray); }
+    .set-row-top { display: flex; justify-content: space-between; font-size: 12px; }
+    .set-num { color: var(--red); font-weight: 700; }
+    .set-name { font-size: 13px; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 2px 0 6px; }
+    .bar { height: 6px; border-radius: 99px; background: var(--border); overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 99px; background: var(--red); transition: width 0.15s ease; }
+    .bar-fill.done { background: var(--green); }
+    .sidebar-foot {
+      padding: 12px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 8px;
+    }
+    .main { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+    .topbar {
+      height: 60px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .tabs { display: flex; gap: 20px; }
+    .tab {
+      border: 0;
+      background: none;
+      padding: 6px 0;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--muted);
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .tab.active { color: var(--ink); border-bottom-color: var(--red); }
+    .content { max-width: 1120px; width: 100%; margin: 0 auto; padding: 24px; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 16px;
+      padding-top: 14px;
+      margin-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+    .kpi-label { font-size: 12px; color: var(--muted); }
+    .kpi-val { font-size: 22px; font-weight: 700; margin-top: 2px; }
+    .btn {
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--ink);
+      padding: 7px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .btn:hover { background: var(--bg); }
+    .btn.primary { background: var(--red); border-color: var(--red); color: #fff; }
+    .btn.primary:hover { background: var(--red-dark); }
+    .btn.dark { background: var(--ink); border-color: var(--ink); color: #fff; }
+    .btn.done { background: var(--green); border-color: var(--green); color: #fff; }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+    .input {
+      border: 1px solid var(--border);
+      background: var(--surface);
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      color: var(--ink);
+      min-width: 220px;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { text-align: left; font-size: 12px; color: var(--muted); font-weight: 600; background: var(--bg); padding: 10px 14px; border-bottom: 1px solid var(--border); }
+    td { padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    tr.row-done { background: var(--green-bg); }
+    .swatch { display: inline-block; width: 13px; height: 13px; border-radius: 3px; border: 1px solid rgba(0,0,0,0.2); vertical-align: middle; margin-right: 6px; }
+    .stepper { display: inline-flex; align-items: center; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 2px; gap: 4px; }
+    .step-btn { width: 28px; height: 28px; border: 0; background: transparent; border-radius: 6px; font-weight: 700; cursor: pointer; }
+    .step-btn:hover { background: var(--tray); }
+    .charts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 20px; }
+    .chart-wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 20px; margin-top: 14px; }
+    .legend { flex: 1; min-width: 180px; max-height: 240px; overflow-y: auto; }
+    .legend-row { display: flex; justify-content: space-between; padding: 5px 4px; font-size: 12px; border-bottom: 1px solid var(--tray); }
+    .muted { color: var(--muted); font-size: 12px; }
+    @media (max-width: 860px) {
+      .app { flex-direction: column; }
+      .sidebar { width: 100%; height: auto; position: static; }
+      .topbar { padding: 0 14px; }
+      .content { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script id="brickbase-seed" type="application/json">{"exportedAt":"21 november 2026","prefs":{"ignoreStickers":false,"ignoreMinifigs":false},"sets":[]}</script>
+  <script>
+    (function () {
+      var STORAGE_KEY = 'brickbase_standalone_v1';
+      var seed = JSON.parse(document.getElementById('brickbase-seed').textContent || '{}');
+      var saved = null;
+      try {
+        saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || localStorage.getItem('steenspoor_standalone_v1') || 'null');
+      } catch (e) {}
+
+      var state = {
+        sets: (saved && Array.isArray(saved.sets) && saved.sets.length > 0) ? saved.sets : (seed.sets || []),
+        prefs: (saved && saved.prefs) ? saved.prefs : (seed.prefs || { ignoreStickers: false, ignoreMinifigs: false }),
+        view: (seed.sets && seed.sets.length > 0) ? 'set' : 'overview',
+        selectedSetId: (saved && saved.sets && saved.sets[0]) ? saved.sets[0].id : ((seed.sets && seed.sets[0]) ? seed.sets[0].id : null),
+        filterStatus: 'all',
+        search: '',
+        metric: 'all',
+        headroom: 25
+      };
+
+      function persist() {
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify({ sets: state.sets, prefs: state.prefs }));
+        } catch (e) {}
+      }
+
+      function esc(str) {
+        return String(str == null ? '' : str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      function isSticker(p) {
+        if (p.isSticker || p.shape === 'sticker' || p.category === 'Stickers') return true;
+        var t = (p.partNum + ' ' + p.name + ' ' + p.category).toLowerCase();
+        return t.indexOf('sticker') !== -1 || t.indexOf('decal') !== -1;
+      }
+
+      function isMinifig(p) {
+        if (p.isMinifig || p.shape === 'minifig' || p.category === 'Minifiguren') return true;
+        var t = (p.name + ' ' + p.category).toLowerCase();
+        return t.indexOf('minifig') !== -1 || t.indexOf('torso') !== -1;
+      }
+
+      function activeParts(parts) {
+        return parts.filter(function (p) {
+          if (state.prefs.ignoreStickers && isSticker(p)) return false;
+          if (state.prefs.ignoreMinifigs && isMinifig(p)) return false;
+          return true;
+        });
+      }
+
+      function setStats(set) {
+        var list = activeParts(set.parts || []);
+        var needed = 0, collected = 0;
+        list.forEach(function (p) {
+          var n = Math.max(0, p.quantityNeeded || 0);
+          var c = Math.min(n, Math.max(0, p.quantityCollected || 0));
+          needed += n;
+          collected += c;
+        });
+        return {
+          needed: needed,
+          collected: collected,
+          missing: Math.max(0, needed - collected),
+          lots: list.length,
+          pct: needed > 0 ? Math.round((collected / needed) * 100) : 0
+        };
+      }
+
+      function estimateUnitMl(p) {
+        var base = { brick: 4.8, plate: 1.6, tile: 1.1, slope: 3.0, round: 1.4, technic: 2.6, wedge: 2.8, arch: 5.5, window: 10.5, plant: 2.8, wheel: 11.0, minifig: 8.5, sticker: 0.15, hinge: 1.5, panel: 9.5, other: 2.5 };
+        var m = String(p.name || '').toLowerCase().match(/(\d+)\s*x\s*(\d+)/);
+        if (m && p.shape !== 'sticker' && p.shape !== 'minifig') {
+          var w = Math.min(32, Math.max(1, parseInt(m[1], 10)));
+          var l = Math.min(32, Math.max(1, parseInt(m[2], 10)));
+          var h = (p.shape === 'plate' || p.shape === 'wedge') ? 0.36 : (p.shape === 'tile' ? 0.32 : 0.96);
+          return Math.max(0.3, Math.min(220, w * 0.8 * l * 0.8 * h * 1.75));
+        }
+        return base[p.shape] || 2.5;
+      }
+
+      function formatVol(ml) {
+        return ml >= 1000 ? (ml / 1000).toFixed(2).replace('.', ',') + ' L' : Math.round(ml) + ' ml';
+      }
+
+      function buildPieSvg(slices) {
+        var total = slices.reduce(function (s, x) { return s + x.value; }, 0);
+        if (total <= 0) return '<div class="muted">Geen gegevens</div>';
+        var cx = 90, cy = 90, r1 = 76, r2 = 44, angle = 0;
+        var paths = slices.map(function (sl) {
+          var sweep = (sl.value / total) * 360;
+          var start = angle;
+          var end = Math.min(angle + sweep, angle + 359.9);
+          angle += sweep;
+          function pt(r, deg) {
+            var rad = (deg - 90) * Math.PI / 180;
+            return [cx + r * Math.cos(rad), cy + r * Math.sin(rad)];
+          }
+          var p1 = pt(r1, start), p2 = pt(r1, end), p3 = pt(r2, end), p4 = pt(r2, start);
+          var large = (end - start) > 180 ? 1 : 0;
+          var d = 'M ' + p1[0].toFixed(2) + ' ' + p1[1].toFixed(2) +
+            ' A ' + r1 + ' ' + r1 + ' 0 ' + large + ' 1 ' + p2[0].toFixed(2) + ' ' + p2[1].toFixed(2) +
+            ' L ' + p3[0].toFixed(2) + ' ' + p3[1].toFixed(2) +
+            ' A ' + r2 + ' ' + r2 + ' 0 ' + large + ' 0 ' + p4[0].toFixed(2) + ' ' + p4[1].toFixed(2) + ' Z';
+          return '<path d="' + d + '" fill="' + esc(sl.color) + '" stroke="#ffffff" stroke-width="1.4"><title>' + esc(sl.label) + ': ' + sl.value + '</title></path>';
+        }).join('');
+        return '<svg width="180" height="180" viewBox="0 0 180 180">' +
+          '<circle cx="90" cy="90" r="77" fill="none" stroke="#D4D4CE" stroke-width="1"/>' +
+          paths +
+          '<text x="90" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#141619">' + total + '</text>' +
+          '<text x="90" y="108" text-anchor="middle" font-size="10" fill="#5A606B">stuks</text>' +
+          '</svg>';
+      }
+
+      function render() {
+        var selectedSet = state.sets.find(function (s) { return s.id === state.selectedSetId; }) || state.sets[0] || null;
+        if (selectedSet) state.selectedSetId = selectedSet.id;
+
+        var sidebarSets = state.sets.map(function (s) {
+          var st = setStats(s);
+          var active = state.view === 'set' && selectedSet && selectedSet.id === s.id;
+          return '<button class="set-item' + (active ? ' active' : '') + '" data-select-set="' + esc(s.id) + '">' +
+            '<div class="set-row-top"><span class="mono set-num">' + esc(s.setNumber) + '</span><span class="mono">' + st.pct + '%</span></div>' +
+            '<div class="set-name">' + esc(s.name) + '</div>' +
+            '<div class="bar"><div class="bar-fill' + (st.pct === 100 && st.needed > 0 ? ' done' : '') + '" style="width:' + st.pct + '%"></div></div>' +
+            '</button>';
+        }).join('');
+
+        var bodyHtml = '';
+
+        if (state.view === 'overview' || !selectedSet) {
+          var totalNeeded = 0, totalCol = 0;
+          state.sets.forEach(function (s) { var st = setStats(s); totalNeeded += st.needed; totalCol += st.collected; });
+          var pctAll = totalNeeded > 0 ? Math.round((totalCol / totalNeeded) * 100) : 0;
+          var rows = state.sets.map(function (s) {
+            var st = setStats(s);
+            return '<tr>' +
+              '<td><strong class="mono" style="color:var(--red)">' + esc(s.setNumber) + '</strong> ' + esc(s.name) + '<div class="muted">' + esc(s.theme) + ' · ' + esc(s.year) + '</div></td>' +
+              '<td class="mono">' + st.collected + ' / ' + st.needed + '</td>' +
+              '<td class="mono">' + st.missing + '</td>' +
+              '<td class="mono">' + st.pct + '%</td>' +
+              '<td style="text-align:right"><button class="btn dark" data-select-set="' + esc(s.id) + '">Openen</button></td>' +
+              '</tr>';
+          }).join('');
+          bodyHtml = '<div class="card"><h1 style="margin:0 0 6px;font-size:22px;">Set-overzicht (Standalone)</h1>' +
+            '<div class="muted">Geëxporteerd op ' + esc(seed.exportedAt || '') + ' · Werkt 100% offline in je browser</div>' +
+            '<div class="kpis">' +
+              '<div><div class="kpi-label">Sets</div><div class="kpi-val mono">' + state.sets.length + '</div></div>' +
+              '<div><div class="kpi-label">Verzameld</div><div class="kpi-val mono" style="color:var(--green)">' + totalCol + '</div></div>' +
+              '<div><div class="kpi-label">Nog nodig</div><div class="kpi-val mono">' + (totalNeeded - totalCol) + '</div></div>' +
+              '<div><div class="kpi-label">Voortgang</div><div class="kpi-val mono">' + pctAll + '%</div></div>' +
+            '</div></div>' +
+            (state.sets.length > 0 ? '<div class="card" style="padding:0;overflow:hidden"><table><thead><tr><th>Set</th><th>Verzameld</th><th>Nog nodig</th><th>%</th><th></th></tr></thead><tbody>' + rows + '</tbody></table></div>' : '<div class="card">Geen sets opgeslagen in dit bestand.</div>');
+        } else if (state.view === 'collection') {
+          var byCat = {}, byCol = {};
+          var catColors = ['#D11013','#1D4ED8','#0F766E','#D97706','#334155','#15803D','#7C3AED','#0284C7','#B45309','#64748B'];
+          state.sets.forEach(function (s) {
+            activeParts(s.parts || []).forEach(function (p) {
+              var q = state.metric === 'collected' ? Math.min(p.quantityNeeded, p.quantityCollected) : p.quantityNeeded;
+              if (q <= 0) return;
+              byCat[p.category] = (byCat[p.category] || 0) + q;
+              if (!byCol[p.colorName]) byCol[p.colorName] = { value: 0, color: p.colorHex || '#A0A5A9' };
+              byCol[p.colorName].value += q;
+            });
+          });
+          var catSlices = Object.keys(byCat).map(function (k, i) { return { label: k, value: byCat[k], color: catColors[i % catColors.length] }; }).sort(function (a, b) { return b.value - a.value; });
+          var colSlices = Object.keys(byCol).map(function (k) { return { label: k, value: byCol[k].value, color: byCol[k].color }; }).sort(function (a, b) { return b.value - a.value; });
+          function renderLegend(list) {
+            var tot = list.reduce(function (s, x) { return s + x.value; }, 0) || 1;
+            return list.map(function (x) {
+              return '<div class="legend-row"><span><span class="swatch" style="background:' + esc(x.color) + '"></span>' + esc(x.label) + '</span><span class="mono">' + x.value + ' (' + ((x.value / tot) * 100).toFixed(1) + '%)</span></div>';
+            }).join('');
+          }
+          bodyHtml = '<div class="card"><div class="toolbar"><h1 style="margin:0;font-size:22px;">Totale collectie</h1>' +
+            '<div style="display:flex;gap:8px;flex-wrap:wrap">' +
+            '<button class="btn' + (state.metric === 'all' ? ' dark' : '') + '" data-metric="all">Alle stukjes</button>' +
+            '<button class="btn' + (state.metric === 'collected' ? ' dark' : '') + '" data-metric="collected">Alleen verzameld</button>' +
+            '<button class="btn' + (state.prefs.ignoreStickers ? ' dark' : '') + '" data-toggle-stickers>Stickers negeren</button>' +
+            '<button class="btn' + (state.prefs.ignoreMinifigs ? ' dark' : '') + '" data-toggle-minifigs>Minifigs negeren</button>' +
+            '</div></div></div>' +
+            '<div class="charts-grid">' +
+              '<div class="card"><h2 style="margin:0;font-size:16px;">Verdeling per type</h2><div class="chart-wrap">' + buildPieSvg(catSlices) + '<div class="legend">' + renderLegend(catSlices) + '</div></div></div>' +
+              '<div class="card"><h2 style="margin:0;font-size:16px;">Verdeling per kleur</h2><div class="chart-wrap">' + buildPieSvg(colSlices) + '<div class="legend">' + renderLegend(colSlices) + '</div></div></div>' +
+            '</div>';
+        } else if (state.view === 'organize') {
+          var cats = {}, totPcs = 0, totMl = 0;
+          state.sets.forEach(function (s) {
+            activeParts(s.parts || []).forEach(function (p) {
+              var q = Math.max(0, p.quantityNeeded || 0);
+              if (q <= 0) return;
+              var ml = estimateUnitMl(p) * q;
+              totPcs += q; totMl += ml;
+              if (!cats[p.category]) cats[p.category] = { count: 0, ml: 0 };
+              cats[p.category].count += q;
+              cats[p.category].ml += ml;
+            });
+          });
+          var bins = [
+            { name: 'Kleine sorteerlade (0,15 L)', cap: 0.15 },
+            { name: 'Middelgrote lade (0,40 L)', cap: 0.40 },
+            { name: 'Vakbak (1,0 L)', cap: 1.0 },
+            { name: 'Kleine stapelbak (2,5 L)', cap: 2.5 },
+            { name: 'Middelgrote stapelbak (5,0 L)', cap: 5.0 },
+            { name: 'Grote opbergbak (11,0 L)', cap: 11.0 }
+          ];
+          var planRows = Object.keys(cats).map(function (k) {
+            var volL = cats[k].ml / 1000;
+            var target = Math.max(0.02, volL * (1 + state.headroom / 100));
+            var chosen = bins[bins.length - 1], cnt = Math.ceil(target / chosen.cap);
+            for (var i = 0; i < bins.length; i++) {
+              if (target <= bins[i].cap) { chosen = bins[i]; cnt = 1; break; }
+            }
+            var fill = Math.min(100, Math.round((volL / (chosen.cap * cnt)) * 100));
+            return { cat: k, count: cats[k].count, ml: cats[k].ml, label: cnt + 'x ' + chosen.name, fill: fill };
+          }).sort(function (a, b) { return b.count - a.count; });
+
+          bodyHtml = '<div class="card"><h1 style="margin:0 0 6px;font-size:22px;">LEGO Organisatie &amp; Bakkenplan</h1>' +
+            '<div class="muted">Gesorteerd op onderdeeltype — kleur wordt genegeerd · Inclusief +' + state.headroom + '% groeiruimte</div>' +
+            '<div class="kpis">' +
+              '<div><div class="kpi-label">Totaal stukjes</div><div class="kpi-val mono">' + totPcs + '</div></div>' +
+              '<div><div class="kpi-label">Geschat bulkvolume</div><div class="kpi-val mono">' + formatVol(totMl) + '</div></div>' +
+              '<div><div class="kpi-label">Onderdeeltypes</div><div class="kpi-val mono">' + planRows.length + '</div></div>' +
+            '</div></div>' +
+            '<div class="card" style="padding:0;overflow:hidden"><table><thead><tr><th>Type (kleur genegeerd)</th><th>Aantal</th><th>Volume</th><th>Aanbevolen container</th><th>Vulling</th></tr></thead><tbody>' +
+            planRows.map(function (r) {
+              return '<tr><td><strong>' + esc(r.cat) + '</strong></td><td class="mono">' + r.count + '</td><td class="mono">' + formatVol(r.ml) + '</td><td>' + esc(r.label) + '</td><td class="mono">' + r.fill + '%</td></tr>';
+            }).join('') + '</tbody></table></div>';
+        } else {
+          var st = setStats(selectedSet);
+          var q = state.search.trim().toLowerCase();
+          var visible = activeParts(selectedSet.parts || []).filter(function (p) {
+            var done = p.quantityCollected >= p.quantityNeeded;
+            if (state.filterStatus === 'missing' && done) return false;
+            if (state.filterStatus === 'complete' && !done) return false;
+            if (q && (p.partNum + ' ' + p.name + ' ' + p.colorName + ' ' + p.category).toLowerCase().indexOf(q) === -1) return false;
+            return true;
+          });
+          var partRows = visible.map(function (p) {
+            var done = p.quantityCollected >= p.quantityNeeded;
+            return '<tr class="' + (done ? 'row-done' : '') + '">' +
+              '<td><strong>' + esc(p.name) + '</strong><div class="muted mono">#' + esc(p.partNum) + ' · ' + esc(p.category) + '</div></td>' +
+              '<td><span class="swatch" style="background:' + esc(p.colorHex || '#A0A5A9') + '"></span>' + esc(p.colorName) + '</td>' +
+              '<td><div class="stepper">' +
+                '<button class="step-btn" data-dec="' + esc(p.id) + '">−</button>' +
+                '<span class="mono" style="padding:0 8px">' + p.quantityCollected + ' / ' + p.quantityNeeded + '</span>' +
+                '<button class="step-btn" data-inc="' + esc(p.id) + '">+</button>' +
+              '</div></td>' +
+              '<td style="text-align:right"><button class="btn' + (done ? ' done' : '') + '" data-toggle-part="' + esc(p.id) + '">' + (done ? 'Verzameld' : 'Alles') + '</button></td>' +
+            '</tr>';
+          }).join('');
+
+          bodyHtml = '<div class="card">' +
+            '<div class="muted mono" style="color:var(--red);font-weight:700">Set ' + esc(selectedSet.setNumber) + ' · ' + esc(selectedSet.theme) + ' · ' + esc(selectedSet.year) + '</div>' +
+            '<h1 style="margin:4px 0 10px;font-size:24px;">' + esc(selectedSet.name) + '</h1>' +
+            '<div style="display:flex;align-items:center;gap:12px"><div class="bar" style="flex:1;height:9px"><div class="bar-fill' + (st.pct === 100 && st.needed > 0 ? ' done' : '') + '" style="width:' + st.pct + '%"></div></div><strong class="mono">' + st.pct + '% (' + st.collected + '/' + st.needed + ')</strong></div>' +
+            '</div>' +
+            '<div class="toolbar">' +
+              '<input class="input" id="search-box" type="search" value="' + esc(state.search) + '" placeholder="Zoek op onderdeel, nr. of kleur..." />' +
+              '<div style="display:flex;gap:8px;flex-wrap:wrap">' +
+                '<button class="btn' + (state.filterStatus === 'all' ? ' dark' : '') + '" data-fstatus="all">Alle</button>' +
+                '<button class="btn' + (state.filterStatus === 'missing' ? ' dark' : '') + '" data-fstatus="missing">Nog nodig</button>' +
+                '<button class="btn' + (state.filterStatus === 'complete' ? ' dark' : '') + '" data-fstatus="complete">Compleet</button>' +
+                '<button class="btn' + (state.prefs.ignoreStickers ? ' dark' : '') + '" data-toggle-stickers>Stickers negeren</button>' +
+                '<button class="btn' + (state.prefs.ignoreMinifigs ? ' dark' : '') + '" data-toggle-minifigs>Minifigs negeren</button>' +
+              '</div>' +
+            '</div>' +
+            '<div class="card" style="padding:0;overflow:hidden"><table><thead><tr><th>Onderdeel</th><th>Kleur</th><th>Aantal</th><th></th></tr></thead><tbody>' + partRows + '</tbody></table></div>';
+        }
+
+        document.getElementById('app').innerHTML =
+          '<div class="app">' +
+            '<aside class="sidebar">' +
+              '<div class="brand"><span><span style="color:#D11013">Brick</span><span style="color:#135CA8">Base</span></span><span class="muted">Offline</span></div>' +
+              '<div class="nav-list">' +
+                '<button class="nav-btn' + (state.view === 'overview' ? ' active' : '') + '" data-view="overview"><span>Alle sets</span><span class="mono">' + state.sets.length + '</span></button>' +
+                '<button class="nav-btn' + (state.view === 'collection' ? ' active' : '') + '" data-view="collection"><span>Totale collectie</span></button>' +
+                '<button class="nav-btn' + (state.view === 'organize' ? ' active' : '') + '" data-view="organize"><span>Organisatie &amp; Bakken</span></button>' +
+                '<div class="muted" style="padding:12px 10px 6px">Mijn sets</div>' +
+                sidebarSets +
+              '</div>' +
+              '<div class="sidebar-foot">' +
+                '<button class="btn" style="flex:1" data-export-json>JSON back-up</button>' +
+              '</div>' +
+            '</aside>' +
+            '<div class="main">' +
+              '<header class="topbar">' +
+                '<strong style="font-size:14px">' + esc(state.view === 'set' && selectedSet ? (selectedSet.setNumber + ' · ' + selectedSet.name) : (state.view === 'collection' ? 'Totale collectie' : state.view === 'organize' ? 'Organisatie & Bakken' : 'Overzicht')) + '</strong>' +
+                '<nav class="tabs">' +
+                  '<button class="tab' + (state.view === 'overview' ? ' active' : '') + '" data-view="overview">Overzicht</button>' +
+                  '<button class="tab' + (state.view === 'collection' ? ' active' : '') + '" data-view="collection">Collectie</button>' +
+                  '<button class="tab' + (state.view === 'organize' ? ' active' : '') + '" data-view="organize">Organisatie</button>' +
+                  (selectedSet ? '<button class="tab' + (state.view === 'set' ? ' active' : '') + '" data-view="set">Stukjes</button>' : '') +
+                '</nav>' +
+              '</header>' +
+              '<main class="content">' + bodyHtml + '</main>' +
+            '</div>' +
+          '</div>';
+
+        var searchEl = document.getElementById('search-box');
+        if (searchEl) {
+          searchEl.addEventListener('input', function (ev) {
+            state.search = ev.target.value;
+            render();
+            var nextInput = document.getElementById('search-box');
+            if (nextInput) { nextInput.focus(); nextInput.setSelectionRange(state.search.length, state.search.length); }
+          });
+        }
+      }
+
+      document.addEventListener('click', function (ev) {
+        var el = ev.target.closest('button');
+        if (!el) return;
+        if (el.hasAttribute('data-view')) {
+          state.view = el.getAttribute('data-view');
+          render();
+        } else if (el.hasAttribute('data-select-set')) {
+          state.selectedSetId = el.getAttribute('data-select-set');
+          state.view = 'set';
+          render();
+        } else if (el.hasAttribute('data-fstatus')) {
+          state.filterStatus = el.getAttribute('data-fstatus');
+          render();
+        } else if (el.hasAttribute('data-metric')) {
+          state.metric = el.getAttribute('data-metric');
+          render();
+        } else if (el.hasAttribute('data-toggle-stickers')) {
+          state.prefs.ignoreStickers = !state.prefs.ignoreStickers;
+          persist(); render();
+        } else if (el.hasAttribute('data-toggle-minifigs')) {
+          state.prefs.ignoreMinifigs = !state.prefs.ignoreMinifigs;
+          persist(); render();
+        } else if (el.hasAttribute('data-inc') || el.hasAttribute('data-dec') || el.hasAttribute('data-toggle-part')) {
+          var partId = el.getAttribute('data-inc') || el.getAttribute('data-dec') || el.getAttribute('data-toggle-part');
+          var set = state.sets.find(function (s) { return s.id === state.selectedSetId; });
+          if (!set) return;
+          var part = set.parts.find(function (p) { return p.id === partId; });
+          if (!part) return;
+          if (el.hasAttribute('data-inc')) part.quantityCollected = Math.min(part.quantityNeeded, (part.quantityCollected || 0) + 1);
+          if (el.hasAttribute('data-dec')) part.quantityCollected = Math.max(0, (part.quantityCollected || 0) - 1);
+          if (el.hasAttribute('data-toggle-part')) part.quantityCollected = (part.quantityCollected >= part.quantityNeeded) ? 0 : part.quantityNeeded;
+          persist(); render();
+        } else if (el.hasAttribute('data-export-json')) {
+          var blob = new Blob([JSON.stringify({ version: 1, sets: state.sets, prefs: state.prefs }, null, 2)], { type: 'application/json' });
+          var a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = 'brickbase-backup.json';
+          a.click();
+        }
+      });
+
+      render();
+
+      if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(function () {});
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
