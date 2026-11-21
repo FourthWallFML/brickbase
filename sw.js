@@ -1,4 +1,4 @@
-const CACHE_NAME = 'brickbase-standalone-v2';
+const CACHE_NAME = 'brickbase-standalone-v3';
 const ASSETS = [
   './',
   './index.html',
@@ -32,6 +32,13 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
 
+  // Never intercept Google Apps Script, Rebrickable CDN, or any third-party API calls
+  const isGoogleFonts =
+    url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com';
+  if (url.origin !== self.location.origin && !isGoogleFonts) {
+    return;
+  }
+
   // Always fetch live API requests over the network
   if (url.pathname.startsWith('/api/')) return;
 
@@ -51,7 +58,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Stale-while-revalidate for icons, manifest, and fonts
+  // Stale-while-revalidate for same-origin icons/manifest and Google Fonts
   event.respondWith(
     caches.open(CACHE_NAME).then(async (cache) => {
       const cached = await cache.match(request);
