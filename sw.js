@@ -1,4 +1,4 @@
-const CACHE_NAME = 'brickbase-standalone-v3';
+const CACHE_NAME = 'brickbase-standalone-v5';
 const ASSETS = [
   './',
   './index.html',
@@ -53,7 +53,7 @@ self.addEventListener('fetch', (event) => {
           }
           return res;
         })
-        .catch(() => caches.match('./index.html') || caches.match('./'))
+        .catch(async () => (await caches.match('./index.html')) || (await caches.match('./')))
     );
     return;
   }
