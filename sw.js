@@ -1,4 +1,4 @@
-const CACHE_NAME = 'brickbase-standalone-v5';
+const CACHE_NAME = 'brickbase-standalone-v6';
 const ASSETS = [
   './',
   './index.html',
