@@ -1,4 +1,5 @@
-const CACHE_NAME = 'brickbase-standalone-v8';
+const CACHE_NAME = 'brickbase-standalone-v9';
+const CDN_IMAGE_CACHE = 'brickbase-cdn-images-v1';
 const ASSETS = [
   './',
   './index.html',
@@ -20,7 +21,13 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k))))
+      .then((keys) =>
+        Promise.all(
+          keys
+            .filter((k) => k !== CACHE_NAME && k !== CDN_IMAGE_CACHE)
+            .map((k) => caches.delete(k))
+        )
+      )
       .then(() => self.clients.claim())
   );
 });
@@ -32,7 +39,27 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
 
-  // Never intercept Google Apps Script, Rebrickable CDN, or any third-party API calls
+  // Cache-first for Rebrickable CDN set & part thumbnails so photos load instantaneously on revisit
+  if (url.hostname === 'cdn.rebrickable.com' && url.pathname.startsWith('/media/')) {
+    event.respondWith(
+      caches.open(CDN_IMAGE_CACHE).then(async (cache) => {
+        const cached = await cache.match(request);
+        if (cached) return cached;
+        try {
+          const res = await fetch(request);
+          if (res && (res.ok || res.type === 'opaque')) {
+            cache.put(request, res.clone());
+          }
+          return res;
+        } catch {
+          return cached || Response.error();
+        }
+      })
+    );
+    return;
+  }
+
+  // Never intercept Google Apps Script or other third-party API calls
   const isGoogleFonts =
     url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com';
   if (url.origin !== self.location.origin && !isGoogleFonts) {
