@@ -1,13 +1,17 @@
-const CACHE_NAME = 'brickbase-standalone-v9';
+const CACHE_NAME = 'brickbase-standalone-v11-mwu8yh6s';
 const CDN_IMAGE_CACHE = 'brickbase-cdn-images-v1';
 const ASSETS = [
-  './',
-  './index.html',
-  './manifest.json',
-  './pwa-192x192.png',
-  './pwa-512x512.png',
-  './pwa-maskable-512x512.png',
-  './apple-touch-icon.png'
+  "./",
+  "./index.html",
+  "./app.js",
+  "./app.css",
+  "./manifest.json",
+  "./pwa-192x192.png",
+  "./pwa-512x512.png",
+  "./pwa-maskable-512x512.png",
+  "./apple-touch-icon.png",
+  "./favicon-32x32.png",
+  "./brickbase-logo-embed.png"
 ];
 
 self.addEventListener('install', (event) => {
@@ -69,18 +73,24 @@ self.addEventListener('fetch', (event) => {
   // Always fetch live API requests over the network
   if (url.pathname.startsWith('/api/')) return;
 
-  // Network-first for HTML navigation so an updated index.html always shows immediately
-  if (request.mode === 'navigate' || url.pathname.endsWith('/index.html') || url.pathname.endsWith('/')) {
+  // Network-first for HTML navigation and versioned app bundle so updates always appear immediately
+  if (
+    request.mode === 'navigate' ||
+    url.pathname.endsWith('/index.html') ||
+    url.pathname.endsWith('/') ||
+    url.pathname.endsWith('/app.js') ||
+    url.pathname.endsWith('/app.css')
+  ) {
     event.respondWith(
       fetch(request)
         .then((res) => {
           if (res && res.ok) {
             const copy = res.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put('./index.html', copy));
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
           }
           return res;
         })
-        .catch(async () => (await caches.match('./index.html')) || (await caches.match('./')))
+        .catch(async () => (await caches.match(request)) || (await caches.match('./index.html')) || (await caches.match('./')))
     );
     return;
   }
