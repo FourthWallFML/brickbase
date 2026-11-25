@@ -1,4 +1,4 @@
-const CACHE_NAME = 'brickbase-standalone-v11-mwu8yh6s';
+const CACHE_NAME = 'brickbase-standalone-v11-mwvzyjr0';
 const CDN_IMAGE_CACHE = 'brickbase-cdn-images-v1';
 const ASSETS = [
   "./",
