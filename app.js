@@ -11609,6 +11609,19 @@ var ArrowUp = createLucideIcon("arrow-up", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+var BookOpen = createLucideIcon("book-open", [["path", {
+	d: "M12 7v14",
+	key: "1akyts"
+}], ["path", {
+	d: "M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z",
+	key: "ruj8y"
+}]]);
+/**
+* @license lucide-react v0.546.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var Box = createLucideIcon("box", [
 	["path", {
 		d: "M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z",
@@ -11748,22 +11761,50 @@ var CircleCheck = createLucideIcon("circle-check", [["circle", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var CircleQuestionMark = createLucideIcon("circle-question-mark", [
-	["circle", {
-		cx: "12",
-		cy: "12",
-		r: "10",
-		key: "1mglay"
+var CloudDownload = createLucideIcon("cloud-download", [
+	["path", {
+		d: "M12 13v8l-4-4",
+		key: "1f5nwf"
 	}],
 	["path", {
-		d: "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3",
-		key: "1u773s"
+		d: "m12 21 4-4",
+		key: "1lfcce"
 	}],
 	["path", {
-		d: "M12 17h.01",
-		key: "p32p05"
+		d: "M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284",
+		key: "ui1hmy"
 	}]
 ]);
+/**
+* @license lucide-react v0.546.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var CloudUpload = createLucideIcon("cloud-upload", [
+	["path", {
+		d: "M12 13v8",
+		key: "1l5pq0"
+	}],
+	["path", {
+		d: "M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242",
+		key: "1pljnt"
+	}],
+	["path", {
+		d: "m8 17 4-4 4 4",
+		key: "1quai1"
+	}]
+]);
+/**
+* @license lucide-react v0.546.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var Cloud = createLucideIcon("cloud", [["path", {
+	d: "M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z",
+	key: "p7xjir"
+}]]);
 /**
 * @license lucide-react v0.546.0 - ISC
 *
@@ -11978,6 +12019,16 @@ var FileJson = createLucideIcon("file-json", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+var FolderOpen = createLucideIcon("folder-open", [["path", {
+	d: "m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2",
+	key: "usdka0"
+}]]);
+/**
+* @license lucide-react v0.546.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var Hash = createLucideIcon("hash", [
 	["line", {
 		x1: "4",
@@ -12014,6 +12065,26 @@ var Hash = createLucideIcon("hash", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+var History = createLucideIcon("history", [
+	["path", {
+		d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8",
+		key: "1357e3"
+	}],
+	["path", {
+		d: "M3 3v5h5",
+		key: "1xhq8a"
+	}],
+	["path", {
+		d: "M12 7v5l4 2",
+		key: "1fdv2h"
+	}]
+]);
+/**
+* @license lucide-react v0.546.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var Image = createLucideIcon("image", [
 	["rect", {
 		width: "18",
@@ -12033,28 +12104,6 @@ var Image = createLucideIcon("image", [
 	["path", {
 		d: "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21",
 		key: "1xmnt7"
-	}]
-]);
-/**
-* @license lucide-react v0.546.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
-var Info = createLucideIcon("info", [
-	["circle", {
-		cx: "12",
-		cy: "12",
-		r: "10",
-		key: "1mglay"
-	}],
-	["path", {
-		d: "M12 16v-4",
-		key: "1dtifu"
-	}],
-	["path", {
-		d: "M12 8h.01",
-		key: "e9boi3"
 	}]
 ]);
 /**
@@ -12278,6 +12327,30 @@ var PackageCheck = createLucideIcon("package-check", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+var Package = createLucideIcon("package", [
+	["path", {
+		d: "M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z",
+		key: "1a0edw"
+	}],
+	["path", {
+		d: "M12 22V12",
+		key: "d0xqtd"
+	}],
+	["polyline", {
+		points: "3.29 7 12 12 20.71 7",
+		key: "ousv84"
+	}],
+	["path", {
+		d: "m7.5 4.27 9 5.15",
+		key: "1c824w"
+	}]
+]);
+/**
+* @license lucide-react v0.546.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var Pencil = createLucideIcon("pencil", [["path", {
 	d: "M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",
 	key: "1a8usu"
@@ -12308,6 +12381,30 @@ var Plus = createLucideIcon("plus", [["path", {
 	d: "M12 5v14",
 	key: "s699le"
 }]]);
+/**
+* @license lucide-react v0.546.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var RefreshCw = createLucideIcon("refresh-cw", [
+	["path", {
+		d: "M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8",
+		key: "v9h5vc"
+	}],
+	["path", {
+		d: "M21 3v5h-5",
+		key: "1q7to0"
+	}],
+	["path", {
+		d: "M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16",
+		key: "3uifl3"
+	}],
+	["path", {
+		d: "M8 16H3v5",
+		key: "1cv678"
+	}]
+]);
 /**
 * @license lucide-react v0.546.0 - ISC
 *
@@ -12347,30 +12444,6 @@ var Ruler = createLucideIcon("ruler", [
 	["path", {
 		d: "m17.5 15.5 2-2",
 		key: "wo5hmg"
-	}]
-]);
-/**
-* @license lucide-react v0.546.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
-var ScrollText = createLucideIcon("scroll-text", [
-	["path", {
-		d: "M15 12h-5",
-		key: "r7krc0"
-	}],
-	["path", {
-		d: "M15 8h-5",
-		key: "1khuty"
-	}],
-	["path", {
-		d: "M19 17V5a2 2 0 0 0-2-2H4",
-		key: "zz82l3"
-	}],
-	["path", {
-		d: "M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3",
-		key: "1ph1d7"
 	}]
 ]);
 /**
@@ -12443,6 +12516,50 @@ var ShoppingCart = createLucideIcon("shopping-cart", [
 	["path", {
 		d: "M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12",
 		key: "9zh506"
+	}]
+]);
+/**
+* @license lucide-react v0.546.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var SlidersVertical = createLucideIcon("sliders-vertical", [
+	["path", {
+		d: "M10 8h4",
+		key: "1sr2af"
+	}],
+	["path", {
+		d: "M12 21v-9",
+		key: "17s77i"
+	}],
+	["path", {
+		d: "M12 8V3",
+		key: "13r4qs"
+	}],
+	["path", {
+		d: "M17 16h4",
+		key: "h1uq16"
+	}],
+	["path", {
+		d: "M19 12V3",
+		key: "o1uvq1"
+	}],
+	["path", {
+		d: "M19 21v-5",
+		key: "qua636"
+	}],
+	["path", {
+		d: "M3 14h4",
+		key: "bcjad9"
+	}],
+	["path", {
+		d: "M5 10V3",
+		key: "cb8scm"
+	}],
+	["path", {
+		d: "M5 21v-7",
+		key: "1w1uti"
 	}]
 ]);
 /**
@@ -13579,7 +13696,12 @@ var GOOGLE_APPS_SCRIPT_CODE = `/**
  *   - Elke query heeft een harde maximumBytesBilled-limiet (standaard 500 MB per query).
  *   - Alle parameters zijn geparametriseerd (geen SQL-injectie mogelijk).
  *
- * Vereiste voor BigQuery:
+ *   - Cloud-back-up van je collectie (POST actions: backup_save, backup_list, backup_load):
+ *       - Slaat je volledige BrickBase-collectie (sets, voortgang, voorkeuren, waarde & bakken) veilig op
+ *         als JSON-snapshots in je eigen Google Drive map ("BrickBase Backups") -> 0 BigQuery-kosten!
+ *       - Strikt vergrendeld met dezelfde BIGQUERY_ACCESS_TOKEN / AUTHORIZED_EMAILS als BigQuery.
+ *
+ * Vereiste voor BigQuery & Cloud-back-up:
  *   1. Klik in Apps Script links op "Services (+)" > kies "BigQuery API" > klik "Toevoegen".
  *   2. Ga naar Projectinstellingen (tandwiel links) > Scripteigenschappen > toevoegen:
  *      - BIGQUERY_PROJECT_ID       : jouw Google Cloud Project ID (verplicht voor BigQuery)
@@ -13590,9 +13712,12 @@ var GOOGLE_APPS_SCRIPT_CODE = `/**
  *      - BIGQUERY_MAX_BYTES_BILLED : optioneel, standaard "500000000" (500 MB per query)
  *      - REBRICKABLE_API_KEY       : optioneel, jouw Rebrickable API-sleutel (probeert dan eerst de API)
  *      - SPREADSHEET_ID            : optioneel (alleen nodig als dit script niet in je Google Sheet zelf zit)
+ *      - BACKUP_FOLDER_NAME        : optioneel, Google Drive mapnaam voor cloud-back-ups (standaard "BrickBase Backups")
+ *      - BACKUP_MAX_SNAPSHOTS      : optioneel, max. aantal bewaarde cloud-snapshots (standaard 15)
  *   3. Kies bovenaan functie "generateBigQueryAccessToken" en klik op "Uitvoeren" om direct een sterke
  *      toegangssleutel aan te maken (of stel zelf BIGQUERY_ACCESS_TOKEN in bij Scripteigenschappen).
- *   4. Kies bovenaan functie "testBigQuerySetup" en klik één keer op "Uitvoeren" om BigQuery-toegang goed te keuren.
+ *   4. Kies bovenaan functie "testBigQuerySetup" (en voor Google Drive back-up ook "testCloudBackupSetup")
+ *      en klik één keer op "Uitvoeren" om de machtigingen goed te keuren.
  *   5. Implementeren:
  *      - Nieuw: Implementeren > Nieuwe implementatie > Web-app > Uitvoeren als: "Ik" > Toegang: "Iedereen".
  *      - Bijwerken: Implementeren > Implementaties beheren > potlood > Versie: "Nieuwe versie" > Implementeren.
@@ -13828,6 +13953,46 @@ function doPost(e) {
       return jsonResponse(searchSetsByQuery(searchQuery, bqAuth));
     }
 
+    if (action === 'backup_save') {
+      var saveAuth = checkCloudBackupAuthorization(payload);
+      if (!saveAuth.authorized) {
+        return jsonResponse({
+          ok: false,
+          authRequired: true,
+          bigqueryAuthConfigured: saveAuth.configured,
+          error: saveAuth.error
+        });
+      }
+      return jsonResponse(saveCollectionBackupToDrive(payload));
+    }
+
+    if (action === 'backup_list') {
+      var listAuth = checkCloudBackupAuthorization(payload);
+      if (!listAuth.authorized) {
+        return jsonResponse({
+          ok: false,
+          authRequired: true,
+          bigqueryAuthConfigured: listAuth.configured,
+          error: listAuth.error
+        });
+      }
+      return jsonResponse(listCollectionBackupsFromDrive());
+    }
+
+    if (action === 'backup_load') {
+      var loadAuth = checkCloudBackupAuthorization(payload);
+      if (!loadAuth.authorized) {
+        return jsonResponse({
+          ok: false,
+          authRequired: true,
+          bigqueryAuthConfigured: loadAuth.configured,
+          error: loadAuth.error
+        });
+      }
+      var requestedFileId = typeof payload.fileId === 'string' ? payload.fileId.trim() : '';
+      return jsonResponse(loadCollectionBackupFromDrive(requestedFileId));
+    }
+
     return jsonResponse({ ok: false, error: 'Onbekende POST-actie: ' + (action || '(leeg)') });
   } catch (err) {
     return jsonResponse({
@@ -13846,9 +14011,294 @@ function testBigQuerySetup() {
   var result = handleHealthCheck({ authorized: true, configured: authCfg.configured, method: 'editor' });
   Logger.log(JSON.stringify(result, null, 2));
   if (!authCfg.configured) {
-    Logger.log('LET OP: BIGQUERY_ACCESS_TOKEN is nog niet ingesteld. Voer generateBigQueryAccessToken uit om BigQuery te vergrendelen voor onbevoegden.');
+    Logger.log('LET OP: BIGQUERY_ACCESS_TOKEN is nog niet ingesteld. Voer generateBigQueryAccessToken uit om BigQuery en Cloud-back-ups te vergrendelen voor onbevoegden.');
   }
   return result;
+}
+
+/**
+ * Voer deze functie één keer uit in de Apps Script editor om Google Drive-toegang
+ * voor Cloud-back-ups goed te keuren en de map "BrickBase Backups" te controleren.
+ */
+function testCloudBackupSetup() {
+  var folder = getOrCreateBackupFolder(true);
+  var listRes = listCollectionBackupsFromDrive();
+  var result = {
+    ok: true,
+    folderName: folder.getName(),
+    folderId: folder.getId(),
+    existingSnapshots: listRes.backups ? listRes.backups.length : 0
+  };
+  Logger.log(JSON.stringify(result, null, 2));
+  return result;
+}
+
+/* ========================================================================== *
+ *  CLOUD BACK-UP NAAR GOOGLE DRIVE (0 BIGQUERY-KOSTEN, STRIKT BEVEILIGD)
+ * ========================================================================== */
+
+function checkCloudBackupAuthorization(payload) {
+  var auth = checkBigQueryAuthorization(payload);
+  // Cloud-back-ups bevatten privé collectiedata en mogen nooit publiek toegankelijk zijn
+  if (!auth.authorized || !auth.configured || auth.method === 'public_override') {
+    return {
+      authorized: false,
+      configured: Boolean(auth.configured),
+      error: auth.configured
+        ? (auth.error || 'Toegang geweigerd: ongeldige of ontbrekende toegangssleutel voor cloud-back-up.')
+        : 'Cloud-back-up vereist BIGQUERY_ACCESS_TOKEN (of AUTHORIZED_EMAILS) in Apps Script. Voer eerst generateBigQueryAccessToken uit.'
+    };
+  }
+  return auth;
+}
+
+function getBackupFolderConfig() {
+  var props = PropertiesService.getScriptProperties();
+  var folderId = String(props.getProperty('BACKUP_FOLDER_ID') || '').trim();
+  var folderName = String(props.getProperty('BACKUP_FOLDER_NAME') || 'BrickBase Backups').trim() || 'BrickBase Backups';
+  var rawMax = Number(props.getProperty('BACKUP_MAX_SNAPSHOTS') || 15);
+  var maxSnapshots = (isFinite(rawMax) && rawMax >= 3 && rawMax <= 50) ? Math.round(rawMax) : 15;
+  return {
+    folderId: folderId,
+    folderName: folderName,
+    maxSnapshots: maxSnapshots
+  };
+}
+
+function getOrCreateBackupFolder(createIfMissing) {
+  var cfg = getBackupFolderConfig();
+  if (cfg.folderId) {
+    return DriveApp.getFolderById(cfg.folderId);
+  }
+  var iter = DriveApp.getFoldersByName(cfg.folderName);
+  if (iter.hasNext()) {
+    return iter.next();
+  }
+  if (!createIfMissing) {
+    return null;
+  }
+  return DriveApp.createFolder(cfg.folderName);
+}
+
+function isBrickBaseBackupFileName(name) {
+  return /^brickbase-backup-[0-9TZ_-]+\\.json$/i.test(String(name || ''));
+}
+
+function parseBackupFileMeta(file) {
+  var desc = '';
+  try { desc = String(file.getDescription() || ''); } catch (e) {}
+  var parsedMeta = null;
+  if (desc.indexOf('BRICKBASE_META:') === 0) {
+    try {
+      parsedMeta = JSON.parse(desc.slice('BRICKBASE_META:'.length));
+    } catch (e) {}
+  }
+
+  var fallbackDate = new Date().toISOString();
+  try {
+    fallbackDate = file.getLastUpdated().toISOString();
+  } catch (e) {}
+
+  return {
+    id: file.getId(),
+    fileName: file.getName(),
+    savedAt: (parsedMeta && typeof parsedMeta.savedAt === 'string') ? parsedMeta.savedAt : fallbackDate,
+    setsCount: (parsedMeta && typeof parsedMeta.setsCount === 'number') ? parsedMeta.setsCount : null,
+    totalPieces: (parsedMeta && typeof parsedMeta.totalPieces === 'number') ? parsedMeta.totalPieces : null,
+    collectedPieces: (parsedMeta && typeof parsedMeta.collectedPieces === 'number') ? parsedMeta.collectedPieces : null,
+    label: (parsedMeta && typeof parsedMeta.label === 'string') ? parsedMeta.label : '',
+    sizeBytes: Number(file.getSize()) || 0
+  };
+}
+
+function collectBackupFilesInFolder(folder) {
+  var files = [];
+  if (!folder) return files;
+  var iter = folder.getFiles();
+  while (iter.hasNext()) {
+    var f = iter.next();
+    if (f.isTrashed()) continue;
+    if (!isBrickBaseBackupFileName(f.getName())) continue;
+    files.push(f);
+  }
+  files.sort(function (a, b) {
+    return b.getLastUpdated().getTime() - a.getLastUpdated().getTime();
+  });
+  return files;
+}
+
+function saveCollectionBackupToDrive(payload) {
+  var backup = payload && payload.backup;
+  if (!backup || typeof backup !== 'object' || !Array.isArray(backup.sets)) {
+    return {
+      ok: false,
+      error: 'Ongeldige back-updata: verwachte collectie met een sets-lijst ontbreekt.'
+    };
+  }
+
+  var nowIso = new Date().toISOString();
+  var label = typeof payload.label === 'string' ? payload.label.trim().slice(0, 80) : '';
+
+  var setsCount = backup.sets.length;
+  var totalPieces = 0;
+  var collectedPieces = 0;
+  for (var i = 0; i < backup.sets.length; i++) {
+    var s = backup.sets[i];
+    if (!s || !Array.isArray(s.parts)) continue;
+    for (var j = 0; j < s.parts.length; j++) {
+      var p = s.parts[j];
+      if (!p) continue;
+      totalPieces += Math.max(0, Number(p.quantityNeeded) || 0);
+      collectedPieces += Math.max(0, Number(p.quantityCollected) || 0);
+    }
+  }
+
+  var documentPayload = {
+    version: 2,
+    exportedAt: nowIso,
+    label: label || undefined,
+    sets: backup.sets,
+    prefs: backup.prefs || { ignoreStickers: false, ignoreMinifigs: false },
+    valuationSettings: backup.valuationSettings || undefined,
+    userContainers: Array.isArray(backup.userContainers) ? backup.userContainers : undefined,
+    partVolumes: (backup.partVolumes && typeof backup.partVolumes === 'object') ? backup.partVolumes : undefined
+  };
+
+  var jsonString = JSON.stringify(documentPayload);
+  if (jsonString.length > 20 * 1024 * 1024) {
+    return {
+      ok: false,
+      error: 'De collectie-back-up is groter dan 20 MB en kan niet in één bestand worden opgeslagen.'
+    };
+  }
+
+  var cfg = getBackupFolderConfig();
+  var folder = getOrCreateBackupFolder(true);
+  var stamp = nowIso.replace(/[:.]/g, '-').slice(0, 19);
+  var fileName = 'brickbase-backup-' + stamp + '.json';
+  var file = folder.createFile(fileName, jsonString, MimeType.PLAIN_TEXT);
+
+  var metaObj = {
+    savedAt: nowIso,
+    setsCount: setsCount,
+    totalPieces: totalPieces,
+    collectedPieces: collectedPieces,
+    label: label
+  };
+  try {
+    file.setDescription('BRICKBASE_META:' + JSON.stringify(metaObj));
+  } catch (e) {}
+
+  // Oudste snapshots netjes naar de Google Drive Prullenbak verplaatsen boven de limiet
+  var allFiles = collectBackupFilesInFolder(folder);
+  if (allFiles.length > cfg.maxSnapshots) {
+    for (var k = cfg.maxSnapshots; k < allFiles.length; k++) {
+      try {
+        allFiles[k].setTrashed(true);
+      } catch (e) {}
+    }
+  }
+
+  return {
+    ok: true,
+    folderName: folder.getName(),
+    totalSnapshots: Math.min(allFiles.length, cfg.maxSnapshots),
+    backup: {
+      id: file.getId(),
+      fileName: file.getName(),
+      savedAt: nowIso,
+      setsCount: setsCount,
+      totalPieces: totalPieces,
+      collectedPieces: collectedPieces,
+      label: label,
+      sizeBytes: Number(file.getSize()) || jsonString.length
+    }
+  };
+}
+
+function listCollectionBackupsFromDrive() {
+  var cfg = getBackupFolderConfig();
+  var folder = getOrCreateBackupFolder(false);
+  if (!folder) {
+    return {
+      ok: true,
+      folderName: cfg.folderName,
+      backups: []
+    };
+  }
+
+  var files = collectBackupFilesInFolder(folder);
+  var backups = files.slice(0, cfg.maxSnapshots).map(function (f) {
+    return parseBackupFileMeta(f);
+  });
+
+  return {
+    ok: true,
+    folderName: folder.getName(),
+    backups: backups
+  };
+}
+
+function loadCollectionBackupFromDrive(requestedFileId) {
+  var folder = getOrCreateBackupFolder(false);
+  if (!folder) {
+    return {
+      ok: false,
+      error: 'Er is nog geen Google Drive-map met cloud-back-ups gevonden. Sla eerst een cloud-back-up op.'
+    };
+  }
+
+  // Beperk lezen strikt tot geldige BrickBase-bestanden binnen de back-upmap (geen willekeurige Drive-IDs)
+  var files = collectBackupFilesInFolder(folder);
+  if (files.length === 0) {
+    return {
+      ok: false,
+      error: 'Er zijn nog geen cloud-back-ups gevonden in Google Drive.'
+    };
+  }
+
+  var targetFile = null;
+  if (requestedFileId) {
+    for (var i = 0; i < files.length; i++) {
+      if (files[i].getId() === requestedFileId) {
+        targetFile = files[i];
+        break;
+      }
+    }
+    if (!targetFile) {
+      return {
+        ok: false,
+        error: 'De gekozen cloud-back-up is niet meer aanwezig in de back-upmap.'
+      };
+    }
+  } else {
+    targetFile = files[0];
+  }
+
+  var rawText = targetFile.getBlob().getDataAsString('UTF-8');
+  var parsed;
+  try {
+    parsed = JSON.parse(rawText);
+  } catch (e) {
+    return {
+      ok: false,
+      error: 'Het back-upbestand in Google Drive bevat geen geldige JSON.'
+    };
+  }
+
+  if (!parsed || typeof parsed !== 'object' || !Array.isArray(parsed.sets)) {
+    return {
+      ok: false,
+      error: 'Het back-upbestand in Google Drive heeft geen geldige BrickBase-structuur.'
+    };
+  }
+
+  return {
+    ok: true,
+    folderName: folder.getName(),
+    meta: parseBackupFileMeta(targetFile),
+    backup: parsed
+  };
 }
 
 /**
@@ -14097,6 +14547,7 @@ function handleBigQueryHealthCheck(cfg, hasApiKey, bqAuth) {
       bigqueryLocation: cfg.location,
       bigqueryAuthConfigured: Boolean(authInfo.configured),
       bigqueryAuthorized: true,
+      cloudBackupSupported: true,
       rebrickableApiConfigured: hasApiKey,
       sheetSetsCatalogAvailable: sheetSetsCatalogAvailable,
       sheetSetsRowCount: sheetSetsRowCount,
@@ -15069,6 +15520,7 @@ function handleHealthCheck(bqAuth) {
     status: missingRequired.length === 0 ? 'ok' : 'missing_sheets',
     backendType: 'sheets',
     spreadsheetName: ss.getName(),
+    cloudBackupSupported: true,
     rebrickableApiConfigured: hasApiKey,
     foundSheets: found,
     allSheetNames: allSheetNames,
@@ -18910,7 +19362,7 @@ function AddSetsModal({ open, initialConfig, onClose, existingSets, onOpenExisti
 	});
 }
 // src/components/AdminToolsModal.tsx
-function AdminToolsModal({ open, onClose, unlocked, adminToken, googleBackendUrl, onAuthenticated, onLock, onSessionExpired, onOpenGoogleBackend, onOpenStandaloneDownload, onNotify }) {
+function AdminToolsModal({ open, onClose, unlocked, adminToken, googleBackendUrl, onAuthenticated, onLock, onSessionExpired, onOpenGoogleBackend, onOpenCloudBackup, onOpenStandaloneDownload, onNotify }) {
 	const [status, setStatus] = (0, import_react.useState)(null);
 	const [loadingStatus, setLoadingStatus] = (0, import_react.useState)(false);
 	const [password, setPassword] = (0, import_react.useState)("");
@@ -19065,7 +19517,7 @@ function AdminToolsModal({ open, onClose, unlocked, adminToken, googleBackendUrl
 							children: unlocked ? "Beheer & Geavanceerd" : isSetupMode ? "Beheer-wachtwoord instellen" : "Beheer vergrendeld"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							className: "text-xs text-[#5A606B] truncate",
-							children: unlocked ? "BigQuery-toegang, Google Backend & Standalone PWA" : "Beveiligde toegang tot BigQuery, backend en standalone download"
+							children: unlocked ? "Google Backend, Cloud-back-up & Standalone PWA" : "Beveiligde toegang tot BigQuery, cloud-back-up en standalone download"
 						})]
 					})]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
@@ -19216,6 +19668,30 @@ function AdminToolsModal({ open, onClose, unlocked, adminToken, googleBackendUrl
 								className: "inline-flex items-center gap-1 rounded-md bg-[#F0FDF4] border border-[#15803D]/25 px-2 py-0.5 text-[11px] font-medium text-[#15803D] shrink-0",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Check, { className: "h-3 w-3" }), "Actief"]
 							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+							type: "button",
+							onClick: () => {
+								onClose();
+								onOpenCloudBackup();
+							},
+							className: "flex w-full items-center justify-between gap-3 rounded-xl border border-[#E4E4E0] bg-[#F7F7F5] p-4 text-left hover:border-[#135CA8]/40 hover:bg-white transition-colors",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center gap-3 min-w-0",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-[#135CA8]/20 bg-[#F0F6FC] text-[#135CA8]",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Cloud, { className: "h-5 w-5" })
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "min-w-0",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "text-sm font-semibold text-[#141619]",
+										children: "Cloud-back-up (Google Drive)"
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "text-xs text-[#5A606B] truncate",
+										children: "Collectie opslaan & herstellen via Google Backend (0 BigQuery-kosten)"
+									})]
+								})]
+							})
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
 							type: "button",
@@ -20379,6 +20855,711 @@ function BuildableSetsFinder({ sets, prefs, adminUnlocked, onAddRecommendedSet, 
 		]
 	});
 }
+// src/utils/cloudBackupClient.ts
+var STORAGE_KEY_USER_CONTAINERS$1 = "brickbase_user_containers_v1";
+var STORAGE_KEY_PART_VOLUMES$1 = "brickbase_part_volumes_v2";
+var STORAGE_KEY_LAST_CLOUD_BACKUP = "brickbase_last_cloud_backup_v1";
+function readStorageOrganizationBackupData() {
+	let userContainers;
+	let partVolumes;
+	try {
+		const rawContainers = localStorage.getItem(STORAGE_KEY_USER_CONTAINERS$1);
+		if (rawContainers) {
+			const parsed = JSON.parse(rawContainers);
+			if (Array.isArray(parsed)) userContainers = parsed;
+		}
+	} catch {}
+	try {
+		const rawVolumes = localStorage.getItem(STORAGE_KEY_PART_VOLUMES$1);
+		if (rawVolumes) {
+			const parsed = JSON.parse(rawVolumes);
+			if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) partVolumes = parsed;
+		}
+	} catch {}
+	return {
+		userContainers,
+		partVolumes
+	};
+}
+function writeStorageOrganizationBackupData(data) {
+	try {
+		if (Array.isArray(data.userContainers)) localStorage.setItem(STORAGE_KEY_USER_CONTAINERS$1, JSON.stringify(data.userContainers));
+	} catch {}
+	try {
+		if (data.partVolumes && typeof data.partVolumes === "object" && !Array.isArray(data.partVolumes)) localStorage.setItem(STORAGE_KEY_PART_VOLUMES$1, JSON.stringify(data.partVolumes));
+	} catch {}
+}
+function loadLastCloudBackupInfo() {
+	try {
+		const raw = localStorage.getItem(STORAGE_KEY_LAST_CLOUD_BACKUP);
+		if (!raw) return null;
+		const parsed = JSON.parse(raw);
+		if (typeof parsed.savedAt === "string" && typeof parsed.setsCount === "number") return {
+			savedAt: parsed.savedAt,
+			setsCount: parsed.setsCount,
+			totalPieces: typeof parsed.totalPieces === "number" ? parsed.totalPieces : 0,
+			fileName: typeof parsed.fileName === "string" ? parsed.fileName : void 0,
+			folderName: typeof parsed.folderName === "string" ? parsed.folderName : void 0
+		};
+	} catch {}
+	return null;
+}
+function saveLastCloudBackupInfo(info) {
+	try {
+		localStorage.setItem(STORAGE_KEY_LAST_CLOUD_BACKUP, JSON.stringify(info));
+	} catch {}
+}
+function formatBackupBytes(bytes) {
+	if (!Number.isFinite(bytes) || bytes <= 0) return "0 KB";
+	if (bytes < 1024) return `${bytes} B`;
+	if (bytes < 1048576) return `${Math.max(1, Math.round(bytes / 1024))} KB`;
+	return `${(bytes / 1048576).toFixed(2).replace(".", ",")} MB`;
+}
+function formatBackupTimestamp(iso) {
+	try {
+		const dt = new Date(iso);
+		if (Number.isNaN(dt.getTime())) return iso;
+		return dt.toLocaleString("nl-NL", {
+			day: "2-digit",
+			month: "short",
+			year: "numeric",
+			hour: "2-digit",
+			minute: "2-digit"
+		});
+	} catch {
+		return iso;
+	}
+}
+function classifyBackendError(raw) {
+	const msg = String(raw.error || "Onbekende fout bij Google Cloud-back-up.");
+	const lower = msg.toLowerCase();
+	if (raw.sessionExpired) return {
+		ok: false,
+		sessionExpired: true,
+		error: msg
+	};
+	if (raw.authRequired) return {
+		ok: false,
+		authRequired: true,
+		error: msg
+	};
+	if (lower.includes("onbekende post-actie") || lower.includes("html in plaats van json")) return {
+		ok: false,
+		scriptUpdateRequired: true,
+		error: "Je huidige Google Apps Script ondersteunt nog geen Cloud-back-up. Kopieer de nieuwste Code.gs via Beheer → Google Backend, voer testCloudBackupSetup één keer uit en kies Implementeren → Nieuwe versie."
+	};
+	if (lower.includes("driveapp") || lower.includes("permission") || lower.includes("machtig") || lower.includes("authorization is required") || lower.includes("niet gemachtigd")) return {
+		ok: false,
+		drivePermissionRequired: true,
+		error: "Google Drive-toegang is nog niet goedgekeurd in Apps Script. Open Apps Script, voer de functie testCloudBackupSetup één keer uit om Google Drive-toegang toe te staan en probeer daarna opnieuw."
+	};
+	return {
+		ok: false,
+		error: msg
+	};
+}
+async function postDirectStaticBackupAction(googleBackendUrl, action, body, bigQueryAccessToken, signal) {
+	const check = validateGoogleAppsScriptUrl(googleBackendUrl);
+	if (!check.valid || !check.normalized) return {
+		ok: false,
+		error: check.error || "Geen geldige Google Backend URL ingesteld."
+	};
+	const text = await (await fetch(check.normalized, {
+		method: "POST",
+		headers: { "Content-Type": "text/plain;charset=utf-8" },
+		body: JSON.stringify({
+			action,
+			authToken: bigQueryAccessToken || void 0,
+			...body
+		}),
+		redirect: "follow",
+		signal
+	})).text();
+	try {
+		return JSON.parse(text);
+	} catch {
+		return {
+			ok: false,
+			error: "Je Google Apps Script reageerde met HTML in plaats van JSON. Werk Code.gs bij en kies Implementeren → Nieuwe versie."
+		};
+	}
+}
+async function invokeBackupEndpoint(endpointPath, staticAction, payload, opts) {
+	const googleUrl = (opts.googleBackendUrl ?? loadSavedGoogleBackendUrl()).trim();
+	const adminToken = opts.adminToken ?? getActiveAdminSession().token;
+	const bqToken = (opts.bigQueryAccessToken ?? getActiveBigQueryAccessToken() ?? "").trim() || null;
+	const controller = new AbortController();
+	const timer = window.setTimeout(() => controller.abort(), opts.timeoutMs ?? 4e4);
+	try {
+		if (isStaticHostingEnvironment()) {
+			if (!googleUrl) return {
+				ok: false,
+				error: "Koppel eerst je Google Apps Script Web-app URL via Beheer → Google Backend."
+			};
+			return await postDirectStaticBackupAction(googleUrl, staticAction, payload, bqToken, controller.signal);
+		}
+		const headers = { "Content-Type": "application/json" };
+		if (adminToken) headers.Authorization = `Bearer ${adminToken}`;
+		const res = await fetch(resolveApiUrl(endpointPath), {
+			method: "POST",
+			headers,
+			body: JSON.stringify({
+				...payload,
+				googleBackendUrl: googleUrl || void 0,
+				bigQueryAccessToken: bqToken || void 0
+			}),
+			signal: controller.signal
+		});
+		if (res.status === 401) return {
+			ok: false,
+			sessionExpired: true,
+			authRequired: true,
+			error: "Je Beheer-sessie is verlopen. Ontgrendel Beheer opnieuw met je wachtwoord."
+		};
+		const text = await res.text();
+		try {
+			return JSON.parse(text);
+		} catch {
+			return {
+				ok: false,
+				error: `Onverwacht antwoord van server (HTTP ${res.status}).`
+			};
+		}
+	} catch (err) {
+		if (err instanceof DOMException && err.name === "AbortError") return {
+			ok: false,
+			error: "Time-out bij communicatie met Google Drive. Controleer je internetverbinding en probeer opnieuw."
+		};
+		return {
+			ok: false,
+			error: err instanceof Error ? err.message : "Verbinding met Google Cloud-back-up mislukt."
+		};
+	} finally {
+		window.clearTimeout(timer);
+	}
+}
+async function saveCloudBackup(backup, opts = {}) {
+	const raw = await invokeBackupEndpoint("/api/google-backend/backup/save", "backup_save", {
+		backup,
+		label: opts.label?.trim().slice(0, 80) || ""
+	}, {
+		...opts,
+		timeoutMs: 45e3
+	});
+	if (!raw.ok || !raw.backup || typeof raw.backup !== "object") return classifyBackendError(raw);
+	const snapshot = raw.backup;
+	const folderName = typeof raw.folderName === "string" ? raw.folderName : "BrickBase Backups";
+	const totalSnapshots = typeof raw.totalSnapshots === "number" ? raw.totalSnapshots : 1;
+	saveLastCloudBackupInfo({
+		savedAt: snapshot.savedAt || (/* @__PURE__ */ new Date()).toISOString(),
+		setsCount: snapshot.setsCount ?? backup.sets.length,
+		totalPieces: snapshot.totalPieces ?? 0,
+		fileName: snapshot.fileName,
+		folderName
+	});
+	return {
+		ok: true,
+		data: {
+			folderName,
+			totalSnapshots,
+			snapshot
+		}
+	};
+}
+async function listCloudBackups(opts = {}) {
+	const raw = await invokeBackupEndpoint("/api/google-backend/backup/list", "backup_list", {}, {
+		...opts,
+		timeoutMs: 25e3
+	});
+	if (!raw.ok) return classifyBackendError(raw);
+	const backups = Array.isArray(raw.backups) ? raw.backups : [];
+	return {
+		ok: true,
+		data: {
+			folderName: typeof raw.folderName === "string" ? raw.folderName : "BrickBase Backups",
+			backups
+		}
+	};
+}
+async function loadCloudBackup(fileId, opts = {}) {
+	const raw = await invokeBackupEndpoint("/api/google-backend/backup/load", "backup_load", fileId ? { fileId } : {}, {
+		...opts,
+		timeoutMs: 45e3
+	});
+	if (!raw.ok || !raw.backup || typeof raw.backup !== "object") return classifyBackendError(raw);
+	const backup = raw.backup;
+	if (!Array.isArray(backup.sets)) return {
+		ok: false,
+		error: "Het geladen cloud-back-upbestand bevat geen geldige sets-lijst."
+	};
+	return {
+		ok: true,
+		data: {
+			folderName: typeof raw.folderName === "string" ? raw.folderName : "BrickBase Backups",
+			meta: raw.meta,
+			backup
+		}
+	};
+}
+// src/components/CloudBackupModal.tsx
+function CloudBackupModal({ open, onClose, sets, prefs, valuationSettings, googleBackendUrl, adminToken, bigQueryAccessToken, onRestoreBackup, onOpenGoogleBackend, onSessionExpired, onNotify }) {
+	const [label, setLabel] = (0, import_react.useState)("");
+	const [saving, setSaving] = (0, import_react.useState)(false);
+	const [loadingList, setLoadingList] = (0, import_react.useState)(false);
+	const [restoringId, setRestoringId] = (0, import_react.useState)(null);
+	const [confirmRestoreId, setConfirmRestoreId] = (0, import_react.useState)(null);
+	const [snapshots, setSnapshots] = (0, import_react.useState)([]);
+	const [folderName, setFolderName] = (0, import_react.useState)("BrickBase Backups");
+	const [serverEnvConfigured, setServerEnvConfigured] = (0, import_react.useState)(false);
+	const [statusError, setStatusError] = (0, import_react.useState)(null);
+	const [lastSavedNotice, setLastSavedNotice] = (0, import_react.useState)(null);
+	const staticHost = isStaticHostingEnvironment();
+	const collectionStats = (0, import_react.useMemo)(() => {
+		let totalPieces = 0;
+		let collectedPieces = 0;
+		for (const set of sets) for (const p of set.parts) {
+			totalPieces += p.quantityNeeded;
+			collectedPieces += p.quantityCollected;
+		}
+		return {
+			setsCount: sets.length,
+			totalPieces,
+			collectedPieces
+		};
+	}, [sets]);
+	const fetchBackups = (0, import_react.useCallback)(async () => {
+		setLoadingList(true);
+		setStatusError(null);
+		try {
+			const res = await listCloudBackups({
+				googleBackendUrl,
+				adminToken,
+				bigQueryAccessToken
+			});
+			if (res.sessionExpired) {
+				onSessionExpired?.();
+				return;
+			}
+			if (!res.ok || !res.data) {
+				setStatusError({
+					message: res.error || "Kon de lijst met cloud-back-ups niet ophalen.",
+					scriptUpdateRequired: res.scriptUpdateRequired,
+					drivePermissionRequired: res.drivePermissionRequired,
+					authRequired: res.authRequired
+				});
+				return;
+			}
+			setFolderName(res.data.folderName || "BrickBase Backups");
+			setSnapshots(res.data.backups);
+		} finally {
+			setLoadingList(false);
+		}
+	}, [
+		googleBackendUrl,
+		adminToken,
+		bigQueryAccessToken,
+		onSessionExpired
+	]);
+	(0, import_react.useEffect)(() => {
+		if (!open) return;
+		setLabel("");
+		setConfirmRestoreId(null);
+		setLastSavedNotice(null);
+		setStatusError(null);
+		let cancelled = false;
+		const init = async () => {
+			let hasServerUrl = false;
+			if (!staticHost) try {
+				const r = await fetch(resolveApiUrl("/api/health"));
+				if (r.ok) {
+					const data = await r.json();
+					hasServerUrl = Boolean(data.googleBackendConfigured);
+					if (!cancelled) setServerEnvConfigured(hasServerUrl);
+				}
+			} catch {}
+			if (!cancelled && (googleBackendUrl || hasServerUrl)) await fetchBackups();
+		};
+		init();
+		return () => {
+			cancelled = true;
+		};
+	}, [
+		open,
+		googleBackendUrl,
+		staticHost,
+		fetchBackups
+	]);
+	if (!open) return null;
+	const hasBackendConfigured = Boolean(googleBackendUrl || serverEnvConfigured);
+	async function handleSaveCloudBackup() {
+		if (sets.length === 0 || saving) return;
+		setSaving(true);
+		setStatusError(null);
+		setLastSavedNotice(null);
+		try {
+			const storageData = readStorageOrganizationBackupData();
+			const res = await saveCloudBackup({
+				version: 2,
+				exportedAt: (/* @__PURE__ */ new Date()).toISOString(),
+				label: label.trim() || void 0,
+				sets,
+				prefs,
+				valuationSettings,
+				userContainers: storageData.userContainers,
+				partVolumes: storageData.partVolumes
+			}, {
+				label: label.trim(),
+				googleBackendUrl,
+				adminToken,
+				bigQueryAccessToken
+			});
+			if (res.sessionExpired) {
+				onSessionExpired?.();
+				return;
+			}
+			if (!res.ok || !res.data) {
+				setStatusError({
+					message: res.error || "Cloud-back-up opslaan mislukt.",
+					scriptUpdateRequired: res.scriptUpdateRequired,
+					drivePermissionRequired: res.drivePermissionRequired,
+					authRequired: res.authRequired
+				});
+				return;
+			}
+			const { snapshot, folderName: savedFolder } = res.data;
+			setFolderName(savedFolder);
+			setLabel("");
+			setSnapshots((prev) => [snapshot, ...prev.filter((item) => item.id !== snapshot.id)]);
+			setLastSavedNotice(`Opgeslagen in Google Drive-map "${savedFolder}" (${formatBackupBytes(snapshot.sizeBytes)}).`);
+			onNotify(`Cloud-back-up opgeslagen (${collectionStats.setsCount} sets · ${formatBackupBytes(snapshot.sizeBytes)}).`);
+		} finally {
+			setSaving(false);
+		}
+	}
+	async function handleConfirmRestore(snapshot) {
+		setRestoringId(snapshot.id);
+		setStatusError(null);
+		try {
+			const res = await loadCloudBackup(snapshot.id, {
+				googleBackendUrl,
+				adminToken,
+				bigQueryAccessToken
+			});
+			if (res.sessionExpired) {
+				onSessionExpired?.();
+				return;
+			}
+			if (!res.ok || !res.data) {
+				setStatusError({
+					message: res.error || "Kon de gekozen cloud-back-up niet laden.",
+					scriptUpdateRequired: res.scriptUpdateRequired,
+					drivePermissionRequired: res.drivePermissionRequired,
+					authRequired: res.authRequired
+				});
+				return;
+			}
+			setConfirmRestoreId(null);
+			onRestoreBackup(res.data.backup, res.data.meta || snapshot);
+			onClose();
+		} finally {
+			setRestoringId(null);
+		}
+	}
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+		className: "fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-[#141619]/50 sm:p-4",
+		role: "dialog",
+		"aria-modal": "true",
+		"aria-labelledby": "cloud-backup-title",
+		onClick: (e) => {
+			if (e.target === e.currentTarget) onClose();
+		},
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "w-full sm:max-w-xl max-h-[90dvh] flex flex-col rounded-t-2xl sm:rounded-xl border border-[#E4E4E0] bg-white shadow-xl overflow-hidden",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "flex items-start justify-between gap-4 border-b border-[#E4E4E0] px-5 py-4 shrink-0",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex items-center gap-3 min-w-0",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-[#135CA8]/20 bg-[#F0F6FC] text-[#135CA8]",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Cloud, { className: "h-5 w-5" })
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "min-w-0",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							id: "cloud-backup-title",
+							className: "font-display text-base sm:text-lg font-bold text-[#141619] truncate",
+							children: "Cloud-back-up (Google Drive)"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-xs text-[#5A606B] mt-0.5",
+							children: "Bewaar en herstel je collectie via je Google Backend · 0 BigQuery-kosten."
+						})]
+					})]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+					type: "button",
+					onClick: onClose,
+					className: "flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-[#5A606B] hover:bg-[#F1F1EE] hover:text-[#141619]",
+					"aria-label": "Sluiten",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(X, { className: "h-4 w-4" })
+				})]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "p-5 overflow-y-auto overscroll-contain space-y-5 flex-1",
+				children: !hasBackendConfigured ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "rounded-xl border border-[#E4E4E0] bg-[#F7F7F5] p-5 space-y-3",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-start gap-2.5",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleAlert, { className: "h-5 w-5 text-[#D11013] shrink-0 mt-0.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "space-y-1",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-sm font-semibold text-[#141619]",
+								children: "Google Backend is nog niet gekoppeld"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-xs text-[#5A606B] leading-relaxed",
+								children: "Koppel eerst je Google Apps Script Web-app URL (/exec) om je BrickBase-collectie rechtstreeks als beveiligde snapshots in je eigen Google Drive op te slaan."
+							})]
+						})]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+						type: "button",
+						onClick: () => {
+							onClose();
+							onOpenGoogleBackend("config");
+						},
+						className: "inline-flex items-center gap-1.5 rounded-lg bg-[#141619] px-4 py-2 text-xs font-semibold text-white hover:bg-[#2A2E35] transition-colors",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Google Backend instellen" })
+					})]
+				}) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "rounded-xl border border-[#E4E4E0] bg-[#F7F7F5] p-4 space-y-3.5",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-start justify-between gap-3",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-sm font-semibold text-[#141619]",
+									children: "Nieuwe cloud-back-up opslaan"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+									className: "text-xs text-[#5A606B] mt-0.5",
+									children: [
+										"Bevat je",
+										" ",
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("strong", {
+											className: "text-[#141619]",
+											children: [
+												collectionStats.setsCount,
+												" ",
+												collectionStats.setsCount === 1 ? "set" : "sets"
+											]
+										}),
+										" ",
+										"(",
+										collectionStats.collectedPieces.toLocaleString("nl-NL"),
+										" /",
+										" ",
+										collectionStats.totalPieces.toLocaleString("nl-NL"),
+										" stukjes), voorkeuren, waardering en opbergbakken."
+									]
+								})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "inline-flex items-center gap-1 rounded-md border border-[#15803D]/25 bg-[#F0FDF4] px-2 py-0.5 text-[11px] font-medium text-[#15803D] shrink-0",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { className: "h-3 w-3" }), "Beveiligd"]
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex flex-col sm:flex-row gap-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+									type: "text",
+									maxLength: 80,
+									value: label,
+									onChange: (e) => setLabel(e.target.value),
+									placeholder: "Optionele notitie (bijv. Na sorteren Technic)",
+									className: "flex-1 min-h-[42px] rounded-lg border border-[#D4D4CE] bg-white px-3 py-2 text-xs text-[#141619] placeholder:text-[#8A909B] focus:border-[#141619] focus:outline-none focus:ring-2 focus:ring-[#141619]/10"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+									type: "button",
+									disabled: saving || sets.length === 0,
+									onClick: () => void handleSaveCloudBackup(),
+									className: "min-h-[42px] inline-flex items-center justify-center gap-2 rounded-lg bg-[#D11013] px-4 py-2 text-xs font-semibold text-white hover:bg-[#B40D10] transition-colors disabled:opacity-45 whitespace-nowrap shrink-0",
+									children: [saving ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(LoaderCircle, { className: "h-4 w-4 animate-spin" }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CloudUpload, { className: "h-4 w-4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: saving ? "Opslaan..." : "Nu opslaan in Drive" })]
+								})]
+							}),
+							sets.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-[11px] text-[#5A606B]",
+								children: "Voeg eerst minstens één LEGO-set toe om een nieuwe back-up te maken, of herstel hieronder een eerdere cloud-back-up."
+							}),
+							lastSavedNotice && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-start gap-2 rounded-lg border border-[#15803D]/25 bg-[#F0FDF4] px-3 py-2 text-xs text-[#166534]",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, { className: "h-4 w-4 shrink-0 mt-0.5 text-[#15803D]" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: lastSavedNotice })]
+							})
+						]
+					}),
+					statusError && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "rounded-xl border border-[#DC2626]/30 bg-[#FEF2F2] p-4 space-y-2.5 text-xs text-[#991B1B]",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex items-start gap-2",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleAlert, { className: "h-4 w-4 shrink-0 mt-0.5 text-[#DC2626]" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "leading-relaxed",
+								children: statusError.message
+							})]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex flex-wrap items-center gap-2 pl-6",
+							children: [
+								statusError.scriptUpdateRequired && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+									type: "button",
+									onClick: () => {
+										onClose();
+										onOpenGoogleBackend("script");
+									},
+									className: "inline-flex items-center gap-1.5 rounded-lg bg-[#141619] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[#2A2E35]",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CodeXml, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Open nieuwste Code.gs" })]
+								}),
+								statusError.authRequired && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+									type: "button",
+									onClick: () => {
+										onClose();
+										onOpenGoogleBackend("config");
+									},
+									className: "inline-flex items-center gap-1.5 rounded-lg bg-[#141619] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[#2A2E35]",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(KeyRound, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Toegangssleutel controleren" })]
+								}),
+								statusError.drivePermissionRequired && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+									type: "button",
+									onClick: () => {
+										onClose();
+										onOpenGoogleBackend("script");
+									},
+									className: "inline-flex items-center gap-1.5 rounded-lg border border-[#991B1B]/30 bg-white px-3 py-1.5 text-xs font-semibold text-[#991B1B] hover:bg-[#FEF2F2]",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Bekijk stappenplan in Code.gs" })
+								})
+							]
+						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "space-y-3",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center justify-between gap-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "flex items-center gap-2 min-w-0",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(History, { className: "h-4 w-4 text-[#5A606B] shrink-0" }),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+											className: "text-xs font-semibold text-[#141619] truncate",
+											children: "Opgeslagen cloud-back-ups"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+											className: "inline-flex items-center gap-1 text-[11px] text-[#5A606B] truncate",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FolderOpen, { className: "h-3 w-3 shrink-0" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "truncate",
+												children: folderName
+											})]
+										})
+									]
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+									type: "button",
+									disabled: loadingList,
+									onClick: () => void fetchBackups(),
+									className: "inline-flex items-center gap-1.5 rounded-lg border border-[#E4E4E0] bg-white px-2.5 py-1.5 text-xs font-medium text-[#141619] hover:bg-[#F7F7F5] transition-colors disabled:opacity-50 shrink-0",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(RefreshCw, { className: `h-3.5 w-3.5 ${loadingList ? "animate-spin" : ""}` }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Vernieuwen" })]
+								})]
+							}),
+							loadingList && snapshots.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "rounded-xl border border-[#E4E4E0] bg-[#FAFAF8] py-8 flex flex-col items-center justify-center gap-2 text-xs text-[#5A606B]",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(LoaderCircle, { className: "h-5 w-5 animate-spin text-[#141619]" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Cloud-back-ups ophalen uit Google Drive..." })]
+							}) : snapshots.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "rounded-xl border border-dashed border-[#D4D4CE] bg-[#FAFAF8] px-4 py-7 text-center space-y-1",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-xs font-medium text-[#141619]",
+									children: "Nog geen cloud-back-ups in Google Drive"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+									className: "text-[11px] text-[#5A606B]",
+									children: [
+										"Klik hierboven op ",
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "Nu opslaan in Drive" }),
+										" om je eerste snapshot te bewaren. De laatste 15 snapshots blijven automatisch bewaard."
+									]
+								})]
+							}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "divide-y divide-[#E4E4E0] rounded-xl border border-[#E4E4E0] bg-white overflow-hidden",
+								children: snapshots.map((snap, idx) => {
+									const isConfirming = confirmRestoreId === snap.id;
+									const isRestoring = restoringId === snap.id;
+									return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "p-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 hover:bg-[#FAFAF8] transition-colors",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "min-w-0 space-y-1",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "flex flex-wrap items-center gap-2",
+												children: [
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+														className: "text-xs font-semibold text-[#141619]",
+														children: formatBackupTimestamp(snap.savedAt)
+													}),
+													idx === 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+														className: "rounded bg-[#F0F6FC] border border-[#135CA8]/20 px-1.5 py-0.5 text-[10px] font-semibold text-[#135CA8]",
+														children: "Nieuwste"
+													}),
+													snap.label && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+														className: "text-xs text-[#141619] font-medium truncate",
+														children: ["· ", snap.label]
+													})
+												]
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "flex flex-wrap items-center gap-x-3 gap-y-0.5 text-[11px] text-[#5A606B] font-mono tabular-nums",
+												children: [
+													snap.setsCount !== null && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+														snap.setsCount,
+														" ",
+														snap.setsCount === 1 ? "set" : "sets"
+													] }),
+													snap.totalPieces !== null && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: snap.collectedPieces !== null ? `${snap.collectedPieces.toLocaleString("nl-NL")}/${snap.totalPieces.toLocaleString("nl-NL")} st.` : `${snap.totalPieces.toLocaleString("nl-NL")} st.` }),
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: formatBackupBytes(snap.sizeBytes) })
+												]
+											})]
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "flex items-center gap-2 shrink-0",
+											children: isConfirming ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+												type: "button",
+												disabled: isRestoring,
+												onClick: () => void handleConfirmRestore(snap),
+												className: "inline-flex items-center gap-1.5 rounded-lg bg-[#D11013] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[#B40D10] disabled:opacity-50 whitespace-nowrap",
+												children: [isRestoring ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(LoaderCircle, { className: "h-3.5 w-3.5 animate-spin" }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CloudDownload, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: isRestoring ? "Laden..." : "Ja, herstel" })]
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+												type: "button",
+												disabled: isRestoring,
+												onClick: () => setConfirmRestoreId(null),
+												className: "rounded-lg border border-[#E4E4E0] bg-white px-2.5 py-1.5 text-xs font-medium text-[#5A606B] hover:text-[#141619]",
+												children: "Annuleren"
+											})] }) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+												type: "button",
+												disabled: Boolean(restoringId),
+												onClick: () => setConfirmRestoreId(snap.id),
+												className: "inline-flex items-center gap-1.5 rounded-lg border border-[#E4E4E0] bg-[#F7F7F5] px-3 py-1.5 text-xs font-semibold text-[#141619] hover:bg-[#EBEBE8] transition-colors disabled:opacity-45 whitespace-nowrap",
+												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CloudDownload, { className: "h-3.5 w-3.5 text-[#135CA8]" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Herstellen" })]
+											})
+										})]
+									}, snap.id);
+								})
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+								className: "text-[11px] text-[#5A606B] leading-relaxed",
+								children: [
+									"Tip: elk JSON-bestand in je Google Drive map ",
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "font-mono text-[#141619]",
+										children: folderName
+									}),
+									" is ook compatibel met de lokale knop ",
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("em", { children: "Herstel" }),
+									". De toegang is vergrendeld met je ",
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "font-mono text-[#141619]",
+										children: "BIGQUERY_ACCESS_TOKEN"
+									}),
+									"."
+								]
+							})
+						]
+					})
+				] })
+			})]
+		})
+	});
+}
 // src/utils/hvsbppEngine.ts
 var DEFAULT_SORTER_WEIGHTS = {
 	wTax: .5,
@@ -20454,12 +21635,6 @@ function computeSinglePieceReqMl(item, gamma) {
 	return computeSinglePieceBulkMl(item) * gamma;
 }
 /**
-* Benodigd stortvolume voor een volledig item.
-*/
-function computeItemReqMl(item, gamma) {
-	return item.quantity * computeSinglePieceReqMl(item, gamma);
-}
-/**
 * Effectieve dooscapaciteit C_eff(b) = grossVolumeMl * alpha.
 */
 function computeEffectiveCapacityMl(box, alpha) {
@@ -20504,6 +21679,10 @@ function computeAggregatesFromItems(items) {
 	let maxPieceVol = 0;
 	let weightedLogSum = 0;
 	const uniquePartNums = /* @__PURE__ */ new Set();
+	const categorySet = /* @__PURE__ */ new Set();
+	const subfamilySet = /* @__PURE__ */ new Set();
+	const seenSampleKeys = /* @__PURE__ */ new Set();
+	const shapeSamples = [];
 	for (let i = 0; i < items.length; i++) {
 		const it = items[i];
 		totalVolume += it.vReq;
@@ -20512,6 +21691,15 @@ function computeAggregatesFromItems(items) {
 		if (it.vBbox > maxPieceVol) maxPieceVol = it.vBbox;
 		weightedLogSum += it.entry.quantity * Math.log(it.vBbox);
 		uniquePartNums.add(it.entry.partNum);
+		categorySet.add(it.entry.category);
+		subfamilySet.add(it.entry.subfamily);
+		if (shapeSamples.length < 16) {
+			const sampleKey = `${it.entry.partNum}|${it.entry.shapeSignature}`;
+			if (!seenSampleKeys.has(sampleKey)) {
+				seenSampleKeys.add(sampleKey);
+				shapeSamples.push(it);
+			}
+		}
 	}
 	if (items.length === 0 || totalQuantity === 0) return {
 		totalVolume: 0,
@@ -20520,10 +21708,15 @@ function computeAggregatesFromItems(items) {
 		maxPieceVol: MIN_BBOX_VOLUME_ML,
 		geoMeanPieceVol: MIN_BBOX_VOLUME_ML,
 		uniquePartNums,
-		uniquePartNumsSorted: []
+		uniquePartNumsSorted: [],
+		categories: [],
+		subfamilies: [],
+		shapeSamples: []
 	};
 	const geoMeanPieceVol = Math.exp(weightedLogSum / totalQuantity);
 	const uniquePartNumsSorted = Array.from(uniquePartNums).sort(compareStrings);
+	const categories = Array.from(categorySet).sort(compareStrings);
+	const subfamilies = Array.from(subfamilySet).sort(compareStrings);
 	return {
 		totalVolume,
 		totalQuantity,
@@ -20531,7 +21724,10 @@ function computeAggregatesFromItems(items) {
 		maxPieceVol,
 		geoMeanPieceVol,
 		uniquePartNums,
-		uniquePartNumsSorted
+		uniquePartNumsSorted,
+		categories,
+		subfamilies,
+		shapeSamples
 	};
 }
 function createCluster(id, label, level, items, reason) {
@@ -20810,6 +22006,7 @@ function runPhase2Split(root, cCap, maxPhysicalCap, params, iteration, decisionL
 	const queue = [...root.children];
 	const clusters = [];
 	const oversized = [];
+	const targetSplitLevel = params.targetSplitLevel ?? 1;
 	while (queue.length > 0) {
 		const u = queue.shift();
 		if (u.items.length === 0 || u.totalQuantity === 0) continue;
@@ -20821,6 +22018,22 @@ function runPhase2Split(root, cCap, maxPhysicalCap, params, iteration, decisionL
 				message: `Kleursplitsing actief: "${u.label}" opgesplitst in ${u.children.length} subgroepen.`,
 				metrics: {
 					level: u.level,
+					children: u.children.length,
+					volumeMl: roundTo(u.totalVolume, 2)
+				}
+			});
+			for (let i = 0; i < u.children.length; i++) queue.push(u.children[i]);
+			continue;
+		}
+		if (targetSplitLevel > 1 && u.level < targetSplitLevel && u.children.length > 1) {
+			decisionLog.push({
+				phase: 2,
+				type: "split",
+				iteration,
+				message: `Ergonomische opsplitsing: "${u.label}" verdeeld in ${u.children.length} overzichtelijke subgroepen.`,
+				metrics: {
+					level: u.level,
+					targetSplitLevel,
 					children: u.children.length,
 					volumeMl: roundTo(u.totalVolume, 2)
 				}
@@ -20892,15 +22105,6 @@ function getCategoryAffinityDistance(catA, catB) {
 	return 1;
 }
 /**
-* Bereken d_LCA(i, j) voor twee items — met categorie-prioriteit boven losse vormen.
-*/
-function itemTaxonomicDistance(a, b) {
-	if (a.partNum === b.partNum) return 0;
-	if (a.subfamily === b.subfamily) return .2;
-	if (a.category === b.category) return .35;
-	return getCategoryAffinityDistance(a.category, b.category);
-}
-/**
 * Bereken visuele verwarringsscore voor twee items met verschillend partNum.
 */
 function itemPairConfusion(a, b) {
@@ -20914,26 +22118,48 @@ function itemPairConfusion(a, b) {
 	return .15;
 }
 /**
-* Complete-linkage d_LCA(A, B) en S_confuse(A, B) tussen twee clusters.
+* Snelle complete-linkage d_LCA(A, B) en S_confuse(A, B) tussen twee clusters.
+* Gebruikt gecachete categorieën/subfamilies/shapeSamples (O(1) i.p.v. O(items²)).
 */
 function computePairDistances(a, b) {
 	let maxLca = 0;
+	const catsA = a.categories;
+	const catsB = b.categories;
+	if (catsA.length === 1 && catsB.length === 1 && catsA[0] === catsB[0]) {
+		const subsA = a.subfamilies;
+		const subsB = b.subfamilies;
+		if (subsA.length === 1 && subsB.length === 1 && subsA[0] === subsB[0]) {
+			if (a.uniquePartNums.size === 1 && b.uniquePartNums.size === 1 && a.uniquePartNumsSorted[0] === b.uniquePartNumsSorted[0]) maxLca = 0;
+			else maxLca = .2;
+		} else maxLca = .35;
+	} else for (let i = 0; i < catsA.length; i++) {
+		for (let j = 0; j < catsB.length; j++) {
+			const d = catsA[i] === catsB[j] ? .35 : getCategoryAffinityDistance(catsA[i], catsB[j]);
+			if (d > maxLca) {
+				maxLca = d;
+				if (maxLca >= 1) break;
+			}
+		}
+		if (maxLca >= 1) break;
+	}
+	const samplesA = a.shapeSamples;
+	const samplesB = b.shapeSamples;
 	let maxConfuse = 0;
 	let hasDifferentPartNum = false;
-	const itemsA = a.items;
-	const itemsB = b.items;
-	for (let i = 0; i < itemsA.length; i++) {
-		const ia = itemsA[i];
-		for (let j = 0; j < itemsB.length; j++) {
-			const ib = itemsB[j];
-			const lca = itemTaxonomicDistance(ia.entry, ib.entry);
-			if (lca > maxLca) maxLca = lca;
+	for (let i = 0; i < samplesA.length; i++) {
+		const ia = samplesA[i];
+		for (let j = 0; j < samplesB.length; j++) {
+			const ib = samplesB[j];
 			if (ia.entry.partNum !== ib.entry.partNum) {
 				hasDifferentPartNum = true;
 				const conf = itemPairConfusion(ia, ib);
-				if (conf > maxConfuse) maxConfuse = conf;
+				if (conf > maxConfuse) {
+					maxConfuse = conf;
+					if (maxConfuse >= .85) break;
+				}
 			}
 		}
+		if (maxConfuse >= .85) break;
 	}
 	return {
 		dLca: maxLca,
@@ -20941,30 +22167,34 @@ function computePairDistances(a, b) {
 	};
 }
 /**
-* Bereken ergonomiemetrieken binnen één toegewezen doos.
+* Bereken ergonomiemetrieken binnen één toegewezen doos (O(1) via gecachete shapeSamples).
 */
 function computeBoxErgonomics(cluster) {
 	const uniquePartCount = cluster.uniquePartNums.size;
-	const categories = /* @__PURE__ */ new Set();
-	const items = cluster.items;
-	for (let i = 0; i < items.length; i++) categories.add(items[i].entry.category);
-	const categoryCount = categories.size;
+	const categoryCount = cluster.categories.length;
 	const sizeRatio = cluster.minPieceVol > 0 ? cluster.maxPieceVol / cluster.minPieceVol : 1;
 	let maxConfusionScore = 0;
 	if (uniquePartCount <= 1) {
-		const colorIds = /* @__PURE__ */ new Set();
-		for (let i = 0; i < items.length; i++) colorIds.add(items[i].entry.colorId);
-		maxConfusionScore = colorIds.size > 1 ? .05 : 0;
-	} else for (let i = 0; i < items.length; i++) {
-		for (let j = i + 1; j < items.length; j++) {
-			if (items[i].entry.partNum === items[j].entry.partNum) continue;
-			const conf = itemPairConfusion(items[i], items[j]);
-			if (conf > maxConfusionScore) {
-				maxConfusionScore = conf;
-				if (maxConfusionScore >= .85) break;
-			}
+		const items = cluster.items;
+		let firstColor = null;
+		for (let i = 0; i < items.length; i++) if (firstColor === null) firstColor = items[i].entry.colorId;
+		else if (items[i].entry.colorId !== firstColor) {
+			maxConfusionScore = .05;
+			break;
 		}
-		if (maxConfusionScore >= .85) break;
+	} else {
+		const samples = cluster.shapeSamples;
+		for (let i = 0; i < samples.length; i++) {
+			for (let j = i + 1; j < samples.length; j++) {
+				if (samples[i].entry.partNum === samples[j].entry.partNum) continue;
+				const conf = itemPairConfusion(samples[i], samples[j]);
+				if (conf > maxConfusionScore) {
+					maxConfusionScore = conf;
+					if (maxConfusionScore >= .85) break;
+				}
+			}
+			if (maxConfusionScore >= .85) break;
+		}
 	}
 	return {
 		categoryCount,
@@ -21062,13 +22292,98 @@ function runPhase3Merge(initialClusters, availBoxes, params, iteration, decision
 				combinedFillRatio: fit.effMl > 0 ? combinedVol / fit.effMl : 0
 			};
 		}
+		if (!options.relaxTypeLimitForUnderfilled && params.maxUniqueTypes <= 1) {
+			const byPart = /* @__PURE__ */ new Map();
+			const passthrough = [];
+			for (let i = 0; i < startClusters.length; i++) {
+				const c = startClusters[i];
+				if (c.uniquePartNums.size === 1) {
+					const pn = c.uniquePartNumsSorted[0];
+					const arr = byPart.get(pn);
+					if (arr) arr.push(c);
+					else byPart.set(pn, [c]);
+				} else passthrough.push(c);
+			}
+			const out = [...passthrough];
+			let sameSeq = 0;
+			for (const group of byPart.values()) {
+				if (group.length <= 1) {
+					out.push(...group);
+					continue;
+				}
+				group.sort((a, b) => a.totalVolume - b.totalVolume || compareStrings(a.id, b.id));
+				let cur = group[0];
+				for (let i = 1; i < group.length; i++) if (evaluatePair(cur, group[i])) {
+					sameSeq += 1;
+					const mergedItems = [...cur.items, ...group[i].items];
+					cur = createCluster(`M${iteration}_${options.passTag}_p${sameSeq}`, composeMergedLabel(mergedItems), Math.min(cur.level, group[i].level), mergedItems);
+				} else {
+					out.push(cur);
+					cur = group[i];
+				}
+				out.push(cur);
+			}
+			return out;
+		}
 		const validPairs = /* @__PURE__ */ new Map();
-		const clusterIds = Array.from(clusterById.keys()).sort(compareStrings);
-		for (let i = 0; i < clusterIds.length; i++) {
-			const cA = clusterById.get(clusterIds[i]);
-			for (let j = i + 1; j < clusterIds.length; j++) {
-				const ev = evaluatePair(cA, clusterById.get(clusterIds[j]));
-				if (ev) validPairs.set(ev.pairKey, ev);
+		const pairsByCluster = /* @__PURE__ */ new Map();
+		function registerPair(ev) {
+			validPairs.set(ev.pairKey, ev);
+			let sA = pairsByCluster.get(ev.idA);
+			if (!sA) {
+				sA = /* @__PURE__ */ new Set();
+				pairsByCluster.set(ev.idA, sA);
+			}
+			sA.add(ev.pairKey);
+			let sB = pairsByCluster.get(ev.idB);
+			if (!sB) {
+				sB = /* @__PURE__ */ new Set();
+				pairsByCluster.set(ev.idB, sB);
+			}
+			sB.add(ev.pairKey);
+		}
+		function removeClusterPairs(clusterId) {
+			const keys = pairsByCluster.get(clusterId);
+			if (!keys) return;
+			for (const key of keys) {
+				const ev = validPairs.get(key);
+				if (ev) {
+					validPairs.delete(key);
+					const otherId = ev.idA === clusterId ? ev.idB : ev.idA;
+					pairsByCluster.get(otherId)?.delete(key);
+				}
+			}
+			pairsByCluster.delete(clusterId);
+		}
+		const orderedClusters = Array.from(clusterById.values()).sort((a, b) => {
+			const catCmp = compareStrings(a.categories[0] || "", b.categories[0] || "");
+			if (catCmp !== 0) return catCmp;
+			const subCmp = compareStrings(a.subfamilies[0] || "", b.subfamilies[0] || "");
+			if (subCmp !== 0) return subCmp;
+			if (Math.abs(a.geoMeanPieceVol - b.geoMeanPieceVol) > EPS) return a.geoMeanPieceVol - b.geoMeanPieceVol;
+			return compareStrings(a.id, b.id);
+		});
+		const isLargeSet = orderedClusters.length > 50;
+		const neighborWindow = isLargeSet ? 16 : orderedClusters.length;
+		for (let i = 0; i < orderedClusters.length; i++) {
+			const cA = orderedClusters[i];
+			const maxJ = Math.min(orderedClusters.length, i + 1 + neighborWindow);
+			for (let j = i + 1; j < maxJ; j++) {
+				const cB = orderedClusters[j];
+				const ev = evaluatePair(cA, cB);
+				if (ev) registerPair(ev);
+			}
+		}
+		if (isLargeSet && options.relaxTypeLimitForUnderfilled) {
+			const underList = orderedClusters.filter((c) => isUnderFilled(c)).sort((a, b) => a.totalVolume - b.totalVolume);
+			const limit = Math.min(underList.length, 60);
+			for (let i = 0; i < limit; i++) {
+				const cA = underList[i];
+				const maxJ = Math.min(limit, i + 12);
+				for (let j = i + 1; j < maxJ; j++) {
+					const ev = evaluatePair(cA, underList[j]);
+					if (ev) registerPair(ev);
+				}
 			}
 		}
 		let mergeSeq = 0;
@@ -21094,7 +22409,7 @@ function runPhase3Merge(initialClusters, availBoxes, params, iteration, decision
 			}
 			mergeSeq += 1;
 			const mergedItems = [...cA.items, ...cB.items];
-			const mergedId = `M${iteration}_${options.passTag}_${mergeSeq}:${best.idA}+${best.idB}`;
+			const mergedId = `M${iteration}_${options.passTag}_${mergeSeq}`;
 			const mergedLabel = composeMergedLabel(mergedItems);
 			const mergedCluster = createCluster(mergedId, mergedLabel, Math.min(cA.level, cB.level), mergedItems);
 			decisionLog.push({
@@ -21109,12 +22424,46 @@ function runPhase3Merge(initialClusters, availBoxes, params, iteration, decision
 					uniqueTypes: mergedCluster.uniquePartNums.size
 				}
 			});
+			const neighborIds = /* @__PURE__ */ new Set();
+			if (isLargeSet) {
+				const sA = pairsByCluster.get(cA.id);
+				if (sA) for (const k of sA) {
+					const p = validPairs.get(k);
+					if (p) {
+						const oid = p.idA === cA.id ? p.idB : p.idA;
+						if (oid !== cB.id) neighborIds.add(oid);
+					}
+				}
+				const sB = pairsByCluster.get(cB.id);
+				if (sB) for (const k of sB) {
+					const p = validPairs.get(k);
+					if (p) {
+						const oid = p.idA === cB.id ? p.idB : p.idA;
+						if (oid !== cA.id) neighborIds.add(oid);
+					}
+				}
+			}
+			removeClusterPairs(cA.id);
+			removeClusterPairs(cB.id);
 			clusterById.delete(cA.id);
 			clusterById.delete(cB.id);
-			for (const [key, ev] of validPairs.entries()) if (ev.idA === cA.id || ev.idB === cA.id || ev.idA === cB.id || ev.idB === cB.id) validPairs.delete(key);
-			for (const other of clusterById.values()) {
+			if (isLargeSet) {
+				const leadCat = mergedCluster.categories[0];
+				if (neighborIds.size < 16 && leadCat) {
+					for (const [oid, oc] of clusterById.entries()) if (oc.categories[0] === leadCat) {
+						neighborIds.add(oid);
+						if (neighborIds.size >= 20) break;
+					}
+				}
+				for (const oid of neighborIds) {
+					const other = clusterById.get(oid);
+					if (!other) continue;
+					const ev = evaluatePair(mergedCluster, other);
+					if (ev) registerPair(ev);
+				}
+			} else for (const other of clusterById.values()) {
 				const ev = evaluatePair(mergedCluster, other);
-				if (ev) validPairs.set(ev.pairKey, ev);
+				if (ev) registerPair(ev);
 			}
 			clusterById.set(mergedCluster.id, mergedCluster);
 		}
@@ -21378,7 +22727,7 @@ function consolidateToFitFixedInventory(startClusters, oversizedClusters, availB
 		seq += 1;
 		const mergedItems = [...cA.items, ...cB.items];
 		const mergedLabel = composeMergedLabel(mergedItems);
-		const merged = createCluster(`CONS_${iteration}_${seq}:${cA.id}+${cB.id}`, mergedLabel, Math.min(cA.level, cB.level), mergedItems);
+		const merged = createCluster(`CONS_${iteration}_${seq}`, mergedLabel, Math.min(cA.level, cB.level), mergedItems);
 		decisionLog.push({
 			phase: 5,
 			type: "merge",
@@ -21456,6 +22805,7 @@ function runHvsbppSorter(parts, params) {
 		gamma: clamp(params.gamma, 1, 1.5),
 		minFillRatio: clampedMinFill,
 		maxPiecesPerBox: cleanedMaxPieces,
+		targetSplitLevel: params.targetSplitLevel === 2 || params.targetSplitLevel === 3 ? params.targetSplitLevel : 1,
 		thetaSplit: clamp(params.thetaSplit, .5, 1),
 		thetaMerge: clamp(params.thetaMerge, .05, .5),
 		colorMode: params.colorMode === "never" || params.colorMode === "always" ? params.colorMode : "overflow_only",
@@ -21530,7 +22880,8 @@ function runHvsbppSorter(parts, params) {
 		thetaSplit: normalizedParams.thetaSplit,
 		colorMode: normalizedParams.colorMode,
 		gamma: normalizedParams.gamma,
-		maxPiecesPerBox: normalizedParams.maxPiecesPerBox ?? null
+		maxPiecesPerBox: normalizedParams.maxPiecesPerBox ?? null,
+		targetSplitLevel: normalizedParams.targetSplitLevel
 	}, 0, decisionLog);
 	let currentMerged = runPhase3Merge(currentSplit.clusters, availBoxes, {
 		alpha: normalizedParams.alpha,
@@ -21734,6 +23085,1391 @@ function runHvsbppSorter(parts, params) {
 		} : null,
 		decisionLog
 	};
+}
+function countDistinctValues(items, selector) {
+	const s = /* @__PURE__ */ new Set();
+	for (let i = 0; i < items.length; i++) s.add(selector(items[i]));
+	return s.size;
+}
+/**
+* Splitst één cluster in precies 2 taxonomisch en ergonomisch samenhangende helften.
+* Gebruikt het grofste onderscheidende niveau (categorie → subgroep → partNum → kleurfamilie → kleur)
+* en voegt binnen dat niveau eventueel subgroepen samen tot 2 gebalanceerde, verwante helften.
+*/
+function splitClusterIntoTwo(cluster, gamma, allowColorSplit, allowQuantitySplit, weights, seqTag) {
+	if (cluster.items.length === 0 || cluster.totalQuantity <= 1) return null;
+	const levels = [
+		{
+			level: 1,
+			keyFn: (it) => it.entry.category
+		},
+		{
+			level: 2,
+			keyFn: (it) => `${it.entry.category}::${it.entry.subfamily}`
+		},
+		{
+			level: 3,
+			keyFn: (it) => it.entry.partNum
+		}
+	];
+	if (allowColorSplit) levels.push({
+		level: 4,
+		keyFn: (it) => `${it.entry.partNum}::${it.entry.colorFamily}`
+	}, {
+		level: 5,
+		keyFn: (it) => `${it.entry.partNum}::${it.entry.colorId}`
+	});
+	let grouped = null;
+	let splitLevel = cluster.level;
+	for (let l = 0; l < levels.length; l++) {
+		const { level, keyFn } = levels[l];
+		const map = /* @__PURE__ */ new Map();
+		for (let i = 0; i < cluster.items.length; i++) {
+			const it = cluster.items[i];
+			const key = keyFn(it);
+			const bucket = map.get(key);
+			if (bucket) bucket.push(it);
+			else map.set(key, [it]);
+		}
+		if (map.size >= 2) {
+			grouped = Array.from(map.keys()).sort(compareStrings).map((k, idx) => {
+				const items = map.get(k);
+				return createCluster(`SP_${seqTag}_g${idx}`, composeMergedLabel(items), level, items);
+			});
+			splitLevel = level;
+			break;
+		}
+	}
+	if (!grouped) {
+		if (!allowQuantitySplit || cluster.totalQuantity < 2) return null;
+		const itemsSorted = [...cluster.items].sort((a, b) => b.vReq - a.vReq || compareStrings(a.entry.colorId, b.entry.colorId));
+		const leftItems = [];
+		const rightItems = [];
+		let leftVol = 0;
+		let rightVol = 0;
+		for (let i = 0; i < itemsSorted.length; i++) {
+			const it = itemsSorted[i];
+			if (itemsSorted.length === 1 && it.entry.quantity >= 2) {
+				const q1 = Math.ceil(it.entry.quantity / 2);
+				const q2 = it.entry.quantity - q1;
+				const unitReq = computeSinglePieceReqMl(it.entry, gamma);
+				const e1 = {
+					...cloneEntry(it.entry),
+					quantity: q1
+				};
+				const e2 = {
+					...cloneEntry(it.entry),
+					quantity: q2
+				};
+				leftItems.push({
+					...it,
+					entry: e1,
+					vReq: q1 * unitReq
+				});
+				rightItems.push({
+					...it,
+					entry: e2,
+					vReq: q2 * unitReq
+				});
+			} else if (leftVol <= rightVol) {
+				leftItems.push(it);
+				leftVol += it.vReq;
+			} else {
+				rightItems.push(it);
+				rightVol += it.vReq;
+			}
+		}
+		if (leftItems.length === 0 || rightItems.length === 0) return null;
+		const baseLabel = composeMergedLabel(cluster.items);
+		return [createCluster(`SP_${seqTag}_A`, `${baseLabel} (deel 1)`, cluster.level, leftItems), createCluster(`SP_${seqTag}_B`, `${baseLabel} (deel 2)`, cluster.level, rightItems)];
+	}
+	if (grouped.length > 12) {
+		const ordered = [...grouped].sort((a, b) => {
+			const catCmp = compareStrings(a.categories[0] || "", b.categories[0] || "");
+			if (catCmp !== 0) return catCmp;
+			const subCmp = compareStrings(a.subfamilies[0] || "", b.subfamilies[0] || "");
+			if (subCmp !== 0) return subCmp;
+			const shCmp = compareStrings(a.items[0]?.entry.shapeClass || "compact", b.items[0]?.entry.shapeClass || "compact");
+			if (shCmp !== 0) return shCmp;
+			if (Math.abs(a.geoMeanPieceVol - b.geoMeanPieceVol) > EPS) return a.geoMeanPieceVol - b.geoMeanPieceVol;
+			return compareStrings(a.id, b.id);
+		});
+		const halfVol = cluster.totalVolume / 2;
+		let runningVol = 0;
+		let bestCut = 1;
+		let bestDiff = Infinity;
+		for (let i = 0; i < ordered.length - 1; i++) {
+			runningVol += ordered[i].totalVolume;
+			const diff = Math.abs(runningVol - halfVol);
+			if (diff < bestDiff) {
+				bestDiff = diff;
+				bestCut = i + 1;
+			}
+		}
+		const leftItems = [];
+		const rightItems = [];
+		for (let i = 0; i < ordered.length; i++) {
+			const target = i < bestCut ? leftItems : rightItems;
+			for (let j = 0; j < ordered[i].items.length; j++) target.push(ordered[i].items[j]);
+		}
+		const leftC = createCluster(`SP_${seqTag}_L`, composeMergedLabel(leftItems), splitLevel, leftItems);
+		const rightC = createCluster(`SP_${seqTag}_R`, composeMergedLabel(rightItems), splitLevel, rightItems);
+		return leftC.totalVolume >= rightC.totalVolume ? [leftC, rightC] : [rightC, leftC];
+	}
+	const working = [...grouped];
+	const totalVol = Math.max(EPS, cluster.totalVolume);
+	let mergeIdx = 0;
+	while (working.length > 2) {
+		let bestI = 0;
+		let bestJ = 1;
+		let bestScore = Infinity;
+		for (let i = 0; i < working.length; i++) for (let j = i + 1; j < working.length; j++) {
+			const a = working[i];
+			const b = working[j];
+			const { dLca, sConfuse } = computePairDistances(a, b);
+			const sizeDiff = Math.abs(Math.log(a.geoMeanPieceVol / b.geoMeanPieceVol));
+			const volShare = (a.totalVolume + b.totalVolume) / totalVol;
+			const balancePenalty = volShare > .72 ? (volShare - .72) * 1.8 : 0;
+			const smallFirstBonus = .25 * volShare;
+			const score = weights.wTax * 1.4 * dLca + weights.wSize * sizeDiff + weights.wVis * sConfuse + smallFirstBonus + balancePenalty;
+			if (score < bestScore - EPS) {
+				bestScore = score;
+				bestI = i;
+				bestJ = j;
+			}
+		}
+		const cA = working[bestI];
+		const cB = working[bestJ];
+		mergeIdx += 1;
+		const mergedItems = [...cA.items, ...cB.items];
+		const merged = createCluster(`SP_${seqTag}_m${mergeIdx}`, composeMergedLabel(mergedItems), splitLevel, mergedItems);
+		working.splice(bestJ, 1);
+		working.splice(bestI, 1);
+		working.push(merged);
+	}
+	working.sort((a, b) => b.totalVolume - a.totalVolume || compareStrings(a.id, b.id));
+	return [working[0], working[1]];
+}
+/**
+* Ergonomische splits-prioriteit: hoe hoger, hoe meer overzicht de gebruiker wint door deze bak te splitsen.
+*/
+function computeErgonomicSplitScore(cluster, allowQuantitySplit) {
+	const catCount = cluster.categories.length;
+	const subCount = cluster.subfamilies.length;
+	const partCount = cluster.uniquePartNums.size;
+	const volFactor = Math.log10(Math.max(10, cluster.totalVolume));
+	if (catCount > 1) {
+		const erg = computeBoxErgonomics(cluster);
+		return 1e6 + catCount * 1e4 + erg.maxConfusionScore * 2e3 + volFactor * 100;
+	}
+	if (subCount > 1) {
+		const erg = computeBoxErgonomics(cluster);
+		return 1e5 + subCount * 1e3 + erg.maxConfusionScore * 500 + volFactor * 100;
+	}
+	if (partCount > 1) {
+		const erg = computeBoxErgonomics(cluster);
+		return 1e4 + partCount * 120 + erg.maxConfusionScore * 400 + Math.min(10, erg.sizeRatio) * 35 + volFactor * 80;
+	}
+	const colorFamCount = countDistinctValues(cluster.items, (it) => it.entry.colorFamily);
+	if (colorFamCount > 1) return 1e3 + colorFamCount * 50 + volFactor * 60;
+	const colorIdCount = countDistinctValues(cluster.items, (it) => it.entry.colorId);
+	if (colorIdCount > 1) return 200 + colorIdCount * 20 + volFactor * 30;
+	if (allowQuantitySplit && cluster.totalQuantity >= 2) return 10 + volFactor;
+	return -1;
+}
+/**
+* Deterministische partitie in exact `targetK` ergonomisch gegroepeerde bakken (bijv. 5 bakken).
+* Kiest voor elke bak het best passende formaat uit `boxTypes`, of genereert een praktisch
+* standaard-formaat (afgerond op 5 L) wanneer een groep groter is dan de catalogus.
+*/
+function partitionIntoExactKBoxes(parts, targetK, boxTypes, options) {
+	const decisionLog = [];
+	const alpha = clamp(options?.alpha ?? .75, .55, .9);
+	const gamma = clamp(options?.gamma ?? 1.15, 1, 1.5);
+	const weights = {
+		...DEFAULT_SORTER_WEIGHTS,
+		...options?.weights || {}
+	};
+	if (!parts || parts.length === 0) return {
+		assignments: [],
+		unassignedClusters: [],
+		kpis: {
+			totalBoxes: 0,
+			totalCost: 0,
+			avgGrossFillRatio: 0,
+			totalFreeGrowthMl: 0,
+			ergonomicsScore: 0,
+			boxCountsByType: {}
+		},
+		recoveryApplied: null,
+		decisionLog: []
+	};
+	const root = buildTaxonomyTree(parts, gamma);
+	if (root.totalQuantity === 0) return {
+		assignments: [],
+		unassignedClusters: [],
+		kpis: {
+			totalBoxes: 0,
+			totalCost: 0,
+			avgGrossFillRatio: 0,
+			totalFreeGrowthMl: 0,
+			ergonomicsScore: 0,
+			boxCountsByType: {}
+		},
+		recoveryApplied: null,
+		decisionLog: []
+	};
+	const desiredK = Math.max(1, Math.min(Math.round(targetK), root.totalQuantity));
+	let clusters = root.children.map((child) => createCluster(child.id, child.label, child.level, child.items));
+	let splitSeq = 0;
+	while (clusters.length < desiredK) {
+		let bestIdx = -1;
+		let bestScore = -1;
+		for (let i = 0; i < clusters.length; i++) {
+			const score = computeErgonomicSplitScore(clusters[i], true);
+			if (score > bestScore + EPS) {
+				bestScore = score;
+				bestIdx = i;
+			}
+		}
+		if (bestIdx === -1 || bestScore < 0) break;
+		splitSeq += 1;
+		const chosen = clusters[bestIdx];
+		const halves = splitClusterIntoTwo(chosen, gamma, true, true, weights, `K${desiredK}_S${splitSeq}`);
+		if (!halves) break;
+		decisionLog.push({
+			phase: 2,
+			type: "split",
+			iteration: splitSeq,
+			message: `${desiredK}-bakken verdeling: "${chosen.label}" opgesplitst in "${halves[0].label}" en "${halves[1].label}".`
+		});
+		clusters.splice(bestIdx, 1, halves[0], halves[1]);
+	}
+	let mergeSeq = 0;
+	const totalVol = Math.max(EPS, root.totalVolume);
+	while (clusters.length > desiredK) {
+		let bestI = 0;
+		let bestJ = 1;
+		let bestScore = Infinity;
+		for (let i = 0; i < clusters.length; i++) for (let j = i + 1; j < clusters.length; j++) {
+			const a = clusters[i];
+			const b = clusters[j];
+			const { dLca, sConfuse } = computePairDistances(a, b);
+			const sizeDiff = Math.abs(Math.log(a.geoMeanPieceVol / b.geoMeanPieceVol));
+			const combinedShare = (a.totalVolume + b.totalVolume) / totalVol;
+			const balancePenalty = combinedShare > 1.5 / desiredK ? (combinedShare - 1.5 / desiredK) * 1.6 : 0;
+			const score = weights.wTax * 1.45 * dLca + weights.wSize * sizeDiff + weights.wVis * sConfuse + .18 * combinedShare + balancePenalty;
+			if (score < bestScore - EPS) {
+				bestScore = score;
+				bestI = i;
+				bestJ = j;
+			}
+		}
+		const cA = clusters[bestI];
+		const cB = clusters[bestJ];
+		mergeSeq += 1;
+		const mergedItems = [...cA.items, ...cB.items];
+		const mergedLabel = composeMergedLabel(mergedItems);
+		const merged = createCluster(`K${desiredK}_M${mergeSeq}`, mergedLabel, Math.min(cA.level, cB.level), mergedItems);
+		decisionLog.push({
+			phase: 3,
+			type: "merge",
+			iteration: mergeSeq,
+			message: `${desiredK}-bakken verdeling: "${cA.label}" + "${cB.label}" → "${mergedLabel}".`
+		});
+		clusters = clusters.filter((_, idx) => idx !== bestI && idx !== bestJ);
+		clusters.push(merged);
+	}
+	clusters.sort((a, b) => b.totalVolume - a.totalVolume || compareStrings(a.id, b.id));
+	const sortedCatalog = [...boxTypes].filter((b) => b && Number.isFinite(b.grossVolumeMl) && b.grossVolumeMl > 0).sort((a, b) => a.grossVolumeMl - b.grossVolumeMl || compareStrings(a.id, b.id));
+	const effectiveBoxCatalog = [...sortedCatalog];
+	const assignments = clusters.map((cluster, idx) => {
+		let chosen = null;
+		for (let b = 0; b < sortedCatalog.length; b++) if (cluster.totalVolume <= computeEffectiveCapacityMl(sortedCatalog[b], alpha) + EPS) {
+			chosen = sortedCatalog[b];
+			break;
+		}
+		if (!chosen) {
+			const neededGrossMl = cluster.totalVolume / alpha;
+			const roundedLiters = Math.max(15, Math.ceil(neededGrossMl / 5e3) * 5);
+			const customId = `custom_box_${roundedLiters}L`;
+			const existingCustom = effectiveBoxCatalog.find((b) => b.id === customId);
+			if (existingCustom) chosen = existingCustom;
+			else {
+				chosen = {
+					id: customId,
+					grossVolumeMl: roundedLiters * 1e3,
+					stockCount: null,
+					price: Math.round(roundedLiters * .45 + 8)
+				};
+				effectiveBoxCatalog.push(chosen);
+			}
+		}
+		const cEff = computeEffectiveCapacityMl(chosen, alpha);
+		const usedMl = cluster.totalVolume;
+		const freeEffMl = Math.max(0, cEff - usedMl);
+		const fillRatioGross = chosen.grossVolumeMl > 0 ? usedMl / chosen.grossVolumeMl : 0;
+		return {
+			boxId: `BAK-${idx + 1}`,
+			boxTypeId: chosen.id,
+			grossVolumeMl: chosen.grossVolumeMl,
+			effectiveCapacityMl: roundTo(cEff, 3),
+			usedVolumeMl: roundTo(usedMl, 3),
+			freeEffectiveVolumeMl: roundTo(freeEffMl, 3),
+			fillRatioGross: roundTo(fillRatioGross, 4),
+			clusterLabel: cluster.label,
+			items: cluster.items.map((it) => cloneEntry(it.entry)),
+			ergonomics: computeBoxErgonomics(cluster)
+		};
+	});
+	return {
+		assignments,
+		unassignedClusters: [],
+		kpis: computeKpis(assignments, effectiveBoxCatalog, 8),
+		recoveryApplied: null,
+		decisionLog
+	};
+}
+/**
+* Optimaliseert een vaste eigen dozenvoorraad voor maximale ergonomie
+* waarbij ALLE beschikbare dozen actief worden benut (zolang er onderscheidbare groepen/steentjes zijn).
+*/
+function optimizeFixedBoxesForErgonomics(parts, boxTypes, options) {
+	const decisionLog = [];
+	const baseAlpha = clamp(options?.alpha ?? .78, .55, .9);
+	const gamma = clamp(options?.gamma ?? 1.15, 1, 1.5);
+	const weights = {
+		...DEFAULT_SORTER_WEIGHTS,
+		...options?.weights || {}
+	};
+	const normalizedBoxes = (boxTypes || []).filter((b) => b && Number.isFinite(b.grossVolumeMl) && b.grossVolumeMl > 0).map((b) => ({
+		id: String(b.id),
+		grossVolumeMl: Number(b.grossVolumeMl),
+		stockCount: b.stockCount === null || b.stockCount === void 0 ? 0 : Math.max(0, Math.floor(Number(b.stockCount))),
+		price: Math.max(0, Number(b.price) || 0)
+	})).filter((b) => (b.stockCount ?? 0) > 0);
+	if (!parts || parts.length === 0) return {
+		assignments: [],
+		unassignedClusters: [],
+		kpis: {
+			totalBoxes: 0,
+			totalCost: 0,
+			avgGrossFillRatio: 0,
+			totalFreeGrowthMl: 0,
+			ergonomicsScore: 0,
+			boxCountsByType: {}
+		},
+		recoveryApplied: null,
+		decisionLog: []
+	};
+	const root = buildTaxonomyTree(parts, gamma);
+	if (root.totalQuantity === 0) return {
+		assignments: [],
+		unassignedClusters: [],
+		kpis: {
+			totalBoxes: 0,
+			totalCost: 0,
+			avgGrossFillRatio: 0,
+			totalFreeGrowthMl: 0,
+			ergonomicsScore: 0,
+			boxCountsByType: {}
+		},
+		recoveryApplied: null,
+		decisionLog: []
+	};
+	const rawSlots = [];
+	for (let i = 0; i < normalizedBoxes.length; i++) {
+		const b = normalizedBoxes[i];
+		const count = Math.min(250, b.stockCount ?? 0);
+		for (let k = 0; k < count; k++) rawSlots.push({
+			box: b,
+			grossMl: b.grossVolumeMl
+		});
+	}
+	rawSlots.sort((a, b) => b.grossMl - a.grossMl || compareStrings(a.box.id, b.box.id));
+	if (rawSlots.length === 0) return {
+		assignments: [],
+		unassignedClusters: root.children.map((child) => createCluster(child.id, child.label, child.level, child.items, "NO_AVAILABLE_BOXES")).map(toPublicCluster),
+		kpis: {
+			totalBoxes: 0,
+			totalCost: 0,
+			avgGrossFillRatio: 0,
+			totalFreeGrowthMl: 0,
+			ergonomicsScore: 0,
+			boxCountsByType: {}
+		},
+		recoveryApplied: null,
+		decisionLog
+	};
+	const totalGrossCapacityMl = rawSlots.reduce((s, sl) => s + sl.grossMl, 0);
+	let effectiveAlpha = baseAlpha;
+	let recoveryApplied = null;
+	if (root.totalVolume > totalGrossCapacityMl * effectiveAlpha + EPS) {
+		if (root.totalVolume <= totalGrossCapacityMl * .94 + EPS) {
+			effectiveAlpha = clamp(root.totalVolume / totalGrossCapacityMl * 1.03, baseAlpha, .95);
+			recoveryApplied = {
+				iterations: 1,
+				relaxedParams: { alpha: roundTo(effectiveAlpha, 2) }
+			};
+			decisionLog.push({
+				phase: 5,
+				type: "recovery",
+				iteration: 1,
+				message: `Vulgraad verruimd naar ${Math.round(effectiveAlpha * 100)}% zodat alles in je eigen dozen past.`
+			});
+		} else effectiveAlpha = .9;
+	}
+	const slots = rawSlots.map((sl) => ({
+		box: sl.box,
+		grossMl: sl.grossMl,
+		effMl: sl.grossMl * effectiveAlpha
+	}));
+	const N = slots.length;
+	function findFirstSlotViolation(clusters) {
+		if (clusters.length > N) return N;
+		const sorted = [...clusters].sort((a, b) => b.totalVolume - a.totalVolume);
+		for (let i = 0; i < sorted.length; i++) if (sorted[i].totalVolume > slots[i].effMl + EPS) return i;
+		return -1;
+	}
+	function fitsAllSlots(clusters) {
+		return clusters.length <= N && findFirstSlotViolation(clusters) === -1;
+	}
+	let clusters = root.children.map((child) => createCluster(child.id, child.label, child.level, child.items));
+	let seq = 0;
+	const maxTotalOps = Math.max(120, N * 8);
+	let ops = 0;
+	const physicallyFits = root.totalVolume <= totalGrossCapacityMl * effectiveAlpha + EPS;
+	function computeOverflowAfterMerge(volsDesc, skipIdx1, skipIdx2, combinedVol) {
+		let overflow = 0;
+		let inserted = false;
+		let rank = 0;
+		for (let k = 0; k < volsDesc.length; k++) {
+			if (k === skipIdx1 || k === skipIdx2) continue;
+			const v = volsDesc[k];
+			if (!inserted && combinedVol >= v) {
+				if (rank < N) {
+					if (combinedVol > slots[rank].effMl + EPS) overflow += combinedVol - slots[rank].effMl;
+				} else overflow += combinedVol;
+				rank += 1;
+				inserted = true;
+			}
+			if (rank < N) {
+				if (v > slots[rank].effMl + EPS) overflow += v - slots[rank].effMl;
+			} else overflow += v;
+			rank += 1;
+		}
+		if (!inserted) {
+			if (rank < N) {
+				if (combinedVol > slots[rank].effMl + EPS) overflow += combinedVol - slots[rank].effMl;
+			} else overflow += combinedVol;
+		}
+		return overflow;
+	}
+	function peelSubgroupForTargetSlot(cluster, maxTargetMl, seqTag) {
+		if (cluster.items.length < 2 || maxTargetMl <= EPS) return null;
+		const levels = [
+			{
+				level: 1,
+				keyFn: (it) => it.entry.category
+			},
+			{
+				level: 2,
+				keyFn: (it) => `${it.entry.category}::${it.entry.subfamily}`
+			},
+			{
+				level: 3,
+				keyFn: (it) => it.entry.partNum
+			},
+			{
+				level: 4,
+				keyFn: (it) => `${it.entry.partNum}::${it.entry.colorFamily}`
+			},
+			{
+				level: 4,
+				keyFn: (it) => `${it.entry.partNum}::${it.entry.colorId}`
+			}
+		];
+		for (let l = 0; l < levels.length; l++) {
+			const { level, keyFn } = levels[l];
+			const map = /* @__PURE__ */ new Map();
+			for (let i = 0; i < cluster.items.length; i++) {
+				const it = cluster.items[i];
+				const key = keyFn(it);
+				const rec = map.get(key);
+				if (rec) {
+					rec.items.push(it);
+					rec.vol += it.vReq;
+				} else map.set(key, {
+					items: [it],
+					vol: it.vReq
+				});
+			}
+			if (map.size < 2) continue;
+			let bestKey = null;
+			let bestVol = -1;
+			for (const [key, rec] of map.entries()) if (rec.vol <= maxTargetMl + EPS && rec.vol < cluster.totalVolume - EPS) {
+				if (rec.vol > bestVol + EPS) {
+					bestVol = rec.vol;
+					bestKey = key;
+				}
+			}
+			if (bestKey !== null) {
+				const peeledItems = map.get(bestKey).items;
+				const remainderItems = [];
+				for (const [key, rec] of map.entries()) {
+					if (key === bestKey) continue;
+					for (let j = 0; j < rec.items.length; j++) remainderItems.push(rec.items[j]);
+				}
+				if (remainderItems.length === 0 || peeledItems.length === 0) continue;
+				return [createCluster(`PL_${seqTag}_R`, composeMergedLabel(remainderItems), cluster.level, remainderItems), createCluster(`PL_${seqTag}_P`, composeMergedLabel(peeledItems), level, peeledItems)];
+			}
+		}
+		return null;
+	}
+	function makeForbiddenKey(idA, idB) {
+		return idA < idB ? `${idA}|${idB}` : `${idB}|${idA}`;
+	}
+	if (physicallyFits) {
+		const forbiddenPairs = /* @__PURE__ */ new Set();
+		while (!fitsAllSlots(clusters) && ops < maxTotalOps) {
+			ops += 1;
+			clusters.sort((a, b) => b.totalVolume - a.totalVolume || compareStrings(a.id, b.id));
+			if (clusters.length > N) {
+				const maxSlotEff = slots[0].effMl;
+				const volsDesc = clusters.map((c) => c.totalVolume);
+				let candidateIndices = null;
+				if (clusters.length > 50) {
+					const seen = /* @__PURE__ */ new Set();
+					candidateIndices = [];
+					const addPair = (idx1, idx2) => {
+						if (idx1 === idx2) return;
+						const i = idx1 < idx2 ? idx1 : idx2;
+						const j = idx1 < idx2 ? idx2 : idx1;
+						const k = `${i}:${j}`;
+						if (!seen.has(k)) {
+							seen.add(k);
+							candidateIndices.push([i, j]);
+						}
+					};
+					const order = clusters.map((c, idx) => ({
+						c,
+						idx
+					})).sort((a, b) => {
+						const catCmp = compareStrings(a.c.categories[0] || "", b.c.categories[0] || "");
+						if (catCmp !== 0) return catCmp;
+						return a.c.totalVolume - b.c.totalVolume;
+					});
+					for (let p = 0; p < order.length; p++) {
+						const maxQ = Math.min(order.length, p + 12);
+						for (let q = p + 1; q < maxQ; q++) addPair(order[p].idx, order[q].idx);
+					}
+					const slackOwners = [];
+					for (let i = 0; i < Math.min(N, clusters.length); i++) if (slots[i].effMl - clusters[i].totalVolume > 10) {
+						slackOwners.push(i);
+						if (slackOwners.length >= 20) break;
+					}
+					const tailStart = Math.max(0, clusters.length - 24);
+					for (let j = tailStart; j < clusters.length; j++) {
+						for (let k = j + 1; k < clusters.length; k++) addPair(j, k);
+						for (let s = 0; s < slackOwners.length; s++) addPair(slackOwners[s], j);
+					}
+				}
+				let bestI = -1;
+				let bestJ = -1;
+				let bestOverflow = Infinity;
+				let bestErgo = Infinity;
+				const overflowTol = Math.max(EPS, .5);
+				const considerPair = (i, j) => {
+					const a = clusters[i];
+					const b = clusters[j];
+					const combinedVol = a.totalVolume + b.totalVolume;
+					if (combinedVol > maxSlotEff + EPS) return;
+					if (forbiddenPairs.has(makeForbiddenKey(a.id, b.id))) return;
+					const ov = computeOverflowAfterMerge(volsDesc, i, j, combinedVol);
+					if (ov > bestOverflow + overflowTol) return;
+					const { dLca, sConfuse } = computePairDistances(a, b);
+					const sizeDiff = Math.abs(Math.log(a.geoMeanPieceVol / b.geoMeanPieceVol));
+					const ergo = weights.wTax * 1.5 * dLca + weights.wSize * sizeDiff + weights.wVis * sConfuse + .12 * (combinedVol / maxSlotEff);
+					if (ov < bestOverflow - overflowTol || Math.abs(ov - bestOverflow) <= overflowTol && ergo < bestErgo - EPS) {
+						bestOverflow = ov;
+						bestErgo = ergo;
+						bestI = i;
+						bestJ = j;
+					}
+				};
+				if (candidateIndices) for (let c = 0; c < candidateIndices.length; c++) considerPair(candidateIndices[c][0], candidateIndices[c][1]);
+				else for (let i = 0; i < clusters.length; i++) for (let j = i + 1; j < clusters.length; j++) considerPair(i, j);
+				if (bestI === -1) {
+					let splitIdx = -1;
+					for (let i = 0; i < clusters.length; i++) if (clusters[i].totalVolume > maxSlotEff + EPS) {
+						splitIdx = i;
+						break;
+					}
+					if (splitIdx === -1) {
+						for (let i = clusters.length - 1; i >= 0; i--) if (clusters[i].totalQuantity >= 2) {
+							splitIdx = i;
+							break;
+						}
+					}
+					if (splitIdx === -1) break;
+					seq += 1;
+					const halves = splitClusterIntoTwo(clusters[splitIdx], gamma, true, true, weights, `FX_OV${seq}`);
+					if (!halves) break;
+					forbiddenPairs.add(makeForbiddenKey(halves[0].id, halves[1].id));
+					clusters.splice(splitIdx, 1, halves[0], halves[1]);
+					continue;
+				}
+				const cA = clusters[bestI];
+				const cB = clusters[bestJ];
+				seq += 1;
+				const mergedItems = [...cA.items, ...cB.items];
+				const merged = createCluster(`FX_M${seq}`, composeMergedLabel(mergedItems), Math.min(cA.level, cB.level), mergedItems);
+				clusters = clusters.filter((_, idx) => idx !== bestI && idx !== bestJ);
+				clusters.push(merged);
+				continue;
+			}
+			const violIdx = findFirstSlotViolation(clusters);
+			if (violIdx === -1) break;
+			const offender = clusters[violIdx];
+			seq += 1;
+			const halves = splitClusterIntoTwo(offender, gamma, true, true, weights, `FX_SP${seq}`);
+			if (!halves) {
+				let mergeTarget = -1;
+				let bestErgo = Infinity;
+				for (let j = 0; j < violIdx; j++) if (clusters[j].totalVolume + offender.totalVolume <= slots[j].effMl + EPS) {
+					const { dLca, sConfuse } = computePairDistances(clusters[j], offender);
+					const ergo = weights.wTax * dLca + weights.wVis * sConfuse;
+					if (ergo < bestErgo) {
+						bestErgo = ergo;
+						mergeTarget = j;
+					}
+				}
+				if (mergeTarget === -1) break;
+				const target = clusters[mergeTarget];
+				seq += 1;
+				const mergedItems = [...target.items, ...offender.items];
+				const merged = createCluster(`FX_AT${seq}`, composeMergedLabel(mergedItems), Math.min(target.level, offender.level), mergedItems);
+				clusters = clusters.filter((_, idx) => idx !== mergeTarget && idx !== violIdx);
+				clusters.push(merged);
+				continue;
+			}
+			forbiddenPairs.add(makeForbiddenKey(halves[0].id, halves[1].id));
+			clusters.splice(violIdx, 1, halves[0], halves[1]);
+		}
+		while (clusters.length < N && ops < maxTotalOps) {
+			ops += 1;
+			const nextSlotEff = slots[clusters.length].effMl;
+			const candidates = clusters.map((c, idx) => ({
+				idx,
+				score: computeErgonomicSplitScore(c, false),
+				fallbackScore: computeErgonomicSplitScore(c, true)
+			})).sort((a, b) => b.score - a.score || b.fallbackScore - a.fallbackScore);
+			let didSplit = false;
+			for (let k = 0; k < candidates.length; k++) {
+				const cand = candidates[k];
+				if (cand.score < 0 && cand.fallbackScore < 0) continue;
+				const allowQtyFallback = cand.score < 0;
+				if (allowQtyFallback && clusters[cand.idx].totalQuantity < 6) continue;
+				const chosen = clusters[cand.idx];
+				seq += 1;
+				const halves = splitClusterIntoTwo(chosen, gamma, true, allowQtyFallback, weights, `FX_ERG${seq}`);
+				if (halves) {
+					const trial = [...clusters];
+					trial.splice(cand.idx, 1, halves[0], halves[1]);
+					if (fitsAllSlots(trial)) {
+						clusters = trial;
+						didSplit = true;
+						decisionLog.push({
+							phase: 2,
+							type: "split",
+							iteration: seq,
+							message: `Alle eigen dozen benutten: "${chosen.label}" ergonomisch opgesplitst in "${halves[0].label}" en "${halves[1].label}".`
+						});
+						break;
+					}
+				}
+				if (chosen.totalVolume > nextSlotEff + EPS) {
+					seq += 1;
+					const peeled = peelSubgroupForTargetSlot(chosen, nextSlotEff, `FX_PL${seq}`);
+					if (peeled) {
+						const trial = [...clusters];
+						trial.splice(cand.idx, 1, peeled[0], peeled[1]);
+						if (fitsAllSlots(trial)) {
+							clusters = trial;
+							didSplit = true;
+							decisionLog.push({
+								phase: 2,
+								type: "split",
+								iteration: seq,
+								message: `Klein vak benutten: "${peeled[1].label}" afgesplitst van "${chosen.label}".`
+							});
+							break;
+						}
+					}
+				}
+			}
+			if (!didSplit) break;
+		}
+	} else while (clusters.length < N && ops < maxTotalOps) {
+		ops += 1;
+		let bestIdx = -1;
+		let bestScore = -1;
+		for (let i = 0; i < clusters.length; i++) {
+			const s = computeErgonomicSplitScore(clusters[i], false);
+			if (s > bestScore + EPS) {
+				bestScore = s;
+				bestIdx = i;
+			}
+		}
+		if (bestIdx === -1) break;
+		seq += 1;
+		const halves = splitClusterIntoTwo(clusters[bestIdx], gamma, true, false, weights, `FX_LIM${seq}`);
+		if (!halves) break;
+		clusters.splice(bestIdx, 1, halves[0], halves[1]);
+	}
+	clusters.sort((a, b) => b.totalVolume - a.totalVolume || compareStrings(a.id, b.id));
+	const usedSlot = new Array(N).fill(false);
+	const assignedPairs = [];
+	const pendingUnassigned = [];
+	for (let i = 0; i < clusters.length; i++) {
+		const cluster = clusters[i];
+		let bestSlotIdx = -1;
+		let bestEff = Infinity;
+		for (let s = 0; s < N; s++) {
+			if (usedSlot[s]) continue;
+			if (slots[s].effMl + EPS >= cluster.totalVolume && slots[s].effMl < bestEff) {
+				bestEff = slots[s].effMl;
+				bestSlotIdx = s;
+			}
+		}
+		if (bestSlotIdx === -1) {
+			pendingUnassigned.push(cluster);
+			continue;
+		}
+		usedSlot[bestSlotIdx] = true;
+		assignedPairs.push({
+			slotIdx: bestSlotIdx,
+			cluster
+		});
+	}
+	const finalUnassigned = [];
+	const rescueQueue = [...pendingUnassigned];
+	let rescueOps = 0;
+	const maxRescueOps = 80;
+	while (rescueQueue.length > 0 && rescueOps < maxRescueOps) {
+		rescueOps += 1;
+		const u = rescueQueue.shift();
+		let freeSlotIdx = -1;
+		let freeSlotEff = Infinity;
+		for (let s = 0; s < N; s++) {
+			if (usedSlot[s]) continue;
+			if (slots[s].effMl + EPS >= u.totalVolume && slots[s].effMl < freeSlotEff) {
+				freeSlotEff = slots[s].effMl;
+				freeSlotIdx = s;
+			}
+		}
+		if (freeSlotIdx !== -1) {
+			usedSlot[freeSlotIdx] = true;
+			assignedPairs.push({
+				slotIdx: freeSlotIdx,
+				cluster: u
+			});
+			continue;
+		}
+		let bestAssignedIdx = -1;
+		let bestErgo = Infinity;
+		for (let aIdx = 0; aIdx < assignedPairs.length; aIdx++) {
+			const pair = assignedPairs[aIdx];
+			if (slots[pair.slotIdx].effMl - pair.cluster.totalVolume + EPS < u.totalVolume) continue;
+			const { dLca, sConfuse } = computePairDistances(pair.cluster, u);
+			const sizeDiff = Math.abs(Math.log(pair.cluster.geoMeanPieceVol / u.geoMeanPieceVol));
+			const ergo = weights.wTax * 1.5 * dLca + weights.wSize * sizeDiff + weights.wVis * sConfuse;
+			if (ergo < bestErgo - EPS) {
+				bestErgo = ergo;
+				bestAssignedIdx = aIdx;
+			}
+		}
+		if (bestAssignedIdx !== -1) {
+			const pair = assignedPairs[bestAssignedIdx];
+			seq += 1;
+			const mergedItems = [...pair.cluster.items, ...u.items];
+			pair.cluster = createCluster(`FX_RES${seq}`, composeMergedLabel(mergedItems), Math.min(pair.cluster.level, u.level), mergedItems);
+			continue;
+		}
+		let totalRemainingFree = 0;
+		for (let s = 0; s < N; s++) if (!usedSlot[s]) totalRemainingFree += slots[s].effMl;
+		for (let aIdx = 0; aIdx < assignedPairs.length; aIdx++) totalRemainingFree += Math.max(0, slots[assignedPairs[aIdx].slotIdx].effMl - assignedPairs[aIdx].cluster.totalVolume);
+		if (totalRemainingFree + EPS >= u.totalVolume && u.totalQuantity >= 2) {
+			seq += 1;
+			const halves = splitClusterIntoTwo(u, gamma, true, true, weights, `FX_RSPL${seq}`);
+			if (halves) {
+				rescueQueue.unshift(halves[0], halves[1]);
+				continue;
+			}
+		}
+		finalUnassigned.push({
+			...u,
+			reason: physicallyFits ? "NO_FITTING_BOX_IN_STOCK" : "INSUFFICIENT_TOTAL_VOLUME"
+		});
+	}
+	while (rescueQueue.length > 0) {
+		const rem = rescueQueue.shift();
+		finalUnassigned.push({
+			...rem,
+			reason: physicallyFits ? "NO_FITTING_BOX_IN_STOCK" : "INSUFFICIENT_TOTAL_VOLUME"
+		});
+	}
+	assignedPairs.sort((a, b) => b.cluster.totalVolume - a.cluster.totalVolume || compareStrings(a.cluster.id, b.cluster.id));
+	const assignments = assignedPairs.map((pair, idx) => {
+		const slot = slots[pair.slotIdx];
+		const cluster = pair.cluster;
+		const usedMl = cluster.totalVolume;
+		const freeEffMl = Math.max(0, slot.effMl - usedMl);
+		const fillRatioGross = slot.grossMl > 0 ? usedMl / slot.grossMl : 0;
+		return {
+			boxId: `DOOS-${idx + 1}`,
+			boxTypeId: slot.box.id,
+			grossVolumeMl: slot.grossMl,
+			effectiveCapacityMl: roundTo(slot.effMl, 3),
+			usedVolumeMl: roundTo(usedMl, 3),
+			freeEffectiveVolumeMl: roundTo(freeEffMl, 3),
+			fillRatioGross: roundTo(fillRatioGross, 4),
+			clusterLabel: cluster.label,
+			items: cluster.items.map((it) => cloneEntry(it.entry)),
+			ergonomics: computeBoxErgonomics(cluster)
+		};
+	});
+	return {
+		assignments,
+		unassignedClusters: finalUnassigned.map(toPublicCluster),
+		kpis: computeKpis(assignments, normalizedBoxes, 6),
+		recoveryApplied,
+		decisionLog
+	};
+}
+// src/utils/legoVolumeCalculator.ts
+/**
+* Stap 2 referentietabel: gemiddelde netto/bulk volumes en pakkingsfactoren per hoofdcategorie.
+*/
+var VOLUME_CATEGORY_SPECS = {
+	tiles: {
+		key: "tiles",
+		label: "Tegels (Tiles)",
+		vNettoCm3: .49,
+		packingFactor: 1.65,
+		vBulkCm3: .81,
+		piecesPerLiter: 1230
+	},
+	technic: {
+		key: "technic",
+		label: "Technic (Totaal)",
+		vNettoCm3: .78,
+		packingFactor: 1.95,
+		vBulkCm3: 1.53,
+		piecesPerLiter: 655
+	},
+	slopes: {
+		key: "slopes",
+		label: "Slopes (Schuin)",
+		vNettoCm3: .94,
+		packingFactor: 1.85,
+		vBulkCm3: 1.74,
+		piecesPerLiter: 575
+	},
+	plates: {
+		key: "plates",
+		label: "Platen (Plates)",
+		vNettoCm3: 1.21,
+		packingFactor: 1.85,
+		vBulkCm3: 2.24,
+		piecesPerLiter: 445
+	},
+	bricks: {
+		key: "bricks",
+		label: "Bricks (Stenen)",
+		vNettoCm3: 2.42,
+		packingFactor: 1.9,
+		vBulkCm3: 4.59,
+		piecesPerLiter: 220
+	},
+	panels: {
+		key: "panels",
+		label: "Panelen",
+		vNettoCm3: 6.84,
+		packingFactor: 2.3,
+		vBulkCm3: 15.74,
+		piecesPerLiter: 64
+	},
+	wheels: {
+		key: "wheels",
+		label: "Wielen & Banden",
+		vNettoCm3: 10.8,
+		packingFactor: 2.15,
+		vBulkCm3: 23.22,
+		piecesPerLiter: 43
+	}
+};
+/**
+* Stap 3 generieke fallback-waarden voor onbekende of gemengde LEGO-onderdelen.
+*/
+var DEFAULT_VOLUME_FALLBACK = {
+	vNettoCm3: 1.9,
+	packingFactor: 2.1,
+	vBulkCm3: 4,
+	piecesPerLiter: 250,
+	absSolidVolumeCm3: 1.36
+};
+var PLATE_RECT_TABLE = {
+	"1x1": .23,
+	"1x2": .46,
+	"1x3": .69,
+	"1x4": .92,
+	"2x2": .92,
+	"1x6": 1.38,
+	"2x3": 1.39,
+	"1x8": 1.84,
+	"2x4": 1.85,
+	"2x6": 2.79,
+	"2x8": 3.72,
+	"4x4": 3.73,
+	"4x6": 5.6,
+	"4x8": 7.48,
+	"6x8": 11.24
+};
+var TILE_RECT_TABLE = {
+	"1x1": .19,
+	"1x2": .39,
+	"1x3": .59,
+	"1x4": .79,
+	"2x2": .8,
+	"1x6": 1.19,
+	"2x4": 1.61
+};
+var BRICK_RECT_TABLE = {
+	"1x1": .61,
+	"1x2": 1.24,
+	"1x3": 1.87,
+	"1x4": 2.5,
+	"2x2": 2.52,
+	"1x6": 3.76,
+	"2x3": 3.79,
+	"1x8": 5.02,
+	"2x4": 5.07,
+	"2x6": 7.62
+};
+var ROUND_1X1_PLATE_PART_NUMS = /* @__PURE__ */ new Set([
+	"4073",
+	"6141",
+	"85861",
+	"30057",
+	"28626"
+]);
+var ROUND_1X1_TILE_PART_NUMS = /* @__PURE__ */ new Set(["98138", "35381"]);
+var SLOPE_PART_NUM_MAP = {
+	"54200": {
+		label: "1×1 Cheese Slope (30°)",
+		vNetto: .24
+	},
+	"50746": {
+		label: "1×1 Cheese Slope (30°)",
+		vNetto: .24
+	},
+	"35338": {
+		label: "1×1 Cheese Slope (30°)",
+		vNetto: .24
+	},
+	"11477": {
+		label: "1×2 Curved Slope",
+		vNetto: .57
+	},
+	"3040": {
+		label: "1×2 Slope 45°",
+		vNetto: .96
+	},
+	"3040a": {
+		label: "1×2 Slope 45°",
+		vNetto: .96
+	},
+	"3040b": {
+		label: "1×2 Slope 45°",
+		vNetto: .96
+	},
+	"3039": {
+		label: "2×2 Slope 45°",
+		vNetto: 1.95
+	},
+	"3298": {
+		label: "2×3 Slope 33°",
+		vNetto: 2.66
+	}
+};
+var TECHNIC_PART_NUM_MAP = {
+	"32062": {
+		label: "Technic Axle 2L",
+		vNetto: .2
+	},
+	"2780": {
+		label: "Technic Pin 2L (2780)",
+		vNetto: .29
+	},
+	"3673": {
+		label: "Technic Pin 2L",
+		vNetto: .29
+	},
+	"61332": {
+		label: "Technic Pin 2L",
+		vNetto: .29
+	},
+	"3705": {
+		label: "Technic Axle 4L",
+		vNetto: .4
+	},
+	"6558": {
+		label: "Technic Pin 3L (6558)",
+		vNetto: .43
+	},
+	"32556": {
+		label: "Technic Pin 3L",
+		vNetto: .43
+	},
+	"65098": {
+		label: "Technic Pin 3L",
+		vNetto: .43
+	},
+	"3706": {
+		label: "Technic Axle 6L",
+		vNetto: .6
+	},
+	"32316": {
+		label: "Technic Beam / Liftarm 1×5",
+		vNetto: 2.18
+	},
+	"3701": {
+		label: "Technic Brick 1×4",
+		vNetto: 2.5
+	},
+	"32524": {
+		label: "Technic Beam / Liftarm 1×7",
+		vNetto: 3.11
+	},
+	"40490": {
+		label: "Technic Beam / Liftarm 1×9",
+		vNetto: 4.03
+	},
+	"32278": {
+		label: "Technic Beam / Liftarm 1×15",
+		vNetto: 6.8
+	}
+};
+var PANEL_PART_NUM_MAP = {
+	"4865": {
+		label: "System Panel 1×2×1",
+		vNetto: 1.18
+	},
+	"4865a": {
+		label: "System Panel 1×2×1",
+		vNetto: 1.18
+	},
+	"4865b": {
+		label: "System Panel 1×2×1",
+		vNetto: 1.18
+	},
+	"4864": {
+		label: "System Panel 1×2×2",
+		vNetto: 2.37
+	},
+	"4864a": {
+		label: "System Panel 1×2×2",
+		vNetto: 2.37
+	},
+	"4864b": {
+		label: "System Panel 1×2×2",
+		vNetto: 2.37
+	},
+	"87552": {
+		label: "System Panel 1×2×2",
+		vNetto: 2.37
+	},
+	"60581": {
+		label: "System Panel 1×4×3",
+		vNetto: 7.14
+	},
+	"4215": {
+		label: "System Panel 1×4×3",
+		vNetto: 7.14
+	},
+	"4215a": {
+		label: "System Panel 1×4×3",
+		vNetto: 7.14
+	},
+	"4215b": {
+		label: "System Panel 1×4×3",
+		vNetto: 7.14
+	},
+	"15458": {
+		label: "Technic Flat Panel 3×11",
+		vNetto: 16.3
+	},
+	"59349": {
+		label: "System Panel 1×6×5",
+		vNetto: 17.9
+	},
+	"35286": {
+		label: "System Panel 1×6×5",
+		vNetto: 17.9
+	},
+	"11954": {
+		label: "Technic Curved Panel 3×11",
+		vNetto: 33.43
+	},
+	"62531": {
+		label: "Technic Curved Panel 3×11",
+		vNetto: 33.43
+	}
+};
+var WHEEL_REF_ROWS = [
+	{
+		diamMm: 18,
+		widthMm: 8,
+		tolD: .6,
+		tolW: .6,
+		label: "Wiel/Band 18 × 8 mm",
+		vNetto: 2.04
+	},
+	{
+		diamMm: 24,
+		widthMm: 12,
+		tolD: .6,
+		tolW: .6,
+		label: "Wiel/Band 24 × 12 mm",
+		vNetto: 5.43
+	},
+	{
+		diamMm: 30.4,
+		widthMm: 14,
+		tolD: .6,
+		tolW: .6,
+		label: "Wiel/Band 30,4 × 14 mm",
+		vNetto: 10.16
+	},
+	{
+		diamMm: 43.2,
+		widthMm: 22,
+		tolD: .8,
+		tolW: .8,
+		label: "Wiel/Band 43,2 × 22 mm",
+		vNetto: 32.25
+	},
+	{
+		diamMm: 56,
+		widthMm: 26,
+		tolD: 1,
+		tolW: 1,
+		label: "Wiel/Band 56 × 26 mm",
+		vNetto: 64.04
+	}
+];
+var NON_STANDARD_RECT_REGEX = /\b(modified|special|round|wedge|corner|hinge|clip|bracket|curved|slope|technic|baseplate|turntable|jumper|inverted|grille|grill|angled|octagonal|hexagonal|pentagonal|triangular|quarter|half|arch|window|door|panel|windscreen|bar|handle|rail|tooth|teeth|wing|swivel|pin|axle|hole|holder|knob|hook|flag|mirror|loop|fork|arm|shaft|socket|ball|tow|ladder|headlight|snot|studs on side|open|cutout|slotted|stepped|tapered|faceted|dome|dish|cone|cylinder|wheel|tire|tyre)\b/;
+function round2(val) {
+	return Math.round(val * 100) / 100;
+}
+function stripPrintSuffix(partNum) {
+	return String(partNum || "").trim().toLowerCase().replace(/(?:pr|pb|pat|stk|c)\d+[a-z0-9]*$/i, "");
+}
+function normalizePartName(name) {
+	return String(name || "").toLowerCase().replace(/×/g, "x").replace(/(\d),(\d)/g, "$1.$2").replace(/\s+/g, " ").trim();
+}
+function makeLevel1Result(categoryKey, vNettoCm3, matchDetail) {
+	const spec = VOLUME_CATEGORY_SPECS[categoryKey];
+	const netto = round2(Math.max(.01, vNettoCm3));
+	const bulk = round2(Math.max(.05, netto * spec.packingFactor));
+	return {
+		matchLevel: 1,
+		matchLevelLabel: "Niveau 1: Specifiek",
+		matchDetail,
+		categoryKey,
+		categoryLabel: spec.label,
+		vNettoCm3: netto,
+		packingFactor: spec.packingFactor,
+		vBulkCm3: bulk
+	};
+}
+function makeLevel2Result(categoryKey) {
+	const spec = VOLUME_CATEGORY_SPECS[categoryKey];
+	return {
+		matchLevel: 2,
+		matchLevelLabel: "Niveau 2: Categorie",
+		matchDetail: `Categorie: ${spec.label}`,
+		categoryKey,
+		categoryLabel: spec.label,
+		vNettoCm3: spec.vNettoCm3,
+		packingFactor: spec.packingFactor,
+		vBulkCm3: spec.vBulkCm3
+	};
+}
+function makeLevel3Result(customDefaultBulkCm3) {
+	const bulk = customDefaultBulkCm3 !== void 0 && Number.isFinite(customDefaultBulkCm3) && customDefaultBulkCm3 > 0 ? round2(customDefaultBulkCm3) : DEFAULT_VOLUME_FALLBACK.vBulkCm3;
+	return {
+		matchLevel: 3,
+		matchLevelLabel: "Niveau 3: Default",
+		matchDetail: "Generieke default-waarde",
+		categoryKey: null,
+		categoryLabel: "Overig / Onbekend",
+		vNettoCm3: Math.abs(bulk - DEFAULT_VOLUME_FALLBACK.vBulkCm3) < .01 ? DEFAULT_VOLUME_FALLBACK.vNettoCm3 : round2(bulk / DEFAULT_VOLUME_FALLBACK.packingFactor),
+		packingFactor: DEFAULT_VOLUME_FALLBACK.packingFactor,
+		vBulkCm3: bulk
+	};
+}
+/**
+* Exacte Stap 1.2 basisformules voor standaard rechthoekige Plate, Tile en Brick (B × L in studs).
+*/
+function computeRectangularFormulaNettoCm3(kind, widthStuds, lengthStuds) {
+	const b = Math.min(widthStuds, lengthStuds);
+	const l = Math.max(widthStuds, lengthStuds);
+	const footprintMm2 = (b * 8 - .2) * (l * 8 - .2);
+	if (kind === "tile") return footprintMm2 * 3.2 / 1e3;
+	const studVolMm3 = b * l * 30.76;
+	if (kind === "plate") return (footprintMm2 * 3.2 + studVolMm3) / 1e3;
+	return (footprintMm2 * 9.6 + studVolMm3) / 1e3;
+}
+/**
+* Extraheert een 2D stud-maat (B × L) voor standaard rechthoekige Plates, Tiles of Bricks.
+* Weigert expliciete 3D-hoogtes (zoals "1 x 2 x 5" of "1 x 2 x 2/3") zodat die niet foutief als vlakke plaat/steen worden berekend.
+*/
+function parseStandard2DStuds(name) {
+	if (/\d+(?:\.\d+)?\s*mm\b/.test(name)) return null;
+	if (/\b\d+\s*x\s*\d+\s*x\s*\d+/.test(name)) return null;
+	const m = name.match(/\b(\d{1,2})\s*x\s*(\d{1,2})\b/);
+	if (!m) return null;
+	const d1 = parseInt(m[1], 10);
+	const d2 = parseInt(m[2], 10);
+	if (!Number.isFinite(d1) || !Number.isFinite(d2) || d1 < 1 || d2 < 1 || d1 > 32 || d2 > 32) return null;
+	return {
+		b: Math.min(d1, d2),
+		l: Math.max(d1, d2)
+	};
+}
+/**
+* 3-staps waterval-volumecalculator (strikt van specifiek naar generiek):
+* - Stap 1: Specifiek blokje (exacte referentietabel of exacte rechthoekige Plate/Tile/Brick-formule)
+* - Stap 2: Categorie-fallback (7 hoofdcategorieën met eigen V_netto en pakkingsfactor)
+* - Stap 3: Generieke default (V_netto 1,90 cm³, pakkingsfactor 2,10, V_bulk 4,00 cm³)
+*/
+function calculateAccuratePartVolume(part, defaultFallbackBulkCm3) {
+	const rawPartNum = String(part.partNum || "").trim().toLowerCase();
+	const basePartNum = stripPrintSuffix(rawPartNum);
+	const name = normalizePartName(part.name || "");
+	const shape = part.shape || "other";
+	const catLower = String(part.category || "").toLowerCase();
+	const techByNum = TECHNIC_PART_NUM_MAP[rawPartNum] || TECHNIC_PART_NUM_MAP[basePartNum];
+	if (techByNum) return makeLevel1Result("technic", techByNum.vNetto, `Tabel: ${techByNum.label}`);
+	if (shape === "technic" || /\b(technic|liftarm|axle)\b/.test(name)) {
+		if (/\bbrick\b/.test(name) && /\b1\s*x\s*4\b/.test(name) && !/\b1\s*x\s*4\s*x\s*\d/.test(name)) return makeLevel1Result("technic", 2.5, "Tabel: Technic Brick 1×4");
+		if (/\baxle\b/.test(name) && !/\b(connector|pin|bush|gear|housing|fork|tow|wheel|cam|brick|plate)\b/.test(name)) {
+			if (/\b2l?\b/.test(name)) return makeLevel1Result("technic", .2, "Tabel: Technic Axle 2L");
+			if (/\b4l?\b/.test(name)) return makeLevel1Result("technic", .4, "Tabel: Technic Axle 4L");
+			if (/\b6l?\b/.test(name)) return makeLevel1Result("technic", .6, "Tabel: Technic Axle 6L");
+		}
+		if (/\bpin\b/.test(name) && !/\b(axle|connector|bush|plate|brick|tile|bar|ball|tow|long.*axle)\b/.test(name)) {
+			if (/\b3l\b/.test(name) || /\blong\b/.test(name)) return makeLevel1Result("technic", .43, "Tabel: Technic Pin 3L");
+			if (/\b2l\b/.test(name) || /\bwith friction\b/.test(name) || /\bwithout friction\b/.test(name)) return makeLevel1Result("technic", .29, "Tabel: Technic Pin 2L");
+		}
+		if (/\b(beam|liftarm)\b/.test(name) && !/\b(thin|bent|angle|triangle|t-shape|l-shape|frame|half)\b/.test(name)) {
+			if (/\b(1\s*x\s*5|5l)\b/.test(name)) return makeLevel1Result("technic", 2.18, "Tabel: Technic Beam / Liftarm 1×5");
+			if (/\b(1\s*x\s*7|7l)\b/.test(name)) return makeLevel1Result("technic", 3.11, "Tabel: Technic Beam / Liftarm 1×7");
+			if (/\b(1\s*x\s*9|9l)\b/.test(name)) return makeLevel1Result("technic", 4.03, "Tabel: Technic Beam / Liftarm 1×9");
+			if (/\b(1\s*x\s*15|15l)\b/.test(name)) return makeLevel1Result("technic", 6.8, "Tabel: Technic Beam / Liftarm 1×15");
+		}
+	}
+	const panelByNum = PANEL_PART_NUM_MAP[rawPartNum] || PANEL_PART_NUM_MAP[basePartNum];
+	if (panelByNum) return makeLevel1Result("panels", panelByNum.vNetto, `Tabel: ${panelByNum.label}`);
+	if (shape === "panel" || /\bpanel\b/.test(name)) {
+		if (/\btechnic\b/.test(name) && /\b3\s*x\s*11\b/.test(name)) {
+			if (/\bcurved\b/.test(name)) return makeLevel1Result("panels", 33.43, "Tabel: Technic Curved Panel 3×11");
+			if (/\bflat\b/.test(name) || /\bplate\b/.test(name)) return makeLevel1Result("panels", 16.3, "Tabel: Technic Flat Panel 3×11");
+		}
+		if (!/\btechnic\b/.test(name)) {
+			if (/\b1\s*x\s*2\s*x\s*1\b/.test(name)) return makeLevel1Result("panels", 1.18, "Tabel: System Panel 1×2×1");
+			if (/\b1\s*x\s*2\s*x\s*2\b/.test(name)) return makeLevel1Result("panels", 2.37, "Tabel: System Panel 1×2×2");
+			if (/\b1\s*x\s*4\s*x\s*3\b/.test(name)) return makeLevel1Result("panels", 7.14, "Tabel: System Panel 1×4×3");
+			if (/\b1\s*x\s*6\s*x\s*5\b/.test(name)) return makeLevel1Result("panels", 17.9, "Tabel: System Panel 1×6×5");
+		}
+	}
+	const isWheelOrTire = (shape === "wheel" || /\b(wheel|tire|tyre)\b/.test(name)) && !(/\b(holder|plate|brick|arch|mudguard|fender|bearing|base)\b/.test(name) && !/\d\s*mm\b/.test(name));
+	if (isWheelOrTire) {
+		const mmMatch = name.match(/(\d+(?:\.\d+)?)\s*(?:mm)?\s*(?:d\.?|ø)?\s*x\s*(\d+(?:\.\d+)?)\s*(?:mm)?/);
+		if (mmMatch) {
+			const a = parseFloat(mmMatch[1]);
+			const b = parseFloat(mmMatch[2]);
+			const diam = Math.max(a, b);
+			const width = Math.min(a, b);
+			for (const row of WHEEL_REF_ROWS) if (Math.abs(diam - row.diamMm) <= row.tolD && Math.abs(width - row.widthMm) <= row.tolW) return makeLevel1Result("wheels", row.vNetto, `Tabel: ${row.label}`);
+		}
+	}
+	const slopeByNum = SLOPE_PART_NUM_MAP[rawPartNum] || SLOPE_PART_NUM_MAP[basePartNum];
+	if (slopeByNum) return makeLevel1Result("slopes", slopeByNum.vNetto, `Tabel: ${slopeByNum.label}`);
+	if (shape === "slope" || /\bslope\b/.test(name)) {
+		if (!/\b(inverted|double|corner|decorated.*brick|wedge|printed.*panel)\b/.test(name)) {
+			if (/\b1\s*x\s*1\b/.test(name) && (/\b30\b/.test(name) || /\bcheese\b/.test(name) || /2\s*\/\s*3/.test(name))) return makeLevel1Result("slopes", .24, "Tabel: 1×1 Cheese Slope (30°)");
+			if (/\bcurved\b/.test(name) && /\b(1\s*x\s*2|2\s*x\s*1)\b/.test(name)) return makeLevel1Result("slopes", .57, "Tabel: 1×2 Curved Slope");
+			if (!/\bcurved\b/.test(name) && /\b45\b/.test(name) && /\b(1\s*x\s*2|2\s*x\s*1)\b/.test(name)) return makeLevel1Result("slopes", .96, "Tabel: 1×2 Slope 45°");
+			if (!/\bcurved\b/.test(name) && /\b45\b/.test(name) && /\b2\s*x\s*2\b/.test(name)) return makeLevel1Result("slopes", 1.95, "Tabel: 2×2 Slope 45°");
+			if (!/\bcurved\b/.test(name) && /\b33\b/.test(name) && /\b(2\s*x\s*3|3\s*x\s*2)\b/.test(name)) return makeLevel1Result("slopes", 2.66, "Tabel: 2×3 Slope 33°");
+		}
+	}
+	if (ROUND_1X1_PLATE_PART_NUMS.has(rawPartNum) || ROUND_1X1_PLATE_PART_NUMS.has(basePartNum) || /\bplate\b/.test(name) && /\bround\b/.test(name) && /\b1\s*x\s*1\b/.test(name) && !/\b(modified|special|tile|brick|clip|bar|handle|hole|flower|gear|stud.*side|straight|open)\b/.test(name)) return makeLevel1Result("plates", .18, "Tabel: 1×1 Plate (rond)");
+	if (ROUND_1X1_TILE_PART_NUMS.has(rawPartNum) || ROUND_1X1_TILE_PART_NUMS.has(basePartNum) || /\btile\b/.test(name) && /\bround\b/.test(name) && /\b1\s*x\s*1\b/.test(name) && !/\b(modified|special|plate|brick|quarter|half|clip|bar|handle|pin|hole)\b/.test(name)) return makeLevel1Result("tiles", .15, "Tabel: 1×1 Tile (rond)");
+	if (!NON_STANDARD_RECT_REGEX.test(name)) {
+		const dims2d = parseStandard2DStuds(name);
+		if (dims2d) {
+			const key = `${dims2d.b}x${dims2d.l}`;
+			const dimLabel = `${dims2d.b}×${dims2d.l}`;
+			const looksLikeTile = (shape === "tile" || /\btile\b/.test(name)) && !/\b(plate|brick)\b/.test(name);
+			const looksLikePlate = (shape === "plate" || /\bplate\b/.test(name)) && !/\b(tile|brick)\b/.test(name);
+			const looksLikeBrick = (shape === "brick" || /\bbrick\b/.test(name)) && !/\b(plate|tile)\b/.test(name);
+			if (looksLikeTile) {
+				if (TILE_RECT_TABLE[key] !== void 0) return makeLevel1Result("tiles", TILE_RECT_TABLE[key], `Tabel: ${dimLabel} Tile`);
+				return makeLevel1Result("tiles", computeRectangularFormulaNettoCm3("tile", dims2d.b, dims2d.l), `Formule: Tile ${dimLabel}`);
+			}
+			if (looksLikePlate) {
+				if (PLATE_RECT_TABLE[key] !== void 0) return makeLevel1Result("plates", PLATE_RECT_TABLE[key], `Tabel: ${dimLabel} Plate`);
+				return makeLevel1Result("plates", computeRectangularFormulaNettoCm3("plate", dims2d.b, dims2d.l), `Formule: Plate ${dimLabel}`);
+			}
+			if (looksLikeBrick) {
+				if (BRICK_RECT_TABLE[key] !== void 0) return makeLevel1Result("bricks", BRICK_RECT_TABLE[key], `Tabel: ${dimLabel} Brick`);
+				return makeLevel1Result("bricks", computeRectangularFormulaNettoCm3("brick", dims2d.b, dims2d.l), `Formule: Brick ${dimLabel}`);
+			}
+		}
+	}
+	if (isWheelOrTire || catLower.includes("wielen")) return makeLevel2Result("wheels");
+	if (shape === "panel" || catLower.includes("panel") || /\b(panel|windscreen|wall)\b/.test(name)) return makeLevel2Result("panels");
+	if (shape === "technic" || catLower.includes("technic") || /\b(technic|liftarm|axle|gear|universal joint|differential|shock absorber)\b/.test(name)) return makeLevel2Result("technic");
+	if (shape === "slope" || catLower.includes("schuin") || /\b(slope|roof)\b/.test(name) || shape === "wedge" && /\b(brick|slope|curved)\b/.test(name)) return makeLevel2Result("slopes");
+	if (shape === "tile" || catLower.includes("tegel") || /\btile\b/.test(name) && !/\b(plate|brick)\b/.test(name)) return makeLevel2Result("tiles");
+	if (shape === "plate" || catLower.includes("platen") || /\b(plate|baseplate|jumper)\b/.test(name) || shape === "wedge" && !/\b(brick|slope)\b/.test(name) || shape === "round" && /\bplate\b/.test(name)) return makeLevel2Result("plates");
+	if (shape === "brick" || catLower.includes("stenen") || shape === "arch" || /\b(brick|arch)\b/.test(name) || shape === "round" && !/\b(plate|tile)\b/.test(name)) return makeLevel2Result("bricks");
+	return makeLevel3Result(defaultFallbackBulkCm3);
+}
+/**
+* Formatteert een getal met Nederlandse komma (bijv. 1.24 -> "1,24").
+*/
+function fmtNl(val, decimals = 2) {
+	return val.toFixed(decimals).replace(".", ",");
+}
+/**
+* Genereert de volledige Markdown-tabel en het totaaloverzicht volgens de exacte volumespecificatie.
+*/
+function buildVolumeCalculatorMarkdown(rows, reliability) {
+	const lines = ["| Onderdeel | Aantal | Match-niveau | V_netto / st (cm³) | Totaal V_netto (cm³) | Totaal V_bulk (cm³) |", "| :--- | :---: | :--- | :---: | :---: | :---: |"];
+	for (const r of rows) {
+		const levelText = r.isCustom ? "Eigen waarde" : r.matchLevelLabel;
+		const totalNetto = r.vNettoCm3 * r.totalQuantity;
+		const totalBulk = r.activeVolumeMl * r.totalQuantity;
+		const safeName = `${r.name} (#${r.partNum})`.replace(/\|/g, "/");
+		lines.push(`| ${safeName} | ${r.totalQuantity.toLocaleString("nl-NL")} | ${levelText} | ${fmtNl(r.vNettoCm3, 2)} | ${fmtNl(totalNetto, 2)} | ${fmtNl(totalBulk, 2)} |`);
+	}
+	lines.push("", "### Totaaloverzicht", `- **Totaal aantal stukjes:** ${reliability.totalPieces.toLocaleString("nl-NL")}`, `- **Totaal netto volume ($V_{\\text{netto}}$):** ${fmtNl(reliability.totalNettoCm3, 1)} cm³ (${fmtNl(reliability.totalNettoCm3 / 1e3, 2)} liter)`, `- **Totaal benodigd opbergvolume ($V_{\\text{bulk}}$):** ${fmtNl(reliability.totalBulkCm3, 1)} cm³ (${fmtNl(reliability.totalBulkCm3 / 1e3, 2)} liter)`, `- **Betrouwbaarheidsverdeling:** Niveau 1 (Specifiek): ${fmtNl(reliability.level1Pct, 1)}% · Niveau 2 (Categorie): ${fmtNl(reliability.level2Pct, 1)}% · Niveau 3 (Default): ${fmtNl(reliability.level3Pct, 1)}%${reliability.customPieces > 0 ? ` · Eigen waarde: ${fmtNl(reliability.customPct, 1)}%` : ""}`);
+	return lines.join("\n");
 }
 // src/utils/storagePlanner.ts
 var USER_CONTAINER_PRESETS = [
@@ -22019,6 +24755,26 @@ var CONTAINER_CATALOG = {
 		dimensionsCm: "39 × 28 × 14 cm",
 		exampleProduct: "IKEA SAMLA 11 L",
 		priceEur: 12
+	},
+	bin_xl: {
+		id: "bin_xl",
+		name: "Extra grote opbergbak (22,0 L)",
+		shortName: "Bak XL · 22,0 L",
+		capacityLiters: 22,
+		grossVolumeMl: 22e3,
+		dimensionsCm: "39 × 28 × 28 cm",
+		exampleProduct: "IKEA SAMLA 22 L",
+		priceEur: 16
+	},
+	bin_xxl: {
+		id: "bin_xxl",
+		name: "Verzamelbox (45,0 L)",
+		shortName: "Box XXL · 45,0 L",
+		capacityLiters: 45,
+		grossVolumeMl: 45e3,
+		dimensionsCm: "56 × 39 × 28 cm",
+		exampleProduct: "IKEA SAMLA 45 L",
+		priceEur: 22
 	}
 };
 function calculateUserContainerVolumeMl(container) {
@@ -22031,25 +24787,12 @@ function formatVolume(ml) {
 	if (ml >= 1e3) return `${(ml / 1e3).toFixed(2).replace(".", ",")} L`;
 	return `${Math.round(ml).toLocaleString("nl-NL")} ml`;
 }
-var DEFAULT_PART_VOLUME_CONFIG = { defaultVolumeMl: 3 };
-var ALL_PART_SHAPES = [
-	"brick",
-	"plate",
-	"tile",
-	"slope",
-	"technic",
-	"round",
-	"hinge",
-	"wedge",
-	"arch",
-	"window",
-	"panel",
-	"wheel",
-	"plant",
-	"minifig",
-	"sticker",
-	"other"
-];
+/**
+* Generieke fallback-waarde voor onbekende/gemengde LEGO-onderdelen (Niveau 3: Default):
+* V_netto = 1,90 cm³, pakkingsfactor = 2,10 → V_bulk = 4,00 cm³ (= 250 stuks/liter).
+*/
+var DEFAULT_PIECE_VOLUME_ML = DEFAULT_VOLUME_FALLBACK.vBulkCm3;
+var DEFAULT_PART_VOLUME_CONFIG = { defaultVolumeMl: DEFAULT_PIECE_VOLUME_ML };
 /**
 * Standaardafmetingen per LEGO-type (in studs L × B en platen H) die worden gebruikt
 * wanneer een onderdeel géén expliciete afmetingen in de naam heeft (bijv. "2 x 4" of "18 x 14 mm").
@@ -22644,29 +25387,28 @@ function inferColorFamily(colorName) {
 	if (c.includes("red") || c.includes("orange") || c.includes("yellow") || c.includes("pink") || c.includes("coral") || c.includes("magenta") || c.includes("salmon") || c.includes("rust") || c.includes("rood") || c.includes("oranje") || c.includes("geel") || c.includes("roze")) return "Warm";
 	return "Koud";
 }
-function getSuggestionReasonLabel(source) {
-	switch (source) {
-		case "parsed_mm": return "Uit naam (mm)";
-		case "parsed_studs": return "Uit naam (studs)";
-		default: return "Geschat per type";
-	}
-}
 function roundVolumeCm3(val) {
-	return Math.max(.1, Math.round(val * 10) / 10);
+	return Math.max(.05, Math.round(val * 100) / 100);
 }
 /**
 * Converteert BrickBase's LegoSet[] naar het pure H-VSBPP inputcontract `LegoPartEntry[]`.
-* Gebruikt standaard `defaultVolumeMl` (3,0 cm³ incl. lucht ertussen) voor elk onderdeel,
-* met ondersteuning voor eigen volume per onderdeel (`byPartNum`) én een slim voorstel per stukje.
+* Gebruikt de nauwkeurige 3-staps volumewaterval (Niveau 1 Specifiek -> Niveau 2 Categorie -> Niveau 3 Default)
+* met ondersteuning voor eigen handmatige overschrijvingen per onderdeel (`byPartNum`).
 */
 function extractHvsbppInputFromSets(sets, prefs = DEFAULT_COLLECTION_PREFS, metric = "all", volumeConfig) {
-	const defaultVolumeMl = volumeConfig && Number.isFinite(volumeConfig.defaultVolumeMl) && volumeConfig.defaultVolumeMl > 0 ? roundVolumeCm3(volumeConfig.defaultVolumeMl) : 3;
+	const defaultVolumeMl = volumeConfig && Number.isFinite(volumeConfig.defaultVolumeMl) && volumeConfig.defaultVolumeMl > 0 ? roundVolumeCm3(volumeConfig.defaultVolumeMl) : DEFAULT_PIECE_VOLUME_ML;
 	const customByPartNum = volumeConfig?.byPartNum || {};
 	const entryMap = /* @__PURE__ */ new Map();
 	const partMetaByNum = /* @__PURE__ */ new Map();
 	const colorHexById = /* @__PURE__ */ new Map();
 	const partDimSourceByNum = /* @__PURE__ */ new Map();
 	let totalPieces = 0;
+	let totalNettoCm3 = 0;
+	let totalBulkCm3 = 0;
+	let level1Pieces = 0;
+	let level2Pieces = 0;
+	let level3Pieces = 0;
+	let customPieces = 0;
 	for (const set of sets) {
 		const activeParts = getActiveParts(set.parts, prefs);
 		for (const part of activeParts) {
@@ -22686,29 +25428,51 @@ function extractHvsbppInputFromSets(sets, prefs = DEFAULT_COLLECTION_PREFS, metr
 				sampleImageUrl: part.imageUrl
 			});
 			else if (!existingMeta.sampleImageUrl && part.imageUrl) existingMeta.sampleImageUrl = part.imageUrl;
-			const inferred = inferLegoPartDimsWithSource(part);
-			const suggestedVolumeMl = roundVolumeCm3(computePieceBboxMl(inferred.dims) * getBulkPackingFactor(inferred.shapeClass));
-			const rawCustomVol = customByPartNum[partNum];
-			const hasCustomVol = rawCustomVol !== void 0 && Number.isFinite(rawCustomVol) && rawCustomVol > 0;
-			const activeVolumeMl = hasCustomVol ? roundVolumeCm3(rawCustomVol) : defaultVolumeMl;
 			const existingPartDim = partDimSourceByNum.get(partNum);
-			if (existingPartDim) existingPartDim.quantity += qty;
-			else partDimSourceByNum.set(partNum, {
-				dims: inferred.dims,
-				shapeClass: inferred.shapeClass,
-				source: inferred.source,
-				quantity: qty,
-				activeVolumeMl,
-				isCustom: hasCustomVol,
-				suggestedVolumeMl,
-				suggestionReason: getSuggestionReasonLabel(inferred.source)
-			});
+			let activeVolumeMl;
+			let inferredDims;
+			let inferredShapeClass;
+			let volumeCalc;
+			let isCustom;
+			if (existingPartDim) {
+				existingPartDim.quantity += qty;
+				activeVolumeMl = existingPartDim.activeVolumeMl;
+				inferredDims = existingPartDim.dims;
+				inferredShapeClass = existingPartDim.shapeClass;
+				volumeCalc = existingPartDim.volumeCalc;
+				isCustom = existingPartDim.isCustom;
+			} else {
+				const inferred = inferLegoPartDimsWithSource(part);
+				volumeCalc = calculateAccuratePartVolume(part, defaultVolumeMl);
+				const suggestedVolumeMl = volumeCalc.vBulkCm3;
+				const rawCustomVol = customByPartNum[partNum];
+				isCustom = rawCustomVol !== void 0 && Number.isFinite(rawCustomVol) && rawCustomVol > 0;
+				activeVolumeMl = isCustom ? roundVolumeCm3(rawCustomVol) : suggestedVolumeMl;
+				inferredDims = inferred.dims;
+				inferredShapeClass = inferred.shapeClass;
+				partDimSourceByNum.set(partNum, {
+					dims: inferredDims,
+					shapeClass: inferredShapeClass,
+					source: inferred.source,
+					quantity: qty,
+					activeVolumeMl,
+					isCustom,
+					suggestedVolumeMl,
+					suggestionReason: volumeCalc.matchDetail,
+					volumeCalc
+				});
+			}
+			totalNettoCm3 += qty * volumeCalc.vNettoCm3;
+			totalBulkCm3 += qty * activeVolumeMl;
+			if (isCustom) customPieces += qty;
+			else if (volumeCalc.matchLevel === 1) level1Pieces += qty;
+			else if (volumeCalc.matchLevel === 2) level2Pieces += qty;
+			else level3Pieces += qty;
 			const key = `${partNum.toLowerCase()}__${colorId.toLowerCase()}`;
 			const existing = entryMap.get(key);
 			if (existing) existing.quantity += qty;
 			else {
-				const { dims, shapeClass } = inferred;
-				const { subfamily, shapeSignature } = inferTaxonomySubfamilyAndSignature(part, dims);
+				const { subfamily, shapeSignature } = inferTaxonomySubfamilyAndSignature(part, inferredDims);
 				const colorFamily = inferColorFamily(colorId);
 				entryMap.set(key, {
 					partNum,
@@ -22717,20 +25481,35 @@ function extractHvsbppInputFromSets(sets, prefs = DEFAULT_COLLECTION_PREFS, metr
 					colorId,
 					colorFamily,
 					quantity: qty,
-					dims,
-					shapeClass,
+					dims: inferredDims,
+					shapeClass: inferredShapeClass,
 					shapeSignature,
 					bulkVolumeMl: activeVolumeMl
 				});
 			}
 		}
 	}
+	const pct = (count) => totalPieces > 0 ? Math.round(count / totalPieces * 1e3) / 10 : 0;
+	const volumeReliability = {
+		totalPieces,
+		totalNettoCm3: Math.round(totalNettoCm3 * 10) / 10,
+		totalBulkCm3: Math.round(totalBulkCm3 * 10) / 10,
+		level1Pieces,
+		level2Pieces,
+		level3Pieces,
+		customPieces,
+		level1Pct: pct(level1Pieces),
+		level2Pct: pct(level2Pieces),
+		level3Pct: pct(level3Pieces),
+		customPct: pct(customPieces)
+	};
 	return {
 		entries: Array.from(entryMap.values()),
 		totalPieces,
 		partMetaByNum,
 		colorHexById,
 		defaultVolumeMl,
+		volumeReliability,
 		partDimSourceByNum
 	};
 }
@@ -22755,53 +25534,335 @@ function getCatalogBoxSpecs(systemMode) {
 		CONTAINER_CATALOG.bin_l
 	];
 }
+function pickRecommendedSingleBoxLiters(requiredMl) {
+	if (requiredMl <= 0) return {
+		liters: 1,
+		label: "1 L opbergdoos"
+	};
+	const targetGrossLiters = requiredMl / .75 / 1e3;
+	for (const s of [
+		.5,
+		1,
+		2.5,
+		5,
+		11,
+		22,
+		32,
+		45,
+		65,
+		90,
+		130
+	]) if (s >= targetGrossLiters) return {
+		liters: s,
+		label: s <= 2.5 ? `${s.toString().replace(".", ",")} L bewaardoos` : s <= 11 ? `${s} L opbergbak (bijv. IKEA SAMLA ${s} L)` : `${s} L grote verzamelbox`
+	};
+	const rounded = Math.ceil(targetGrossLiters / 10) * 10;
+	return {
+		liters: rounded,
+		label: `${rounded} L grote verzamelbox`
+	};
+}
+function buildStageFromSortingResult(result, baseBoxMetaById, appliedTradeoff) {
+	const boxMetaById = new Map(baseBoxMetaById);
+	for (const a of result.assignments) if (!boxMetaById.has(a.boxTypeId)) {
+		const liters = Math.round(a.grossVolumeMl / 1e3 * 10) / 10;
+		const litersText = liters.toString().replace(".", ",");
+		boxMetaById.set(a.boxTypeId, {
+			id: a.boxTypeId,
+			name: `Grote opbergbox (${litersText} L)`,
+			shortName: `Box · ${litersText} L`,
+			dimensionsCm: `ca. ${litersText} L`,
+			exampleProduct: "Grote sorteer- of verzamelbox",
+			grossVolumeMl: a.grossVolumeMl,
+			priceEur: Math.round(liters * .45 + 8),
+			stockCount: null
+		});
+	}
+	const labelsByType = /* @__PURE__ */ new Map();
+	let totalGrossBoxVolumeMl = 0;
+	for (const a of result.assignments) {
+		totalGrossBoxVolumeMl += a.grossVolumeMl;
+		const arr = labelsByType.get(a.boxTypeId);
+		if (arr) arr.push(a.clusterLabel);
+		else labelsByType.set(a.boxTypeId, [a.clusterLabel]);
+	}
+	return {
+		result,
+		boxMetaById,
+		shoppingList: Object.entries(result.kpis.boxCountsByType).map(([typeId, count]) => {
+			const meta = boxMetaById.get(typeId) || {
+				id: typeId,
+				name: typeId,
+				shortName: typeId,
+				dimensionsCm: "—",
+				exampleProduct: "",
+				grossVolumeMl: 0,
+				priceEur: 0,
+				stockCount: null
+			};
+			return {
+				boxMeta: meta,
+				count,
+				subtotalEur: Math.round(meta.priceEur * count * 100) / 100,
+				labels: labelsByType.get(typeId) || []
+			};
+		}).sort((a, b) => a.boxMeta.grossVolumeMl - b.boxMeta.grossVolumeMl),
+		totalGrossBoxVolumeMl,
+		appliedTradeoff
+	};
+}
 /**
-* Voert het volledige H-VSBPP algoritme uit voor BrickBase (zowel buy_advice als fixed_inventory).
+* Vertaalt de gebruikersslider (0 = volume zo laag mogelijk ↔ 100 = ergonomie zo hoog mogelijk)
+* naar consistente H-VSBPP parameters met merkbare, vloeiende overgang.
 */
-function planCollectionWithHvsbpp(sets, prefs, config) {
-	const { entries, totalPieces, partMetaByNum, colorHexById, defaultVolumeMl, partDimSourceByNum } = extractHvsbppInputFromSets(sets, prefs, config.metric, config.volumeConfig);
-	const boxMetaById = /* @__PURE__ */ new Map();
+function buildTradeoffSorterParams(tradeoff0to100, options) {
+	const t = Math.max(0, Math.min(100, Number(tradeoff0to100) || 0)) / 100;
+	const alpha = Math.round((.88 - t * .23) * 100) / 100;
+	const minFillRatio = t >= .8 ? 0 : Math.round(Math.max(0, (.8 - t) * .85) * 100) / 100;
+	const maxUniqueTypes = Math.max(1, Math.round(16 * Math.pow(1 - t, 1.45) + 1));
+	const maxSizeRatio = Math.round((12 - t * 9.5) * 10) / 10;
+	const maxMergeCost = Math.round((2.35 - t * 1.55) * 100) / 100;
+	const thetaSplit = Math.round((.96 - t * .42) * 100) / 100;
+	const thetaMerge = Math.round((.4 - t * .34) * 100) / 100;
+	const maxPiecesPerBox = t < .65 ? null : Math.round(2500 - (t - .65) / .35 * 1900);
+	const targetSplitLevel = t >= .85 ? 3 : t >= .5 ? 2 : 1;
+	const wWaste = Math.round((.6 - t * .52) * 100) / 100;
+	const wTax = Math.round((.35 + t * .45) * 100) / 100;
+	const wVis = Math.round((.12 + t * .28) * 100) / 100;
+	const wSize = Math.round((.12 + t * .2) * 100) / 100;
+	return {
+		boxTypes: options.boxTypes,
+		mode: "buy_advice",
+		alpha,
+		gamma: options.gamma,
+		minFillRatio,
+		maxPiecesPerBox,
+		targetSplitLevel,
+		thetaSplit,
+		thetaMerge,
+		colorMode: options.colorMode,
+		maxUniqueTypes,
+		maxSizeRatio,
+		maxMergeCost,
+		weights: {
+			wTax,
+			wSize,
+			wVis,
+			wWaste,
+			wPrice: Math.round((.2 - t * .14) * 100) / 100
+		},
+		maxRecoveryIterations: 5
+	};
+}
+function getCatalogForTradeoff(systemMode, tradeoff0to100, totalRequiredVolumeMl) {
+	const base = getCatalogBoxSpecs(systemMode);
+	if (systemMode === "drawers") return base;
+	if (tradeoff0to100 <= 35 && totalRequiredVolumeMl >= 16e3) return totalRequiredVolumeMl >= 36e3 ? [
+		...base,
+		CONTAINER_CATALOG.bin_xl,
+		CONTAINER_CATALOG.bin_xxl
+	] : [...base, CONTAINER_CATALOG.bin_xl];
+	if (tradeoff0to100 <= 65 && totalRequiredVolumeMl >= 28e3) return [...base, CONTAINER_CATALOG.bin_xl];
+	return base;
+}
+function buildCatalogMapHelper(specs) {
 	const boxTypes = [];
+	const metaMap = /* @__PURE__ */ new Map();
+	for (const spec of specs) {
+		boxTypes.push({
+			id: spec.id,
+			grossVolumeMl: spec.grossVolumeMl,
+			stockCount: null,
+			price: spec.priceEur
+		});
+		metaMap.set(spec.id, {
+			id: spec.id,
+			name: spec.name,
+			shortName: spec.shortName,
+			dimensionsCm: spec.dimensionsCm,
+			exampleProduct: spec.exampleProduct,
+			grossVolumeMl: spec.grossVolumeMl,
+			priceEur: spec.priceEur,
+			stockCount: null
+		});
+	}
+	return {
+		boxTypes,
+		metaMap
+	};
+}
+/**
+* Stap 0 + Stap 1: Extraheert onderdelen éénmalig en berekent het totaalvolume (1 bak).
+* Hoeft alleen opnieuw te draaien bij wijziging van sets, filters, groeiruimte of blokvolumes.
+*/
+function prepareIterativeInput(sets, prefs, config) {
+	const gamma = Math.max(1, Math.min(1.5, Number(config.gamma) || 1.15));
+	const { entries, totalPieces, partMetaByNum, colorHexById, defaultVolumeMl, volumeReliability, partDimSourceByNum } = extractHvsbppInputFromSets(sets, prefs, config.metric, config.volumeConfig);
+	let netBulkSum = 0;
+	let totalReqSum = 0;
+	const catAgg = /* @__PURE__ */ new Map();
+	for (let i = 0; i < entries.length; i++) {
+		const it = entries[i];
+		const bulkSingle = computeSinglePieceBulkMl(it);
+		netBulkSum += it.quantity * bulkSingle;
+		const reqMl = it.quantity * bulkSingle * gamma;
+		totalReqSum += reqMl;
+		const meta = partMetaByNum.get(it.partNum);
+		let rec = catAgg.get(it.category);
+		if (!rec) {
+			rec = {
+				shape: meta?.shape || "other",
+				pieces: 0,
+				volumeMl: 0,
+				partTotals: /* @__PURE__ */ new Map(),
+				subfamilies: /* @__PURE__ */ new Set()
+			};
+			catAgg.set(it.category, rec);
+		}
+		rec.pieces += it.quantity;
+		rec.volumeMl += reqMl;
+		rec.subfamilies.add(it.subfamily);
+		rec.partTotals.set(it.partNum, (rec.partTotals.get(it.partNum) || 0) + it.quantity);
+	}
+	const netBulkVolumeMl = Math.round(netBulkSum);
+	const totalRequiredVolumeMl = Math.round(totalReqSum);
+	const categoryBreakdown = Array.from(catAgg.entries()).map(([category, rec]) => {
+		const topParts = Array.from(rec.partTotals.entries()).sort((a, b) => b[1] - a[1]).slice(0, 4).map(([partNum, quantity]) => {
+			const pm = partMetaByNum.get(partNum);
+			return {
+				partNum,
+				name: pm?.name || `Onderdeel ${partNum}`,
+				quantity,
+				sampleImageUrl: pm?.sampleImageUrl
+			};
+		});
+		return {
+			category,
+			shape: rec.shape,
+			pieces: rec.pieces,
+			uniqueParts: rec.partTotals.size,
+			volumeMl: Math.round(rec.volumeMl),
+			sharePct: totalRequiredVolumeMl > 0 ? Math.round(rec.volumeMl / totalRequiredVolumeMl * 1e3) / 10 : 0,
+			subfamilies: Array.from(rec.subfamilies).sort(),
+			topParts
+		};
+	}).sort((a, b) => b.volumeMl - a.volumeMl || a.category.localeCompare(b.category));
+	const recSingle = pickRecommendedSingleBoxLiters(totalRequiredVolumeMl);
+	const recSingleFillPct = recSingle.liters > 0 ? Math.min(100, Math.round(totalRequiredVolumeMl / (recSingle.liters * 1e3) * 100)) : 0;
+	const step1SingleBox = {
+		totalPieces,
+		uniquePartsCount: partMetaByNum.size,
+		categoryCount: categoryBreakdown.length,
+		nettoGeometricVolumeMl: Math.round(volumeReliability.totalNettoCm3),
+		netBulkVolumeMl,
+		totalRequiredVolumeMl,
+		volumeReliability,
+		recommendedSingleBoxLiters: recSingle.liters,
+		recommendedSingleBoxLabel: recSingle.label,
+		recommendedSingleBoxFillPct: recSingleFillPct,
+		categoryBreakdown
+	};
+	const partVolumeRows = [];
+	for (const [partNum, info] of partDimSourceByNum.entries()) {
+		const meta = partMetaByNum.get(partNum);
+		const shape = meta?.shape || "other";
+		const totalNettoMl = info.volumeCalc.vNettoCm3 * info.quantity;
+		const totalBulkMl = info.activeVolumeMl * info.quantity;
+		const totalRequiredMl = totalBulkMl * gamma;
+		partVolumeRows.push({
+			partNum,
+			name: meta?.name || `Onderdeel ${partNum}`,
+			category: meta?.category || "Speciaal",
+			shape,
+			sampleImageUrl: meta?.sampleImageUrl,
+			totalQuantity: info.quantity,
+			matchLevel: info.volumeCalc.matchLevel,
+			matchLevelLabel: info.volumeCalc.matchLevelLabel,
+			matchDetail: info.volumeCalc.matchDetail,
+			vNettoCm3: info.volumeCalc.vNettoCm3,
+			packingFactor: info.volumeCalc.packingFactor,
+			activeVolumeMl: info.activeVolumeMl,
+			isCustom: info.isCustom,
+			suggestedVolumeMl: info.suggestedVolumeMl,
+			suggestionReason: info.suggestionReason,
+			totalNettoMl,
+			totalBulkMl,
+			totalRequiredMl
+		});
+	}
+	partVolumeRows.sort((a, b) => b.totalBulkMl - a.totalBulkMl || a.partNum.localeCompare(b.partNum));
+	return {
+		entries,
+		totalPieces,
+		totalUniqueParts: partMetaByNum.size,
+		totalRequiredVolumeMl,
+		gamma,
+		volumeReliability,
+		step1SingleBox,
+		partMetaByNum,
+		colorHexById,
+		partVolumeRows,
+		defaultPieceVolumeMl: defaultVolumeMl
+	};
+}
+/**
+* Stap 2: Verdeling in exact 5 logische bakken (draait alleen wanneer Stap 2/3 zichtbaar is).
+*/
+function computeStep2FiveBoxes(prepared) {
+	const fiveCatalog = buildCatalogMapHelper([
+		CONTAINER_CATALOG.drawer_xs,
+		CONTAINER_CATALOG.drawer_m,
+		CONTAINER_CATALOG.tray_l,
+		CONTAINER_CATALOG.bin_s,
+		CONTAINER_CATALOG.bin_m,
+		CONTAINER_CATALOG.bin_l,
+		CONTAINER_CATALOG.bin_xl,
+		CONTAINER_CATALOG.bin_xxl
+	]);
+	return buildStageFromSortingResult(partitionIntoExactKBoxes(prepared.entries, 5, fiveCatalog.boxTypes, {
+		alpha: .75,
+		gamma: prepared.gamma
+	}), fiveCatalog.metaMap);
+}
+/**
+* Stap 3: Eindvoorstel op basis van Volume ↔ Ergonomie slider.
+*/
+function computeStep3FinalPlan(prepared, options) {
+	const tradeoff = Math.max(0, Math.min(100, Math.round(options.tradeoff)));
+	const step3Catalog = buildCatalogMapHelper(getCatalogForTradeoff(options.systemMode, tradeoff, prepared.totalRequiredVolumeMl));
+	const step3Params = buildTradeoffSorterParams(tradeoff, {
+		gamma: prepared.gamma,
+		colorMode: options.colorMode,
+		boxTypes: step3Catalog.boxTypes
+	});
+	return buildStageFromSortingResult(runHvsbppSorter(prepared.entries, step3Params), step3Catalog.metaMap, tradeoff);
+}
+/**
+* Eigen dozen: Altijd maximale ergonomie met benutting van ALLE beschikbare dozen.
+*/
+function computeFixedInventoryPlan(prepared, userContainers) {
+	const userBoxTypes = [];
+	const userMetaMap = /* @__PURE__ */ new Map();
 	let totalUserCapacityMl = 0;
 	let totalUserBoxes = 0;
-	if (config.params.mode === "buy_advice") {
-		const specs = getCatalogBoxSpecs(config.systemMode);
-		for (const spec of specs) {
-			boxTypes.push({
-				id: spec.id,
-				grossVolumeMl: spec.grossVolumeMl,
-				stockCount: null,
-				price: spec.priceEur
-			});
-			boxMetaById.set(spec.id, {
-				id: spec.id,
-				name: spec.name,
-				shortName: spec.shortName,
-				dimensionsCm: spec.dimensionsCm,
-				exampleProduct: spec.exampleProduct,
-				grossVolumeMl: spec.grossVolumeMl,
-				priceEur: spec.priceEur,
-				stockCount: null
-			});
-		}
-	} else for (const uc of config.userContainers) {
+	for (const uc of userContainers) {
 		const grossMl = calculateUserContainerVolumeMl(uc);
 		const count = Math.max(0, Math.min(200, Math.floor(Number(uc.count) || 0)));
 		if (grossMl <= 0 || count <= 0) continue;
 		const dimLabel = `${uc.lengthCm.toString().replace(".", ",")} × ${uc.widthCm.toString().replace(".", ",")} × ${uc.heightCm.toString().replace(".", ",")} cm`;
-		const name = uc.name.trim() || `Bak (${dimLabel})`;
-		boxTypes.push({
+		const name = uc.name.trim() || `Doos (${dimLabel})`;
+		userBoxTypes.push({
 			id: uc.id,
 			grossVolumeMl: grossMl,
 			stockCount: count,
 			price: 0
 		});
-		boxMetaById.set(uc.id, {
+		userMetaMap.set(uc.id, {
 			id: uc.id,
 			name,
 			shortName: `${name} · ${formatVolume(grossMl)}`,
 			dimensionsCm: dimLabel,
-			exampleProduct: "Eigen container",
+			exampleProduct: "Eigen doos",
 			grossVolumeMl: grossMl,
 			priceEur: 0,
 			stockCount: count
@@ -22809,40 +25870,15 @@ function planCollectionWithHvsbpp(sets, prefs, config) {
 		totalUserCapacityMl += grossMl * count;
 		totalUserBoxes += count;
 	}
-	const fullParams = {
-		...config.params,
-		boxTypes
-	};
-	const result = runHvsbppSorter(entries, fullParams);
-	const totalRequiredVolumeMl = Math.round(entries.reduce((sum, it) => sum + computeItemReqMl(it, fullParams.gamma), 0));
-	const labelsByType = /* @__PURE__ */ new Map();
-	for (const a of result.assignments) {
-		const arr = labelsByType.get(a.boxTypeId);
-		if (arr) arr.push(a.clusterLabel);
-		else labelsByType.set(a.boxTypeId, [a.clusterLabel]);
-	}
-	const shoppingList = Object.entries(result.kpis.boxCountsByType).map(([typeId, count]) => {
-		const meta = boxMetaById.get(typeId) || {
-			id: typeId,
-			name: typeId,
-			shortName: typeId,
-			dimensionsCm: "—",
-			exampleProduct: "",
-			grossVolumeMl: 0,
-			priceEur: 0,
-			stockCount: null
-		};
-		return {
-			boxMeta: meta,
-			count,
-			subtotalEur: Math.round(meta.priceEur * count * 100) / 100,
-			labels: labelsByType.get(typeId) || []
-		};
-	}).sort((a, b) => a.boxMeta.grossVolumeMl - b.boxMeta.grossVolumeMl);
+	const fixedResult = optimizeFixedBoxesForErgonomics(prepared.entries, userBoxTypes, {
+		alpha: .78,
+		gamma: prepared.gamma
+	});
+	const fixedBaseStage = buildStageFromSortingResult(fixedResult, userMetaMap);
 	const spareContainers = [];
-	if (fullParams.mode === "fixed_inventory") for (const meta of boxMetaById.values()) {
+	for (const meta of userMetaMap.values()) {
 		if (meta.stockCount === null) continue;
-		const usedCount = result.kpis.boxCountsByType[meta.id] || 0;
+		const usedCount = fixedResult.kpis.boxCountsByType[meta.id] || 0;
 		const spareCount = Math.max(0, meta.stockCount - usedCount);
 		if (spareCount > 0) spareContainers.push({
 			boxMeta: meta,
@@ -22851,119 +25887,78 @@ function planCollectionWithHvsbpp(sets, prefs, config) {
 			spareCount
 		});
 	}
-	const typeUsageStats = {};
-	for (const s of ALL_PART_SHAPES) typeUsageStats[s] = {
-		uniqueCount: 0,
-		defaultCount: 0,
-		totalPieces: 0,
-		totalBulkMl: 0
-	};
-	const partDimensionRows = [];
-	const partVolumeRows = [];
-	for (const [partNum, info] of partDimSourceByNum.entries()) {
-		const meta = partMetaByNum.get(partNum);
-		const shape = meta?.shape || "other";
-		const singleBboxMl = info.activeVolumeMl / getBulkPackingFactor(info.shapeClass);
-		const singleBulkMl = info.activeVolumeMl * fullParams.gamma;
-		const totalBulkMl = singleBulkMl * info.quantity;
-		partDimensionRows.push({
-			partNum,
-			name: meta?.name || `Onderdeel ${partNum}`,
-			category: meta?.category || "Speciaal",
-			shape,
-			sampleImageUrl: meta?.sampleImageUrl,
-			totalQuantity: info.quantity,
-			dims: info.dims,
-			shapeClass: info.shapeClass,
-			source: info.isCustom ? "custom_part" : "type_default",
-			singleBboxMl,
-			singleBulkMl,
-			totalBulkMl
-		});
-		partVolumeRows.push({
-			partNum,
-			name: meta?.name || `Onderdeel ${partNum}`,
-			category: meta?.category || "Speciaal",
-			shape,
-			sampleImageUrl: meta?.sampleImageUrl,
-			totalQuantity: info.quantity,
-			activeVolumeMl: info.activeVolumeMl,
-			isCustom: info.isCustom,
-			suggestedVolumeMl: info.suggestedVolumeMl,
-			suggestionReason: info.suggestionReason,
-			totalRequiredMl: totalBulkMl
-		});
-		const stat = typeUsageStats[shape] || typeUsageStats.other;
-		stat.uniqueCount += 1;
-		if (!info.isCustom) stat.defaultCount += 1;
-		stat.totalPieces += info.quantity;
-		stat.totalBulkMl += totalBulkMl;
-	}
-	partDimensionRows.sort((a, b) => b.totalBulkMl - a.totalBulkMl || a.partNum.localeCompare(b.partNum));
-	partVolumeRows.sort((a, b) => b.totalRequiredMl - a.totalRequiredMl || a.partNum.localeCompare(b.partNum));
 	return {
-		result,
-		totalPieces,
-		totalPartEntries: entries.length,
-		totalRequiredVolumeMl,
-		totalUserCapacityMl,
-		totalUserBoxes,
-		boxMetaById,
-		partMetaByNum,
-		colorHexById,
-		shoppingList,
+		...fixedBaseStage,
 		spareContainers,
-		appliedParams: fullParams,
-		partDimensionRows,
-		typeUsageStats,
-		partVolumeRows,
-		defaultPieceVolumeMl: defaultVolumeMl
+		totalUserBoxes,
+		usedUserBoxes: fixedResult.assignments.length,
+		totalUserCapacityMl
 	};
 }
 /**
-* Genereert een downloadbaar bakkenplan & etikettenbestand (.txt) uit het H-VSBPP resultaat.
+* Genereert een duidelijke, uitprintbare sorteerlijst (.txt) met per doos
+* precies welke categorieën, types én concrete steentjes erin horen.
 */
-function buildHvsbppLabelsText(bundle) {
-	const { result, appliedParams, boxMetaById, partMetaByNum, shoppingList } = bundle;
+function buildIterativeLabelsText(title, stage, bundle) {
+	const { result, boxMetaById, shoppingList, totalGrossBoxVolumeMl } = stage;
 	const { kpis } = result;
-	const modeTitle = appliedParams.mode === "buy_advice" ? "KOOPADVIES" : "EIGEN CONTAINERS";
-	const minFillPct = Math.round((appliedParams.minFillRatio ?? 0) * 100);
-	const maxFillPct = Math.round(appliedParams.alpha * 100);
-	const growthPct = Math.round((appliedParams.gamma - 1) * 100);
-	const maxPiecesLabel = appliedParams.maxPiecesPerBox !== null && appliedParams.maxPiecesPerBox !== void 0 ? `${appliedParams.maxPiecesPerBox} stuks` : "geen limiet";
-	const colorLabel = appliedParams.colorMode === "never" ? "Nooit" : appliedParams.colorMode === "always" ? "Altijd" : "Bij volle bak";
+	const growthPct = Math.round((bundle.gamma - 1) * 100);
+	const rel = bundle.volumeReliability;
 	const lines = [
-		`BRICKBASE — ORGANISATIE & BAKKENPLAN · ${modeTitle}`,
+		`BRICKBASE — ${title.toUpperCase()}`,
 		"========================================================================",
-		`Totaal stukjes: ${bundle.totalPieces.toLocaleString("nl-NL")}`,
-		`Benodigd stortvolume (incl. +${growthPct}% groeiruimte): ${formatVolume(bundle.totalRequiredVolumeMl)}`,
-		`Toegewezen bakken: ${kpis.totalBoxes} · Gem. vulling: ${Math.round(kpis.avgGrossFillRatio * 100)}% · Ergonomiescore: ${kpis.ergonomicsScore}/100`,
-		`Vrije groeiruimte: ${formatVolume(kpis.totalFreeGrowthMl)}`,
-		`Instellingen: Max. vulling ${maxFillPct}%, Min. vulling ${minFillPct}%, Groeiruimte +${growthPct}%, Max. stukjes/bak: ${maxPiecesLabel}, Kleursplitsing: ${colorLabel}`
+		`Totaal steentjes: ${bundle.totalPieces.toLocaleString("nl-NL")} (${bundle.totalUniqueParts} unieke vormen)`,
+		`Totaal netto volume (V_netto): ${formatVolume(rel.totalNettoCm3)} · Losgestort (V_bulk): ${formatVolume(rel.totalBulkCm3)}`,
+		`Benodigd opbergvolume (incl. +${growthPct}% groeiruimte): ${formatVolume(bundle.totalRequiredVolumeMl)}`,
+		`Betrouwbaarheid volumeberekening: Niveau 1 Specifiek ${rel.level1Pct.toFixed(1).replace(".", ",")}% · Niveau 2 Categorie ${rel.level2Pct.toFixed(1).replace(".", ",")}% · Niveau 3 Default ${rel.level3Pct.toFixed(1).replace(".", ",")}%${rel.customPieces > 0 ? ` · Eigen waarde ${rel.customPct.toFixed(1).replace(".", ",")}%` : ""}`,
+		`Aantal dozen: ${kpis.totalBoxes} · Totaal doosvolume: ${formatVolume(totalGrossBoxVolumeMl)} · Gem. vulling: ${Math.round(kpis.avgGrossFillRatio * 100)}%`,
+		`Ergonomiescore: ${kpis.ergonomicsScore}/100`,
+		"",
+		"BENODIGDE / GEBRUIKTE DOZEN:"
 	];
-	if (appliedParams.mode === "buy_advice") lines.push(`Geschatte bakkosten: € ${kpis.totalCost.toFixed(2).replace(".", ",")}`);
-	if (result.recoveryApplied) lines.push(result.recoveryApplied.consolidatedToInventory ? `Automatisch samengevoegd: verwante categorieën zijn gecombineerd om alles binnen je eigen voorraad te laten passen.` : `Automatisch aangepast (${result.recoveryApplied.iterations} stap(pen)) om binnen je eigen voorraad te passen.`);
-	lines.push("", "OVERZICHT PER BAKTYPE:");
-	for (const item of shoppingList) lines.push(`- ${item.count}× ${item.boxMeta.name} (${item.boxMeta.dimensionsCm})` + (appliedParams.mode === "buy_advice" ? ` — € ${item.subtotalEur.toFixed(2).replace(".", ",")}` : ""));
-	lines.push("", "LABELS & INHOUD PER BAK:");
-	for (const a of result.assignments) {
+	for (const item of shoppingList) lines.push(`- ${item.count}× ${item.boxMeta.name} (${item.boxMeta.dimensionsCm})`);
+	lines.push("", "EXACTE INHOUD PER DOOS (WAT MOET WAARIN):");
+	result.assignments.forEach((a, idx) => {
 		const meta = boxMetaById.get(a.boxTypeId);
 		const pieceSum = a.items.reduce((s, it) => s + it.quantity, 0);
 		const fillPct = Math.round(a.fillRatioGross * 100);
+		const byCatSub = /* @__PURE__ */ new Map();
 		const byPart = /* @__PURE__ */ new Map();
-		for (const it of a.items) byPart.set(it.partNum, (byPart.get(it.partNum) || 0) + it.quantity);
-		const topParts = Array.from(byPart.entries()).sort((x, y) => y[1] - x[1]).slice(0, 6).map(([pn, q]) => {
-			const pm = partMetaByNum.get(pn);
-			return `${pm ? pm.name : pn} (#${pn}, ${q}×)`;
-		}).join(", ");
-		lines.push(`[${a.boxId}] ${a.clusterLabel.toUpperCase()} — ${meta ? meta.name : a.boxTypeId}`);
-		lines.push(`  Inhoud: ${pieceSum} stuks · ${formatVolume(a.usedVolumeMl)} / ${formatVolume(a.grossVolumeMl)} (${fillPct}% vol) · vrij ${formatVolume(a.freeEffectiveVolumeMl)}`);
-		lines.push(`  Overzicht: ${a.ergonomics.categoryCount} ${a.ergonomics.categoryCount === 1 ? "categorie" : "categorieën"} · ${a.ergonomics.uniquePartCount} vormen · grootteverschil ${a.ergonomics.sizeRatio}×`);
-		lines.push(`  Belangrijkste stukjes: ${topParts}`);
-	}
+		for (const it of a.items) {
+			let subMap = byCatSub.get(it.category);
+			if (!subMap) {
+				subMap = /* @__PURE__ */ new Map();
+				byCatSub.set(it.category, subMap);
+			}
+			subMap.set(it.subfamily, (subMap.get(it.subfamily) || 0) + it.quantity);
+			let pRec = byPart.get(it.partNum);
+			if (!pRec) {
+				pRec = {
+					qty: 0,
+					colors: /* @__PURE__ */ new Set(),
+					category: it.category,
+					subfamily: it.subfamily
+				};
+				byPart.set(it.partNum, pRec);
+			}
+			pRec.qty += it.quantity;
+			pRec.colors.add(it.colorId);
+		}
+		lines.push("", `------------------------------------------------------------------------`, `DOOS ${idx + 1}: ${a.clusterLabel.toUpperCase()}`, `Formaat: ${meta ? `${meta.name} (${meta.dimensionsCm})` : a.boxTypeId}`, `Inhoud: ${pieceSum} stuks · ${formatVolume(a.usedVolumeMl)} / ${formatVolume(a.grossVolumeMl)} (${fillPct}% vol)`, `Types / subgroepen in deze doos:`);
+		for (const [cat, subMap] of byCatSub.entries()) {
+			const subs = Array.from(subMap.entries()).sort((x, y) => y[1] - x[1]).map(([s, q]) => `${s} (${q}×)`).join(", ");
+			lines.push(`  • ${cat}: ${subs}`);
+		}
+		lines.push(`Concrete steentjes in deze doos (${byPart.size} vormen):`);
+		Array.from(byPart.entries()).sort((x, y) => y[1].qty - x[1].qty).forEach(([partNum, rec]) => {
+			const pm = bundle.partMetaByNum.get(partNum);
+			const colorsText = rec.colors.size <= 3 ? Array.from(rec.colors).join(", ") : `${Array.from(rec.colors).slice(0, 2).join(", ")} +${rec.colors.size - 2} kleuren`;
+			lines.push(`  - ${rec.qty}× ${pm ? pm.name : partNum} [#${partNum}] (${rec.subfamily} · ${colorsText})`);
+		});
+	});
 	if (result.unassignedClusters.length > 0) {
-		lines.push("", "NIET-GEPLAATSTE CLUSTERS:");
-		for (const u of result.unassignedClusters) lines.push(`- ${u.label}: ${u.totalQuantity} stuks (${formatVolume(u.totalVolume)}) — reden: ${u.reason || "ONBEKEND"}`);
+		lines.push("", "PAST NIET IN HUIDIGE DOZENVOORRAAD:");
+		for (const u of result.unassignedClusters) lines.push(`- ${u.label}: ${u.totalQuantity} stuks (${formatVolume(u.totalVolume)})`);
 	}
 	return lines.join("\n");
 }
@@ -24706,7 +27701,7 @@ var eurCompactFormatter = new Intl.NumberFormat("nl-NL", {
 	minimumFractionDigits: 0,
 	maximumFractionDigits: 0
 });
-function formatEur$1(amount, compact = false) {
+function formatEur(amount, compact = false) {
 	const safe = Number.isFinite(amount) ? amount : 0;
 	return compact ? eurCompactFormatter.format(safe) : eurFormatter.format(safe);
 }
@@ -25205,7 +28200,7 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										className: "mt-1 font-mono text-2xl font-bold text-[#141619] tabular-nums",
-										children: formatEur$1(summary.totalFullValueEur)
+										children: formatEur(summary.totalFullValueEur)
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 										className: "mt-1 font-mono text-[11px] text-[#5A606B] tabular-nums",
@@ -25215,10 +28210,10 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 											sets.length === 1 ? "set" : "sets",
 											" · gem.",
 											" ",
-											formatEur$1(summary.averageSetValueEur),
+											formatEur(summary.averageSetValueEur),
 											"/set ·",
 											" ",
-											formatEur$1(summary.averagePricePerPieceEur),
+											formatEur(summary.averagePricePerPieceEur),
 											"/stuk"
 										]
 									})
@@ -25233,7 +28228,7 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										className: "mt-1 font-mono text-2xl font-bold text-[#15803D] tabular-nums",
-										children: formatEur$1(summary.totalCollectedValueEur)
+										children: formatEur(summary.totalCollectedValueEur)
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 										className: "mt-1 font-mono text-[11px] text-[#5A606B] tabular-nums",
@@ -25258,7 +28253,7 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										className: "mt-1 font-mono text-2xl font-bold text-[#D11013] tabular-nums",
-										children: formatEur$1(summary.totalMissingCostEur)
+										children: formatEur(summary.totalMissingCostEur)
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										className: "mt-1 font-mono text-[11px] text-[#5A606B] tabular-nums",
@@ -25273,7 +28268,7 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 									children: "Waardevolste set (100%)"
 								}), summary.mostValuableSet ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 									className: "mt-1 font-mono text-2xl font-bold text-[#141619] tabular-nums",
-									children: formatEur$1(summary.mostValuableSet.valuation.fullValueEur)
+									children: formatEur(summary.mostValuableSet.valuation.fullValueEur)
 								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
 									type: "button",
 									onClick: () => onSelectSet(summary.mostValuableSet.set.id, "all"),
@@ -25443,7 +28438,7 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 										children: t.theme
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 										className: "font-mono text-xs font-bold tabular-nums shrink-0",
-										children: formatEur$1(t.fullValueEur)
+										children: formatEur(t.fullValueEur)
 									})]
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
@@ -25691,7 +28686,7 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 													className: "inline-flex flex-col items-end",
 													children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 														className: "font-mono text-sm font-bold text-[#141619] tabular-nums",
-														children: formatEur$1(valuation.fullValueEur)
+														children: formatEur(valuation.fullValueEur)
 													}), valuation.isCustomValue ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 														className: "inline-flex items-center gap-1 text-[10px] font-medium text-[#135CA8]",
 														children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Eigen waarde" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
@@ -25709,13 +28704,13 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 											}),
 											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
 												className: "py-3 px-3 text-right font-mono text-xs text-[#5A606B] tabular-nums whitespace-nowrap",
-												children: formatEur$1(valuation.pricePerPieceEur)
+												children: formatEur(valuation.pricePerPieceEur)
 											}),
 											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("td", {
 												className: "py-3 px-3 text-right whitespace-nowrap",
 												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 													className: "font-mono text-xs font-semibold text-[#15803D] tabular-nums",
-													children: formatEur$1(valuation.collectedValueEur)
+													children: formatEur(valuation.collectedValueEur)
 												}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 													className: "font-mono text-[10px] text-[#8A909B] tabular-nums",
 													children: [valuation.fillPercent, "% gevuld"]
@@ -25728,7 +28723,7 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 													children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Check, { className: "h-3 w-3" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "€ 0,00" })]
 												}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 													className: "font-semibold text-[#D11013]",
-													children: formatEur$1(valuation.missingCostEur)
+													children: formatEur(valuation.missingCostEur)
 												})
 											}),
 											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
@@ -25780,7 +28775,7 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 															" ",
 															/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", {
 																className: "text-[#141619]",
-																children: formatEur$1(b.standardBricksEur)
+																children: formatEur(b.standardBricksEur)
 															})
 														] }),
 														/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
@@ -25788,7 +28783,7 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 															" ",
 															/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", {
 																className: "text-[#141619]",
-																children: formatEur$1(b.specialPartsEur)
+																children: formatEur(b.specialPartsEur)
 															})
 														] }),
 														settings.includeMinifigs && b.minifigsEur > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
@@ -25798,7 +28793,7 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 															" ",
 															/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", {
 																className: "text-[#141619]",
-																children: formatEur$1(b.minifigsEur)
+																children: formatEur(b.minifigsEur)
 															})
 														] }),
 														settings.includeStickers && b.stickersEur > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
@@ -25806,7 +28801,7 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 															" ",
 															/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", {
 																className: "text-[#141619]",
-																children: formatEur$1(b.stickersEur)
+																children: formatEur(b.stickersEur)
 															})
 														] }),
 														settings.mode === "market" && b.marketAdjustmentEur > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
@@ -25814,13 +28809,13 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 															" ",
 															/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("strong", {
 																className: "text-[#141619]",
-																children: ["+", formatEur$1(b.marketAdjustmentEur)]
+																children: ["+", formatEur(b.marketAdjustmentEur)]
 															})
 														] })
 													]
 												}), valuation.isCustomValue && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 													className: "font-mono text-[11px] text-[#5A606B] tabular-nums",
-													children: ["Automatische schatting: ", formatEur$1(valuation.estimatedValueEur)]
+													children: ["Automatische schatting: ", formatEur(valuation.estimatedValueEur)]
 												})]
 											})
 										})
@@ -25844,19 +28839,19 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
 										className: "py-3.5 px-3 text-right font-mono text-sm font-bold text-[#141619] tabular-nums",
-										children: formatEur$1(filteredTotals.fullValueEur)
+										children: formatEur(filteredTotals.fullValueEur)
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
 										className: "py-3.5 px-3 text-right font-mono text-[#5A606B] tabular-nums",
-										children: filteredTotals.pieces > 0 ? formatEur$1(filteredTotals.fullValueEur / filteredTotals.pieces) : "—"
+										children: filteredTotals.pieces > 0 ? formatEur(filteredTotals.fullValueEur / filteredTotals.pieces) : "—"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
 										className: "py-3.5 px-3 text-right font-mono font-bold text-[#15803D] tabular-nums",
-										children: formatEur$1(filteredTotals.collectedValueEur)
+										children: formatEur(filteredTotals.collectedValueEur)
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
 										className: "py-3.5 px-3 text-right font-mono font-bold text-[#D11013] tabular-nums",
-										children: formatEur$1(filteredTotals.missingCostEur)
+										children: formatEur(filteredTotals.missingCostEur)
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", { className: "py-3.5 pl-3 pr-5" })
 								]
@@ -25869,8 +28864,8 @@ function CollectionValuation({ sets, settings, onSettingsChange, onUpdateSetCust
 	});
 }
 // src/components/GoogleBackendModal.tsx
-function GoogleBackendModal({ open, onClose, googleBackendUrl, adminToken, bigQueryAccessToken, onSaveUrl, onChangeBigQueryAccessToken, onSessionExpired, onNotify }) {
-	const [activeTab, setActiveTab] = (0, import_react.useState)("config");
+function GoogleBackendModal({ open, initialTab = "config", onClose, googleBackendUrl, adminToken, bigQueryAccessToken, onSaveUrl, onChangeBigQueryAccessToken, onOpenCloudBackup, onSessionExpired, onNotify }) {
+	const [activeTab, setActiveTab] = (0, import_react.useState)(initialTab);
 	const [urlInput, setUrlInput] = (0, import_react.useState)(googleBackendUrl);
 	const [tokenInput, setTokenInput] = (0, import_react.useState)(bigQueryAccessToken);
 	const [showToken, setShowToken] = (0, import_react.useState)(false);
@@ -25883,6 +28878,7 @@ function GoogleBackendModal({ open, onClose, googleBackendUrl, adminToken, bigQu
 	const staticHost = isStaticHostingEnvironment();
 	(0, import_react.useEffect)(() => {
 		if (!open) return;
+		setActiveTab(initialTab);
 		setUrlInput(googleBackendUrl);
 		setTokenInput(bigQueryAccessToken);
 		setShowToken(false);
@@ -25895,6 +28891,7 @@ function GoogleBackendModal({ open, onClose, googleBackendUrl, adminToken, bigQu
 		}).catch(() => {});
 	}, [
 		open,
+		initialTab,
 		googleBackendUrl,
 		bigQueryAccessToken,
 		staticHost
@@ -26342,6 +29339,41 @@ function GoogleBackendModal({ open, onClose, googleBackendUrl, adminToken, bigQu
 										"— live zoeken & previews gebruiken je Google Sheet (0 BigQuery-verbruik)."
 									]
 								}),
+								testResult.ok && testResult.cloudBackupSupported ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "flex flex-wrap items-center justify-between gap-2 pt-0.5",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "text-[11px] font-medium text-[#15803D]",
+										children: "✓ Cloud-back-up naar Google Drive actief (0 BigQuery-kosten)."
+									}), onOpenCloudBackup && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+										type: "button",
+										onClick: () => {
+											onClose();
+											onOpenCloudBackup();
+										},
+										className: "text-[11px] font-semibold text-[#135CA8] hover:underline",
+										children: "Open Cloud-back-up →"
+									})]
+								}) : testResult.ok ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+									className: "text-[11px] text-[#92400E] bg-[#FFFBEB] border border-[#F59E0B]/30 rounded-md px-2.5 py-2 leading-relaxed",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "Tip voor Cloud-back-up:" }),
+										" werk je ",
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "font-mono font-semibold",
+											children: "Code.gs"
+										}),
+										" één keer bij via het tabblad ",
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("em", { children: "Google Apps Script" }),
+										", voer ",
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "font-mono font-semibold",
+											children: "testCloudBackupSetup"
+										}),
+										" uit en kies ",
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("em", { children: "Implementeren → Nieuwe versie" }),
+										" om je collectie ook in Google Drive op te slaan."
+									]
+								}) : null,
 								testResult.rebrickableApiConfigured ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 									className: "text-[11px] font-medium text-[#15803D]",
 									children: "✓ Rebrickable API-sleutel actief in Apps Script (wordt als eerste geprobeerd)."
@@ -26504,12 +29536,17 @@ function GoogleBackendModal({ open, onClose, googleBackendUrl, adminToken, bigQu
 											className: "font-mono text-[#141619]",
 											children: "BIGQUERY_ACCESS_TOKEN"
 										}),
-										" aan — je kunt meerdere komma-gescheiden sleutels voor gemachtigden toevoegen), en voer daarna ",
+										" aan — je kunt meerdere komma-gescheiden sleutels voor gemachtigden toevoegen), voer daarna ",
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 											className: "font-mono text-[#141619]",
 											children: "testBigQuerySetup"
 										}),
-										" uit."
+										" uit en (voor Google Drive cloud-back-up) ook één keer ",
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "font-mono text-[#141619]",
+											children: "testCloudBackupSetup"
+										}),
+										"."
 									] }),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", { children: [
 										"Klik rechtsboven op ",
@@ -27100,7 +30137,7 @@ function OverviewDashboard({ sets, prefs, valuationSettings, onPreviewSets, onFe
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 											className: "mt-1 font-mono text-xl font-semibold text-[#141619] tabular-nums",
-											children: formatEur$1(totalCollectionValueEur, true)
+											children: formatEur(totalCollectionValueEur, true)
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 											className: "mt-0.5 text-[11px] font-medium text-[#135CA8] group-hover:underline",
@@ -27543,7 +30580,7 @@ function OverviewDashboard({ sets, prefs, valuationSettings, onPreviewSets, onFe
 											] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 												className: "font-semibold text-[#141619] shrink-0",
 												title: valuation.isCustomValue ? "Eigen ingestelde setwaarde (100% compleet)" : "Geschatte setwaarde bij 100% vulling",
-												children: formatEur$1(valuation.fullValueEur)
+												children: formatEur(valuation.fullValueEur)
 											})]
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
@@ -27755,7 +30792,7 @@ function OverviewDashboard({ sets, prefs, valuationSettings, onPreviewSets, onFe
 												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
 													className: "py-3 px-3 text-right font-mono text-xs font-semibold text-[#141619] tabular-nums whitespace-nowrap",
 													title: valuation.isCustomValue ? "Eigen ingestelde waarde (100% compleet)" : "Berekende waarde bij 100% set-vulling",
-													children: formatEur$1(valuation.fullValueEur)
+													children: formatEur(valuation.fullValueEur)
 												}),
 												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("td", {
 													className: "py-3 px-3 text-right font-mono text-sm font-medium text-[#15803D] tabular-nums whitespace-nowrap",
@@ -30507,8 +33544,11 @@ function StandaloneDownloadModal({ open, onClose, sets, prefs, googleBackendUrl,
 }
 // src/components/DimensionsPanel.tsx
 var INITIAL_RENDER_LIMIT = 150;
-function formatCm3(val) {
-	return (Math.round(val * 10) / 10).toFixed(1).replace(".", ",");
+function formatCm3(val, decimals = 2) {
+	return val.toFixed(decimals).replace(".", ",");
+}
+function formatLiters(cm3) {
+	return `${(cm3 / 1e3).toFixed(2).replace(".", ",")} L`;
 }
 function parseDutchNumber(raw) {
 	const cleaned = raw.trim().replace(",", ".");
@@ -30519,24 +33559,24 @@ function countCustomPartVolumes(config) {
 	return config.byPartNum ? Object.keys(config.byPartNum).length : 0;
 }
 function VolumeInput({ value, highlighted = false, ariaLabel, onCommit }) {
-	const [draft, setDraft] = (0, import_react.useState)(() => formatCm3(value));
+	const [draft, setDraft] = (0, import_react.useState)(() => formatCm3(value, 2));
 	const [focused, setFocused] = (0, import_react.useState)(false);
 	(0, import_react.useEffect)(() => {
-		if (!focused) setDraft(formatCm3(value));
+		if (!focused) setDraft(formatCm3(value, 2));
 	}, [value, focused]);
 	function handleChange(raw) {
 		setDraft(raw);
 		const parsed = parseDutchNumber(raw);
-		if (Number.isFinite(parsed) && parsed >= .1 && parsed <= 500) onCommit(Math.round(parsed * 10) / 10);
+		if (Number.isFinite(parsed) && parsed >= .05 && parsed <= 500) onCommit(Math.round(parsed * 100) / 100);
 	}
 	function handleBlur() {
 		setFocused(false);
 		const parsed = parseDutchNumber(draft);
-		if (Number.isFinite(parsed) && parsed >= .1 && parsed <= 500) {
-			const clean = Math.round(parsed * 10) / 10;
+		if (Number.isFinite(parsed) && parsed >= .05 && parsed <= 500) {
+			const clean = Math.round(parsed * 100) / 100;
 			onCommit(clean);
-			setDraft(formatCm3(clean));
-		} else setDraft(formatCm3(value));
+			setDraft(formatCm3(clean, 2));
+		} else setDraft(formatCm3(value, 2));
 	}
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
 		type: "text",
@@ -30549,23 +33589,42 @@ function VolumeInput({ value, highlighted = false, ariaLabel, onCommit }) {
 		className: `w-16 rounded-md border px-2 py-1 text-right font-mono text-xs tabular-nums focus:border-[#141619] focus:bg-white focus:outline-none ${highlighted ? "border-[#D11013]/50 bg-white font-semibold text-[#141619]" : "border-[#E4E4E0] bg-[#F7F7F5] text-[#141619]"}`
 	});
 }
-function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows }) {
+function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows, volumeReliability }) {
 	const [query, setQuery] = (0, import_react.useState)("");
+	const deferredQuery = (0, import_react.useDeferredValue)(query);
+	const [levelFilter, setLevelFilter] = (0, import_react.useState)("all");
 	const [selectedPartNums, setSelectedPartNums] = (0, import_react.useState)(() => /* @__PURE__ */ new Set());
 	const [bulkValueText, setBulkValueText] = (0, import_react.useState)("");
 	const [showAllRows, setShowAllRows] = (0, import_react.useState)(false);
 	const [feedback, setFeedback] = (0, import_react.useState)(null);
+	const [copiedMd, setCopiedMd] = (0, import_react.useState)(false);
 	(0, import_react.useEffect)(() => {
 		if (!feedback) return;
 		const timer = window.setTimeout(() => setFeedback(null), 2600);
 		return () => window.clearTimeout(timer);
 	}, [feedback]);
-	const defaultVol = volumeConfig.defaultVolumeMl || 3;
+	(0, import_react.useEffect)(() => {
+		if (!copiedMd) return;
+		const timer = window.setTimeout(() => setCopiedMd(false), 2400);
+		return () => window.clearTimeout(timer);
+	}, [copiedMd]);
+	const defaultFallbackBulk = volumeConfig.defaultVolumeMl || DEFAULT_PIECE_VOLUME_ML;
 	const customCount = countCustomPartVolumes(volumeConfig);
 	const filteredRows = (0, import_react.useMemo)(() => {
-		const q = query.trim().toLowerCase();
-		return [...q ? partVolumeRows.filter((row) => row.name.toLowerCase().includes(q) || row.partNum.toLowerCase().includes(q) || row.category.toLowerCase().includes(q)) : partVolumeRows].sort((a, b) => b.totalQuantity - a.totalQuantity || a.name.localeCompare(b.name));
-	}, [partVolumeRows, query]);
+		const q = deferredQuery.trim().toLowerCase();
+		return partVolumeRows.filter((row) => {
+			if (levelFilter === "custom" && !row.isCustom) return false;
+			if (levelFilter === "1" && (row.isCustom || row.matchLevel !== 1)) return false;
+			if (levelFilter === "2" && (row.isCustom || row.matchLevel !== 2)) return false;
+			if (levelFilter === "3" && (row.isCustom || row.matchLevel !== 3)) return false;
+			if (!q) return true;
+			return row.name.toLowerCase().includes(q) || row.partNum.toLowerCase().includes(q) || row.category.toLowerCase().includes(q) || row.matchDetail.toLowerCase().includes(q);
+		});
+	}, [
+		partVolumeRows,
+		deferredQuery,
+		levelFilter
+	]);
 	const activeSelection = (0, import_react.useMemo)(() => {
 		if (selectedPartNums.size === 0) return /* @__PURE__ */ new Set();
 		const valid = new Set(partVolumeRows.map((r) => r.partNum));
@@ -30603,17 +33662,17 @@ function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows }) {
 		});
 	}
 	function setDefaultVolume(val) {
-		const clean = Math.max(.1, Math.min(500, Math.round(val * 10) / 10));
+		const clean = Math.max(.05, Math.min(500, Math.round(val * 100) / 100));
 		onChange({
 			...volumeConfig,
 			defaultVolumeMl: clean
 		});
 	}
-	function setSinglePartVolume(partNum, val) {
-		const clean = Math.max(.1, Math.min(500, Math.round(val * 10) / 10));
+	function setSinglePartVolume(row, val) {
+		const clean = Math.max(.05, Math.min(500, Math.round(val * 100) / 100));
 		const nextMap = { ...volumeConfig.byPartNum || {} };
-		if (Math.abs(clean - defaultVol) < .05) delete nextMap[partNum];
-		else nextMap[partNum] = clean;
+		if (Math.abs(clean - row.suggestedVolumeMl) < .01) delete nextMap[row.partNum];
+		else nextMap[row.partNum] = clean;
 		onChange({
 			...volumeConfig,
 			byPartNum: Object.keys(nextMap).length > 0 ? nextMap : void 0
@@ -30628,26 +33687,13 @@ function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows }) {
 			byPartNum: Object.keys(nextMap).length > 0 ? nextMap : void 0
 		});
 	}
-	function handleBulkApplySuggestions() {
-		if (targetRows.length === 0) return;
-		const count = targetRows.length;
-		const nextMap = { ...volumeConfig.byPartNum || {} };
-		for (const row of targetRows) if (Math.abs(row.suggestedVolumeMl - defaultVol) < .05) delete nextMap[row.partNum];
-		else nextMap[row.partNum] = row.suggestedVolumeMl;
-		onChange({
-			...volumeConfig,
-			byPartNum: Object.keys(nextMap).length > 0 ? nextMap : void 0
-		});
-		if (activeSelection.size > 0) setSelectedPartNums(/* @__PURE__ */ new Set());
-		setFeedback(`Voorstel toegepast op ${count} ${count === 1 ? "blokje" : "blokjes"}`);
-	}
 	function handleBulkApplyCustomValue() {
 		const parsed = parseDutchNumber(bulkValueText);
-		if (!Number.isFinite(parsed) || parsed < .1 || parsed > 500 || targetRows.length === 0) return;
+		if (!Number.isFinite(parsed) || parsed < .05 || parsed > 500 || targetRows.length === 0) return;
 		const count = targetRows.length;
-		const clean = Math.round(parsed * 10) / 10;
+		const clean = Math.round(parsed * 100) / 100;
 		const nextMap = { ...volumeConfig.byPartNum || {} };
-		for (const row of targetRows) if (Math.abs(clean - defaultVol) < .05) delete nextMap[row.partNum];
+		for (const row of targetRows) if (Math.abs(clean - row.suggestedVolumeMl) < .01) delete nextMap[row.partNum];
 		else nextMap[row.partNum] = clean;
 		onChange({
 			...volumeConfig,
@@ -30657,7 +33703,7 @@ function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows }) {
 		if (activeSelection.size > 0) setSelectedPartNums(/* @__PURE__ */ new Set());
 		setFeedback(`${formatCm3(clean)} cm³ toegepast op ${count} ${count === 1 ? "blokje" : "blokjes"}`);
 	}
-	function handleBulkResetToDefault() {
+	function handleBulkResetToCalculated() {
 		if (targetRows.length === 0) return;
 		const count = targetRows.length;
 		const nextMap = { ...volumeConfig.byPartNum || {} };
@@ -30667,73 +33713,238 @@ function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows }) {
 			byPartNum: Object.keys(nextMap).length > 0 ? nextMap : void 0
 		});
 		if (activeSelection.size > 0) setSelectedPartNums(/* @__PURE__ */ new Set());
-		setFeedback(`${count} ${count === 1 ? "blokje" : "blokjes"} terug op ${formatCm3(defaultVol)} cm³`);
+		setFeedback(`${count} ${count === 1 ? "blokje" : "blokjes"} teruggezet op automatische berekening`);
+	}
+	async function handleCopyMarkdown() {
+		const md = buildVolumeCalculatorMarkdown(partVolumeRows, volumeReliability);
+		try {
+			await navigator.clipboard.writeText(md);
+			setCopiedMd(true);
+		} catch {
+			setFeedback("Kopiëren mislukt — probeer opnieuw");
+		}
 	}
 	const parsedBulkVal = parseDutchNumber(bulkValueText);
-	const canApplyBulkVal = targetRows.length > 0 && Number.isFinite(parsedBulkVal) && parsedBulkVal >= .1 && parsedBulkVal <= 500;
+	const canApplyBulkVal = targetRows.length > 0 && Number.isFinite(parsedBulkVal) && parsedBulkVal >= .05 && parsedBulkVal <= 500;
 	const hasCustomInTarget = targetRows.some((r) => r.isCustom);
 	const visibleRows = showAllRows ? filteredRows : filteredRows.slice(0, INITIAL_RENDER_LIMIT);
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-		className: "rounded-xl border border-[#E4E4E0] bg-white p-5 space-y-4",
+		className: "rounded-2xl border border-[#E4E4E0] bg-white p-5 space-y-4 shadow-xl",
 		children: [
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "flex items-start justify-between gap-4",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex items-center gap-2",
+					className: "flex flex-wrap items-center gap-2",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Ruler, { className: "h-4 w-4 text-[#D11013]" }),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-							className: "font-display text-base font-semibold text-[#141619]",
-							children: "Volume per blokje"
+							className: "font-display text-lg font-bold text-[#141619]",
+							children: "Nauwkeurige Volumecalculator (3-staps waterval)"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 							className: "font-mono text-xs text-[#5A606B] tabular-nums",
 							children: [
 								"· ",
 								partVolumeRows.length.toLocaleString("nl-NL"),
-								" blokjes",
-								customCount > 0 ? ` (${customCount} aangepast)` : ""
+								" vormen",
+								customCount > 0 ? ` (${customCount} eigen)` : ""
 							]
 						})
 					]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "text-xs text-[#5A606B] mt-0.5",
-					children: "Standaardvolume (incl. lucht) staat voor elk blokje ingevuld. Pas per stuk aan of vink blokjes aan om in bulk het voorstel of een eigen waarde te gebruiken."
-				})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-					type: "button",
-					onClick: onClose,
-					className: "text-xs font-medium text-[#5A606B] hover:text-[#141619] px-2 py-1 whitespace-nowrap shrink-0",
-					children: "Sluiten"
+					children: "Elk blokje wordt automatisch berekend van specifiek naar generiek (Niveau 1 tabel/formule → Niveau 2 categorie → Niveau 3 default). Je kunt elk blokje desgewenst handmatig overschrijven."
+				})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex items-center gap-2 shrink-0",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+						type: "button",
+						onClick: handleCopyMarkdown,
+						className: "inline-flex items-center gap-1.5 rounded-lg border border-[#E4E4E0] bg-[#FAF9F6] hover:border-[#C5C5BF] px-3 py-1.5 text-xs font-semibold text-[#141619] transition-colors whitespace-nowrap cursor-pointer",
+						children: copiedMd ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Check, { className: "h-3.5 w-3.5 text-[#15803D]" }), "Gekopieerd"] }) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Copy, { className: "h-3.5 w-3.5 text-[#5A606B]" }), "Kopieer Markdown"] })
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+						type: "button",
+						onClick: onClose,
+						"aria-label": "Sluiten",
+						className: "p-1.5 rounded-lg text-[#5A606B] hover:text-[#141619] hover:bg-[#FAF9F6] cursor-pointer",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(X, { className: "h-4 w-4" })
+					})]
 				})]
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "flex flex-col sm:flex-row sm:items-center justify-between gap-3",
+				className: "rounded-xl border border-[#E4E4E0] bg-[#FAF9F6] p-4 space-y-3",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex items-center gap-2",
+					className: "grid grid-cols-1 sm:grid-cols-3 gap-3",
 					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-							className: "text-xs font-medium text-[#141619]",
-							children: "Standaard volume:"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(VolumeInput, {
-							value: defaultVol,
-							highlighted: Math.abs(defaultVol - 3) > .05,
-							ariaLabel: "Standaard volume per blokje in cm³",
-							onCommit: setDefaultVolume
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-							className: "font-mono text-xs text-[#5A606B]",
-							children: "cm³"
-						}),
-						Math.abs(defaultVol - 3) > .05 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-							type: "button",
-							onClick: () => setDefaultVolume(3),
-							className: "text-[11px] font-medium text-[#5A606B] hover:text-[#141619] underline underline-offset-2 ml-1",
-							children: "naar 3,0"
-						})
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "text-[11px] font-semibold uppercase tracking-wider text-[#5A606B]",
+							children: "Totaal aantal stukjes"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "font-mono text-lg font-bold tabular-nums text-[#141619] mt-0.5",
+							children: volumeReliability.totalPieces.toLocaleString("nl-NL")
+						})] }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "text-[11px] font-semibold uppercase tracking-wider text-[#5A606B]",
+							children: "Totaal netto volume (V_netto)"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "font-mono text-lg font-bold tabular-nums text-[#141619] mt-0.5",
+							children: [formatVolume(volumeReliability.totalNettoCm3), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+								className: "text-xs font-normal text-[#5A606B] ml-1.5",
+								children: [
+									"(",
+									formatLiters(volumeReliability.totalNettoCm3),
+									")"
+								]
+							})]
+						})] }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "text-[11px] font-semibold uppercase tracking-wider text-[#5A606B]",
+							children: "Losgestort opbergvolume (V_bulk)"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "font-mono text-lg font-bold tabular-nums text-[#135CA8] mt-0.5",
+							children: [formatVolume(volumeReliability.totalBulkCm3), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+								className: "text-xs font-normal text-[#5A606B] ml-1.5",
+								children: [
+									"(",
+									formatLiters(volumeReliability.totalBulkCm3),
+									")"
+								]
+							})]
+						})] })
 					]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "relative w-full sm:w-64",
+					className: "pt-2 border-t border-[#E4E4E0] space-y-1.5",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex flex-wrap items-center justify-between gap-2 text-xs",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "font-semibold text-[#141619]",
+							children: "Betrouwbaarheidsverdeling"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-[11px] tabular-nums",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "inline-flex items-center gap-1.5 text-[#15803D]",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#15803D]" }),
+										"Niveau 1 Specifiek: ",
+										formatCm3(volumeReliability.level1Pct, 1),
+										"%"
+									]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "inline-flex items-center gap-1.5 text-[#135CA8]",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#135CA8]" }),
+										"Niveau 2 Categorie: ",
+										formatCm3(volumeReliability.level2Pct, 1),
+										"%"
+									]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "inline-flex items-center gap-1.5 text-[#B45309]",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#D97706]" }),
+										"Niveau 3 Default: ",
+										formatCm3(volumeReliability.level3Pct, 1),
+										"%"
+									]
+								}),
+								volumeReliability.customPieces > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "inline-flex items-center gap-1.5 text-[#D11013]",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "w-2 h-2 rounded-full bg-[#D11013]" }),
+										"Eigen: ",
+										formatCm3(volumeReliability.customPct, 1),
+										"%"
+									]
+								})
+							]
+						})]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "h-2 w-full rounded-full bg-[#E8E8E3] overflow-hidden flex",
+						children: [
+							volumeReliability.level1Pct > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "h-full bg-[#15803D]",
+								style: { width: `${volumeReliability.level1Pct}%` }
+							}),
+							volumeReliability.level2Pct > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "h-full bg-[#135CA8]",
+								style: { width: `${volumeReliability.level2Pct}%` }
+							}),
+							volumeReliability.level3Pct > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "h-full bg-[#D97706]",
+								style: { width: `${volumeReliability.level3Pct}%` }
+							}),
+							volumeReliability.customPct > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "h-full bg-[#D11013]",
+								style: { width: `${volumeReliability.customPct}%` }
+							})
+						]
+					})]
+				})]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "flex flex-col lg:flex-row lg:items-center justify-between gap-3",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex flex-wrap items-center gap-2",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "inline-flex rounded-lg border border-[#E4E4E0] bg-[#FAF9F6] p-0.5 text-xs",
+						children: [
+							{
+								key: "all",
+								label: "Alle"
+							},
+							{
+								key: "1",
+								label: "Niveau 1"
+							},
+							{
+								key: "2",
+								label: "Niveau 2"
+							},
+							{
+								key: "3",
+								label: "Niveau 3"
+							},
+							...customCount > 0 ? [{
+								key: "custom",
+								label: `Eigen (${customCount})`
+							}] : []
+						].map((tab) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+							type: "button",
+							onClick: () => {
+								setLevelFilter(tab.key);
+								setShowAllRows(false);
+							},
+							className: `px-2.5 py-1 rounded-md font-semibold transition-colors whitespace-nowrap cursor-pointer ${levelFilter === tab.key ? "bg-white text-[#141619] shadow-xs" : "text-[#5A606B] hover:text-[#141619]"}`,
+							children: tab.label
+						}, tab.key))
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center gap-1.5 text-xs pl-1",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-[#5A606B] whitespace-nowrap",
+								children: "Niveau 3 default V_bulk:"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(VolumeInput, {
+								value: defaultFallbackBulk,
+								highlighted: Math.abs(defaultFallbackBulk - DEFAULT_PIECE_VOLUME_ML) > .02,
+								ariaLabel: "Niveau 3 standaard bulkvolume in cm³",
+								onCommit: setDefaultVolume
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "font-mono text-[#5A606B]",
+								children: "cm³"
+							}),
+							Math.abs(defaultFallbackBulk - DEFAULT_PIECE_VOLUME_ML) > .02 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+								type: "button",
+								onClick: () => setDefaultVolume(DEFAULT_PIECE_VOLUME_ML),
+								className: "text-[11px] font-medium text-[#5A606B] hover:text-[#141619] underline underline-offset-2 cursor-pointer",
+								children: "naar 4,00"
+							})
+						]
+					})]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "relative w-full lg:w-64",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Search, { className: "pointer-events-none absolute left-2.5 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-[#8C939F]" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
 						type: "text",
 						value: query,
@@ -30741,24 +33952,24 @@ function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows }) {
 							setQuery(e.target.value);
 							setShowAllRows(false);
 						},
-						placeholder: "Zoek blokje of nummer...",
+						placeholder: "Zoek blokje, nummer of match...",
 						className: "w-full rounded-lg border border-[#E4E4E0] bg-[#F7F7F5] pl-8 pr-3 py-1.5 text-xs text-[#141619] placeholder:text-[#8C939F] focus:border-[#141619] focus:bg-white focus:outline-none"
 					})]
 				})]
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: `rounded-lg border px-3.5 py-2.5 flex flex-wrap items-center justify-between gap-3 transition-colors ${activeSelection.size > 0 ? "border-[#135CA8]/35 bg-[#F0F6FC]" : "border-[#E4E4E0] bg-[#F7F7F5]"}`,
+				className: `rounded-lg border px-3.5 py-2 flex flex-wrap items-center justify-between gap-3 transition-colors ${activeSelection.size > 0 ? "border-[#135CA8]/35 bg-[#F0F6FC]" : "border-[#E4E4E0] bg-[#F7F7F5]"}`,
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "flex flex-wrap items-center gap-2 text-xs",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 							className: "font-semibold text-[#141619] tabular-nums",
-							children: activeSelection.size > 0 ? `${activeSelection.size} ${activeSelection.size === 1 ? "blokje" : "blokjes"} geselecteerd` : `Alle ${filteredRows.length} getoonde blokjes`
+							children: activeSelection.size > 0 ? `${activeSelection.size} ${activeSelection.size === 1 ? "blokje" : "blokjes"} geselecteerd` : `${filteredRows.length} getoonde blokjes`
 						}),
 						activeSelection.size > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
 							type: "button",
 							onClick: () => setSelectedPartNums(/* @__PURE__ */ new Set()),
-							className: "text-[11px] text-[#5A606B] hover:text-[#141619] underline underline-offset-2",
+							className: "text-[11px] text-[#5A606B] hover:text-[#141619] underline underline-offset-2 cursor-pointer",
 							children: "Wis selectie"
 						}),
 						feedback && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
@@ -30768,69 +33979,51 @@ function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows }) {
 					]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "flex flex-wrap items-center gap-2",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "inline-flex items-center gap-1 rounded-md border border-[#D4D4CE] bg-white p-0.5 pl-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+							type: "text",
+							inputMode: "decimal",
+							value: bulkValueText,
+							onChange: (e) => setBulkValueText(e.target.value),
+							onKeyDown: (e) => {
+								if (e.key === "Enter" && canApplyBulkVal) {
+									e.preventDefault();
+									handleBulkApplyCustomValue();
+								}
+							},
+							placeholder: "Eigen V_bulk",
+							"aria-label": "Eigen bulk volume in cm³",
+							className: "w-24 bg-transparent font-mono text-xs text-[#141619] placeholder:text-[#8C939F] focus:outline-none tabular-nums"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
 							type: "button",
-							disabled: targetRows.length === 0,
-							onClick: handleBulkApplySuggestions,
-							className: "inline-flex items-center gap-1.5 rounded-md bg-[#135CA8] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[#0E4A88] transition-colors disabled:opacity-40 whitespace-nowrap",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sparkles, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: activeSelection.size > 0 ? `Voorstel toepassen (${activeSelection.size})` : "Voorstel toepassen (alles)" })]
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "inline-flex items-center gap-1 rounded-md border border-[#D4D4CE] bg-white p-0.5 pl-2",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-								type: "text",
-								inputMode: "decimal",
-								value: bulkValueText,
-								onChange: (e) => setBulkValueText(e.target.value),
-								onKeyDown: (e) => {
-									if (e.key === "Enter" && canApplyBulkVal) {
-										e.preventDefault();
-										handleBulkApplyCustomValue();
-									}
-								},
-								placeholder: "Eigen cm³",
-								"aria-label": "Eigen bulk volume in cm³",
-								className: "w-20 bg-transparent font-mono text-xs text-[#141619] placeholder:text-[#8C939F] focus:outline-none tabular-nums"
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-								type: "button",
-								disabled: !canApplyBulkVal,
-								onClick: handleBulkApplyCustomValue,
-								className: "rounded bg-[#141619] px-2.5 py-1 text-[11px] font-medium text-white hover:bg-[#2A2E35] transition-colors disabled:opacity-35 whitespace-nowrap",
-								children: canApplyBulkVal ? `Zet op ${formatCm3(parsedBulkVal)} cm³` : "Zet eigen waarde"
-							})]
-						}),
-						hasCustomInTarget && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-							type: "button",
-							onClick: handleBulkResetToDefault,
-							className: "inline-flex items-center gap-1 rounded-md border border-[#E4E4E0] bg-white px-2.5 py-1.5 text-xs font-medium text-[#5A606B] hover:text-[#141619] transition-colors whitespace-nowrap",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(RotateCcw, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
-								"Standaard (",
-								formatCm3(defaultVol),
-								")"
-							] })]
-						})
-					]
+							disabled: !canApplyBulkVal,
+							onClick: handleBulkApplyCustomValue,
+							className: "rounded bg-[#141619] px-2.5 py-1 text-[11px] font-medium text-white hover:bg-[#2A2E35] transition-colors disabled:opacity-35 whitespace-nowrap cursor-pointer",
+							children: canApplyBulkVal ? `Zet op ${formatCm3(parsedBulkVal)} cm³` : "Zet eigen waarde"
+						})]
+					}), hasCustomInTarget && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+						type: "button",
+						onClick: handleBulkResetToCalculated,
+						className: "inline-flex items-center gap-1 rounded-md border border-[#E4E4E0] bg-white px-2.5 py-1.5 text-xs font-medium text-[#5A606B] hover:text-[#141619] transition-colors whitespace-nowrap cursor-pointer",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(RotateCcw, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Herstel automatisch" })]
+					})]
 				})]
 			}),
-			visibleRows.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+			visibleRows.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 				className: "rounded-lg border border-dashed border-[#D4D4CE] bg-[#F7F7F5] p-6 text-center text-xs text-[#5A606B]",
-				children: [
-					"Geen blokjes gevonden voor “",
-					query,
-					"”."
-				]
+				children: "Geen blokjes gevonden voor de huidige selectie."
 			}) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "rounded-lg border border-[#E4E4E0] overflow-hidden",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "max-h-[480px] overflow-y-auto overflow-x-auto",
+					className: "max-h-[420px] overflow-y-auto overflow-x-auto",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("table", {
 						className: "w-full text-left text-xs",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("thead", {
 							className: "sticky top-0 z-10 bg-[#F7F7F5] text-[11px] font-semibold text-[#5A606B] border-b border-[#E4E4E0]",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", { children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-									className: "w-10 px-3 py-2 text-center",
+									className: "w-9 px-2.5 py-2 text-center",
 									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
 										type: "checkbox",
 										checked: allFilteredSelected,
@@ -30841,27 +34034,43 @@ function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows }) {
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
 									className: "px-2 py-2",
-									children: "Blokje"
+									children: "Onderdeel"
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-									className: "px-3 py-2 whitespace-nowrap",
-									children: "Voorstel"
+									className: "px-2 py-2 text-right whitespace-nowrap",
+									children: "Aantal"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
+									className: "px-2.5 py-2 whitespace-nowrap",
+									children: "Match-niveau"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
+									className: "px-2.5 py-2 text-right whitespace-nowrap",
+									children: "V_netto / st"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
+									className: "px-2.5 py-2 text-right whitespace-nowrap",
+									children: "Totaal V_netto"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
+									className: "px-2.5 py-2 text-right whitespace-nowrap",
+									children: "V_bulk / st (cm³)"
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
 									className: "px-3 py-2 text-right whitespace-nowrap",
-									children: "Volume (cm³)"
+									children: "Totaal V_bulk"
 								})
 							] })
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tbody", {
 							className: "divide-y divide-[#E4E4E0]",
 							children: visibleRows.map((row) => {
 								const isSelected = activeSelection.has(row.partNum);
-								const matchesSuggestion = Math.abs(row.activeVolumeMl - row.suggestedVolumeMl) < .05;
+								const levelColor = row.isCustom ? "text-[#D11013]" : row.matchLevel === 1 ? "text-[#15803D]" : row.matchLevel === 2 ? "text-[#135CA8]" : "text-[#B45309]";
 								return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", {
 									className: isSelected ? "bg-[#F0F6FC]" : row.isCustom ? "bg-[#FFFDF5]" : "bg-white hover:bg-[#FAFAF8]",
 									children: [
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-											className: "w-10 px-3 py-2 text-center cursor-pointer",
+											className: "w-9 px-2.5 py-2 text-center cursor-pointer",
 											onClick: () => toggleRowSelected(row.partNum),
 											children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
 												type: "checkbox",
@@ -30876,71 +34085,80 @@ function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows }) {
 											className: "px-2 py-2 cursor-pointer select-none",
 											onClick: () => toggleRowSelected(row.partNum),
 											children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-												className: "flex items-center gap-2.5 min-w-[180px]",
+												className: "flex items-center gap-2 min-w-[180px]",
 												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrickIcon, {
 													shape: row.shape,
 													colorHex: row.shape === "wheel" ? "#2C2F36" : "#737985",
 													imageUrl: row.sampleImageUrl,
 													alt: row.name,
-													size: 30
+													size: 28
 												}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 													className: "min-w-0",
 													children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-														className: "font-medium text-[#141619] truncate max-w-[320px]",
+														className: "font-medium text-[#141619] truncate max-w-[240px]",
 														title: row.name,
 														children: row.name
 													}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-														className: "font-mono text-[10px] text-[#5A606B] tabular-nums",
+														className: "font-mono text-[10px] text-[#5A606B]",
 														children: [
 															"#",
 															row.partNum,
 															" · ",
-															row.totalQuantity.toLocaleString("nl-NL"),
-															"×"
+															row.category
 														]
 													})]
 												})]
 											})
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-											className: "px-3 py-2 whitespace-nowrap",
-											children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-												type: "button",
-												onClick: (e) => {
-													e.stopPropagation();
-													setSinglePartVolume(row.partNum, row.suggestedVolumeMl);
-												},
-												disabled: matchesSuggestion,
-												title: `Voorstel (${row.suggestionReason}) — klik om over te nemen`,
-												className: `inline-flex items-center gap-1 rounded-md border px-2 py-1 font-mono text-[11px] tabular-nums transition-colors ${matchesSuggestion ? "border-[#E4E4E0] bg-[#F7F7F5] text-[#15803D] cursor-default" : "border-[#135CA8]/30 bg-white text-[#135CA8] hover:bg-[#F0F6FC]"}`,
-												children: [matchesSuggestion && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Check, { className: "h-3 w-3" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [formatCm3(row.suggestedVolumeMl), " cm³"] })]
-											})
+											className: "px-2 py-2 text-right font-mono tabular-nums text-[#141619] whitespace-nowrap",
+											children: row.totalQuantity.toLocaleString("nl-NL")
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("td", {
+											className: "px-2.5 py-2 whitespace-nowrap",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: `text-[11px] font-semibold ${levelColor}`,
+												children: row.isCustom ? "Eigen waarde" : row.matchLevelLabel
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "text-[10px] text-[#5A606B] truncate max-w-[180px]",
+												title: row.matchDetail,
+												children: [
+													row.matchDetail,
+													" · ×",
+													row.packingFactor.toFixed(2).replace(".", ",")
+												]
+											})]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("td", {
+											className: "px-2.5 py-2 text-right font-mono tabular-nums text-[#5A606B] whitespace-nowrap",
+											children: [formatCm3(row.vNettoCm3, 2), " cm³"]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("td", {
+											className: "px-2.5 py-2 text-right font-mono tabular-nums text-[#5A606B] whitespace-nowrap",
+											children: [formatCm3(row.totalNettoMl, 1), " cm³"]
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-											className: "px-3 py-2 whitespace-nowrap",
+											className: "px-2.5 py-2 whitespace-nowrap",
 											onClick: (e) => e.stopPropagation(),
 											children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-												className: "flex items-center justify-end gap-1.5",
-												children: [
-													/* @__PURE__ */ (0, import_jsx_runtime.jsx)(VolumeInput, {
-														value: row.activeVolumeMl,
-														highlighted: row.isCustom,
-														ariaLabel: `${row.name} volume in cm³`,
-														onCommit: (nextVal) => setSinglePartVolume(row.partNum, nextVal)
-													}),
-													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-														className: "font-mono text-[11px] text-[#5A606B]",
-														children: "cm³"
-													}),
-													row.isCustom ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-														type: "button",
-														onClick: () => resetSinglePartVolume(row.partNum),
-														className: "rounded p-1 text-[#5A606B] hover:bg-[#EBEBE8] hover:text-[#141619] transition-colors",
-														title: `Terug naar standaard (${formatCm3(defaultVol)} cm³)`,
-														children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(RotateCcw, { className: "h-3.5 w-3.5" })
-													}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "inline-block w-6" })
-												]
+												className: "flex items-center justify-end gap-1",
+												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(VolumeInput, {
+													value: row.activeVolumeMl,
+													highlighted: row.isCustom,
+													ariaLabel: `${row.name} V_bulk in cm³`,
+													onCommit: (nextVal) => setSinglePartVolume(row, nextVal)
+												}), row.isCustom ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+													type: "button",
+													onClick: () => resetSinglePartVolume(row.partNum),
+													className: "rounded p-1 text-[#5A606B] hover:bg-[#EBEBE8] hover:text-[#141619] transition-colors cursor-pointer",
+													title: `Terug naar berekend (${formatCm3(row.suggestedVolumeMl, 2)} cm³)`,
+													children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(RotateCcw, { className: "h-3.5 w-3.5" })
+												}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "inline-block w-5" })]
 											})
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("td", {
+											className: "px-3 py-2 text-right font-mono font-semibold tabular-nums text-[#141619] whitespace-nowrap",
+											children: [formatCm3(row.totalBulkMl, 1), " cm³"]
 										})
 									]
 								}, row.partNum);
@@ -30960,7 +34178,7 @@ function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows }) {
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
 						type: "button",
 						onClick: () => setShowAllRows(true),
-						className: "font-medium text-[#135CA8] hover:underline underline-offset-2",
+						className: "font-medium text-[#135CA8] hover:underline underline-offset-2 cursor-pointer",
 						children: [
 							"Toon alle ",
 							filteredRows.length.toLocaleString("nl-NL"),
@@ -30973,359 +34191,739 @@ function DimensionsPanel({ volumeConfig, onChange, onClose, partVolumeRows }) {
 	});
 }
 // src/components/StorageOrganization.tsx
-var PARAMS_STORAGE_KEY = "brickbase_hvsbpp_params_v2";
-var USER_CONTAINERS_STORAGE_KEY = "brickbase_user_containers_v1";
-var PART_VOLUMES_STORAGE_KEY = "brickbase_part_volumes_v1";
-var QUICK_BASICS_ORDER = [
-	"Stenen",
-	"Platen",
-	"Tegels",
-	"Schuine stenen",
-	"Technic",
-	"Rond & Cilinders",
-	"Scharnieren & Clips",
-	"Wiggen & Vleugels"
-];
-var DEFAULT_USER_CONTAINERS = [
-	{
-		id: "uc-default-1",
-		name: "Kleine sorteerlade",
-		count: 12,
-		lengthCm: 5.5,
-		widthCm: 14,
-		heightCm: 3.5
-	},
-	{
-		id: "uc-default-2",
-		name: "Middelgrote lade / bakje",
-		count: 6,
-		lengthCm: 11,
-		widthCm: 14,
-		heightCm: 5.5
-	},
-	{
-		id: "uc-default-3",
-		name: "Opbergbak 5 L",
-		count: 4,
-		lengthCm: 24,
-		widthCm: 16,
-		heightCm: 13
-	}
-];
-function clampNum(v, min, max, fallback) {
-	const n = Number(v);
-	if (!Number.isFinite(n)) return fallback;
-	return Math.max(min, Math.min(max, n));
-}
-function getDefaultSavedParams() {
-	return {
-		...DEFAULT_SORTER_PARAMS,
-		minFillRatio: DEFAULT_SORTER_PARAMS.minFillRatio ?? .3,
-		maxPiecesPerBox: null,
-		weights: { ...DEFAULT_SORTER_WEIGHTS }
-	};
-}
-function loadSavedParams() {
-	try {
-		const raw = localStorage.getItem(PARAMS_STORAGE_KEY);
-		if (!raw) return getDefaultSavedParams();
-		const parsed = JSON.parse(raw);
-		if (!parsed || typeof parsed !== "object") return getDefaultSavedParams();
-		const mode = parsed.mode === "fixed_inventory" ? "fixed_inventory" : "buy_advice";
-		const colorMode = parsed.colorMode === "never" || parsed.colorMode === "overflow_only" || parsed.colorMode === "always" ? parsed.colorMode : DEFAULT_SORTER_PARAMS.colorMode;
-		const rawWeights = parsed.weights && typeof parsed.weights === "object" ? parsed.weights : {};
-		const alpha = clampNum(parsed.alpha, .55, .9, DEFAULT_SORTER_PARAMS.alpha);
-		const minFillRatio = clampNum(parsed.minFillRatio, 0, Math.max(0, alpha - .05), DEFAULT_SORTER_PARAMS.minFillRatio ?? .3);
-		const maxPiecesPerBox = parsed.maxPiecesPerBox !== null && parsed.maxPiecesPerBox !== void 0 && Number.isFinite(Number(parsed.maxPiecesPerBox)) && Number(parsed.maxPiecesPerBox) > 0 ? Math.max(10, Math.min(25e3, Math.round(Number(parsed.maxPiecesPerBox)))) : null;
-		return {
-			mode,
-			alpha,
-			gamma: clampNum(parsed.gamma, 1, 1.5, DEFAULT_SORTER_PARAMS.gamma),
-			minFillRatio,
-			maxPiecesPerBox,
-			thetaSplit: clampNum(parsed.thetaSplit, .5, 1, DEFAULT_SORTER_PARAMS.thetaSplit),
-			thetaMerge: clampNum(parsed.thetaMerge, .05, .5, DEFAULT_SORTER_PARAMS.thetaMerge),
-			colorMode,
-			maxUniqueTypes: Math.round(clampNum(parsed.maxUniqueTypes, 2, 15, DEFAULT_SORTER_PARAMS.maxUniqueTypes)),
-			maxSizeRatio: clampNum(parsed.maxSizeRatio, 2, 12, DEFAULT_SORTER_PARAMS.maxSizeRatio),
-			maxMergeCost: clampNum(parsed.maxMergeCost, .5, 2, DEFAULT_SORTER_PARAMS.maxMergeCost),
-			maxRecoveryIterations: Math.round(clampNum(parsed.maxRecoveryIterations, 0, 10, DEFAULT_SORTER_PARAMS.maxRecoveryIterations)),
-			weights: {
-				wTax: clampNum(rawWeights.wTax, 0, 1, DEFAULT_SORTER_WEIGHTS.wTax),
-				wSize: clampNum(rawWeights.wSize, 0, 1, DEFAULT_SORTER_WEIGHTS.wSize),
-				wVis: clampNum(rawWeights.wVis, 0, 1, DEFAULT_SORTER_WEIGHTS.wVis),
-				wWaste: clampNum(rawWeights.wWaste, 0, 1, DEFAULT_SORTER_WEIGHTS.wWaste),
-				wPrice: clampNum(rawWeights.wPrice, 0, 1, DEFAULT_SORTER_WEIGHTS.wPrice)
-			}
-		};
-	} catch {
-		return getDefaultSavedParams();
-	}
-}
+var STORAGE_KEY_USER_CONTAINERS = "brickbase_user_containers_v1";
+var STORAGE_KEY_PART_VOLUMES = "brickbase_part_volumes_v2";
+var LEGACY_STORAGE_KEY_PART_VOLUMES = "brickbase_part_volumes_v1";
+var DEFAULT_USER_CONTAINERS = [{
+	id: "uc-default-1",
+	name: "Grote opbergbox 40 L",
+	count: 5,
+	lengthCm: 50,
+	widthCm: 38,
+	heightCm: 21
+}];
 function loadSavedUserContainers() {
 	try {
-		const raw = localStorage.getItem(USER_CONTAINERS_STORAGE_KEY);
+		const raw = localStorage.getItem(STORAGE_KEY_USER_CONTAINERS);
 		if (!raw) return DEFAULT_USER_CONTAINERS;
 		const parsed = JSON.parse(raw);
-		if (!Array.isArray(parsed)) return DEFAULT_USER_CONTAINERS;
-		const cleaned = parsed.filter((item) => Boolean(item) && typeof item.id === "string" && typeof item.name === "string" && Number.isFinite(Number(item.count)) && Number.isFinite(Number(item.lengthCm)) && Number.isFinite(Number(item.widthCm)) && Number.isFinite(Number(item.heightCm)));
-		return cleaned.length > 0 ? cleaned : DEFAULT_USER_CONTAINERS;
+		if (!Array.isArray(parsed) || parsed.length === 0) return DEFAULT_USER_CONTAINERS;
+		return parsed.filter((item) => item && typeof item === "object").map((item, idx) => ({
+			id: typeof item.id === "string" && item.id ? item.id : `uc-${idx + 1}`,
+			name: typeof item.name === "string" ? item.name : `Bak ${idx + 1}`,
+			count: Math.max(1, Math.min(200, Math.round(Number(item.count) || 1))),
+			lengthCm: Math.max(1, Number(item.lengthCm) || 10),
+			widthCm: Math.max(1, Number(item.widthCm) || 10),
+			heightCm: Math.max(1, Number(item.heightCm) || 5)
+		}));
 	} catch {
 		return DEFAULT_USER_CONTAINERS;
 	}
 }
-function loadSavedPartVolumes() {
+function loadSavedPartVolumeConfig() {
 	try {
-		const raw = localStorage.getItem(PART_VOLUMES_STORAGE_KEY);
-		if (!raw) return { ...DEFAULT_PART_VOLUME_CONFIG };
-		const parsed = JSON.parse(raw);
-		if (!parsed || typeof parsed !== "object") return { ...DEFAULT_PART_VOLUME_CONFIG };
-		const defaultVolumeMl = clampNum(parsed.defaultVolumeMl, .1, 500, 3);
-		const cleanByPart = {};
-		if (parsed.byPartNum && typeof parsed.byPartNum === "object") for (const [partNum, val] of Object.entries(parsed.byPartNum)) {
-			if (!partNum) continue;
-			const n = clampNum(val, .1, 500, NaN);
-			if (Number.isFinite(n)) cleanByPart[partNum] = Math.round(n * 10) / 10;
+		const rawV2 = localStorage.getItem(STORAGE_KEY_PART_VOLUMES);
+		if (rawV2) {
+			const parsed = JSON.parse(rawV2);
+			if (parsed && typeof parsed === "object") {
+				const rawDefault = Number(parsed.defaultVolumeMl);
+				const defaultVolumeMl = Number.isFinite(rawDefault) && rawDefault > 0 ? rawDefault : DEFAULT_PIECE_VOLUME_ML;
+				const byPartNum = {};
+				if (parsed.byPartNum && typeof parsed.byPartNum === "object") for (const [k, v] of Object.entries(parsed.byPartNum)) {
+					const num = Number(v);
+					if (Number.isFinite(num) && num > 0) byPartNum[k] = num;
+				}
+				return {
+					defaultVolumeMl,
+					byPartNum: Object.keys(byPartNum).length > 0 ? byPartNum : void 0
+				};
+			}
 		}
-		return {
-			defaultVolumeMl: Math.round(defaultVolumeMl * 10) / 10,
-			byPartNum: Object.keys(cleanByPart).length > 0 ? cleanByPart : void 0
-		};
+		const rawV1 = localStorage.getItem(LEGACY_STORAGE_KEY_PART_VOLUMES);
+		if (rawV1) {
+			const parsed = JSON.parse(rawV1);
+			if (parsed && typeof parsed === "object" && parsed.byPartNum && typeof parsed.byPartNum === "object") {
+				const byPartNum = {};
+				for (const [k, v] of Object.entries(parsed.byPartNum)) {
+					const num = Number(v);
+					if (Number.isFinite(num) && num > 0) byPartNum[k] = num;
+				}
+				if (Object.keys(byPartNum).length > 0) return {
+					defaultVolumeMl: DEFAULT_PIECE_VOLUME_ML,
+					byPartNum
+				};
+			}
+		}
+		return DEFAULT_PART_VOLUME_CONFIG;
 	} catch {
-		return { ...DEFAULT_PART_VOLUME_CONFIG };
+		return DEFAULT_PART_VOLUME_CONFIG;
 	}
 }
-function formatEur(amount) {
-	return `€ ${amount.toFixed(2).replace(".", ",")}`;
+function describeTradeoff(val) {
+	if (val <= 20) return {
+		title: "Volume zo laag mogelijk",
+		summary: "Zo min mogelijk bakken en minimale kastruimte. Verwante categorieën worden compact samengevoegd met hoge vulling."
+	};
+	if (val <= 45) return {
+		title: "Compact met logische groepen",
+		summary: "Ruimtebesparend maar per hoofdcategorie overzichtelijk gegroepeerd. Weinig lege lucht in je bakken."
+	};
+	if (val <= 65) return {
+		title: "Gebalanceerd (ruimte & vindbaarheid)",
+		summary: "De gulden middenweg: belangrijke categorieën worden opgesplitst in logische subgroepen terwijl het aantal bakken beheersbaar blijft."
+	};
+	if (val <= 85) return {
+		title: "Hoge ergonomie",
+		summary: "Sterke scheiding per subgroep en steengrootte met voldoende graairuimte, zodat je elk blokje vlot terugvindt."
+	};
+	return {
+		title: "Ergonomie zo hoog mogelijk",
+		summary: "Maximale vindbaarheid: bijna elk onderdeeltype krijgt een eigen vak of lade met ruime graaimarge."
+	};
 }
-function formatDecimalNl(value, digits = 1) {
-	return value.toFixed(digits).replace(".", ",");
-}
-function getSizeSeparationLevel(maxSizeRatio) {
-	if (maxSizeRatio <= 3.5) return "strict";
-	if (maxSizeRatio <= 7.5) return "normal";
-	return "flexible";
-}
-function getBuyPriority(wWaste, wPrice) {
-	if (wWaste > wPrice + .1) return "space";
-	if (wPrice > wWaste + .15) return "budget";
-	return "balanced";
-}
-function getUnassignedReasonText(reason) {
-	switch (reason) {
-		case "INSUFFICIENT_TOTAL_VOLUME": return "Je eigen bakken hebben samen te weinig inhoud voor alle stukjes. Voeg extra bakken toe of verlaag de groeiruimte.";
-		case "SINGLE_ITEM_EXCEEDS_MAX_BOX": return "Eén enkel groot onderdeel (zoals een grote grondplaat) is groter dan je grootste bak.";
-		case "NO_FITTING_BOX_IN_STOCK": return "Geen passende vrije bak meer over voor deze groep.";
-		case "NO_AVAILABLE_BOXES": return "Geen eigen bakken ingesteld. Voeg hierboven minstens één bak toe.";
-		default: return "Past niet binnen de huidige bakken.";
+function getCategoryColorHex(shape) {
+	switch (shape) {
+		case "brick": return "#D11013";
+		case "plate": return "#135CA8";
+		case "tile": return "#F59E0B";
+		case "slope": return "#0D9488";
+		case "technic": return "#4B5563";
+		case "round": return "#7C3AED";
+		case "hinge": return "#2563EB";
+		case "plant": return "#15803D";
+		case "wheel": return "#1F2937";
+		case "window": return "#0284C7";
+		case "wedge": return "#B45309";
+		case "arch": return "#DC2626";
+		case "panel": return "#475569";
+		case "minifig": return "#EAB308";
+		default: return "#6B7280";
 	}
 }
-function getShapeClassLabel(shapeClass) {
-	if (shapeClass === "compact") return "compact";
-	if (shapeClass === "elongated") return "langwerpig";
-	return "onregelmatig";
-}
-function getEventTypeLabel(type) {
-	switch (type) {
-		case "split": return "Opgesplitst";
-		case "overflow": return "Verdeeld";
-		case "merge": return "Samengevoegd";
-		case "assign": return "Ingedeeld";
-		case "recovery": return "Aangepast";
-		case "unassigned": return "Past niet";
-	}
-}
-function groupAssignmentItemsByPart(items) {
-	const map = /* @__PURE__ */ new Map();
-	for (const item of items) {
-		const existing = map.get(item.partNum);
-		if (existing) {
-			existing.totalQuantity += item.quantity;
-			const existingColor = existing.colors.find((c) => c.colorId === item.colorId);
-			if (existingColor) existingColor.quantity += item.quantity;
-			else existing.colors.push({
-				colorId: item.colorId,
-				colorFamily: item.colorFamily,
-				quantity: item.quantity
-			});
-		} else {
-			const dimsLabel = `${formatDecimalNl(item.dims.studsL, item.dims.studsL % 1 === 0 ? 0 : 1)}×${formatDecimalNl(item.dims.studsW, item.dims.studsW % 1 === 0 ? 0 : 1)}`;
-			map.set(item.partNum, {
-				partNum: item.partNum,
-				subfamily: item.subfamily,
-				category: item.category,
-				shapeClass: item.shapeClass,
-				dimsLabel,
-				totalQuantity: item.quantity,
-				colors: [{
-					colorId: item.colorId,
-					colorFamily: item.colorFamily,
-					quantity: item.quantity
-				}]
-			});
+function analyzeBoxContents(assignment, partMetaByNum, colorHexById) {
+	let totalPieces = 0;
+	const partMap = /* @__PURE__ */ new Map();
+	const catMap = /* @__PURE__ */ new Map();
+	for (const it of assignment.items) {
+		totalPieces += it.quantity;
+		let pRec = partMap.get(it.partNum);
+		if (!pRec) {
+			pRec = {
+				category: it.category,
+				subfamily: it.subfamily,
+				totalQuantity: 0,
+				colorMap: /* @__PURE__ */ new Map()
+			};
+			partMap.set(it.partNum, pRec);
 		}
+		pRec.totalQuantity += it.quantity;
+		pRec.colorMap.set(it.colorId, (pRec.colorMap.get(it.colorId) || 0) + it.quantity);
+		let cRec = catMap.get(it.category);
+		if (!cRec) {
+			cRec = {
+				totalQuantity: 0,
+				partNums: /* @__PURE__ */ new Set(),
+				subMap: /* @__PURE__ */ new Map()
+			};
+			catMap.set(it.category, cRec);
+		}
+		cRec.totalQuantity += it.quantity;
+		cRec.partNums.add(it.partNum);
+		let sRec = cRec.subMap.get(it.subfamily);
+		if (!sRec) {
+			sRec = {
+				quantity: 0,
+				partNums: /* @__PURE__ */ new Set()
+			};
+			cRec.subMap.set(it.subfamily, sRec);
+		}
+		sRec.quantity += it.quantity;
+		sRec.partNums.add(it.partNum);
 	}
-	return Array.from(map.values()).map((group) => ({
-		...group,
-		colors: [...group.colors].sort((a, b) => b.quantity - a.quantity)
-	})).sort((a, b) => b.totalQuantity - a.totalQuantity || a.partNum.localeCompare(b.partNum));
+	const parts = Array.from(partMap.entries()).map(([partNum, rec]) => {
+		const meta = partMetaByNum.get(partNum);
+		const colors = Array.from(rec.colorMap.entries()).map(([colorId, quantity]) => ({
+			colorId,
+			hex: colorHexById.get(colorId) || "#9CA3AF",
+			quantity
+		})).sort((a, b) => b.quantity - a.quantity);
+		return {
+			partNum,
+			name: meta?.name || `Onderdeel ${partNum}`,
+			category: rec.category,
+			subfamily: rec.subfamily,
+			shape: meta?.shape || "other",
+			sampleImageUrl: meta?.sampleImageUrl,
+			totalQuantity: rec.totalQuantity,
+			colors
+		};
+	}).sort((a, b) => b.totalQuantity - a.totalQuantity || a.partNum.localeCompare(b.partNum));
+	const categories = Array.from(catMap.entries()).map(([category, rec]) => {
+		const guide = getPartTypeGuide(category);
+		const subfamilies = Array.from(rec.subMap.entries()).map(([subfamily, s]) => ({
+			subfamily,
+			quantity: s.quantity,
+			uniqueParts: s.partNums.size
+		})).sort((a, b) => b.quantity - a.quantity);
+		return {
+			category,
+			shape: guide.shape,
+			totalQuantity: rec.totalQuantity,
+			uniquePartCount: rec.partNums.size,
+			subfamilies
+		};
+	}).sort((a, b) => b.totalQuantity - a.totalQuantity);
+	return {
+		totalPieces,
+		categories,
+		parts
+	};
+}
+var ClearBoxPackingCard = (0, import_react.memo)(function ClearBoxPackingCard({ index, boxNoun, assignment, boxMeta, partMetaByNum, colorHexById, searchQuery }) {
+	const [showAllParts, setShowAllParts] = (0, import_react.useState)(false);
+	const analyzed = (0, import_react.useMemo)(() => analyzeBoxContents(assignment, partMetaByNum, colorHexById), [
+		assignment,
+		partMetaByNum,
+		colorHexById
+	]);
+	const normalizedQuery = searchQuery.trim().toLowerCase();
+	const matchingParts = (0, import_react.useMemo)(() => {
+		if (!normalizedQuery) return analyzed.parts;
+		return analyzed.parts.filter((p) => p.partNum.toLowerCase().includes(normalizedQuery) || p.name.toLowerCase().includes(normalizedQuery) || p.category.toLowerCase().includes(normalizedQuery) || p.subfamily.toLowerCase().includes(normalizedQuery) || p.colors.some((c) => c.colorId.toLowerCase().includes(normalizedQuery)));
+	}, [analyzed.parts, normalizedQuery]);
+	const fillPct = Math.min(100, Math.round(assignment.fillRatioGross * 100));
+	const fillBarColor = fillPct > 88 ? "bg-[#D97706]" : fillPct < 20 ? "bg-[#9CA3AF]" : "bg-[#135CA8]";
+	const previewLimit = normalizedQuery ? 12 : 6;
+	const visibleParts = showAllParts ? matchingParts : matchingParts.slice(0, previewLimit);
+	const remainingCount = Math.max(0, matchingParts.length - visibleParts.length);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
+		className: "bg-white border border-[#E4E4E0] rounded-xl overflow-hidden",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "px-5 py-4 border-b border-[#E4E4E0] bg-[#FAF9F6]",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "min-w-0",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex flex-wrap items-baseline gap-x-2.5 gap-y-1",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+								className: "font-mono text-xs font-semibold uppercase tracking-wider text-[#D11013]",
+								children: [
+									boxNoun,
+									" ",
+									index + 1
+								]
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+								className: "font-display text-lg font-semibold text-[#141619] leading-snug",
+								children: assignment.clusterLabel
+							})]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+							className: "mt-1 text-xs text-[#5A606B] flex flex-wrap items-center gap-x-2 gap-y-0.5",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "font-medium text-[#141619]",
+									children: boxMeta ? boxMeta.name : assignment.boxTypeId
+								}),
+								boxMeta?.dimensionsCm && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "·" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "font-mono",
+									children: boxMeta.dimensionsCm
+								})] }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "·" }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "font-mono tabular-nums",
+									children: [analyzed.totalPieces.toLocaleString("nl-NL"), " stuks"]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "·" }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "font-mono tabular-nums",
+									children: [
+										analyzed.parts.length,
+										" ",
+										analyzed.parts.length === 1 ? "vorm" : "vormen"
+									]
+								})
+							]
+						})]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "lg:w-64 shrink-0",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center justify-between text-xs mb-1.5",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "font-mono tabular-nums font-medium text-[#141619]",
+									children: [
+										formatVolume(assignment.usedVolumeMl),
+										" / ",
+										formatVolume(assignment.grossVolumeMl)
+									]
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "font-mono tabular-nums text-[#5A606B]",
+									children: [fillPct, "% gevuld"]
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "h-2 w-full rounded-full bg-[#E8E8E3] overflow-hidden",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: `h-full rounded-full transition-all ${fillBarColor}`,
+									style: { width: `${Math.max(2, fillPct)}%` }
+								})
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "mt-1 flex items-center justify-between text-[11px] text-[#5A606B]",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+									"Vrije groeiruimte:",
+									" ",
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "font-mono tabular-nums text-[#141619]",
+										children: formatVolume(assignment.freeEffectiveVolumeMl)
+									})
+								] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: assignment.ergonomics.categoryCount === 1 ? "1 zuivere categorie" : `${assignment.ergonomics.categoryCount} categorieën` })]
+							})
+						]
+					})]
+				})
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "px-5 py-4 border-b border-[#E4E4E0]",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "text-[11px] font-semibold uppercase tracking-wider text-[#5A606B] mb-2.5",
+					children: "Welke types & subgroepen moeten hierin"
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "space-y-2.5",
+					children: analyzed.categories.map((cat) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-start gap-3 pb-2.5 last:pb-0 border-b border-[#F0F0EC] last:border-b-0",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrickIcon, {
+							shape: cat.shape,
+							colorHex: getCategoryColorHex(cat.shape),
+							size: 34
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "min-w-0 flex-1",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "text-sm font-semibold text-[#141619]",
+									children: cat.category
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "text-xs font-mono tabular-nums text-[#5A606B]",
+									children: [
+										cat.totalQuantity.toLocaleString("nl-NL"),
+										" stuks · ",
+										cat.uniquePartCount,
+										" ",
+										cat.uniquePartCount === 1 ? "vorm" : "vormen"
+									]
+								})]
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "mt-1 text-xs text-[#5A606B] leading-relaxed",
+								children: cat.subfamilies.map((sf, sIdx) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+									sIdx > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "mx-1.5 text-[#C5C5BF]",
+										children: "·"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "text-[#141619] font-medium",
+										children: sf.subfamily
+									}),
+									" ",
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+										className: "font-mono tabular-nums text-[#5A606B]",
+										children: [
+											"(",
+											sf.quantity.toLocaleString("nl-NL"),
+											"×)"
+										]
+									})
+								] }, sf.subfamily))
+							})]
+						})]
+					}, cat.category))
+				})]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "px-5 py-4",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center justify-between gap-2 mb-3",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "text-[11px] font-semibold uppercase tracking-wider text-[#5A606B]",
+							children: normalizedQuery ? `Gevonden steentjes in deze ${boxNoun.toLowerCase()} (${matchingParts.length})` : `Concrete steentjes in deze ${boxNoun.toLowerCase()} (${analyzed.parts.length} vormen)`
+						}), analyzed.parts.length > previewLimit && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+							type: "button",
+							onClick: () => setShowAllParts((v) => !v),
+							className: "inline-flex items-center gap-1 text-xs font-medium text-[#135CA8] hover:text-[#0E4682] whitespace-nowrap shrink-0 cursor-pointer",
+							children: showAllParts ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: ["Minder tonen ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronUp, { className: "w-3.5 h-3.5" })] }) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
+								"Toon alle ",
+								matchingParts.length,
+								" steentjes ",
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronDown, { className: "w-3.5 h-3.5" })
+							] })
+						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5",
+						children: visibleParts.map((part) => {
+							const leadHex = part.colors[0]?.hex || getCategoryColorHex(part.shape);
+							const isMatch = normalizedQuery.length > 0 && (part.partNum.toLowerCase().includes(normalizedQuery) || part.name.toLowerCase().includes(normalizedQuery) || part.subfamily.toLowerCase().includes(normalizedQuery));
+							return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: `flex items-center gap-3 p-2.5 rounded-lg border transition-colors ${isMatch ? "border-[#135CA8] bg-[#F2F7FC]" : "border-[#ECECE8] bg-[#FAF9F6]/70"}`,
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrickIcon, {
+									shape: part.shape,
+									colorHex: leadHex,
+									imageUrl: part.sampleImageUrl,
+									alt: part.name,
+									size: 44
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "min-w-0 flex-1",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-xs font-semibold text-[#141619] truncate",
+											title: part.name,
+											children: part.name
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "mt-0.5 text-[11px] text-[#5A606B] flex items-center gap-1.5 truncate",
+											children: [
+												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+													className: "font-mono text-[#141619]",
+													children: ["#", part.partNum]
+												}),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "·" }),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "truncate",
+													children: part.subfamily
+												})
+											]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "mt-1 flex items-center justify-between gap-2",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "flex items-center gap-1",
+												children: [part.colors.slice(0, 5).map((c) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													title: `${c.colorId}: ${c.quantity}×`,
+													className: "w-3 h-3 rounded-sm border border-black/15 shrink-0",
+													style: { backgroundColor: c.hex }
+												}, c.colorId)), part.colors.length > 5 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+													className: "text-[10px] font-mono text-[#5A606B]",
+													children: ["+", part.colors.length - 5]
+												})]
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+												className: "text-xs font-mono font-semibold tabular-nums text-[#141619]",
+												children: [part.totalQuantity.toLocaleString("nl-NL"), "×"]
+											})]
+										})
+									]
+								})]
+							}, part.partNum);
+						})
+					}),
+					remainingCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "mt-3 pt-2.5 border-t border-[#F0F0EC] flex items-center justify-between",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+							className: "text-xs text-[#5A606B]",
+							children: [
+								"En nog",
+								" ",
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "font-mono font-medium text-[#141619]",
+									children: remainingCount
+								}),
+								" ",
+								remainingCount === 1 ? "ander onderdeel" : "andere onderdelen",
+								" in deze",
+								" ",
+								boxNoun.toLowerCase(),
+								"."
+							]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+							type: "button",
+							onClick: () => setShowAllParts(true),
+							className: "text-xs font-semibold text-[#135CA8] hover:underline whitespace-nowrap shrink-0 cursor-pointer",
+							children: [
+								"Bekijk volledige inhoud (",
+								matchingParts.length,
+								")"
+							]
+						})]
+					})
+				]
+			})
+		]
+	});
+});
+var BOX_PAGE_SIZE = 20;
+function PlanBoxListSection({ stage, boxNoun, partMetaByNum, colorHexById, searchQuery, onSearchChange, title, subtitle }) {
+	const deferredSearch = (0, import_react.useDeferredValue)(searchQuery);
+	const normalizedQuery = deferredSearch.trim().toLowerCase();
+	const [visibleLimit, setVisibleLimit] = (0, import_react.useState)(BOX_PAGE_SIZE);
+	(0, import_react.useEffect)(() => {
+		setVisibleLimit(BOX_PAGE_SIZE);
+	}, [stage, normalizedQuery]);
+	const filteredAssignments = (0, import_react.useMemo)(() => {
+		const indexed = stage.result.assignments.map((assignment, originalIndex) => ({
+			assignment,
+			originalIndex
+		}));
+		if (!normalizedQuery) return indexed;
+		return indexed.filter(({ assignment }) => {
+			if (assignment.clusterLabel.toLowerCase().includes(normalizedQuery)) return true;
+			if (stage.boxMetaById.get(assignment.boxTypeId)?.name.toLowerCase().includes(normalizedQuery)) return true;
+			return assignment.items.some((it) => {
+				if (it.partNum.toLowerCase().includes(normalizedQuery)) return true;
+				if (it.category.toLowerCase().includes(normalizedQuery)) return true;
+				if (it.subfamily.toLowerCase().includes(normalizedQuery)) return true;
+				if (it.colorId.toLowerCase().includes(normalizedQuery)) return true;
+				const meta = partMetaByNum.get(it.partNum);
+				return meta ? meta.name.toLowerCase().includes(normalizedQuery) : false;
+			});
+		});
+	}, [
+		stage.result.assignments,
+		stage.boxMetaById,
+		normalizedQuery,
+		partMetaByNum
+	]);
+	const visibleAssignments = filteredAssignments.slice(0, visibleLimit);
+	const remainingBoxes = Math.max(0, filteredAssignments.length - visibleAssignments.length);
+	const boxPlural = boxNoun === "Doos" ? "dozen" : "bakken";
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+		className: "space-y-4",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "flex flex-col sm:flex-row sm:items-end justify-between gap-3",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					className: "font-display text-lg font-semibold text-[#141619]",
+					children: title
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "text-sm text-[#5A606B] mt-0.5",
+					children: subtitle
+				})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "relative w-full sm:w-80",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Search, { className: "w-4 h-4 text-[#5A606B] absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+							type: "text",
+							value: searchQuery,
+							onChange: (e) => onSearchChange(e.target.value),
+							placeholder: "Zoek steentje, nummer of type (bijv. 3020, wiel)...",
+							className: "w-full pl-9 pr-8 py-2 text-sm bg-white border border-[#E4E4E0] rounded-lg text-[#141619] placeholder:text-[#8E95A2] focus:outline-none focus:border-[#135CA8]"
+						}),
+						searchQuery && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+							type: "button",
+							onClick: () => onSearchChange(""),
+							"aria-label": "Zoekopdracht wissen",
+							className: "absolute right-2.5 top-1/2 -translate-y-1/2 text-[#5A606B] hover:text-[#141619] cursor-pointer",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(X, { className: "w-4 h-4" })
+						})
+					]
+				})]
+			}),
+			normalizedQuery && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "text-xs text-[#5A606B]",
+				children: [
+					"Resultaat voor ",
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+						className: "font-semibold text-[#141619]",
+						children: [
+							"“",
+							deferredSearch,
+							"”"
+						]
+					}),
+					":",
+					" ",
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						className: "font-mono font-semibold text-[#141619]",
+						children: filteredAssignments.length
+					}),
+					" ",
+					"van ",
+					stage.result.assignments.length,
+					" ",
+					stage.result.assignments.length === 1 ? boxNoun.toLowerCase() : boxPlural,
+					"."
+				]
+			}),
+			filteredAssignments.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "bg-white border border-[#E4E4E0] rounded-xl p-8 text-center",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+					className: "text-sm font-medium text-[#141619]",
+					children: [
+						"Geen steentjes of types gevonden voor “",
+						searchQuery,
+						"”."
+					]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "text-xs text-[#5A606B] mt-1",
+					children: "Probeer een ander onderdeelnummer (zoals 3001 of 3020), een categorie (zoals Platen of Technic) of wis het zoekveld."
+				})]
+			}) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "space-y-4",
+				children: [visibleAssignments.map(({ assignment, originalIndex }) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ClearBoxPackingCard, {
+					index: originalIndex,
+					boxNoun,
+					assignment,
+					boxMeta: stage.boxMetaById.get(assignment.boxTypeId),
+					partMetaByNum,
+					colorHexById,
+					searchQuery: deferredSearch
+				}, assignment.boxId)), remainingBoxes > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "bg-white border border-[#E4E4E0] rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+						className: "text-xs text-[#5A606B]",
+						children: [
+							"Je ziet nu",
+							" ",
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "font-mono font-semibold text-[#141619]",
+								children: visibleAssignments.length
+							}),
+							" ",
+							"van",
+							" ",
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "font-mono font-semibold text-[#141619]",
+								children: filteredAssignments.length
+							}),
+							" ",
+							boxPlural,
+							"."
+						]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center gap-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+							type: "button",
+							onClick: () => setVisibleLimit((n) => n + BOX_PAGE_SIZE),
+							className: "px-3.5 py-2 rounded-lg bg-[#141619] hover:bg-[#2A2E35] text-white text-xs font-semibold whitespace-nowrap shrink-0 cursor-pointer",
+							children: [
+								"Toon volgende ",
+								Math.min(BOX_PAGE_SIZE, remainingBoxes),
+								" ",
+								boxPlural
+							]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+							type: "button",
+							onClick: () => setVisibleLimit(filteredAssignments.length),
+							className: "px-3 py-2 rounded-lg bg-white border border-[#E4E4E0] hover:border-[#C5C5BF] text-xs font-semibold text-[#141619] whitespace-nowrap shrink-0 cursor-pointer",
+							children: [
+								"Toon alle (",
+								filteredAssignments.length,
+								")"
+							]
+						})]
+					})]
+				})]
+			})
+		]
+	});
 }
 function StorageOrganization({ sets, prefs, onPrefsChange, onOpenAddSets }) {
-	const [params, setParams] = (0, import_react.useState)(() => loadSavedParams());
+	const [approachMode, setApproachMode] = (0, import_react.useState)("guided");
+	const [guidedStep, setGuidedStep] = (0, import_react.useState)(1);
 	const [metric, setMetric] = (0, import_react.useState)("all");
+	const [growthPct, setGrowthPct] = (0, import_react.useState)(15);
+	const [tradeoff, setTradeoff] = (0, import_react.useState)(55);
 	const [systemMode, setSystemMode] = (0, import_react.useState)("mixed");
+	const [colorMode, setColorMode] = (0, import_react.useState)("overflow_only");
+	const [searchQuery, setSearchQuery] = (0, import_react.useState)("");
 	const [userContainers, setUserContainers] = (0, import_react.useState)(() => loadSavedUserContainers());
-	const [volumeConfig, setVolumeConfig] = (0, import_react.useState)(() => loadSavedPartVolumes());
-	const [showFineTuning, setShowFineTuning] = (0, import_react.useState)(false);
+	const [volumeConfig, setVolumeConfig] = (0, import_react.useState)(() => loadSavedPartVolumeConfig());
+	const [showDimensionsModal, setShowDimensionsModal] = (0, import_react.useState)(false);
 	const [showTypeGuide, setShowTypeGuide] = (0, import_react.useState)(false);
-	const [showDimensionsPanel, setShowDimensionsPanel] = (0, import_react.useState)(false);
-	const [showDecisionLog, setShowDecisionLog] = (0, import_react.useState)(false);
-	const [logFilter, setLogFilter] = (0, import_react.useState)("all");
-	const [boxSearchQuery, setBoxSearchQuery] = (0, import_react.useState)("");
-	const [expandedBoxes, setExpandedBoxes] = (0, import_react.useState)({});
-	const [newName, setNewName] = (0, import_react.useState)("");
-	const [newCount, setNewCount] = (0, import_react.useState)("5");
-	const [newLength, setNewLength] = (0, import_react.useState)("50");
-	const [newWidth, setNewWidth] = (0, import_react.useState)("38");
-	const [newHeight, setNewHeight] = (0, import_react.useState)("21");
+	const [newBoxName, setNewBoxName] = (0, import_react.useState)("");
+	const [newBoxCount, setNewBoxCount] = (0, import_react.useState)("4");
+	const [newBoxL, setNewBoxL] = (0, import_react.useState)("28");
+	const [newBoxW, setNewBoxW] = (0, import_react.useState)("19");
+	const [newBoxH, setNewBoxH] = (0, import_react.useState)("14");
 	(0, import_react.useEffect)(() => {
-		try {
-			localStorage.setItem(PARAMS_STORAGE_KEY, JSON.stringify(params));
-		} catch {}
-	}, [params]);
-	(0, import_react.useEffect)(() => {
-		try {
-			localStorage.setItem(USER_CONTAINERS_STORAGE_KEY, JSON.stringify(userContainers));
-		} catch {}
+		const timer = window.setTimeout(() => {
+			try {
+				localStorage.setItem(STORAGE_KEY_USER_CONTAINERS, JSON.stringify(userContainers));
+			} catch {}
+		}, 250);
+		return () => window.clearTimeout(timer);
 	}, [userContainers]);
 	(0, import_react.useEffect)(() => {
-		try {
-			localStorage.setItem(PART_VOLUMES_STORAGE_KEY, JSON.stringify(volumeConfig));
-		} catch {}
+		const timer = window.setTimeout(() => {
+			try {
+				localStorage.setItem(STORAGE_KEY_PART_VOLUMES, JSON.stringify(volumeConfig));
+			} catch {}
+		}, 250);
+		return () => window.clearTimeout(timer);
 	}, [volumeConfig]);
-	const bundle = (0, import_react.useMemo)(() => planCollectionWithHvsbpp(sets, prefs, {
+	const deferredGrowthPct = (0, import_react.useDeferredValue)(growthPct);
+	const deferredVolumeConfig = (0, import_react.useDeferredValue)(volumeConfig);
+	const gamma = 1 + deferredGrowthPct / 100;
+	const deferredTradeoff = (0, import_react.useDeferredValue)(tradeoff);
+	const deferredUserContainers = (0, import_react.useDeferredValue)(userContainers);
+	const prepared = (0, import_react.useMemo)(() => prepareIterativeInput(sets, prefs, {
 		metric,
-		systemMode,
-		userContainers,
-		params,
-		volumeConfig
+		gamma,
+		volumeConfig: deferredVolumeConfig
 	}), [
 		sets,
 		prefs,
 		metric,
+		gamma,
+		deferredVolumeConfig
+	]);
+	const step2FiveBoxes = (0, import_react.useMemo)(() => approachMode === "guided" && guidedStep >= 2 ? computeStep2FiveBoxes(prepared) : null, [
+		approachMode,
+		guidedStep,
+		prepared
+	]);
+	const step3FinalPlan = (0, import_react.useMemo)(() => approachMode === "guided" && guidedStep === 3 ? computeStep3FinalPlan(prepared, {
+		tradeoff: deferredTradeoff,
 		systemMode,
-		userContainers,
-		params,
-		volumeConfig
+		colorMode
+	}) : null, [
+		approachMode,
+		guidedStep,
+		prepared,
+		deferredTradeoff,
+		systemMode,
+		colorMode
 	]);
-	const customVolumeCount = (0, import_react.useMemo)(() => countCustomPartVolumes(volumeConfig), [volumeConfig]);
-	const hasVolumeCustomization = customVolumeCount > 0 || Math.abs(volumeConfig.defaultVolumeMl - 3) > .01;
-	const { result } = bundle;
-	const { kpis } = result;
-	const isCustomParams = (0, import_react.useMemo)(() => {
-		const def = getDefaultSavedParams();
-		return params.alpha !== def.alpha || params.gamma !== def.gamma || (params.minFillRatio ?? 0) !== (def.minFillRatio ?? 0) || (params.maxPiecesPerBox ?? null) !== (def.maxPiecesPerBox ?? null) || params.colorMode !== def.colorMode || params.maxUniqueTypes !== def.maxUniqueTypes || params.maxSizeRatio !== def.maxSizeRatio || params.weights.wWaste !== def.weights.wWaste || params.weights.wPrice !== def.weights.wPrice;
-	}, [params]);
-	const filteredAssignments = (0, import_react.useMemo)(() => {
-		const q = boxSearchQuery.trim().toLowerCase();
-		if (!q) return result.assignments;
-		return result.assignments.filter((a) => {
-			if (a.boxId.toLowerCase().includes(q) || a.clusterLabel.toLowerCase().includes(q)) return true;
-			const boxMeta = bundle.boxMetaById.get(a.boxTypeId);
-			if (boxMeta && boxMeta.name.toLowerCase().includes(q)) return true;
-			return a.items.some((it) => {
-				if (it.partNum.toLowerCase().includes(q) || it.category.toLowerCase().includes(q) || it.subfamily.toLowerCase().includes(q) || it.colorId.toLowerCase().includes(q) || it.colorFamily.toLowerCase().includes(q)) return true;
-				const meta = bundle.partMetaByNum.get(it.partNum);
-				return Boolean(meta && meta.name.toLowerCase().includes(q));
+	const fixedInventoryPlan = (0, import_react.useMemo)(() => approachMode === "own_boxes" ? computeFixedInventoryPlan(prepared, deferredUserContainers) : null, [
+		approachMode,
+		prepared,
+		deferredUserContainers
+	]);
+	const totalConfiguredUserBoxes = (0, import_react.useMemo)(() => userContainers.reduce((sum, uc) => calculateUserContainerVolumeMl(uc) > 0 ? sum + Math.max(0, Math.min(200, Math.floor(Number(uc.count) || 0))) : sum, 0), [userContainers]);
+	const customPartCount = Object.keys(volumeConfig.byPartNum || {}).length;
+	const handleDownloadPlan = () => {
+		let title;
+		let stage;
+		let filename;
+		if (approachMode === "own_boxes") {
+			title = "Eigen dozen — Ergonomieplan";
+			stage = fixedInventoryPlan || computeFixedInventoryPlan(prepared, userContainers);
+			filename = "brickbase-eigen-dozen-sorteerlijst.txt";
+		} else if (guidedStep === 2) {
+			title = "Stap 2 — Verdeling in 5 bakken";
+			stage = step2FiveBoxes || computeStep2FiveBoxes(prepared);
+			filename = "brickbase-5-bakken-sorteerlijst.txt";
+		} else {
+			title = `Stap 3 — Eindvoorstel (balans ${tradeoff}%)`;
+			stage = step3FinalPlan || computeStep3FinalPlan(prepared, {
+				tradeoff,
+				systemMode,
+				colorMode
 			});
-		});
-	}, [
-		result.assignments,
-		boxSearchQuery,
-		bundle.boxMetaById,
-		bundle.partMetaByNum
-	]);
-	const filteredLog = (0, import_react.useMemo)(() => {
-		if (logFilter === "all") return result.decisionLog;
-		return result.decisionLog.filter((ev) => ev.type === logFilter);
-	}, [result.decisionLog, logFilter]);
-	const logCounts = (0, import_react.useMemo)(() => {
-		const counts = {
-			split: 0,
-			overflow: 0,
-			merge: 0,
-			assign: 0,
-			recovery: 0,
-			unassigned: 0
-		};
-		for (const ev of result.decisionLog) counts[ev.type] += 1;
-		return counts;
-	}, [result.decisionLog]);
-	function updateParam(key, value) {
-		setParams((prev) => {
-			const next = {
-				...prev,
-				[key]: value
-			};
-			if (key === "alpha") {
-				const maxAllowedMin = Math.max(0, Math.round((Number(value) - .05) * 100) / 100);
-				if ((next.minFillRatio ?? 0) > maxAllowedMin) next.minFillRatio = maxAllowedMin;
-			}
-			return next;
-		});
-	}
-	function setSizeSeparation(level) {
-		updateParam("maxSizeRatio", level === "strict" ? 3 : level === "normal" ? 6 : 12);
-	}
-	function setBuyPriority(priority) {
-		setParams((prev) => ({
-			...prev,
-			weights: {
-				...prev.weights,
-				wWaste: priority === "space" ? .35 : priority === "budget" ? .05 : .15,
-				wPrice: priority === "space" ? .05 : priority === "budget" ? .35 : .2
-			}
-		}));
-	}
-	function resetParams() {
-		setParams((prev) => ({
-			...getDefaultSavedParams(),
-			mode: prev.mode
-		}));
-	}
-	function toggleBoxExpanded(boxId) {
-		setExpandedBoxes((prev) => ({
-			...prev,
-			[boxId]: !prev[boxId]
-		}));
-	}
-	function toggleExpandAllVisible() {
-		if (filteredAssignments.length > 0 && filteredAssignments.every((a) => expandedBoxes[a.boxId])) setExpandedBoxes({});
-		else {
-			const next = {};
-			for (const a of filteredAssignments) next[a.boxId] = true;
-			setExpandedBoxes(next);
+			filename = "brickbase-eindvoorstel-sorteerlijst.txt";
 		}
-	}
-	function handleAddContainer() {
-		const l = parseFloat(newLength.replace(",", "."));
-		const w = parseFloat(newWidth.replace(",", "."));
-		const h = parseFloat(newHeight.replace(",", "."));
-		const c = parseInt(newCount, 10);
-		if (!Number.isFinite(l) || l <= 0 || !Number.isFinite(w) || w <= 0 || !Number.isFinite(h) || h <= 0) return;
-		const cleanCount = Number.isFinite(c) && c > 0 ? Math.min(200, c) : 1;
-		const label = newName.trim() || `Bak ${l.toString().replace(".", ",")}×${w.toString().replace(".", ",")}×${h.toString().replace(".", ",")} cm`;
-		setUserContainers((prev) => [...prev, {
-			id: `uc-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
-			name: label,
-			count: cleanCount,
-			lengthCm: Math.round(l * 10) / 10,
-			widthCm: Math.round(w * 10) / 10,
-			heightCm: Math.round(h * 10) / 10
-		}]);
-		setNewName("");
-	}
-	function handleAddPreset(preset) {
+		const content = buildIterativeLabelsText(title, stage, prepared);
+		const blob = new Blob([content], { type: "text/plain;charset=utf-8" });
+		const url = URL.createObjectURL(blob);
+		const a = document.createElement("a");
+		a.href = url;
+		a.download = filename;
+		document.body.appendChild(a);
+		a.click();
+		document.body.removeChild(a);
+		URL.revokeObjectURL(url);
+	};
+	const handleAddPreset = (preset) => {
 		setUserContainers((prev) => {
 			const existing = prev.find((c) => c.name === preset.name && c.lengthCm === preset.lengthCm && c.widthCm === preset.widthCm && c.heightCm === preset.heightCm);
 			if (existing) return prev.map((c) => c.id === existing.id ? {
@@ -31341,435 +34939,784 @@ function StorageOrganization({ sets, prefs, onPrefsChange, onOpenAddSets }) {
 				heightCm: preset.heightCm
 			}];
 		});
-	}
-	function handleUpdateContainer(id, patch) {
+	};
+	const handleAddCustomBox = () => {
+		const l = Math.max(1, Number(newBoxL.replace(",", ".")) || 0);
+		const w = Math.max(1, Number(newBoxW.replace(",", ".")) || 0);
+		const h = Math.max(1, Number(newBoxH.replace(",", ".")) || 0);
+		const count = Math.max(1, Math.min(200, Math.round(Number(newBoxCount) || 1)));
+		if (l <= 0 || w <= 0 || h <= 0) return;
+		const name = newBoxName.trim() || `Eigen bak (${l.toString().replace(".", ",")} × ${w.toString().replace(".", ",")} × ${h.toString().replace(".", ",")} cm)`;
+		setUserContainers((prev) => [...prev, {
+			id: `uc-custom-${Date.now()}`,
+			name,
+			count,
+			lengthCm: l,
+			widthCm: w,
+			heightCm: h
+		}]);
+		setNewBoxName("");
+	};
+	const handleUpdateUserContainer = (id, patch) => {
 		setUserContainers((prev) => prev.map((c) => c.id === id ? {
 			...c,
 			...patch
 		} : c));
-	}
-	function handleDeleteContainer(id) {
+	};
+	const handleDeleteUserContainer = (id) => {
 		setUserContainers((prev) => prev.filter((c) => c.id !== id));
-	}
-	function handleDownloadLabels() {
-		const content = buildHvsbppLabelsText(bundle);
-		const filename = `brickbase-bakkenplan-${params.mode === "fixed_inventory" ? "eigen-bakken" : "bakadvies"}-${(/* @__PURE__ */ new Date()).toISOString().slice(0, 10)}.txt`;
-		const blob = new Blob([content], { type: "text/plain;charset=utf-8" });
-		const url = URL.createObjectURL(blob);
-		const a = document.createElement("a");
-		a.href = url;
-		a.download = filename;
-		document.body.appendChild(a);
-		a.click();
-		document.body.removeChild(a);
-		URL.revokeObjectURL(url);
-	}
-	const previewNewVolumeMl = calculateUserContainerVolumeMl({
-		lengthCm: parseFloat(newLength.replace(",", ".")) || 0,
-		widthCm: parseFloat(newWidth.replace(",", ".")) || 0,
-		heightCm: parseFloat(newHeight.replace(",", ".")) || 0
-	});
-	const spareBoxesCount = bundle.spareContainers.reduce((s, c) => s + c.spareCount, 0);
-	const minFillRatio = params.minFillRatio ?? .3;
-	const maxMinFillSlider = Math.max(0, Math.round((params.alpha - .05) * 100) / 100);
-	const sizeSepLevel = getSizeSeparationLevel(params.maxSizeRatio);
-	const buyPriority = getBuyPriority(params.weights.wWaste, params.weights.wPrice);
-	const ergonomicsTone = kpis.ergonomicsScore >= 80 ? "text-[#15803D]" : kpis.ergonomicsScore >= 60 ? "text-[#B45309]" : "text-[#D11013]";
-	if (sets.length === 0) return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-		className: "mx-auto max-w-6xl px-6 py-12 space-y-6",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "rounded-xl border border-[#E4E4E0] bg-white p-10 text-center space-y-4",
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
-					className: "font-display text-2xl font-bold text-[#141619]",
-					children: "LEGO Organisatie & Bakkenplan"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-sm text-[#5A606B] max-w-md mx-auto",
-					children: "Voeg eerst één of meerdere LEGO-sets toe om automatisch het ideale bakkenplan te berekenen — of om je eigen opbergbakken zo slim mogelijk te vullen."
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+	};
+	if (sets.length === 0 || prepared.totalPieces === 0) return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "max-w-3xl mx-auto py-14 px-4 text-center",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "w-12 h-12 rounded-xl bg-[#FAF9F6] border border-[#E4E4E0] flex items-center justify-center mx-auto mb-4",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Package, { className: "w-6 h-6 text-[#5A606B]" })
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+				className: "font-display text-2xl font-bold text-[#141619]",
+				children: "Nog geen steentjes om te organiseren"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+				className: "text-sm text-[#5A606B] mt-2 max-w-md mx-auto",
+				children: sets.length === 0 ? "Voeg eerst één of meer LEGO-sets toe aan je collectie. Daarna berekent BrickBase stap voor stap het volume en een helder bakkenplan." : metric === "collected" ? "Je hebt nog geen verzamelde steentjes afgevinkt. Schakel over naar \"Volledige collectie\" om je sets in te delen." : "De actieve filters (zoals stickers/minifigs) laten geen steentjes over."
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "mt-6 flex items-center justify-center gap-3",
+				children: sets.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
 					type: "button",
 					onClick: onOpenAddSets,
-					className: "inline-flex items-center gap-2 rounded-lg bg-[#D11013] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#B40D10] transition-colors",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Plus, { className: "h-4 w-4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Eerste set toevoegen" })]
+					className: "inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-[#D11013] hover:bg-[#B20D10] text-white text-sm font-semibold whitespace-nowrap shrink-0 cursor-pointer",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Plus, { className: "w-4 h-4" }), "Eerste set toevoegen"]
+				}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+					type: "button",
+					onClick: () => setMetric("all"),
+					className: "inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-[#141619] hover:bg-[#2A2E35] text-white text-sm font-semibold whitespace-nowrap shrink-0 cursor-pointer",
+					children: "Volledige collectie gebruiken"
 				})
-			]
-		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-			className: "rounded-xl border border-[#E4E4E0] bg-white p-6 space-y-4",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-				className: "font-display text-base font-semibold text-[#141619]",
-				children: "Wat is het verschil tussen Stenen, Platen en Tegels?"
-			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-				className: "text-xs text-[#5A606B] mt-0.5",
-				children: "Overzicht van de belangrijkste LEGO-categorieën en welke blokjes bij elkaar horen."
-			})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-				className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3",
-				children: QUICK_BASICS_ORDER.map((cat) => {
-					const info = PART_TYPE_GUIDE[cat];
-					if (!info) return null;
-					return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "rounded-lg border border-[#E4E4E0] bg-[#F7F7F5] p-3.5 space-y-2",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "flex items-center gap-3",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrickIcon, {
-								shape: info.shape,
-								colorHex: "#D11013",
-								size: 38
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "min-w-0",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-sm font-semibold text-[#141619]",
-									children: info.category
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-[11px] text-[#5A606B] leading-tight",
-									children: info.shortWhat
-								})]
-							})]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							className: "text-xs text-[#5A606B] leading-relaxed",
-							children: info.whatIsIt
-						})]
-					}, cat);
-				})
-			})]
-		})]
+			})
+		]
 	});
-	const allVisibleExpanded = filteredAssignments.length > 0 && filteredAssignments.every((a) => expandedBoxes[a.boxId]);
+	const tradeoffInfo = describeTradeoff(tradeoff);
+	const { step1SingleBox } = prepared;
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-		className: "mx-auto max-w-6xl px-4 sm:px-6 py-6 sm:py-7 space-y-6",
+		className: "space-y-6 pb-12",
 		children: [
-			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				className: "rounded-xl border border-[#E4E4E0] bg-white p-5 sm:p-6 space-y-5",
-				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "flex flex-col lg:flex-row lg:items-start justify-between gap-4",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "space-y-1",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
-								className: "font-display text-2xl font-bold tracking-tight text-[#141619]",
-								children: "Organisatie & Bakkenplan"
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-sm text-[#5A606B] max-w-2xl",
-								children: "Slimme indeling per categorie met balans tussen plaatsoptimalisatie (volle bakken) en makkelijk terugvinden."
-							})]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "flex flex-wrap items-center gap-2 shrink-0 self-start",
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
+				className: "flex flex-col lg:flex-row lg:items-end justify-between gap-4 pb-5 border-b border-[#E4E4E0]",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+					className: "font-display text-2xl sm:text-3xl font-bold tracking-tight text-[#141619]",
+					children: "Organisatie & Bakkenplan"
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "text-sm text-[#5A606B] mt-1 max-w-2xl",
+					children: "Werk stap voor stap van je totaalvolume naar een concreet sorteerplan — of verdeel je collectie optimaal over de dozen die je al in huis hebt."
+				})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex flex-wrap items-center gap-2",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+							type: "button",
+							onClick: () => setShowDimensionsModal(true),
+							className: "inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-white border border-[#E4E4E0] hover:border-[#C5C5BF] text-xs font-semibold text-[#141619] whitespace-nowrap shrink-0 cursor-pointer",
 							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-									type: "button",
-									onClick: () => setShowDimensionsPanel((prev) => !prev),
-									className: `inline-flex items-center gap-1.5 rounded-lg border px-3 py-2 text-xs font-medium transition-colors whitespace-nowrap ${showDimensionsPanel || hasVolumeCustomization ? "border-[#141619] bg-[#141619] text-white hover:bg-[#2A2E35]" : "border-[#E4E4E0] bg-[#F7F7F5] text-[#141619] hover:bg-[#EBEBE8]"}`,
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Ruler, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: ["Volume per onderdeel", customVolumeCount > 0 ? ` (${customVolumeCount})` : ""] })]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-									type: "button",
-									onClick: () => setShowTypeGuide((prev) => !prev),
-									className: "inline-flex items-center gap-1.5 rounded-lg border border-[#E4E4E0] bg-[#F7F7F5] px-3 py-2 text-xs font-medium text-[#141619] hover:bg-[#EBEBE8] transition-colors whitespace-nowrap",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleQuestionMark, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: showTypeGuide ? "Verberg typengids" : "Typengids" })]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-									type: "button",
-									onClick: handleDownloadLabels,
-									disabled: bundle.totalPieces === 0,
-									className: "inline-flex items-center gap-2 rounded-lg border border-[#E4E4E0] bg-white px-3.5 py-2 text-xs font-medium text-[#141619] hover:bg-[#F7F7F5] transition-colors disabled:opacity-45 whitespace-nowrap",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Download, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Baklabels downloaden (.txt)" })]
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Ruler, { className: "w-3.5 h-3.5 text-[#135CA8]" }),
+								"Volume per blokje",
+								customPartCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "font-mono text-[#135CA8]",
+									children: [
+										"(",
+										customPartCount,
+										")"
+									]
 								})
 							]
-						})]
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "grid grid-cols-1 sm:grid-cols-2 gap-2.5 rounded-xl bg-[#F7F7F5] p-1.5 border border-[#E4E4E0]",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
 							type: "button",
-							onClick: () => updateParam("mode", "buy_advice"),
-							className: `flex items-start gap-3 rounded-lg px-4 py-3 text-left transition-all ${params.mode === "buy_advice" ? "bg-white text-[#141619] shadow-xs border border-[#E4E4E0]" : "text-[#5A606B] hover:text-[#141619] border border-transparent"}`,
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: `flex h-9 w-9 shrink-0 items-center justify-center rounded-lg ${params.mode === "buy_advice" ? "bg-[#D11013] text-white" : "bg-[#EBEBE8] text-[#5A606B]"}`,
-								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sparkles, { className: "h-4 w-4" })
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "min-w-0",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-sm font-semibold text-[#141619]",
-									children: "Bakken voorstellen (koopadvies)"
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-xs text-[#5A606B] mt-0.5",
-									children: "Berekent de slimste mix van lades en stapelbakken voor jouw collectie."
-								})]
-							})]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+							onClick: () => setShowTypeGuide((v) => !v),
+							className: "inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-white border border-[#E4E4E0] hover:border-[#C5C5BF] text-xs font-semibold text-[#141619] whitespace-nowrap shrink-0 cursor-pointer",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BookOpen, { className: "w-3.5 h-3.5 text-[#5A606B]" }), "Typengids"]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
 							type: "button",
-							onClick: () => updateParam("mode", "fixed_inventory"),
-							className: `flex items-start gap-3 rounded-lg px-4 py-3 text-left transition-all ${params.mode === "fixed_inventory" ? "bg-white text-[#141619] shadow-xs border border-[#E4E4E0]" : "text-[#5A606B] hover:text-[#141619] border border-transparent"}`,
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: `flex h-9 w-9 shrink-0 items-center justify-center rounded-lg ${params.mode === "fixed_inventory" ? "bg-[#135CA8] text-white" : "bg-[#EBEBE8] text-[#5A606B]"}`,
-								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PackageCheck, { className: "h-4 w-4" })
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "min-w-0",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-sm font-semibold text-[#141619]",
-									children: "Eigen bakken vullen"
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-xs text-[#5A606B] mt-0.5",
-									children: "Geef op welke bakken je hebt (bijv. 5 bakken van 40 L) — de app maakt altijd een compleet voorstel."
-								})]
-							})]
+							onClick: handleDownloadPlan,
+							className: "inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-[#141619] hover:bg-[#2A2E35] text-white text-xs font-semibold whitespace-nowrap shrink-0 cursor-pointer",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Download, { className: "w-3.5 h-3.5" }), "Sorteerlijst (.txt)"]
+						})
+					]
+				})]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "grid grid-cols-1 md:grid-cols-2 gap-3",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+					type: "button",
+					onClick: () => {
+						setApproachMode("guided");
+						setSearchQuery("");
+					},
+					className: `text-left p-4 rounded-xl border transition-all cursor-pointer ${approachMode === "guided" ? "bg-white border-[#135CA8] ring-1 ring-[#135CA8]" : "bg-white border-[#E4E4E0] hover:border-[#C5C5BF]"}`,
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center justify-between gap-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "font-display text-base font-semibold text-[#141619]",
+							children: "Stapsgewijs bakkenplan"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "font-mono text-xs text-[#135CA8] font-medium",
+							children: "1 bak → 5 bakken → eindvoorstel"
 						})]
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "flex flex-wrap items-center gap-3",
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-xs text-[#5A606B] mt-1 leading-relaxed",
+						children: "Bekijk eerst je totale volume in 1 bak, zie hoe 5 bakken uitpakken en kies daarna met de schuifregelaar tussen minimaal volume of maximale ergonomie."
+					})]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+					type: "button",
+					onClick: () => {
+						setApproachMode("own_boxes");
+						setSearchQuery("");
+					},
+					className: `text-left p-4 rounded-xl border transition-all cursor-pointer ${approachMode === "own_boxes" ? "bg-white border-[#135CA8] ring-1 ring-[#135CA8]" : "bg-white border-[#E4E4E0] hover:border-[#C5C5BF]"}`,
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center justify-between gap-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "font-display text-base font-semibold text-[#141619]",
+							children: "Eigen dozen gebruiken"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+							className: "font-mono text-xs text-[#15803D] font-medium",
+							children: [
+								"Max. ergonomie · alle ",
+								totalConfiguredUserBoxes,
+								" dozen"
+							]
+						})]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-xs text-[#5A606B] mt-1 leading-relaxed",
+						children: "Geef op welke dozen of lades je al hebt. BrickBase benut automatisch al je dozen voor de hoogst mogelijke overzichtelijkheid."
+					})]
+				})]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "bg-white border border-[#E4E4E0] rounded-xl px-4 py-3 flex flex-wrap items-center justify-between gap-x-6 gap-y-3",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex flex-wrap items-center gap-4",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "inline-flex rounded-lg border border-[#E4E4E0] bg-[#FAF9F6] p-0.5",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+								type: "button",
+								onClick: () => setMetric("all"),
+								className: `px-3 py-1 rounded-md text-xs font-semibold transition-colors whitespace-nowrap shrink-0 cursor-pointer ${metric === "all" ? "bg-white text-[#141619] shadow-xs" : "text-[#5A606B] hover:text-[#141619]"}`,
+								children: "Volledige collectie"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+								type: "button",
+								onClick: () => setMetric("collected"),
+								className: `px-3 py-1 rounded-md text-xs font-semibold transition-colors whitespace-nowrap shrink-0 cursor-pointer ${metric === "collected" ? "bg-white text-[#141619] shadow-xs" : "text-[#5A606B] hover:text-[#141619]"}`,
+								children: "Alleen verzameld"
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", {
+							className: "inline-flex items-center gap-2 text-xs text-[#141619] cursor-pointer select-none",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+								type: "checkbox",
+								checked: prefs.ignoreStickers,
+								onChange: (e) => onPrefsChange({
+									...prefs,
+									ignoreStickers: e.target.checked
+								}),
+								className: "rounded border-[#C5C5BF] text-[#135CA8] focus:ring-[#135CA8]"
+							}), "Stickers negeren"]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", {
+							className: "inline-flex items-center gap-2 text-xs text-[#141619] cursor-pointer select-none",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+								type: "checkbox",
+								checked: prefs.ignoreMinifigs,
+								onChange: (e) => onPrefsChange({
+									...prefs,
+									ignoreMinifigs: e.target.checked
+								}),
+								className: "rounded border-[#C5C5BF] text-[#135CA8] focus:ring-[#135CA8]"
+							}), "Minifigs negeren"]
+						})
+					]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex items-center gap-2 text-xs",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						className: "text-[#5A606B]",
+						children: "Groeiruimte:"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "inline-flex rounded-lg border border-[#E4E4E0] bg-[#FAF9F6] p-0.5",
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: "inline-flex items-center rounded-lg bg-[#EBEBE8] p-1",
-								children: [{
-									id: "all",
-									label: "Volledige collectie"
-								}, {
-									id: "collected",
-									label: "Alleen verzameld"
-								}].map((opt) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-									type: "button",
-									onClick: () => setMetric(opt.id),
-									className: `rounded-md px-3 py-1.5 text-xs font-medium transition-colors whitespace-nowrap shrink-0 ${metric === opt.id ? "bg-white text-[#141619] shadow-xs" : "text-[#5A606B] hover:text-[#141619]"}`,
-									children: opt.label
-								}, opt.id))
+							0,
+							15,
+							30
+						].map((pct) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+							type: "button",
+							onClick: () => setGrowthPct(pct),
+							className: `px-2.5 py-1 rounded-md font-mono text-xs font-semibold transition-colors whitespace-nowrap shrink-0 cursor-pointer ${growthPct === pct ? "bg-white text-[#141619] shadow-xs" : "text-[#5A606B] hover:text-[#141619]"}`,
+							children: [
+								"+",
+								pct,
+								"%"
+							]
+						}, pct))
+					})]
+				})]
+			}),
+			approachMode === "guided" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "space-y-6",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("nav", {
+						"aria-label": "Organisatie-stappen",
+						className: "grid grid-cols-1 sm:grid-cols-3 gap-2.5",
+						children: [
+							{
+								step: 1,
+								label: "Stap 1",
+								title: "Alles in 1 bak",
+								meta: `${formatVolume(step1SingleBox.totalRequiredVolumeMl)} · 1 bak`
+							},
+							{
+								step: 2,
+								label: "Stap 2",
+								title: "Verdeling in 5 bakken",
+								meta: step2FiveBoxes ? `${step2FiveBoxes.result.kpis.totalBoxes} bakken · ergonomie ${step2FiveBoxes.result.kpis.ergonomicsScore}/100` : "5 logische groepen"
+							},
+							{
+								step: 3,
+								label: "Stap 3",
+								title: "Balans & eindvoorstel",
+								meta: step3FinalPlan ? `${step3FinalPlan.result.kpis.totalBoxes} bakken · ergonomie ${step3FinalPlan.result.kpis.ergonomicsScore}/100` : "Volume ↔ ergonomie"
+							}
+						].map((s) => {
+							const active = guidedStep === s.step;
+							const completed = guidedStep > s.step;
+							return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+								type: "button",
+								onClick: () => {
+									setGuidedStep(s.step);
+									setSearchQuery("");
+								},
+								className: `flex items-center gap-3 p-3.5 rounded-xl border text-left transition-all cursor-pointer ${active ? "bg-[#141619] border-[#141619] text-white" : "bg-white border-[#E4E4E0] hover:border-[#C5C5BF] text-[#141619]"}`,
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: `w-7 h-7 rounded-full flex items-center justify-center text-xs font-mono font-bold shrink-0 ${active ? "bg-[#D11013] text-white" : completed ? "bg-[#15803D] text-white" : "bg-[#F0F0EC] text-[#5A606B]"}`,
+									children: completed ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Check, { className: "w-3.5 h-3.5" }) : s.step
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "min-w-0",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: `text-[11px] font-semibold uppercase tracking-wider ${active ? "text-white/70" : "text-[#5A606B]"}`,
+											children: s.label
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-sm font-semibold truncate",
+											children: s.title
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: `text-[11px] font-mono tabular-nums truncate mt-0.5 ${active ? "text-white/75" : "text-[#5A606B]"}`,
+											children: s.meta
+										})
+									]
+								})]
+							}, s.step);
+						})
+					}),
+					guidedStep === 1 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "space-y-6",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+							className: "bg-white border border-[#E4E4E0] rounded-xl p-6",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex flex-col lg:flex-row lg:items-center justify-between gap-6",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "space-y-3 max-w-xl",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-xs font-semibold uppercase tracking-wider text-[#D11013]",
+											children: "Stap 1 · Startpunt — Alles samen in één bak"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
+											className: "font-display text-2xl sm:text-3xl font-bold text-[#141619]",
+											children: [
+												"Je collectie neemt in totaal",
+												" ",
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "font-mono tabular-nums text-[#135CA8]",
+													children: formatVolume(step1SingleBox.totalRequiredVolumeMl)
+												}),
+												" ",
+												"in beslag"
+											]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+											className: "text-sm text-[#5A606B] leading-relaxed",
+											children: [
+												"Netto blokvolume:",
+												" ",
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "font-mono text-[#141619] font-medium",
+													children: formatVolume(step1SingleBox.nettoGeometricVolumeMl)
+												}),
+												" ",
+												"· losgestort (V_bulk):",
+												" ",
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "font-mono text-[#141619] font-medium",
+													children: formatVolume(step1SingleBox.netBulkVolumeMl)
+												}),
+												" ",
+												"(excl. +",
+												growthPct,
+												"% groeiruimte). Als je alles in één grote bak doet, heb je minimaal",
+												" ",
+												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+													className: "font-semibold text-[#141619]",
+													children: ["1× ", step1SingleBox.recommendedSingleBoxLabel]
+												}),
+												" ",
+												"nodig (ca. ",
+												step1SingleBox.recommendedSingleBoxFillPct,
+												"% gevuld)."
+											]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "space-y-1.5 pt-1",
+											children: [
+												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+													className: "flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-[#5A606B]",
+													children: [
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+															className: "font-medium text-[#141619]",
+															children: "Betrouwbaarheid:"
+														}),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+															className: "font-mono tabular-nums text-[#15803D]",
+															children: [
+																"Niveau 1 Specifiek ",
+																step1SingleBox.volumeReliability.level1Pct.toFixed(1).replace(".", ","),
+																"%"
+															]
+														}),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "·" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+															className: "font-mono tabular-nums text-[#135CA8]",
+															children: [
+																"Niveau 2 Categorie ",
+																step1SingleBox.volumeReliability.level2Pct.toFixed(1).replace(".", ","),
+																"%"
+															]
+														}),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "·" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+															className: "font-mono tabular-nums text-[#B45309]",
+															children: [
+																"Niveau 3 Default ",
+																step1SingleBox.volumeReliability.level3Pct.toFixed(1).replace(".", ","),
+																"%"
+															]
+														}),
+														customPartCount > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "·" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+															className: "font-mono tabular-nums text-[#D11013]",
+															children: [customPartCount, " eigen"]
+														})] })
+													]
+												}),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+													className: "h-1.5 max-w-md rounded-full bg-[#E8E8E3] overflow-hidden flex",
+													children: [
+														step1SingleBox.volumeReliability.level1Pct > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+															className: "h-full bg-[#15803D]",
+															style: { width: `${step1SingleBox.volumeReliability.level1Pct}%` }
+														}),
+														step1SingleBox.volumeReliability.level2Pct > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+															className: "h-full bg-[#135CA8]",
+															style: { width: `${step1SingleBox.volumeReliability.level2Pct}%` }
+														}),
+														step1SingleBox.volumeReliability.level3Pct > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+															className: "h-full bg-[#D97706]",
+															style: { width: `${step1SingleBox.volumeReliability.level3Pct}%` }
+														}),
+														step1SingleBox.volumeReliability.customPct > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+															className: "h-full bg-[#D11013]",
+															style: { width: `${step1SingleBox.volumeReliability.customPct}%` }
+														})
+													]
+												}),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+													type: "button",
+													onClick: () => setShowDimensionsModal(true),
+													className: "text-xs text-[#135CA8] font-semibold hover:underline cursor-pointer",
+													children: "Volledige volumetabel bekijken of per blokje aanpassen"
+												}) })
+											]
+										})
+									]
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "lg:w-80 shrink-0 bg-[#FAF9F6] border border-[#E4E4E0] rounded-xl p-4 space-y-4",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "grid grid-cols-3 gap-3 text-center",
+											children: [
+												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "font-mono text-lg font-bold tabular-nums text-[#141619]",
+													children: step1SingleBox.totalPieces.toLocaleString("nl-NL")
+												}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "text-[11px] text-[#5A606B]",
+													children: "steentjes"
+												})] }),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "font-mono text-lg font-bold tabular-nums text-[#141619]",
+													children: step1SingleBox.uniquePartsCount.toLocaleString("nl-NL")
+												}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "text-[11px] text-[#5A606B]",
+													children: "vormen"
+												})] }),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "font-mono text-lg font-bold tabular-nums text-[#141619]",
+													children: step1SingleBox.categoryCount
+												}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "text-[11px] text-[#5A606B]",
+													children: "categorieën"
+												})] })
+											]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "pt-3 border-t border-[#E4E4E0]",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "flex items-center justify-between text-xs mb-1.5",
+												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "text-[#5A606B]",
+													children: "Advies bij 1 bak"
+												}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+													className: "font-mono font-semibold text-[#141619]",
+													children: [
+														step1SingleBox.recommendedSingleBoxLiters,
+														" L bak (",
+														step1SingleBox.recommendedSingleBoxFillPct,
+														"% vol)"
+													]
+												})]
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "h-2 w-full rounded-full bg-[#E4E4E0] overflow-hidden",
+												children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "h-full rounded-full bg-[#135CA8]",
+													style: { width: `${Math.max(4, step1SingleBox.recommendedSingleBoxFillPct)}%` }
+												})
+											})]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+											type: "button",
+											onClick: () => setGuidedStep(2),
+											className: "w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-[#D11013] hover:bg-[#B20D10] text-white text-sm font-semibold whitespace-nowrap shrink-0 cursor-pointer",
+											children: ["Verdeel over 5 bakken", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "w-4 h-4" })]
+										})
+									]
+								})]
+							})
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+							className: "bg-white border border-[#E4E4E0] rounded-xl overflow-hidden",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "px-5 py-4 border-b border-[#E4E4E0] flex items-center justify-between gap-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+									className: "font-display text-base font-semibold text-[#141619]",
+									children: "Opbouw van je totaalvolume per type"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-xs text-[#5A606B] mt-0.5",
+									children: "Zo groot is elke categorie wanneer alles in één bak ligt."
+								})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "text-xs font-mono tabular-nums text-[#5A606B]",
+									children: [step1SingleBox.categoryBreakdown.length, " categorieën"]
+								})]
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "divide-y divide-[#F0F0EC]",
+								children: step1SingleBox.categoryBreakdown.map((cat) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "px-5 py-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "flex items-start gap-3 min-w-0 flex-1",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrickIcon, {
+											shape: cat.shape,
+											colorHex: getCategoryColorHex(cat.shape),
+											size: 38
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "min-w-0 flex-1",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "flex flex-wrap items-baseline gap-x-2",
+												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "text-sm font-semibold text-[#141619]",
+													children: cat.category
+												}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+													className: "text-xs font-mono tabular-nums text-[#5A606B]",
+													children: [
+														cat.pieces.toLocaleString("nl-NL"),
+														" stuks · ",
+														cat.uniqueParts,
+														" vormen"
+													]
+												})]
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+												className: "text-xs text-[#5A606B] mt-0.5 truncate",
+												children: cat.topParts.map((tp) => `${tp.name} (${tp.quantity}×)`).join(" · ")
+											})]
+										})]
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "sm:w-52 shrink-0",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "flex items-center justify-between text-xs mb-1",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "font-mono font-semibold tabular-nums text-[#141619]",
+												children: formatVolume(cat.volumeMl)
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+												className: "font-mono tabular-nums text-[#5A606B]",
+												children: [cat.sharePct.toFixed(1).replace(".", ","), "%"]
+											})]
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "h-1.5 w-full rounded-full bg-[#F0F0EC] overflow-hidden",
+											children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "h-full rounded-full bg-[#135CA8]",
+												style: { width: `${Math.max(2, Math.min(100, cat.sharePct))}%` }
+											})
+										})]
+									})]
+								}, cat.category))
+							})]
+						})]
+					}),
+					guidedStep === 2 && step2FiveBoxes && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "space-y-6",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+								className: "bg-white border border-[#E4E4E0] rounded-xl p-5",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "flex flex-col lg:flex-row lg:items-center justify-between gap-4",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-xs font-semibold uppercase tracking-wider text-[#135CA8]",
+											children: "Stap 2 · Referentieverdeling in 5 bakken"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
+											className: "font-display text-xl sm:text-2xl font-bold text-[#141619] mt-1",
+											children: [
+												"Eerste verdeling over ",
+												step2FiveBoxes.result.kpis.totalBoxes,
+												" logische bakken"
+											]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+											className: "text-sm text-[#5A606B] mt-1 max-w-2xl",
+											children: "Verwante categorieën blijven bij elkaar zodat je direct ziet hoe een compacte 5-bakken indeling voelt. Daarna kies je zelf of je liever compacter of juist ergonomischer wilt sorteren."
+										})
+									] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "flex flex-wrap items-center gap-2 shrink-0",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+											type: "button",
+											onClick: () => setGuidedStep(1),
+											className: "inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-lg bg-white border border-[#E4E4E0] hover:border-[#C5C5BF] text-xs font-semibold text-[#141619] whitespace-nowrap shrink-0 cursor-pointer",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowLeft, { className: "w-3.5 h-3.5" }), "Terug naar 1 bak"]
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+											type: "button",
+											onClick: () => setGuidedStep(3),
+											className: "inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-[#D11013] hover:bg-[#B20D10] text-white text-sm font-semibold whitespace-nowrap shrink-0 cursor-pointer",
+											children: ["Optimaliseer op volume of ergonomie", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "w-4 h-4" })]
+										})]
+									})]
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "mt-5 pt-4 border-t border-[#E4E4E0] grid grid-cols-2 lg:grid-cols-4 gap-4",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-[11px] uppercase tracking-wider text-[#5A606B]",
+											children: "Aantal bakken"
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "font-mono text-xl font-bold tabular-nums text-[#141619] mt-0.5",
+											children: [step2FiveBoxes.result.kpis.totalBoxes, " bakken"]
+										})] }),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-[11px] uppercase tracking-wider text-[#5A606B]",
+											children: "Totaal bakvolume"
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "font-mono text-xl font-bold tabular-nums text-[#141619] mt-0.5",
+											children: formatVolume(step2FiveBoxes.totalGrossBoxVolumeMl)
+										})] }),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-[11px] uppercase tracking-wider text-[#5A606B]",
+											children: "Gemiddelde vulling"
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "font-mono text-xl font-bold tabular-nums text-[#141619] mt-0.5",
+											children: [Math.round(step2FiveBoxes.result.kpis.avgGrossFillRatio * 100), "%"]
+										})] }),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-[11px] uppercase tracking-wider text-[#5A606B]",
+											children: "Ergonomiescore"
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "font-mono text-xl font-bold tabular-nums text-[#135CA8] mt-0.5",
+											children: [step2FiveBoxes.result.kpis.ergonomicsScore, " / 100"]
+										})] })
+									]
+								})]
 							}),
-							params.mode === "buy_advice" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: "inline-flex items-center rounded-lg bg-[#EBEBE8] p-1",
-								children: [
-									{
-										id: "mixed",
-										label: "Gemengd"
-									},
-									{
-										id: "drawers",
-										label: "Ladekasten"
-									},
-									{
-										id: "bins",
-										label: "Stapelbakken"
-									}
-								].map((opt) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-									type: "button",
-									onClick: () => setSystemMode(opt.id),
-									className: `rounded-md px-3 py-1.5 text-xs font-medium transition-colors whitespace-nowrap shrink-0 ${systemMode === opt.id ? "bg-white text-[#141619] shadow-xs" : "text-[#5A606B] hover:text-[#141619]"}`,
-									children: opt.label
-								}, opt.id))
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PlanBoxListSection, {
+								stage: step2FiveBoxes,
+								boxNoun: "Bak",
+								partMetaByNum: prepared.partMetaByNum,
+								colorHexById: prepared.colorHexById,
+								searchQuery,
+								onSearchChange: setSearchQuery,
+								title: "Wat gaat in welke van de 5 bakken?",
+								subtitle: "Per bak zie je direct alle categorieën, subgroepen en concrete steentjes."
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex flex-wrap items-center gap-2",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+								className: "bg-[#FAF9F6] border border-[#E4E4E0] rounded-xl p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "font-display text-base font-semibold text-[#141619]",
+									children: "Klaar voor je persoonlijke eindvoorstel?"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "text-xs text-[#5A606B] mt-0.5",
+									children: "Geef in stap 3 met één schuifregelaar aan of je volume laag wilt houden of juist maximale ergonomie wilt."
+								})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
 									type: "button",
-									"aria-pressed": prefs.ignoreStickers,
-									onClick: () => onPrefsChange({
-										...prefs,
-										ignoreStickers: !prefs.ignoreStickers
-									}),
-									className: `inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-medium transition-colors whitespace-nowrap shrink-0 ${prefs.ignoreStickers ? "border-[#141619] bg-[#141619] text-white" : "border-[#E4E4E0] bg-white text-[#5A606B] hover:text-[#141619]"}`,
-									children: [prefs.ignoreStickers && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Check, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Stickers negeren" })]
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-									type: "button",
-									"aria-pressed": prefs.ignoreMinifigs,
-									onClick: () => onPrefsChange({
-										...prefs,
-										ignoreMinifigs: !prefs.ignoreMinifigs
-									}),
-									className: `inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-medium transition-colors whitespace-nowrap shrink-0 ${prefs.ignoreMinifigs ? "border-[#141619] bg-[#141619] text-white" : "border-[#E4E4E0] bg-white text-[#5A606B] hover:text-[#141619]"}`,
-									children: [prefs.ignoreMinifigs && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Check, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Minifigs negeren" })]
+									onClick: () => {
+										setGuidedStep(3);
+										setSearchQuery("");
+									},
+									className: "inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-[#D11013] hover:bg-[#B20D10] text-white text-sm font-semibold whitespace-nowrap shrink-0 cursor-pointer",
+									children: ["Naar stap 3 · Balans & eindvoorstel", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "w-4 h-4" })]
 								})]
 							})
 						]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "rounded-xl border border-[#E4E4E0] bg-[#F7F7F5] p-4 space-y-4",
+					guidedStep === 3 && step2FiveBoxes && step3FinalPlan && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "space-y-6",
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex flex-wrap items-center justify-between gap-2",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: "flex items-center gap-2",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(SlidersHorizontal, { className: "h-4 w-4 text-[#D11013]" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-										className: "text-xs font-semibold uppercase tracking-wider text-[#141619]",
-										children: "Instellingen voor vulling & indeling"
-									})]
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: "flex items-center gap-2",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-										type: "button",
-										onClick: () => setShowFineTuning((v) => !v),
-										className: "inline-flex items-center gap-1.5 rounded-lg border border-[#D4D4CE] bg-white px-2.5 py-1.5 text-xs font-medium text-[#141619] hover:bg-[#EFEFEC] transition-colors",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Extra fijnregeling" }), showFineTuning ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronUp, { className: "h-3.5 w-3.5" }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronDown, { className: "h-3.5 w-3.5" })]
-									}), isCustomParams && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-										type: "button",
-										onClick: resetParams,
-										className: "inline-flex items-center gap-1 rounded-lg border border-[#E4E4E0] bg-white px-2.5 py-1.5 text-xs font-medium text-[#5A606B] hover:text-[#141619] transition-colors",
-										title: "Herstel standaardinstellingen",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(RotateCcw, { className: "h-3.5 w-3.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Reset" })]
-									})]
-								})]
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3",
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+								className: "bg-white border border-[#E4E4E0] rounded-xl p-6 space-y-5",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "rounded-lg border border-[#E4E4E0] bg-white p-3 space-y-1.5",
-										children: [
+										className: "flex flex-col sm:flex-row sm:items-start justify-between gap-3",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
 											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-												className: "flex items-center justify-between gap-2",
-												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("label", {
-													htmlFor: "param-maxfill",
-													className: "text-xs font-semibold text-[#141619]",
-													children: "Max. vulling"
-												}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-													className: "font-mono text-xs font-bold text-[#D11013] tabular-nums",
-													children: [Math.round(params.alpha * 100), "%"]
-												})]
+												className: "text-xs font-semibold uppercase tracking-wider text-[#D11013] flex items-center gap-1.5",
+												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(SlidersVertical, { className: "w-3.5 h-3.5" }), "Stap 3 · Jouw voorkeur voor het eindvoorstel"]
 											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-												id: "param-maxfill",
-												type: "range",
-												min: .55,
-												max: .9,
-												step: .05,
-												value: params.alpha,
-												onChange: (e) => updateParam("alpha", Number(e.target.value)),
-												className: "w-full accent-[#D11013] cursor-pointer"
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-												className: "text-[11px] text-[#5A606B]",
-												children: [
-													"Houdt ",
-													Math.round((1 - params.alpha) * 100),
-													"% vrij als graairuimte."
-												]
-											})
-										]
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "rounded-lg border border-[#E4E4E0] bg-white p-3 space-y-1.5",
-										children: [
-											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-												className: "flex items-center justify-between gap-2",
-												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("label", {
-													htmlFor: "param-minfill",
-													className: "text-xs font-semibold text-[#141619]",
-													children: "Min. vulling"
-												}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-													className: "font-mono text-xs font-bold text-[#135CA8] tabular-nums",
-													children: [Math.round(minFillRatio * 100), "%"]
-												})]
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-												id: "param-minfill",
-												type: "range",
-												min: 0,
-												max: maxMinFillSlider,
-												step: .05,
-												value: Math.min(minFillRatio, maxMinFillSlider),
-												onChange: (e) => updateParam("minFillRatio", Number(e.target.value)),
-												className: "w-full accent-[#135CA8] cursor-pointer"
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+												className: "font-display text-xl sm:text-2xl font-bold text-[#141619] mt-1",
+												children: "Optimaliseren voor laag volume of hoge ergonomie?"
 											}),
 											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-												className: "text-[11px] text-[#5A606B]",
-												children: minFillRatio <= 0 ? "Uit — elke groep mag een eigen bak." : "Voegt halflege bakken per categorie samen."
+												className: "text-sm text-[#5A606B] mt-1",
+												children: "Verschuif de regelaar om het eindvoorstel live af te stemmen op jouw ruimte en bouwstijl."
 											})
-										]
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "rounded-lg border border-[#E4E4E0] bg-white p-3 space-y-1.5",
-										children: [
-											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-												className: "flex items-center justify-between gap-2",
-												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("label", {
-													htmlFor: "param-growth",
-													className: "text-xs font-semibold text-[#141619]",
-													children: "Groeiruimte"
-												}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-													className: "font-mono text-xs font-bold text-[#141619] tabular-nums",
-													children: [
-														"+",
-														Math.round((params.gamma - 1) * 100),
-														"%"
-													]
-												})]
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-												id: "param-growth",
-												type: "range",
-												min: 1,
-												max: 1.5,
-												step: .05,
-												value: params.gamma,
-												onChange: (e) => updateParam("gamma", Number(e.target.value)),
-												className: "w-full accent-[#141619] cursor-pointer"
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-												className: "text-[11px] text-[#5A606B]",
-												children: "Extra marge voor toekomstige sets."
-											})
-										]
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "rounded-lg border border-[#E4E4E0] bg-white p-3 space-y-1.5",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-											className: "flex items-center justify-between gap-2",
-											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-												className: "text-xs font-semibold text-[#141619]",
-												children: "Max. stukjes / bak"
-											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-												type: "button",
-												role: "switch",
-												"aria-checked": params.maxPiecesPerBox !== null && params.maxPiecesPerBox !== void 0,
-												onClick: () => updateParam("maxPiecesPerBox", params.maxPiecesPerBox ? null : 500),
-												className: `rounded px-2 py-0.5 text-[11px] font-semibold transition-colors ${params.maxPiecesPerBox ? "bg-[#141619] text-white" : "bg-[#F1F1EE] text-[#5A606B] hover:text-[#141619]"}`,
-												children: params.maxPiecesPerBox ? "Aan" : "Uit"
-											})]
-										}), params.maxPiecesPerBox ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-											className: "space-y-1.5",
-											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-												className: "flex items-center gap-1.5",
-												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-													type: "number",
-													min: 20,
-													max: 25e3,
-													step: 50,
-													value: params.maxPiecesPerBox,
-													onChange: (e) => {
-														const v = parseInt(e.target.value, 10);
-														if (Number.isFinite(v) && v >= 10) updateParam("maxPiecesPerBox", Math.min(25e3, v));
-													},
-													className: "w-20 rounded border border-[#D4D4CE] bg-[#F7F7F5] px-2 py-0.5 font-mono text-xs font-semibold text-[#141619] tabular-nums focus:border-[#141619] focus:bg-white focus:outline-none"
-												}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-													className: "text-[11px] text-[#5A606B]",
-													children: "stuks"
-												})]
-											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-												className: "flex flex-wrap gap-1",
-												children: [
-													250,
-													500,
-													1e3,
-													2500
-												].map((preset) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-													type: "button",
-													onClick: () => updateParam("maxPiecesPerBox", preset),
-													className: `rounded px-1.5 py-0.5 font-mono text-[10px] font-medium transition-colors ${params.maxPiecesPerBox === preset ? "bg-[#D11013] text-white" : "bg-[#F7F7F5] text-[#5A606B] hover:bg-[#EBEBE8]"}`,
-													children: preset
-												}, preset))
-											})]
-										}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-											className: "text-[11px] text-[#5A606B]",
-											children: "Zet aan om grote groepen automatisch op aantal te splitsen."
+										] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+											type: "button",
+											onClick: () => setGuidedStep(2),
+											className: "inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-white border border-[#E4E4E0] hover:border-[#C5C5BF] text-xs font-semibold text-[#141619] whitespace-nowrap shrink-0 cursor-pointer self-start",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowLeft, { className: "w-3.5 h-3.5" }), "Terug naar 5 bakken"]
 										})]
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "rounded-lg border border-[#E4E4E0] bg-white p-3 space-y-2",
+										className: "bg-[#FAF9F6] border border-[#E4E4E0] rounded-xl p-5 space-y-4",
 										children: [
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-												className: "block text-xs font-semibold text-[#141619]",
-												children: "Op kleur splitsen"
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "flex flex-col sm:flex-row sm:items-center justify-between gap-2",
+												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "text-sm font-semibold text-[#141619]",
+													children: tradeoffInfo.title
+												}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+													className: "text-xs text-[#5A606B] mt-0.5",
+													children: tradeoffInfo.summary
+												})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+													className: "font-mono text-sm font-bold tabular-nums text-[#135CA8] shrink-0",
+													children: [
+														tradeoff,
+														"% ergonomie · ",
+														100 - tradeoff,
+														"% compact"
+													]
+												})]
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "space-y-2",
+												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+													type: "range",
+													min: 0,
+													max: 100,
+													step: 5,
+													value: tradeoff,
+													onChange: (e) => setTradeoff(Number(e.target.value)),
+													"aria-label": "Balans tussen laag volume en hoge ergonomie",
+													className: "w-full h-2 rounded-lg appearance-none bg-[#E4E4E0] accent-[#D11013] cursor-pointer"
+												}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+													className: "flex items-center justify-between text-xs font-medium text-[#5A606B]",
+													children: [
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Volume zo laag mogelijk" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Gebalanceerd" }),
+														/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Ergonomie zo hoog mogelijk" })
+													]
+												})]
 											}),
 											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-												className: "grid grid-cols-3 gap-1 rounded-md bg-[#F1F1EE] p-0.5",
+												className: "flex flex-wrap items-center gap-2 pt-1",
+												children: [
+													{
+														label: "Minimaal volume",
+														value: 10
+													},
+													{
+														label: "Compact",
+														value: 30
+													},
+													{
+														label: "Gebalanceerd",
+														value: 55
+													},
+													{
+														label: "Ergonomisch",
+														value: 75
+													},
+													{
+														label: "Maximaal overzicht",
+														value: 95
+													}
+												].map((preset) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+													type: "button",
+													onClick: () => setTradeoff(preset.value),
+													className: `px-3 py-1.5 rounded-lg text-xs font-semibold border transition-colors whitespace-nowrap shrink-0 cursor-pointer ${Math.abs(tradeoff - preset.value) <= 5 ? "bg-[#141619] border-[#141619] text-white" : "bg-white border-[#E4E4E0] text-[#141619] hover:border-[#C5C5BF]"}`,
+													children: preset.label
+												}, preset.value))
+											})
+										]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "flex flex-wrap items-center gap-x-6 gap-y-3 pt-1 text-xs",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "flex items-center gap-2",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "font-medium text-[#5A606B]",
+												children: "Type bakken:"
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "inline-flex rounded-lg border border-[#E4E4E0] bg-[#FAF9F6] p-0.5",
+												children: [
+													{
+														id: "mixed",
+														label: "Gemengd"
+													},
+													{
+														id: "drawers",
+														label: "Ladekasten"
+													},
+													{
+														id: "bins",
+														label: "Stapelbakken"
+													}
+												].map((opt) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+													type: "button",
+													onClick: () => setSystemMode(opt.id),
+													className: `px-2.5 py-1 rounded-md font-semibold transition-colors whitespace-nowrap shrink-0 cursor-pointer ${systemMode === opt.id ? "bg-white text-[#141619] shadow-xs" : "text-[#5A606B] hover:text-[#141619]"}`,
+													children: opt.label
+												}, opt.id))
+											})]
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "flex items-center gap-2",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "font-medium text-[#5A606B]",
+												children: "Op kleur splitsen:"
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "inline-flex rounded-lg border border-[#E4E4E0] bg-[#FAF9F6] p-0.5",
 												children: [
 													{
 														id: "never",
@@ -31777,7 +35724,7 @@ function StorageOrganization({ sets, prefs, onPrefsChange, onOpenAddSets }) {
 													},
 													{
 														id: "overflow_only",
-														label: "Als vol"
+														label: "Als bak vol is"
 													},
 													{
 														id: "always",
@@ -31785,1056 +35732,591 @@ function StorageOrganization({ sets, prefs, onPrefsChange, onOpenAddSets }) {
 													}
 												].map((opt) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
 													type: "button",
-													onClick: () => updateParam("colorMode", opt.id),
-													className: `rounded px-1 py-1 text-[11px] font-medium transition-colors ${params.colorMode === opt.id ? "bg-white text-[#141619] shadow-xs" : "text-[#5A606B] hover:text-[#141619]"}`,
+													onClick: () => setColorMode(opt.id),
+													className: `px-2.5 py-1 rounded-md font-semibold transition-colors whitespace-nowrap shrink-0 cursor-pointer ${colorMode === opt.id ? "bg-white text-[#141619] shadow-xs" : "text-[#5A606B] hover:text-[#141619]"}`,
 													children: opt.label
 												}, opt.id))
+											})]
+										})]
+									})
+								]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+								className: "grid grid-cols-1 md:grid-cols-3 gap-3",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+										type: "button",
+										onClick: () => setGuidedStep(1),
+										className: "bg-white border border-[#E4E4E0] hover:border-[#C5C5BF] rounded-xl p-4 text-left transition-colors cursor-pointer",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "text-[11px] font-semibold uppercase tracking-wider text-[#5A606B]",
+												children: "Stap 1 · Alles in 1 bak"
 											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-												className: "text-[11px] text-[#5A606B]",
-												children: "Sorteer op categorie/vorm of splits ook op kleurgroep."
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "font-mono text-lg font-bold tabular-nums text-[#141619] mt-1",
+												children: [
+													"1 bak · ",
+													step1SingleBox.recommendedSingleBoxLiters,
+													" L"
+												]
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "text-xs text-[#5A606B] mt-1",
+												children: [
+													"Vulling ",
+													step1SingleBox.recommendedSingleBoxFillPct,
+													"% · Alles door elkaar"
+												]
+											})
+										]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+										type: "button",
+										onClick: () => setGuidedStep(2),
+										className: "bg-white border border-[#E4E4E0] hover:border-[#C5C5BF] rounded-xl p-4 text-left transition-colors cursor-pointer",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "text-[11px] font-semibold uppercase tracking-wider text-[#5A606B]",
+												children: "Stap 2 · Referentie 5 bakken"
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "font-mono text-lg font-bold tabular-nums text-[#141619] mt-1",
+												children: [
+													step2FiveBoxes.result.kpis.totalBoxes,
+													" bakken ·",
+													" ",
+													formatVolume(step2FiveBoxes.totalGrossBoxVolumeMl)
+												]
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "text-xs text-[#5A606B] mt-1",
+												children: [
+													"Vulling ",
+													Math.round(step2FiveBoxes.result.kpis.avgGrossFillRatio * 100),
+													"% · Ergonomie",
+													" ",
+													/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+														className: "font-mono font-semibold text-[#141619]",
+														children: [step2FiveBoxes.result.kpis.ergonomicsScore, "/100"]
+													})
+												]
+											})
+										]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "bg-white border border-[#135CA8] ring-1 ring-[#135CA8] rounded-xl p-4",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+												className: "text-[11px] font-semibold uppercase tracking-wider text-[#135CA8]",
+												children: "Stap 3 · Jouw eindvoorstel"
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "font-mono text-lg font-bold tabular-nums text-[#141619] mt-1",
+												children: [
+													step3FinalPlan.result.kpis.totalBoxes,
+													" bakken ·",
+													" ",
+													formatVolume(step3FinalPlan.totalGrossBoxVolumeMl)
+												]
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "text-xs text-[#5A606B] mt-1",
+												children: [
+													"Vulling ",
+													Math.round(step3FinalPlan.result.kpis.avgGrossFillRatio * 100),
+													"% · Ergonomie",
+													" ",
+													/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+														className: "font-mono font-semibold text-[#135CA8]",
+														children: [step3FinalPlan.result.kpis.ergonomicsScore, "/100"]
+													}),
+													step3FinalPlan.result.kpis.totalCost > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [
+														" ",
+														"· ca. €",
+														" ",
+														step3FinalPlan.result.kpis.totalCost.toFixed(0)
+													] })
+												]
 											})
 										]
 									})
 								]
 							}),
-							showFineTuning && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "grid grid-cols-1 md:grid-cols-3 gap-3 pt-3 border-t border-[#E4E4E0]",
-								children: [
-									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "rounded-lg border border-[#E4E4E0] bg-white p-3 space-y-1.5",
+							step3FinalPlan.shoppingList.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+								className: "bg-white border border-[#E4E4E0] rounded-xl overflow-hidden",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "px-5 py-3.5 border-b border-[#E4E4E0] flex flex-wrap items-center justify-between gap-2",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+										className: "font-display text-base font-semibold text-[#141619]",
+										children: "Benodigde bakken voor het eindvoorstel"
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+										className: "text-xs font-mono tabular-nums text-[#5A606B]",
+										children: [
+											step3FinalPlan.result.kpis.totalBoxes,
+											" stuks totaal ·",
+											" ",
+											formatVolume(step3FinalPlan.totalGrossBoxVolumeMl),
+											" bruto · richtprijs €",
+											" ",
+											step3FinalPlan.result.kpis.totalCost.toFixed(2).replace(".", ",")
+										]
+									})]
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "divide-y divide-[#F0F0EC]",
+									children: step3FinalPlan.shoppingList.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "px-5 py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-sm",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "flex items-center gap-3 min-w-0",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+												className: "font-mono font-bold text-[#141619] w-10 shrink-0 tabular-nums",
+												children: [item.count, "×"]
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "min-w-0",
+												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+													className: "font-semibold text-[#141619] truncate",
+													children: item.boxMeta.name
+												}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+													className: "text-xs text-[#5A606B] truncate",
+													children: [item.boxMeta.dimensionsCm, item.boxMeta.exampleProduct && ` · ${item.boxMeta.exampleProduct}`]
+												})]
+											})]
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "flex items-center gap-4 text-xs font-mono tabular-nums text-[#5A606B] shrink-0",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [formatVolume(item.boxMeta.grossVolumeMl * item.count), " totaal"] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+												className: "font-semibold text-[#141619]",
+												children: ["€ ", item.subtotalEur.toFixed(2).replace(".", ",")]
+											})]
+										})]
+									}, item.boxMeta.id))
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PlanBoxListSection, {
+								stage: step3FinalPlan,
+								boxNoun: "Bak",
+								partMetaByNum: prepared.partMetaByNum,
+								colorHexById: prepared.colorHexById,
+								searchQuery,
+								onSearchChange: setSearchQuery,
+								title: "Eindvoorstel: exacte inhoud per bak",
+								subtitle: "Elke kaart toont precies welke categorieën, subgroepen én steentjes in deze bak horen."
+							})
+						]
+					})
+				]
+			}),
+			approachMode === "own_boxes" && fixedInventoryPlan && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "space-y-6",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+						className: "bg-white border border-[#E4E4E0] rounded-xl p-5 space-y-5",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex flex-col sm:flex-row sm:items-start justify-between gap-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "text-xs font-semibold uppercase tracking-wider text-[#15803D]",
+										children: "Eigen dozen · Maximale ergonomie over al je dozen"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+										className: "font-display text-xl font-bold text-[#141619] mt-0.5",
+										children: "Welke dozen of bakjes heb je beschikbaar?"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+										className: "text-xs text-[#5A606B] mt-1 max-w-2xl",
+										children: [
+											"Geef het aantal en de binnenmaten op. De planner verdeelt je steentjes automatisch over ",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", { children: "alle opgegeven dozen" }),
+											" zodat elk vak zo overzichtelijk en ergonomisch mogelijk blijft."
+										]
+									})
+								] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "text-xs font-mono tabular-nums text-[#5A606B] shrink-0",
+									children: [
+										"Totaal:",
+										" ",
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+											className: "font-semibold text-[#141619]",
+											children: [fixedInventoryPlan.totalUserBoxes, " dozen"]
+										}),
+										" ",
+										"· ",
+										formatVolume(fixedInventoryPlan.totalUserCapacityMl)
+									]
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "space-y-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "text-[11px] font-semibold uppercase tracking-wider text-[#5A606B]",
+									children: "Snel toevoegen"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "flex flex-wrap gap-1.5",
+									children: USER_CONTAINER_PRESETS.map((preset) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+										type: "button",
+										onClick: () => handleAddPreset(preset),
+										title: preset.note,
+										className: "inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-[#FAF9F6] border border-[#E4E4E0] hover:border-[#135CA8] text-xs font-medium text-[#141619] transition-colors whitespace-nowrap shrink-0 cursor-pointer",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Plus, { className: "w-3 h-3 text-[#135CA8]" }),
+											preset.defaultCount,
+											"× ",
+											preset.name
+										]
+									}, preset.id))
+								})]
+							}),
+							userContainers.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "border border-[#E4E4E0] rounded-lg overflow-hidden divide-y divide-[#F0F0EC]",
+								children: userContainers.map((uc) => {
+									const unitVolMl = calculateUserContainerVolumeMl(uc);
+									return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "p-3 grid grid-cols-12 gap-2.5 items-center bg-white",
 										children: [
 											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-												className: "flex items-center justify-between gap-2",
+												className: "col-span-12 sm:col-span-4",
 												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("label", {
-													htmlFor: "param-maxtypes",
-													className: "text-xs font-semibold text-[#141619]",
-													children: "Voorkeur max. vormen / bak"
-												}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-													className: "font-mono text-xs font-bold text-[#141619] tabular-nums",
-													children: params.maxUniqueTypes
+													className: "sr-only",
+													children: "Naam"
+												}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+													type: "text",
+													value: uc.name,
+													onChange: (e) => handleUpdateUserContainer(uc.id, { name: e.target.value }),
+													className: "w-full px-2.5 py-1.5 text-xs font-medium bg-[#FAF9F6] border border-[#E4E4E0] rounded-md text-[#141619] focus:outline-none focus:border-[#135CA8]"
 												})]
 											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-												id: "param-maxtypes",
-												type: "range",
-												min: 2,
-												max: 15,
-												step: 1,
-												value: params.maxUniqueTypes,
-												onChange: (e) => updateParam("maxUniqueTypes", Number(e.target.value)),
-												className: "w-full accent-[#141619] cursor-pointer"
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "col-span-4 sm:col-span-2 flex items-center gap-1",
+												children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+													type: "number",
+													min: 1,
+													max: 200,
+													value: uc.count,
+													onChange: (e) => handleUpdateUserContainer(uc.id, { count: Math.max(1, Math.min(200, Math.round(Number(e.target.value) || 1))) }),
+													"aria-label": "Aantal",
+													className: "w-full px-2 py-1.5 text-xs font-mono tabular-nums bg-[#FAF9F6] border border-[#E4E4E0] rounded-md text-[#141619] focus:outline-none focus:border-[#135CA8]"
+												}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "text-xs text-[#5A606B] shrink-0",
+													children: "st."
+												})]
 											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-												className: "text-[11px] text-[#5A606B]",
-												children: "Richtlijn bij samenvoegen; bij te weinig eigen bakken worden automatisch meer vormen gecombineerd."
-											})
-										]
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "rounded-lg border border-[#E4E4E0] bg-white p-3 space-y-2",
-										children: [
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-												className: "block text-xs font-semibold text-[#141619]",
-												children: "Klein & groot gescheiden houden"
+											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+												className: "col-span-8 sm:col-span-4 grid grid-cols-3 gap-1.5",
+												children: [
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+														type: "number",
+														min: 1,
+														step: .5,
+														value: uc.lengthCm,
+														onChange: (e) => handleUpdateUserContainer(uc.id, { lengthCm: Math.max(1, Number(e.target.value) || 1) }),
+														"aria-label": "Lengte cm",
+														title: "Lengte (cm)",
+														className: "w-full px-2 py-1.5 text-xs font-mono tabular-nums bg-[#FAF9F6] border border-[#E4E4E0] rounded-md text-[#141619]"
+													}),
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+														type: "number",
+														min: 1,
+														step: .5,
+														value: uc.widthCm,
+														onChange: (e) => handleUpdateUserContainer(uc.id, { widthCm: Math.max(1, Number(e.target.value) || 1) }),
+														"aria-label": "Breedte cm",
+														title: "Breedte (cm)",
+														className: "w-full px-2 py-1.5 text-xs font-mono tabular-nums bg-[#FAF9F6] border border-[#E4E4E0] rounded-md text-[#141619]"
+													}),
+													/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+														type: "number",
+														min: 1,
+														step: .5,
+														value: uc.heightCm,
+														onChange: (e) => handleUpdateUserContainer(uc.id, { heightCm: Math.max(1, Number(e.target.value) || 1) }),
+														"aria-label": "Hoogte cm",
+														title: "Hoogte (cm)",
+														className: "w-full px-2 py-1.5 text-xs font-mono tabular-nums bg-[#FAF9F6] border border-[#E4E4E0] rounded-md text-[#141619]"
+													})
+												]
 											}),
 											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-												className: "grid grid-cols-3 gap-1 rounded-md bg-[#F1F1EE] p-0.5",
-												children: [
-													{
-														id: "strict",
-														label: "Strikt"
-													},
-													{
-														id: "normal",
-														label: "Normaal"
-													},
-													{
-														id: "flexible",
-														label: "Soepel"
-													}
-												].map((opt) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-													type: "button",
-													onClick: () => setSizeSeparation(opt.id),
-													className: `rounded px-2 py-1 text-[11px] font-medium transition-colors ${sizeSepLevel === opt.id ? "bg-white text-[#141619] shadow-xs" : "text-[#5A606B] hover:text-[#141619]"}`,
-													children: opt.label
-												}, opt.id))
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-												className: "text-[11px] text-[#5A606B]",
-												children: "Voorkomt dat kleine 1×1 steentjes onder grote platen zakken."
-											})
-										]
-									}),
-									params.mode === "buy_advice" ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "rounded-lg border border-[#E4E4E0] bg-white p-3 space-y-2",
-										children: [
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-												className: "block text-xs font-semibold text-[#141619]",
-												children: "Voorkeur bij bakkeuze"
+												className: "col-span-10 sm:col-span-1 text-right font-mono text-xs tabular-nums text-[#5A606B]",
+												children: formatVolume(unitVolMl)
 											}),
 											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-												className: "grid grid-cols-3 gap-1 rounded-md bg-[#F1F1EE] p-0.5",
-												children: [
-													{
-														id: "space",
-														label: "Compact"
-													},
-													{
-														id: "balanced",
-														label: "Balans"
-													},
-													{
-														id: "budget",
-														label: "Budget"
-													}
-												].map((opt) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-													type: "button",
-													onClick: () => setBuyPriority(opt.id),
-													className: `rounded px-2 py-1 text-[11px] font-medium transition-colors ${buyPriority === opt.id ? "bg-white text-[#141619] shadow-xs" : "text-[#5A606B] hover:text-[#141619]"}`,
-													children: opt.label
-												}, opt.id))
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-												className: "text-[11px] text-[#5A606B]",
-												children: "Kies tussen zo min mogelijk lege lucht of de laagste aankoopprijs."
-											})
-										]
-									}) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "rounded-lg border border-[#E4E4E0] bg-white p-3 space-y-1.5",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-											className: "block text-xs font-semibold text-[#141619]",
-											children: "Categorie-eerst voorstel"
-										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-											className: "text-[11px] text-[#5A606B] leading-relaxed",
-											children: "Heb je minder eigen bakken dan categorieën (bijv. 5 bakken van 40 L)? Dan combineert BrickBase eerst nauw verwante categorieën zoals Platen + Tegels en Stenen + Bogen."
-										})]
-									})
-								]
-							})
-						]
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "grid grid-cols-2 lg:grid-cols-4 gap-4 pt-2 border-t border-[#E4E4E0]",
-						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-xs text-[#5A606B]",
-									children: params.mode === "buy_advice" ? "Benodigde bakken" : "Gebruikte bakken"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "mt-1 font-mono text-2xl font-semibold text-[#141619] tabular-nums",
-									children: params.mode === "buy_advice" ? kpis.totalBoxes : `${kpis.totalBoxes} / ${bundle.totalUserBoxes}`
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-[11px] text-[#5A606B] font-mono tabular-nums mt-0.5",
-									children: params.mode === "buy_advice" ? `${bundle.totalPieces.toLocaleString("nl-NL")} stukjes ingedeeld` : spareBoxesCount > 0 ? `${spareBoxesCount} reservebak${spareBoxesCount === 1 ? "" : "ken"} vrij` : "Alle eigen bakken benut"
-								})
-							] }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-xs text-[#5A606B]",
-									children: params.mode === "buy_advice" ? "Geschatte bakkosten" : "Eigen bakcapaciteit"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: `mt-1 font-mono text-2xl font-semibold tabular-nums ${params.mode === "buy_advice" ? "text-[#D11013]" : result.unassignedClusters.length === 0 ? "text-[#15803D]" : "text-[#D11013]"}`,
-									children: params.mode === "buy_advice" ? formatEur(kpis.totalCost) : formatVolume(bundle.totalUserCapacityMl)
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-									className: "text-[11px] text-[#5A606B] font-mono tabular-nums mt-0.5",
-									children: ["Benodigd volume: ", formatVolume(bundle.totalRequiredVolumeMl)]
-								})
-							] }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-xs text-[#5A606B]",
-									children: "Gem. vulling per bak"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-									className: "mt-1 font-mono text-2xl font-semibold text-[#141619] tabular-nums",
-									children: [Math.round(kpis.avgGrossFillRatio * 100), "%"]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-									className: "text-[11px] text-[#5A606B] font-mono tabular-nums mt-0.5",
-									children: [
-										"Nog ",
-										formatVolume(kpis.totalFreeGrowthMl),
-										" vrije groeiruimte"
-									]
-								})
-							] }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-xs text-[#5A606B]",
-									children: "Ergonomiescore"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-									className: `mt-1 font-mono text-2xl font-semibold tabular-nums ${ergonomicsTone}`,
-									children: [kpis.ergonomicsScore, /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "text-sm font-normal text-[#5A606B]",
-										children: " / 100"
-									})]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-[11px] text-[#5A606B] mt-0.5",
-									children: "Zoekgemak op basis van categorieën & vormen"
-								})
-							] })
-						]
-					})
-				]
-			}),
-			showTypeGuide && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				className: "rounded-xl border border-[#E4E4E0] bg-white p-6 space-y-4",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex items-start justify-between gap-4",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-						className: "font-display text-base font-semibold text-[#141619]",
-						children: "Welke blokjes zijn wat? (Stenen vs. Platen vs. Tegels)"
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-xs text-[#5A606B] mt-0.5",
-						children: "Visuele uitleg per hoofdcategorie zodat je direct ziet wat bij elkaar hoort."
-					})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-						type: "button",
-						onClick: () => setShowTypeGuide(false),
-						className: "text-xs font-medium text-[#5A606B] hover:text-[#141619] whitespace-nowrap shrink-0",
-						children: "Inklappen"
-					})]
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3",
-					children: QUICK_BASICS_ORDER.map((cat) => {
-						const info = PART_TYPE_GUIDE[cat];
-						if (!info) return null;
-						return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "rounded-lg border border-[#E4E4E0] bg-[#F7F7F5] p-3.5 flex flex-col justify-between gap-2",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "space-y-2",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: "flex items-center gap-3",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrickIcon, {
-										shape: info.shape,
-										colorHex: "#D11013",
-										size: 38
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-										className: "min-w-0",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-											className: "text-sm font-semibold text-[#141619]",
-											children: info.category
-										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-											className: "text-[11px] text-[#5A606B] leading-tight",
-											children: info.shortWhat
-										})]
-									})]
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-xs text-[#141619] leading-relaxed",
-									children: info.whatIsIt
-								})]
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-								className: "text-[11px] text-[#5A606B] pt-2 border-t border-[#E4E4E0]",
-								children: [
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "font-semibold text-[#141619]",
-										children: "Tip:"
-									}),
-									" ",
-									info.sortingTip
-								]
-							})]
-						}, cat);
-					})
-				})]
-			}),
-			showDimensionsPanel && /* @__PURE__ */ (0, import_jsx_runtime.jsx)(DimensionsPanel, {
-				volumeConfig,
-				onChange: setVolumeConfig,
-				onClose: () => setShowDimensionsPanel(false),
-				partVolumeRows: bundle.partVolumeRows,
-				gamma: params.gamma
-			}),
-			params.mode === "fixed_inventory" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				className: "rounded-xl border border-[#E4E4E0] bg-white p-5 sm:p-6 space-y-5",
-				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "flex flex-col sm:flex-row sm:items-start justify-between gap-3",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-							className: "font-display text-base font-semibold text-[#141619]",
-							children: "Jouw opbergbakken & binnenafmetingen"
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-							className: "text-xs text-[#5A606B] mt-0.5",
-							children: [
-								"Bruikbare inhoud per bak = ",
-								Math.round(params.alpha * 100),
-								"% van het bruto volume (rest blijft graairuimte)."
-							]
-						})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-							className: "font-mono text-xs text-[#5A606B] tabular-nums shrink-0",
-							children: [
-								bundle.totalUserBoxes,
-								" bakken · ",
-								formatVolume(bundle.totalUserCapacityMl),
-								" totaal ·",
-								" ",
-								formatVolume(Math.round(bundle.totalUserCapacityMl * params.alpha)),
-								" bruikbaar"
-							]
-						})]
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "space-y-2",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							className: "text-[11px] font-semibold uppercase tracking-wider text-[#5A606B]",
-							children: "Snel toevoegen uit bekende formaten"
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							className: "flex flex-wrap gap-1.5",
-							children: USER_CONTAINER_PRESETS.map((preset) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-								type: "button",
-								onClick: () => handleAddPreset(preset),
-								title: preset.note,
-								className: "inline-flex items-center gap-1.5 rounded-lg border border-[#E4E4E0] bg-[#F7F7F5] px-2.5 py-1.5 text-xs font-medium text-[#141619] hover:bg-[#EBEBE8] transition-colors",
-								children: [
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Plus, { className: "h-3 w-3 text-[#135CA8]" }),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: preset.name }),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-										className: "font-mono text-[10px] text-[#5A606B] tabular-nums",
-										children: ["+", preset.defaultCount]
-									})
-								]
-							}, preset.id))
-						})]
-					}),
-					userContainers.length > 0 ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "overflow-x-auto rounded-lg border border-[#E4E4E0]",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("table", {
-							className: "w-full text-left text-xs",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("thead", {
-								className: "bg-[#F7F7F5] text-[11px] font-semibold text-[#5A606B] border-b border-[#E4E4E0]",
-								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", { children: [
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-										className: "px-3 py-2",
-										children: "Naam"
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-										className: "px-3 py-2 w-20",
-										children: "Aantal"
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-										className: "px-3 py-2 w-24",
-										children: "L (cm)"
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-										className: "px-3 py-2 w-24",
-										children: "B (cm)"
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-										className: "px-3 py-2 w-24",
-										children: "H (cm)"
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-										className: "px-3 py-2 text-right",
-										children: "Inhoud / bak"
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-										className: "px-3 py-2 text-right",
-										children: "Bruikbaar"
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-										className: "px-3 py-2 w-10",
-										"aria-label": "Verwijderen"
-									})
-								] })
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tbody", {
-								className: "divide-y divide-[#E4E4E0]",
-								children: userContainers.map((c) => {
-									const grossMl = calculateUserContainerVolumeMl(c);
-									const effMl = Math.round(grossMl * params.alpha);
-									return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", {
-										className: "bg-white",
-										children: [
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-												className: "px-3 py-2",
-												children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-													type: "text",
-													value: c.name,
-													onChange: (e) => handleUpdateContainer(c.id, { name: e.target.value }),
-													className: "w-full min-w-[140px] rounded border border-transparent hover:border-[#D4D4CE] focus:border-[#141619] px-1.5 py-1 text-xs font-medium text-[#141619] focus:outline-none"
-												})
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-												className: "px-3 py-2",
-												children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-													type: "number",
-													min: 1,
-													max: 200,
-													value: c.count,
-													onChange: (e) => {
-														const v = parseInt(e.target.value, 10);
-														if (Number.isFinite(v) && v >= 0) handleUpdateContainer(c.id, { count: Math.min(200, v) });
-													},
-													className: "w-16 rounded border border-[#E4E4E0] bg-[#F7F7F5] px-2 py-1 font-mono text-xs text-[#141619] tabular-nums focus:border-[#141619] focus:bg-white focus:outline-none"
-												})
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-												className: "px-3 py-2",
-												children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-													type: "number",
-													min: 1,
-													max: 200,
-													step: .5,
-													value: c.lengthCm,
-													onChange: (e) => {
-														const v = parseFloat(e.target.value);
-														if (Number.isFinite(v) && v > 0) handleUpdateContainer(c.id, { lengthCm: v });
-													},
-													className: "w-20 rounded border border-[#E4E4E0] bg-[#F7F7F5] px-2 py-1 font-mono text-xs text-[#141619] tabular-nums focus:border-[#141619] focus:bg-white focus:outline-none"
-												})
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-												className: "px-3 py-2",
-												children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-													type: "number",
-													min: 1,
-													max: 200,
-													step: .5,
-													value: c.widthCm,
-													onChange: (e) => {
-														const v = parseFloat(e.target.value);
-														if (Number.isFinite(v) && v > 0) handleUpdateContainer(c.id, { widthCm: v });
-													},
-													className: "w-20 rounded border border-[#E4E4E0] bg-[#F7F7F5] px-2 py-1 font-mono text-xs text-[#141619] tabular-nums focus:border-[#141619] focus:bg-white focus:outline-none"
-												})
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-												className: "px-3 py-2",
-												children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-													type: "number",
-													min: 1,
-													max: 200,
-													step: .5,
-													value: c.heightCm,
-													onChange: (e) => {
-														const v = parseFloat(e.target.value);
-														if (Number.isFinite(v) && v > 0) handleUpdateContainer(c.id, { heightCm: v });
-													},
-													className: "w-20 rounded border border-[#E4E4E0] bg-[#F7F7F5] px-2 py-1 font-mono text-xs text-[#141619] tabular-nums focus:border-[#141619] focus:bg-white focus:outline-none"
-												})
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-												className: "px-3 py-2 text-right font-mono text-[#141619] tabular-nums whitespace-nowrap",
-												children: formatVolume(grossMl)
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-												className: "px-3 py-2 text-right font-mono text-[#5A606B] tabular-nums whitespace-nowrap",
-												children: formatVolume(effMl)
-											}),
-											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-												className: "px-3 py-2 text-right",
+												className: "col-span-2 sm:col-span-1 flex justify-end",
 												children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
 													type: "button",
-													onClick: () => handleDeleteContainer(c.id),
-													className: "rounded p-1 text-[#5A606B] hover:bg-[#FEE2E2] hover:text-[#D11013] transition-colors",
-													title: "Verwijder baktype",
-													children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Trash2, { className: "h-3.5 w-3.5" })
+													onClick: () => handleDeleteUserContainer(uc.id),
+													"aria-label": `Verwijder ${uc.name}`,
+													className: "p-1.5 rounded-md text-[#5A606B] hover:text-[#D11013] hover:bg-[#FEF2F2] cursor-pointer",
+													children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Trash2, { className: "w-3.5 h-3.5" })
 												})
 											})
 										]
-									}, c.id);
+									}, uc.id);
 								})
-							})]
-						})
-					}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "rounded-lg border border-dashed border-[#D4D4CE] bg-[#F7F7F5] p-4 text-center text-xs text-[#5A606B]",
-						children: "Geen eigen bakken ingesteld. Kies een formaat hierboven of vul je eigen afmetingen in."
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "pt-2 border-t border-[#F0F0EC]",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "text-[11px] font-semibold uppercase tracking-wider text-[#5A606B] mb-2",
+									children: "Eigen formaat toevoegen (L × B × H in cm)"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "grid grid-cols-2 sm:grid-cols-12 gap-2 items-center",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+											type: "text",
+											value: newBoxName,
+											onChange: (e) => setNewBoxName(e.target.value),
+											placeholder: "Naam (bijv. Curver doos)",
+											className: "col-span-2 sm:col-span-4 px-3 py-2 text-xs bg-[#FAF9F6] border border-[#E4E4E0] rounded-lg text-[#141619] focus:outline-none focus:border-[#135CA8]"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+											type: "number",
+											min: 1,
+											max: 200,
+											value: newBoxCount,
+											onChange: (e) => setNewBoxCount(e.target.value),
+											placeholder: "Aantal",
+											title: "Aantal dozen",
+											className: "col-span-1 sm:col-span-2 px-2.5 py-2 text-xs font-mono tabular-nums bg-[#FAF9F6] border border-[#E4E4E0] rounded-lg text-[#141619]"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+											type: "number",
+											min: 1,
+											step: .5,
+											value: newBoxL,
+											onChange: (e) => setNewBoxL(e.target.value),
+											placeholder: "L cm",
+											title: "Lengte in cm",
+											className: "col-span-1 sm:col-span-1 px-2 py-2 text-xs font-mono tabular-nums bg-[#FAF9F6] border border-[#E4E4E0] rounded-lg text-[#141619]"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+											type: "number",
+											min: 1,
+											step: .5,
+											value: newBoxW,
+											onChange: (e) => setNewBoxW(e.target.value),
+											placeholder: "B cm",
+											title: "Breedte in cm",
+											className: "col-span-1 sm:col-span-1 px-2 py-2 text-xs font-mono tabular-nums bg-[#FAF9F6] border border-[#E4E4E0] rounded-lg text-[#141619]"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+											type: "number",
+											min: 1,
+											step: .5,
+											value: newBoxH,
+											onChange: (e) => setNewBoxH(e.target.value),
+											placeholder: "H cm",
+											title: "Hoogte in cm",
+											className: "col-span-1 sm:col-span-1 px-2 py-2 text-xs font-mono tabular-nums bg-[#FAF9F6] border border-[#E4E4E0] rounded-lg text-[#141619]"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+											type: "button",
+											onClick: handleAddCustomBox,
+											className: "col-span-2 sm:col-span-3 inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-[#141619] hover:bg-[#2A2E35] text-white text-xs font-semibold whitespace-nowrap shrink-0 cursor-pointer",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Plus, { className: "w-3.5 h-3.5" }), "Toevoegen"]
+										})
+									]
+								})]
+							})
+						]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "rounded-lg border border-[#E4E4E0] bg-[#F7F7F5] p-3.5 space-y-2.5",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "flex items-center justify-between",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-xs font-semibold text-[#141619]",
-								children: "Eigen formaat toevoegen"
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-								className: "font-mono text-[11px] text-[#5A606B] tabular-nums",
-								children: [
-									"Inhoud: ",
-									formatVolume(previewNewVolumeMl),
-									" · Bruikbaar:",
-									" ",
-									formatVolume(Math.round(previewNewVolumeMl * params.alpha))
-								]
-							})]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "grid grid-cols-2 sm:grid-cols-6 gap-2",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-									type: "text",
-									placeholder: "Naam (bijv. Bak 40 L)",
-									value: newName,
-									onChange: (e) => setNewName(e.target.value),
-									className: "col-span-2 rounded-md border border-[#D4D4CE] bg-white px-2.5 py-1.5 text-xs text-[#141619] focus:border-[#141619] focus:outline-none"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-									type: "number",
-									min: 1,
-									max: 200,
-									placeholder: "Aantal",
-									value: newCount,
-									onChange: (e) => setNewCount(e.target.value),
-									"aria-label": "Aantal bakken",
-									className: "rounded-md border border-[#D4D4CE] bg-white px-2.5 py-1.5 font-mono text-xs text-[#141619] tabular-nums focus:border-[#141619] focus:outline-none"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-									type: "number",
-									min: 1,
-									step: .5,
-									placeholder: "Lengte cm",
-									value: newLength,
-									onChange: (e) => setNewLength(e.target.value),
-									"aria-label": "Lengte in cm",
-									className: "rounded-md border border-[#D4D4CE] bg-white px-2.5 py-1.5 font-mono text-xs text-[#141619] tabular-nums focus:border-[#141619] focus:outline-none"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-									type: "number",
-									min: 1,
-									step: .5,
-									placeholder: "Breedte cm",
-									value: newWidth,
-									onChange: (e) => setNewWidth(e.target.value),
-									"aria-label": "Breedte in cm",
-									className: "rounded-md border border-[#D4D4CE] bg-white px-2.5 py-1.5 font-mono text-xs text-[#141619] tabular-nums focus:border-[#141619] focus:outline-none"
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+						className: "bg-white border border-[#E4E4E0] rounded-xl p-5 grid grid-cols-2 lg:grid-cols-4 gap-4",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "text-[11px] uppercase tracking-wider text-[#5A606B]",
+									children: "Gebruikte dozen"
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: "flex gap-1.5",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-										type: "number",
-										min: 1,
-										step: .5,
-										placeholder: "Hoogte cm",
-										value: newHeight,
-										onChange: (e) => setNewHeight(e.target.value),
-										"aria-label": "Hoogte in cm",
-										className: "w-full rounded-md border border-[#D4D4CE] bg-white px-2.5 py-1.5 font-mono text-xs text-[#141619] tabular-nums focus:border-[#141619] focus:outline-none"
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-										type: "button",
-										onClick: handleAddContainer,
-										className: "inline-flex items-center justify-center rounded-md bg-[#135CA8] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[#0F4C8D] transition-colors shrink-0",
-										title: "Toevoegen",
-										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Plus, { className: "h-3.5 w-3.5" })
-									})]
+									className: "font-mono text-xl font-bold tabular-nums text-[#15803D] mt-0.5",
+									children: [
+										fixedInventoryPlan.usedUserBoxes,
+										" van ",
+										fixedInventoryPlan.totalUserBoxes
+									]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "text-xs text-[#5A606B] mt-0.5",
+									children: fixedInventoryPlan.totalUserBoxes > 0 ? `${Math.round(fixedInventoryPlan.usedUserBoxes / fixedInventoryPlan.totalUserBoxes * 100)}% van je dozen benut` : "Voeg eerst dozen toe"
 								})
-							]
-						})]
+							] }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "text-[11px] uppercase tracking-wider text-[#5A606B]",
+									children: "Ergonomiescore"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "font-mono text-xl font-bold tabular-nums text-[#135CA8] mt-0.5",
+									children: [fixedInventoryPlan.result.kpis.ergonomicsScore, " / 100"]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "text-xs text-[#5A606B] mt-0.5",
+									children: "Geoptimaliseerd op vindbaarheid"
+								})
+							] }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "text-[11px] uppercase tracking-wider text-[#5A606B]",
+									children: "Benodigd vs. capaciteit"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "font-mono text-xl font-bold tabular-nums text-[#141619] mt-0.5",
+									children: formatVolume(prepared.totalRequiredVolumeMl)
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "text-xs text-[#5A606B] mt-0.5",
+									children: [
+										"op ",
+										formatVolume(fixedInventoryPlan.totalUserCapacityMl),
+										" totaal (",
+										Math.round(fixedInventoryPlan.result.kpis.avgGrossFillRatio * 100),
+										"% gevuld)"
+									]
+								})
+							] }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "text-[11px] uppercase tracking-wider text-[#5A606B]",
+									children: "Vrije groeiruimte"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "font-mono text-xl font-bold tabular-nums text-[#141619] mt-0.5",
+									children: formatVolume(fixedInventoryPlan.result.kpis.totalFreeGrowthMl)
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "text-xs text-[#5A606B] mt-0.5",
+									children: "Ruimte voor toekomstige sets"
+								})
+							] })
+						]
 					}),
-					bundle.spareContainers.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-[#5A606B] pt-1",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-							className: "font-semibold text-[#15803D]",
-							children: "Reservebakken over:"
-						}), bundle.spareContainers.map((sc) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-							className: "font-mono tabular-nums",
-							children: [
-								sc.spareCount,
-								"× ",
-								sc.boxMeta.name
-							]
-						}, sc.boxMeta.id))]
+					fixedInventoryPlan.result.recoveryApplied && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "bg-[#FFFBEB] border border-[#F59E0B]/40 rounded-xl px-4 py-3 text-xs text-[#92400E] flex items-start gap-2.5",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TriangleAlert, { className: "w-4 h-4 shrink-0 mt-0.5 text-[#D97706]" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Je dozen zitten goed vol: om alles netjes te laten passen is de maximale vulgraad automatisch iets verruimd. Overweeg een extra bak als je meer graairuimte wilt." })]
+					}),
+					fixedInventoryPlan.result.unassignedClusters.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "bg-[#FEF2F2] border border-[#D11013]/30 rounded-xl p-4 space-y-2",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center gap-2 text-sm font-semibold text-[#991B1B]",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TriangleAlert, { className: "w-4 h-4 text-[#D11013] shrink-0" }), "Onvoldoende totale doosruimte voor een deel van je collectie"]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-xs text-[#7F1D1D]",
+								children: "Voeg één of meer extra dozen toe (of verlaag de groeiruimte). Deze groepen pasten nog niet:"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+								className: "text-xs text-[#7F1D1D] space-y-1 pt-1",
+								children: fixedInventoryPlan.result.unassignedClusters.map((u) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+									className: "font-mono",
+									children: [
+										"• ",
+										u.label,
+										": ",
+										u.totalQuantity.toLocaleString("nl-NL"),
+										" stuks (",
+										formatVolume(u.totalVolume),
+										")"
+									]
+								}, u.id))
+							})
+						]
+					}),
+					fixedInventoryPlan.result.assignments.length > 0 ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PlanBoxListSection, {
+						stage: fixedInventoryPlan,
+						boxNoun: "Doos",
+						partMetaByNum: prepared.partMetaByNum,
+						colorHexById: prepared.colorHexById,
+						searchQuery,
+						onSearchChange: setSearchQuery,
+						title: "Exacte indeling voor al je eigen dozen",
+						subtitle: "Alle beschikbare dozen worden benut om verwante types en steentjes zo ergonomisch mogelijk te scheiden."
+					}) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "bg-white border border-[#E4E4E0] rounded-xl p-8 text-center",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Box, { className: "w-7 h-7 text-[#5A606B] mx-auto mb-2" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-sm font-medium text-[#141619]",
+							children: "Voeg hierboven minstens één doos toe om je indeling te berekenen."
+						})]
 					})
 				]
 			}),
-			result.recoveryApplied && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				className: "rounded-xl border border-[#BFDBFE] bg-[#EFF6FF] p-4 flex items-start gap-3",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Info, { className: "h-4 w-4 text-[#135CA8] shrink-0 mt-0.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "space-y-1 text-xs",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "font-semibold text-[#1E3A8A]",
-						children: result.recoveryApplied.consolidatedToInventory ? "Slim voorstel gemaakt voor jouw beschikbare bakken" : "Indeling automatisch aangepast aan jouw eigen bakken"
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-						className: "text-[#1E40AF]",
-						children: [result.recoveryApplied.consolidatedToInventory ? "Omdat er minder eigen bakken zijn dan losse categorieën, zijn verwante categorieën en vormen automatisch samengevoegd (zoals Platen + Tegels en Stenen + Bogen) zodat alle stukjes netjes passen." : "Groepen zijn automatisch ruimer samengevoegd of verdeeld zodat je hele collectie in je beschikbare bakken past.", result.recoveryApplied.relaxedParams.maxPiecesPerBox === null && params.maxPiecesPerBox !== null ? " De limiet voor max. stukjes per bak is hiervoor losgelaten." : ""]
-					})]
-				})]
-			}),
-			result.unassignedClusters.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				className: "rounded-xl border border-[#FECACA] bg-[#FEF2F2] p-5 space-y-3",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex items-start gap-3",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TriangleAlert, { className: "h-5 w-5 text-[#D11013] shrink-0 mt-0.5" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "space-y-1",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
-							className: "font-display text-sm font-bold text-[#991B1B]",
-							children: [
-								result.unassignedClusters.length,
-								" ",
-								result.unassignedClusters.length === 1 ? "groep past" : "groepen passen",
-								" niet in je huidige bakken"
-							]
+			showTypeGuide && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "fixed inset-0 z-50 bg-black/40 flex items-center justify-center p-4",
+				onClick: () => setShowTypeGuide(false),
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "bg-white border border-[#E4E4E0] rounded-2xl max-w-3xl w-full max-h-[82vh] flex flex-col overflow-hidden",
+					onClick: (e) => e.stopPropagation(),
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "px-5 py-4 border-b border-[#E4E4E0] flex items-center justify-between gap-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "font-display text-lg font-bold text-[#141619]",
+							children: "LEGO Typengids — wat hoort bij elkaar?"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							className: "text-xs text-[#7F1D1D]",
-							children: "Voeg extra of grotere bakken toe, verlaag de groeiruimte of verhoog de maximale vulling."
+							className: "text-xs text-[#5A606B] mt-0.5",
+							children: "Handig naslagwerk tijdens het sorteren van je bakken."
+						})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+							type: "button",
+							onClick: () => setShowTypeGuide(false),
+							className: "p-1.5 rounded-lg text-[#5A606B] hover:text-[#141619] hover:bg-[#FAF9F6] cursor-pointer",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(X, { className: "w-5 h-5" })
 						})]
-					})]
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "divide-y divide-[#FECACA] rounded-lg border border-[#FECACA] bg-white",
-					children: result.unassignedClusters.map((u) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "flex flex-col sm:flex-row sm:items-center justify-between gap-2 px-3.5 py-2.5 text-xs",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "min-w-0",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "font-semibold text-[#141619] truncate",
-								children: u.label
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-[11px] text-[#991B1B] mt-0.5",
-								children: getUnassignedReasonText(u.reason)
-							})]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-							className: "font-mono text-xs text-[#5A606B] tabular-nums shrink-0",
-							children: [
-								u.totalQuantity.toLocaleString("nl-NL"),
-								" stuks · ",
-								formatVolume(u.totalVolume)
-							]
-						})]
-					}, u.id))
-				})]
-			}),
-			bundle.shoppingList.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				className: "rounded-xl border border-[#E4E4E0] bg-white p-5 sm:p-6 space-y-4",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex flex-col sm:flex-row sm:items-center justify-between gap-2",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-						className: "font-display text-base font-semibold text-[#141619]",
-						children: params.mode === "buy_advice" ? "Overzicht benodigde bakken" : "Gebruik per eigen baktype"
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-xs text-[#5A606B]",
-						children: params.mode === "buy_advice" ? "Afgestemd op de gewenste minimale en maximale vulling." : "Elke groep krijgt de best passende vrije bak uit jouw voorraad."
-					})] }), params.mode === "buy_advice" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-						className: "font-mono text-sm font-bold text-[#141619] tabular-nums",
-						children: ["Totaal: ", formatEur(kpis.totalCost)]
-					})]
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "overflow-x-auto rounded-lg border border-[#E4E4E0]",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("table", {
-						className: "w-full text-left text-xs",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("thead", {
-							className: "bg-[#F7F7F5] text-[11px] font-semibold text-[#5A606B] border-b border-[#E4E4E0]",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-									className: "px-3.5 py-2.5",
-									children: "Baktype"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-									className: "px-3.5 py-2.5",
-									children: "Afmeting"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-									className: "px-3.5 py-2.5 text-right",
-									children: "Aantal"
-								}),
-								params.mode === "buy_advice" ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-									className: "px-3.5 py-2.5 text-right",
-									children: "Prijs / stuk"
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-									className: "px-3.5 py-2.5 text-right",
-									children: "Subtotaal"
-								})] }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-									className: "px-3.5 py-2.5 text-right",
-									children: "Gebruikt"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-									className: "px-3.5 py-2.5",
-									children: "Inhoud"
-								})
-							] })
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tbody", {
-							className: "divide-y divide-[#E4E4E0]",
-							children: bundle.shoppingList.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", {
-								className: "bg-white",
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "p-5 overflow-y-auto grid grid-cols-1 sm:grid-cols-2 gap-3",
+						children: Object.values(PART_TYPE_GUIDE).map((entry) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "p-3.5 rounded-xl border border-[#E4E4E0] bg-[#FAF9F6]/60 flex items-start gap-3",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrickIcon, {
+								shape: entry.shape,
+								colorHex: getCategoryColorHex(entry.shape),
+								size: 38
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "min-w-0",
 								children: [
-									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("td", {
-										className: "px-3.5 py-2.5",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-											className: "font-semibold text-[#141619]",
-											children: item.boxMeta.name
-										}), item.boxMeta.exampleProduct && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-											className: "text-[11px] text-[#5A606B]",
-											children: item.boxMeta.exampleProduct
-										})]
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "text-sm font-semibold text-[#141619]",
+										children: entry.category
 									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-										className: "px-3.5 py-2.5 font-mono text-[#5A606B] whitespace-nowrap",
-										children: item.boxMeta.dimensionsCm
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "text-xs text-[#135CA8] font-medium mt-0.5",
+										children: entry.shortWhat
 									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("td", {
-										className: "px-3.5 py-2.5 text-right font-mono font-bold text-[#141619] tabular-nums",
-										children: [item.count, "×"]
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "text-xs text-[#5A606B] mt-1 leading-relaxed",
+										children: entry.belongsTogether
 									}),
-									params.mode === "buy_advice" ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-										className: "px-3.5 py-2.5 text-right font-mono text-[#5A606B] tabular-nums whitespace-nowrap",
-										children: formatEur(item.boxMeta.priceEur)
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-										className: "px-3.5 py-2.5 text-right font-mono font-semibold text-[#141619] tabular-nums whitespace-nowrap",
-										children: formatEur(item.subtotalEur)
-									})] }) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("td", {
-										className: "px-3.5 py-2.5 text-right font-mono text-[#5A606B] tabular-nums whitespace-nowrap",
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+										className: "text-[11px] text-[#141619] mt-1.5",
 										children: [
-											item.count,
-											" / ",
-											item.boxMeta.stockCount ?? "∞"
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "font-semibold",
+												children: "Tip:"
+											}),
+											" ",
+											entry.sortingTip
 										]
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("td", {
-										className: "px-3.5 py-2.5 text-[#5A606B] max-w-xs truncate",
-										children: [item.labels.slice(0, 4).join(", "), item.labels.length > 4 ? ` +${item.labels.length - 4} meer` : ""]
 									})
 								]
-							}, item.boxMeta.id))
-						})]
+							})]
+						}, entry.category))
+					})]
+				})
+			}),
+			showDimensionsModal && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "fixed inset-0 z-50 bg-black/40 flex items-center justify-center p-4",
+				onClick: () => setShowDimensionsModal(false),
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "max-w-5xl w-full max-h-[90vh] overflow-y-auto",
+					onClick: (e) => e.stopPropagation(),
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(DimensionsPanel, {
+						volumeConfig,
+						onChange: setVolumeConfig,
+						onClose: () => setShowDimensionsModal(false),
+						partVolumeRows: prepared.partVolumeRows,
+						volumeReliability: prepared.volumeReliability,
+						gamma
 					})
-				})]
-			}),
-			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				className: "space-y-3",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex flex-col sm:flex-row sm:items-center justify-between gap-3",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
-						className: "font-display text-base font-semibold text-[#141619]",
-						children: [
-							"Indeling per bak (",
-							filteredAssignments.length,
-							filteredAssignments.length !== result.assignments.length ? ` van ${result.assignments.length}` : "",
-							")"
-						]
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-xs text-[#5A606B]",
-						children: "Klik op een bak om precies te zien welke categorieën, vormen en kleuren erin gaan."
-					})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "flex items-center gap-2",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "relative flex-1 sm:w-64",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Search, { className: "pointer-events-none absolute left-2.5 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-[#5A606B]" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
-								type: "search",
-								value: boxSearchQuery,
-								onChange: (e) => setBoxSearchQuery(e.target.value),
-								placeholder: "Zoek bak, categorie of stukje...",
-								className: "w-full rounded-lg border border-[#E4E4E0] bg-white pl-8 pr-3 py-1.5 text-xs text-[#141619] placeholder:text-[#9CA3AF] focus:border-[#141619] focus:outline-none"
-							})]
-						}), filteredAssignments.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-							type: "button",
-							onClick: toggleExpandAllVisible,
-							className: "rounded-lg border border-[#E4E4E0] bg-white px-3 py-1.5 text-xs font-medium text-[#141619] hover:bg-[#F7F7F5] transition-colors whitespace-nowrap shrink-0",
-							children: allVisibleExpanded ? "Alles inklappen" : "Alles uitklappen"
-						})]
-					})]
-				}), filteredAssignments.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "rounded-xl border border-[#E4E4E0] bg-white p-8 text-center text-sm text-[#5A606B]",
-					children: bundle.totalPieces === 0 ? "Geen stukjes gevonden binnen de huidige filter (probeer \"Volledige collectie\")." : "Geen bakken komen overeen met je zoekopdracht."
-				}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "space-y-2.5",
-					children: filteredAssignments.map((assignment) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BoxAssignmentCard, {
-						assignment,
-						alpha: params.alpha,
-						minFillRatio,
-						expanded: Boolean(expandedBoxes[assignment.boxId]),
-						onToggle: () => toggleBoxExpanded(assignment.boxId),
-						boxMeta: bundle.boxMetaById.get(assignment.boxTypeId),
-						partMetaByNum: bundle.partMetaByNum,
-						colorHexById: bundle.colorHexById
-					}, assignment.boxId))
-				})]
-			}),
-			result.decisionLog.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				className: "rounded-xl border border-[#E4E4E0] bg-white overflow-hidden",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-					type: "button",
-					onClick: () => setShowDecisionLog((v) => !v),
-					className: "flex w-full items-center justify-between gap-4 px-5 py-4 text-left hover:bg-[#F7F7F5] transition-colors",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "flex items-center gap-2.5 min-w-0",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ScrollText, { className: "h-4 w-4 text-[#5A606B] shrink-0" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "min-w-0",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-								className: "text-sm font-semibold text-[#141619]",
-								children: [
-									"Hoe is dit voorstel opgebouwd? (",
-									result.decisionLog.length,
-									" stappen)"
-								]
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-								className: "text-xs text-[#5A606B] truncate",
-								children: [
-									logCounts.split + logCounts.overflow,
-									" keer opgesplitst · ",
-									logCounts.merge,
-									" keer samengevoegd · ",
-									logCounts.assign,
-									" bakken ingedeeld",
-									logCounts.recovery > 0 ? ` · ${logCounts.recovery} voorraad-aanpassingen` : ""
-								]
-							})]
-						})]
-					}), showDecisionLog ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronUp, { className: "h-4 w-4 text-[#5A606B] shrink-0" }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronDown, { className: "h-4 w-4 text-[#5A606B] shrink-0" })]
-				}), showDecisionLog && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "border-t border-[#E4E4E0] p-4 sm:p-5 space-y-3",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "flex flex-wrap items-center gap-1.5",
-						children: [
-							{
-								id: "all",
-								label: `Alles (${result.decisionLog.length})`
-							},
-							{
-								id: "split",
-								label: `Opgesplitst (${logCounts.split})`
-							},
-							{
-								id: "overflow",
-								label: `Verdeeld (${logCounts.overflow})`
-							},
-							{
-								id: "merge",
-								label: `Samengevoegd (${logCounts.merge})`
-							},
-							{
-								id: "assign",
-								label: `Ingedeeld (${logCounts.assign})`
-							},
-							{
-								id: "recovery",
-								label: `Aangepast (${logCounts.recovery})`
-							}
-						].map((tab) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-							type: "button",
-							onClick: () => setLogFilter(tab.id),
-							className: `rounded-md px-2.5 py-1 text-xs font-medium transition-colors ${logFilter === tab.id ? "bg-[#141619] text-white" : "bg-[#F7F7F5] text-[#5A606B] hover:text-[#141619]"}`,
-							children: tab.label
-						}, tab.id))
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "max-h-80 overflow-y-auto rounded-lg border border-[#E4E4E0]",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("table", {
-							className: "w-full text-left text-xs",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("thead", {
-								className: "sticky top-0 bg-[#F7F7F5] text-[11px] font-semibold text-[#5A606B] border-b border-[#E4E4E0]",
-								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-									className: "px-3 py-2 w-28",
-									children: "Actie"
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
-									className: "px-3 py-2",
-									children: "Toelichting"
-								})] })
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tbody", {
-								className: "divide-y divide-[#E4E4E0]",
-								children: filteredLog.slice(0, 250).map((ev, idx) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", {
-									className: "bg-white",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-										className: "px-3 py-2 font-medium text-[#141619] whitespace-nowrap",
-										children: getEventTypeLabel(ev.type)
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-										className: "px-3 py-2 text-[#141619]",
-										children: ev.message
-									})]
-								}, `${ev.phase}-${ev.type}-${idx}`))
-							})]
-						}), filteredLog.length > 250 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-							className: "bg-[#F7F7F5] px-3 py-2 text-center text-[11px] text-[#5A606B] border-t border-[#E4E4E0]",
-							children: [
-								"Toont de eerste 250 van ",
-								filteredLog.length,
-								" stappen."
-							]
-						})]
-					})]
-				})]
-			})
-		]
-	});
-}
-function BoxAssignmentCard({ assignment, alpha, minFillRatio, expanded, onToggle, boxMeta, partMetaByNum, colorHexById }) {
-	const totalPieces = (0, import_react.useMemo)(() => assignment.items.reduce((sum, it) => sum + it.quantity, 0), [assignment.items]);
-	const groupedParts = (0, import_react.useMemo)(() => expanded ? groupAssignmentItemsByPart(assignment.items) : [], [expanded, assignment.items]);
-	const fillPct = Math.min(100, Math.round(assignment.fillRatioGross * 100));
-	const maxPct = Math.round(alpha * 100);
-	const minPct = Math.round(minFillRatio * 100);
-	const fillBarColor = assignment.fillRatioGross > alpha + .005 ? "bg-[#D11013]" : minFillRatio > 0 && assignment.fillRatioGross < minFillRatio - .005 ? "bg-[#135CA8]" : assignment.fillRatioGross >= alpha * .85 ? "bg-[#D97706]" : "bg-[#15803D]";
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-		className: "rounded-xl border border-[#E4E4E0] bg-white overflow-hidden",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-			type: "button",
-			onClick: onToggle,
-			className: "w-full px-4 sm:px-5 py-3.5 text-left hover:bg-[#FAFAF8] transition-colors",
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "flex flex-col md:flex-row md:items-center justify-between gap-3",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex items-start gap-3 min-w-0",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#F7F7F5] border border-[#E4E4E0] text-[#141619]",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Box, { className: "h-4 w-4" })
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "min-w-0",
-						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex items-baseline gap-2 min-w-0",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "font-mono text-[11px] font-semibold text-[#5A606B] shrink-0",
-									children: assignment.boxId
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "font-display text-sm font-semibold text-[#141619] truncate",
-									children: assignment.clusterLabel
-								})]
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-xs text-[#5A606B] mt-0.5 truncate",
-								children: boxMeta ? `${boxMeta.name} (${boxMeta.dimensionsCm})` : assignment.boxTypeId
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-								className: "text-[11px] text-[#5A606B] font-mono tabular-nums mt-1",
-								children: [
-									assignment.ergonomics.categoryCount,
-									" ",
-									assignment.ergonomics.categoryCount === 1 ? "categorie" : "categorieën",
-									" ·",
-									" ",
-									assignment.ergonomics.uniquePartCount,
-									" ",
-									assignment.ergonomics.uniquePartCount === 1 ? "vorm" : "vormen",
-									" · grootteverschil",
-									" ",
-									formatDecimalNl(assignment.ergonomics.sizeRatio, 1),
-									"×"
-								]
-							})
-						]
-					})]
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex items-center gap-4 shrink-0",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "w-48 space-y-1",
-						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex items-center justify-between font-mono text-[11px] tabular-nums",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-									className: "font-semibold text-[#141619]",
-									children: [totalPieces.toLocaleString("nl-NL"), " stuks"]
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-									className: "text-[#5A606B]",
-									children: [
-										formatVolume(assignment.usedVolumeMl),
-										" / ",
-										formatVolume(assignment.grossVolumeMl)
-									]
-								})]
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "relative h-2 w-full rounded-full bg-[#EBEBE8] overflow-hidden",
-								children: [
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-										className: `h-full rounded-full transition-all ${fillBarColor}`,
-										style: { width: `${fillPct}%` }
-									}),
-									minPct > 0 && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-										className: "absolute top-0 bottom-0 w-0.5 bg-[#135CA8]/60",
-										style: { left: `${minPct}%` },
-										title: `Min. vulling: ${minPct}%`
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-										className: "absolute top-0 bottom-0 w-0.5 bg-[#141619]/45",
-										style: { left: `${maxPct}%` },
-										title: `Max. vulling: ${maxPct}%`
-									})
-								]
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex items-center justify-between font-mono text-[10px] text-[#5A606B] tabular-nums",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [fillPct, "% vol"] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
-									"+",
-									formatVolume(assignment.freeEffectiveVolumeMl),
-									" vrij"
-								] })]
-							})
-						]
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-						className: "text-[#5A606B]",
-						children: expanded ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronUp, { className: "h-4 w-4" }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronDown, { className: "h-4 w-4" })
-					})]
-				})]
-			})
-		}), expanded && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-			className: "border-t border-[#E4E4E0] bg-[#FAFAF8] p-4 sm:p-5",
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-				className: "grid grid-cols-1 md:grid-cols-2 gap-2.5",
-				children: groupedParts.map((part) => {
-					const meta = partMetaByNum.get(part.partNum);
-					const primaryColorHex = colorHexById.get(part.colors[0]?.colorId || "") || "#9CA3AF";
-					return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "flex items-start gap-3 rounded-lg border border-[#E4E4E0] bg-white p-3",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrickIcon, {
-							shape: meta?.shape || "other",
-							colorHex: primaryColorHex,
-							imageUrl: meta?.sampleImageUrl,
-							alt: meta?.name || part.partNum,
-							size: 40
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "min-w-0 flex-1",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: "flex items-baseline justify-between gap-2",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-										className: "text-xs font-semibold text-[#141619] truncate",
-										children: meta?.name || `Onderdeel ${part.partNum}`
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-										className: "font-mono text-xs font-bold text-[#141619] tabular-nums shrink-0",
-										children: [part.totalQuantity.toLocaleString("nl-NL"), "×"]
-									})]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-									className: "text-[11px] text-[#5A606B] font-mono mt-0.5 truncate",
-									children: [
-										part.category,
-										" · ",
-										part.subfamily,
-										" · #",
-										part.partNum,
-										" · ",
-										part.dimsLabel,
-										" ·",
-										" ",
-										getShapeClassLabel(part.shapeClass)
-									]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: "mt-1.5 flex flex-wrap gap-x-2.5 gap-y-1 text-[11px] text-[#5A606B]",
-									children: [part.colors.slice(0, 6).map((c) => {
-										const hex = colorHexById.get(c.colorId) || "#9CA3AF";
-										return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-											className: "inline-flex items-center gap-1",
-											children: [
-												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-													className: "inline-block h-2.5 w-2.5 rounded-full border border-black/15 shrink-0",
-													style: { backgroundColor: hex }
-												}),
-												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-													className: "truncate max-w-[110px]",
-													children: c.colorId
-												}),
-												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-													className: "font-mono tabular-nums text-[#141619]",
-													children: [c.quantity, "×"]
-												})
-											]
-										}, c.colorId);
-									}), part.colors.length > 6 && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-										className: "font-mono text-[10px] text-[#5A606B]",
-										children: [
-											"+",
-											part.colors.length - 6,
-											" kleuren"
-										]
-									})]
-								})
-							]
-						})]
-					}, part.partNum);
 				})
 			})
-		})]
+		]
 	});
 }
 // src/App.tsx
@@ -32892,6 +36374,11 @@ function App() {
 	const [bigQueryAccessToken, setBigQueryAccessToken] = (0, import_react.useState)("");
 	const [downloadModalOpen, setDownloadModalOpen] = (0, import_react.useState)(false);
 	const [googleModalOpen, setGoogleModalOpen] = (0, import_react.useState)(false);
+	const [googleModalTab, setGoogleModalTab] = (0, import_react.useState)("config");
+	const [cloudBackupModalOpen, setCloudBackupModalOpen] = (0, import_react.useState)(false);
+	const [pendingAdminTarget, setPendingAdminTarget] = (0, import_react.useState)(null);
+	const [storageRestoreNonce, setStorageRestoreNonce] = (0, import_react.useState)(0);
+	const [lastCloudBackup, setLastCloudBackup] = (0, import_react.useState)(() => loadLastCloudBackupInfo());
 	const [googleBackendUrl, setGoogleBackendUrl] = (0, import_react.useState)(() => loadSavedGoogleBackendUrl());
 	const [mobileSidebarOpen, setMobileSidebarOpen] = (0, import_react.useState)(false);
 	const [toast, setToast] = (0, import_react.useState)(null);
@@ -33061,7 +36548,7 @@ function App() {
 			else next.customValueEur = customValueEur;
 			return next;
 		}));
-		if (target) showToast(customValueEur === void 0 ? `Automatische waarde hersteld voor set ${target.setNumber}.` : `Eigen waarde voor set ${target.setNumber} ingesteld op ${formatEur$1(customValueEur)}.`);
+		if (target) showToast(customValueEur === void 0 ? `Automatische waarde hersteld voor set ${target.setNumber}.` : `Eigen waarde voor set ${target.setNumber} ingesteld op ${formatEur(customValueEur)}.`);
 	}
 	function handleMarkAllComplete(setId) {
 		const target = sets.find((s) => s.id === setId);
@@ -33143,11 +36630,17 @@ function App() {
 		showToast(`${importedParts.length} onderdeeltypes geïmporteerd.`);
 	}
 	function handleExportBackup() {
-		const blob = new Blob([JSON.stringify({
-			version: 1,
+		const storageData = readStorageOrganizationBackupData();
+		const payload = {
+			version: 2,
+			exportedAt: (/* @__PURE__ */ new Date()).toISOString(),
 			sets,
-			prefs
-		}, null, 2)], { type: "application/json" });
+			prefs,
+			valuationSettings,
+			userContainers: storageData.userContainers,
+			partVolumes: storageData.partVolumes
+		};
+		const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
 		const url = URL.createObjectURL(blob);
 		const a = document.createElement("a");
 		a.href = url;
@@ -33158,46 +36651,80 @@ function App() {
 		URL.revokeObjectURL(url);
 		showToast("Collectie-back-up gedownload.");
 	}
+	function applyRestoredBackupPayload(parsed, originLabel) {
+		if (!Array.isArray(parsed.sets)) {
+			showToast("Ongeldig back-upbestand.");
+			return;
+		}
+		const validSets = parsed.sets.filter((item) => Boolean(item && typeof item.id === "string" && typeof item.setNumber === "string" && Array.isArray(item.parts)));
+		if (validSets.length === 0) {
+			showToast("Geen geldige sets in de back-up gevonden.");
+			return;
+		}
+		const dedupedByCanon = /* @__PURE__ */ new Map();
+		let skippedDuplicates = 0;
+		for (const candidate of validSets) {
+			const key = normalizeCanonicalSetNumber(candidate.setNumber) || candidate.id;
+			const prev = dedupedByCanon.get(key);
+			if (!prev) dedupedByCanon.set(key, candidate);
+			else {
+				skippedDuplicates += 1;
+				const prevCollected = calculateSetProgress(prev).totalCollected;
+				if (calculateSetProgress(candidate).totalCollected > prevCollected) dedupedByCanon.set(key, candidate);
+			}
+		}
+		const previousSets = latestSetsRef.current;
+		const previousPrefs = prefs;
+		const previousValuation = valuationSettings;
+		const previousStorageData = readStorageOrganizationBackupData();
+		const finalSets = Array.from(dedupedByCanon.values());
+		setSets(finalSets);
+		if (parsed.prefs) setPrefs({
+			ignoreStickers: Boolean(parsed.prefs.ignoreStickers),
+			ignoreMinifigs: Boolean(parsed.prefs.ignoreMinifigs)
+		});
+		if (parsed.valuationSettings && typeof parsed.valuationSettings === "object") {
+			const incomingVal = parsed.valuationSettings;
+			setValuationSettings((prev) => ({
+				mode: incomingVal.mode === "market" || incomingVal.mode === "parts" ? incomingVal.mode : prev.mode,
+				basePartPriceEur: typeof incomingVal.basePartPriceEur === "number" && Number.isFinite(incomingVal.basePartPriceEur) && incomingVal.basePartPriceEur >= .02 && incomingVal.basePartPriceEur <= .5 ? incomingVal.basePartPriceEur : prev.basePartPriceEur,
+				minifigPriceEur: typeof incomingVal.minifigPriceEur === "number" && Number.isFinite(incomingVal.minifigPriceEur) && incomingVal.minifigPriceEur >= .5 && incomingVal.minifigPriceEur <= 25 ? incomingVal.minifigPriceEur : prev.minifigPriceEur,
+				stickerPriceEur: typeof incomingVal.stickerPriceEur === "number" && Number.isFinite(incomingVal.stickerPriceEur) && incomingVal.stickerPriceEur >= 0 && incomingVal.stickerPriceEur <= 15 ? incomingVal.stickerPriceEur : prev.stickerPriceEur,
+				includeMinifigs: typeof incomingVal.includeMinifigs === "boolean" ? incomingVal.includeMinifigs : prev.includeMinifigs,
+				includeStickers: typeof incomingVal.includeStickers === "boolean" ? incomingVal.includeStickers : prev.includeStickers
+			}));
+		}
+		if (Array.isArray(parsed.userContainers) || parsed.partVolumes && typeof parsed.partVolumes === "object" && !Array.isArray(parsed.partVolumes)) {
+			writeStorageOrganizationBackupData({
+				userContainers: Array.isArray(parsed.userContainers) ? parsed.userContainers : void 0,
+				partVolumes: parsed.partVolumes && typeof parsed.partVolumes === "object" && !Array.isArray(parsed.partVolumes) ? parsed.partVolumes : void 0
+			});
+			setStorageRestoreNonce((n) => n + 1);
+		}
+		setSelectedSetId(finalSets[0].id);
+		setActiveView("set");
+		showToast(skippedDuplicates > 0 ? `${finalSets.length} set(s) hersteld uit ${originLabel} (${skippedDuplicates} dubbele overgeslagen).` : `${finalSets.length} set(s) hersteld uit ${originLabel}.`, () => {
+			setSets(previousSets);
+			setPrefs(previousPrefs);
+			setValuationSettings(previousValuation);
+			writeStorageOrganizationBackupData(previousStorageData);
+			setStorageRestoreNonce((n) => n + 1);
+			setToast(null);
+		});
+	}
 	function handleImportBackup(file) {
 		const reader = new FileReader();
 		reader.onload = () => {
 			try {
-				const parsed = JSON.parse(String(reader.result || "{}"));
-				if (!Array.isArray(parsed.sets)) {
-					showToast("Ongeldig back-upbestand.");
-					return;
-				}
-				const validSets = parsed.sets.filter((item) => Boolean(item && typeof item.id === "string" && typeof item.setNumber === "string" && Array.isArray(item.parts)));
-				if (validSets.length === 0) {
-					showToast("Geen geldige sets in het back-upbestand gevonden.");
-					return;
-				}
-				const dedupedByCanon = /* @__PURE__ */ new Map();
-				let skippedDuplicates = 0;
-				for (const candidate of validSets) {
-					const key = normalizeCanonicalSetNumber(candidate.setNumber) || candidate.id;
-					const prev = dedupedByCanon.get(key);
-					if (!prev) dedupedByCanon.set(key, candidate);
-					else {
-						skippedDuplicates += 1;
-						const prevCollected = calculateSetProgress(prev).totalCollected;
-						if (calculateSetProgress(candidate).totalCollected > prevCollected) dedupedByCanon.set(key, candidate);
-					}
-				}
-				const finalSets = Array.from(dedupedByCanon.values());
-				setSets(finalSets);
-				if (parsed.prefs) setPrefs({
-					ignoreStickers: Boolean(parsed.prefs.ignoreStickers),
-					ignoreMinifigs: Boolean(parsed.prefs.ignoreMinifigs)
-				});
-				setSelectedSetId(finalSets[0].id);
-				setActiveView("set");
-				showToast(skippedDuplicates > 0 ? `${finalSets.length} set(s) hersteld (${skippedDuplicates} dubbele ${skippedDuplicates === 1 ? "set" : "sets"} automatisch overgeslagen).` : `${finalSets.length} set(s) hersteld uit back-up.`);
+				applyRestoredBackupPayload(JSON.parse(String(reader.result || "{}")), "back-upbestand");
 			} catch {
 				showToast("Kon het back-upbestand niet lezen.");
 			}
 		};
 		reader.readAsText(file);
+	}
+	function handleRestoreCloudBackup(payload, meta) {
+		applyRestoredBackupPayload(payload, meta?.label ? `cloud-back-up "${meta.label}"` : "Google Drive cloud-back-up");
 	}
 	const sidebarContent = /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 		className: "flex h-full flex-col bg-white border-r border-[#E4E4E0]",
@@ -33418,11 +36945,38 @@ function App() {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
 						type: "button",
 						onClick: () => {
+							setMobileSidebarOpen(false);
+							if (adminUnlocked) setCloudBackupModalOpen(true);
+							else {
+								setPendingAdminTarget("cloudBackup");
+								setAdminModalOpen(true);
+							}
+						},
+						className: "inline-flex w-full items-center justify-between gap-2 rounded-lg border border-[#135CA8]/25 bg-[#F0F6FC] px-3 py-1.5 font-medium text-[#0E4A88] hover:bg-[#E1EFFB] transition-colors whitespace-nowrap",
+						title: "Collectie opslaan en herstellen in Google Drive via je Google Backend",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+							className: "inline-flex items-center gap-1.5 min-w-0",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Cloud, { className: "h-3.5 w-3.5 shrink-0 text-[#135CA8]" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "truncate",
+								children: "Cloud-back-up"
+							})]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "text-[10px] opacity-80 shrink-0",
+							children: lastCloudBackup ? new Date(lastCloudBackup.savedAt).toLocaleDateString("nl-NL", {
+								day: "2-digit",
+								month: "short"
+							}) : "Google Drive"
+						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+						type: "button",
+						onClick: () => {
+							setPendingAdminTarget(null);
 							setAdminModalOpen(true);
 							setMobileSidebarOpen(false);
 						},
 						className: `inline-flex w-full items-center justify-between gap-2 rounded-lg border px-3 py-2 font-medium transition-colors whitespace-nowrap ${adminUnlocked ? "border-[#15803D]/35 bg-[#F0FDF4] text-[#15803D] hover:bg-[#DCFCE7]" : "border-[#E4E4E0] bg-white text-[#5A606B] hover:bg-[#F7F7F5] hover:text-[#141619]"}`,
-						title: "Wachtwoordbeveiligd beheer: Google Backend & Standalone PWA-download",
+						title: "Wachtwoordbeveiligd beheer: Google Backend, Cloud-back-up & Standalone PWA-download",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 							className: "inline-flex items-center gap-1.5 min-w-0",
 							children: [adminUnlocked ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(LockOpen, { className: "h-3.5 w-3.5 shrink-0" }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Lock, { className: "h-3.5 w-3.5 shrink-0" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
@@ -33679,7 +37233,7 @@ function App() {
 							prefs,
 							onPrefsChange: setPrefs,
 							onOpenAddSets: () => setAddModalOpen(true)
-						}) : activeView === "build" ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BuildableSetsFinder, {
+						}, storageRestoreNonce) : activeView === "build" ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BuildableSetsFinder, {
 							sets,
 							prefs,
 							adminUnlocked,
@@ -33755,7 +37309,10 @@ function App() {
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AdminToolsModal, {
 				open: adminModalOpen,
-				onClose: () => setAdminModalOpen(false),
+				onClose: () => {
+					setAdminModalOpen(false);
+					setPendingAdminTarget(null);
+				},
 				unlocked: adminUnlocked,
 				adminToken,
 				googleBackendUrl,
@@ -33763,6 +37320,11 @@ function App() {
 					setActiveAdminSession(true, token);
 					setAdminToken(token);
 					setAdminUnlocked(true);
+					if (pendingAdminTarget === "cloudBackup") {
+						setPendingAdminTarget(null);
+						setAdminModalOpen(false);
+						setCloudBackupModalOpen(true);
+					}
 				},
 				onLock: () => {
 					logoutAdminSession(adminToken);
@@ -33772,7 +37334,9 @@ function App() {
 					setAdminToken(null);
 					setBigQueryAccessToken("");
 					setGoogleModalOpen(false);
+					setCloudBackupModalOpen(false);
 					setDownloadModalOpen(false);
+					setPendingAdminTarget(null);
 					showToast("Beheer vergrendeld.");
 				},
 				onSessionExpired: () => {
@@ -33782,15 +37346,21 @@ function App() {
 					setAdminToken(null);
 					setBigQueryAccessToken("");
 					setGoogleModalOpen(false);
+					setCloudBackupModalOpen(false);
 					setDownloadModalOpen(false);
 					showToast("Beheer-sessie verlopen — voer je wachtwoord opnieuw in.");
 				},
-				onOpenGoogleBackend: () => setGoogleModalOpen(true),
+				onOpenGoogleBackend: () => {
+					setGoogleModalTab("config");
+					setGoogleModalOpen(true);
+				},
+				onOpenCloudBackup: () => setCloudBackupModalOpen(true),
 				onOpenStandaloneDownload: () => setDownloadModalOpen(true),
 				onNotify: (msg) => showToast(msg)
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(GoogleBackendModal, {
 				open: adminUnlocked && googleModalOpen,
+				initialTab: googleModalTab,
 				onClose: () => setGoogleModalOpen(false),
 				googleBackendUrl,
 				adminToken,
@@ -33803,6 +37373,7 @@ function App() {
 					setBigQueryAccessToken(token);
 					setActiveBigQueryAccessToken(token);
 				},
+				onOpenCloudBackup: () => setCloudBackupModalOpen(true),
 				onSessionExpired: () => {
 					setActiveAdminSession(false, null);
 					setActiveBigQueryAccessToken(null);
@@ -33810,10 +37381,41 @@ function App() {
 					setAdminToken(null);
 					setBigQueryAccessToken("");
 					setGoogleModalOpen(false);
+					setCloudBackupModalOpen(false);
 					setAdminModalOpen(true);
 					showToast("Beheer-sessie verlopen (bijv. na herstart). Ontgrendel Beheer opnieuw.");
 				},
 				onNotify: (msg) => showToast(msg)
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CloudBackupModal, {
+				open: adminUnlocked && cloudBackupModalOpen,
+				onClose: () => setCloudBackupModalOpen(false),
+				sets,
+				prefs,
+				valuationSettings,
+				googleBackendUrl,
+				adminToken,
+				bigQueryAccessToken,
+				onRestoreBackup: handleRestoreCloudBackup,
+				onOpenGoogleBackend: (tab = "config") => {
+					setGoogleModalTab(tab);
+					setGoogleModalOpen(true);
+				},
+				onSessionExpired: () => {
+					setActiveAdminSession(false, null);
+					setActiveBigQueryAccessToken(null);
+					setAdminUnlocked(false);
+					setAdminToken(null);
+					setBigQueryAccessToken("");
+					setCloudBackupModalOpen(false);
+					setPendingAdminTarget("cloudBackup");
+					setAdminModalOpen(true);
+					showToast("Beheer-sessie verlopen (bijv. na herstart). Ontgrendel Beheer opnieuw.");
+				},
+				onNotify: (msg) => {
+					setLastCloudBackup(loadLastCloudBackupInfo());
+					showToast(msg);
+				}
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(StandaloneDownloadModal, {
 				open: adminUnlocked && downloadModalOpen,
